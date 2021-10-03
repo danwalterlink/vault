@@ -1,0 +1,14 @@
+# description: configuration ID
+# type: string
+# required: true
+connectionId: ddubl.notion
+
+# description: Connection Type
+# type: string
+# required: true
+serviceType: Notion
+
+# description: API Key to access Notion
+# type: string
+# required: true
+apiKey: secret_KGI6JA6tR96hLQQJhwndRn8mWm74d2t0UaUH15xu0XS

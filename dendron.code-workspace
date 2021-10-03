@@ -1,0 +1,98 @@
+{
+    "extensions": {
+        "recommendations": [
+            "dendron.dendron-paste-image",
+            "dendron.dendron-markdown-shortcuts",
+            "redhat.vscode-yaml"
+        ],
+        "unwantedRecommendations": [
+            "dendron.dendron-markdown-links",
+            "dendron.dendron-markdown-notes",
+            "shd101wyy.markdown-preview-enhanced",
+            "kortina.vscode-markdown-notes",
+            "mushan.vscode-paste-image"
+        ]
+    },
+    "folders": [
+        {
+            "name": "dendron",
+            "path": "./"
+        },
+        {
+            "path": "./task"
+        },
+        {
+            "path": "./stream"
+        },
+        {
+            "path": "./journal"
+        },
+        {
+            "path": "./vault"
+        },
+        {
+            "path": "./dnd"
+        },
+        {
+            "name": "codebook",
+            "path": "${currentUser}/codebook"
+        }
+    ],
+    "settings": {
+        "dendron.rootDir": ".",
+        "git.followTagsWhenSync": true,
+        "git.rebaseWhenSync": true,
+        "git.enableCommitSigning": true,
+        "git.alwaysShowStagedChangesResourceGroup": true,
+        "pasteImage.path": "${currentFileDir}/assets/images",
+        "pasteImage.prefix": "/",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": true,
+        "files.autoSave": "off",
+        "workbench.colorCustomizations": {
+            "[GitHub Dark Default]": {
+                "activityBar.background": "#000",
+                "editor.background": "#000",
+                "editor.lineHighlightBackground": "#0000",
+                "editor.lineHighlightBorder": "#0000",
+                "editorWhitespace.foreground": "#59A5FC",
+                "panel.background": "#000",
+                "sideBar.background": "#000",
+                "terminal.background": "#000"
+            },
+            "[GitHub Light Default]": {
+                "activityBar.background": "#fff",
+                "editor.background": "#fff",
+                "editor.lineHighlightBackground": "#fff0",
+                "editor.lineHighlightBorder": "#fff0",
+                "editorWhitespace.foreground": "#1167D7",
+                "panel.background": "#fff",
+                "sideBar.background": "#fff",
+                "terminal.background": "#fff"
+            }
+        },
+        "editor.minimap.autohide": true,
+        "editor.minimap.renderCharacters": false,
+        "editor.matchBrackets": "never",
+        "editor.minimap.enabled": false,
+        "editor.scrollbar.verticalScrollbarSize": 0,
+        "workbench.statusBar.visible": false,
+        "window.zoomLevel": 0,
+        "presentation-mode.configBackup": {
+            "editor.matchBrackets": "never",
+            "editor.minimap.enabled": false,
+            "editor.scrollbar.verticalScrollbarSize": 0,
+            "workbench.activityBar.visible": false,
+            "workbench.statusBar.visible": false,
+            "window.zoomLevel": 2
+        },
+        "editor.fontSize": 11.4,
+        "window.autoDetectColorScheme": true,
+        "workbench.activityBar.location": "hidden",
+        "editor.tabSize": 2,
+        "dmbinder.chromeExecutablePath": "/Applications/Google Chrome.app"
+    }
+}
