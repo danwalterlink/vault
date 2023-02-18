@@ -2,7 +2,7 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1676721584861
+updated: 1676721970054
 created: 1676720775528
 ---
 
@@ -28,3 +28,5 @@ main:
   over
   focus
   hide
+
+out
