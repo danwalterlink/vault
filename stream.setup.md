@@ -43,5 +43,6 @@ out
 practice
 train
 educate
-
+prepare
+think
 relax
