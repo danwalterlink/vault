@@ -2,13 +2,16 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1676720986398
+updated: 1676721044591
 created: 1676720775528
 ---
 
 interface
   obs main & stream
-
+  touchportal - pad
+  stream-deck pedal
+  keyboard
+  touchboard / tablet
 dual
   main
     : capture $[capture] to $[stream].gc570t
