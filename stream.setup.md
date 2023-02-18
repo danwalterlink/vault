@@ -2,7 +2,7 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1676721134002
+updated: 1676721215777
 created: 1676720775528
 ---
 
@@ -19,3 +19,8 @@ dual
     : replay buffer $[preview]
 
 ## functions
+main:
+  panel
+  focus
+  backdrop
+  docs
