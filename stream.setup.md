@@ -46,5 +46,6 @@ educate
 prepare
 think
 relax
+focus
 
 ### task
