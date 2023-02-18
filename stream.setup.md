@@ -41,3 +41,7 @@ out
 
 ## context
 practice
+train
+educate
+
+relax
