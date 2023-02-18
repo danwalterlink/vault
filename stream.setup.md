@@ -38,6 +38,8 @@ out
   aside / comment
     | faceless
   analyse
+  interact
+  settings
 
 ## context
 practice
