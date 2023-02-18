@@ -25,9 +25,9 @@ main:
   aside
     | 
   doc
-    - show/hide {
-        vscode,}
-    
+    - show/hide
+      { vscode
+      , 
   over
   focus
   hide
