@@ -2,7 +2,7 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1676722352187
+updated: 1676722367991
 created: 1676720775528
 ---
 
@@ -26,7 +26,7 @@ main:
     | 
   doc
     show/hide vscode #func
-
+    
   over
   focus
   hide
