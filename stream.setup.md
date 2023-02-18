@@ -2,7 +2,7 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1676722255889
+updated: 1676722352187
 created: 1676720775528
 ---
 
@@ -18,13 +18,15 @@ dual
       - defined in OBS (pedal)
     : replay buffer $[preview]
 
-## functions
+## flow
 context
 
 main:
   aside
     | 
   doc
+    show/hide vscode #func
+
   over
   focus
   hide
