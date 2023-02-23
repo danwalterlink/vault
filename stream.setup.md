@@ -2,7 +2,7 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1677157510433
+updated: 1677157574780
 created: 1676720775528
 ---
 
@@ -58,3 +58,5 @@ branch
 prune
 pause
   resume
+
+=> define 
