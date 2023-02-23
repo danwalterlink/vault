@@ -2,7 +2,7 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1677157454464
+updated: 1677157510433
 created: 1676720775528
 ---
 
@@ -53,3 +53,8 @@ focus
 ### task
 define
 follow
+complete
+branch
+prune
+pause
+  resume
