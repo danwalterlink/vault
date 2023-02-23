@@ -2,7 +2,7 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1677157393006
+updated: 1677157434376
 created: 1676720775528
 ---
 
@@ -51,3 +51,4 @@ relax
 focus
 
 ### task
+define main
