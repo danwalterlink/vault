@@ -2,10 +2,9 @@
 id: ummi43amn3b0mt8fsygkqo8
 title: Setup
 desc: ''
-updated: 1676722367991
+updated: 1677155751883
 created: 1676720775528
 ---
-
 interface
   obs main & stream
   touchportal - pad
