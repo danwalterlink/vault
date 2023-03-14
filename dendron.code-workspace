@@ -81,6 +81,7 @@
         "git.rebaseWhenSync": true,
         "discord.enabled": false,
         "foam.openDailyNote.directory": "${workspaceFolder}/journal",
-        "foam.openDailyNote.titleFormat": "journal.daily.yyyy.mm.dd"
+        "foam.openDailyNote.titleFormat": "journal.daily.yyyy.mm.dd",
+        "workbench.colorTheme": "Gruvbox Material Light"
     }
 }
