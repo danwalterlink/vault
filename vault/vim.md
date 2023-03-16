@@ -2,9 +2,12 @@
 id: u5a2r3t5crdr76nrndm3h1h
 title: Vim
 desc: ''
-updated: 1677757558308
+updated: 1678966227976
 created: 1636203835676
 ---
+## keyboard layout implications
+
+
 closing vim #p ZZ
 ## bindings
  --> international
@@ -18,8 +21,7 @@ base building block
 matching character = %
 
 #research
-next group
-}
+next group : }
 
 ## motions
 f, t are direction-specific
@@ -51,6 +53,8 @@ gv : reselect last visual selection
 ysi(Bracket)
   [ with space
   ] without
+
+#### selection
 
 ## search case sensitive
 :set smartcase/ignorecase/noignorecase

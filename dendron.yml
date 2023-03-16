@@ -11,7 +11,7 @@ commands:
             selectionMode: extract
             confirmVaultOnCreate: true
             leaveTrace: true
-            bubbleUpCreateNew: true
+            bubbleUpCreateNew: false
             vaultSelectionModeOnCreate: smart
             fuzzThreshold: 0.2
     randomNote: {}

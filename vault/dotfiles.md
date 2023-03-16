@@ -2,10 +2,19 @@
 id: qy59jr5bemxqn1vbcj4kzk8
 title: windows-dotfiles-KonBCuE9o9lD
 desc: ''
-updated: 1678098456833
+updated: 1678965906968
 created: 1633199321522
 ---
-sparse checkout - follow tags
+# base : master
+streakyCobra's bare repo structure
+--bare .dotfile directory
+  branches reflect
+
+alias imports?
+sparse checkout
+follow tags
+follow symlinks
+-> .unfold function
 
 cli tools -> gh starring :
   fasd

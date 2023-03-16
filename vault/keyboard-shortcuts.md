@@ -2,7 +2,7 @@
 id: pwyctn6qdw862y56hldqhka
 title: Keyboard Shortcuts
 desc: ''
-updated: 1665736224570
+updated: 1678966307029
 created: 1665736224570
 ---
 ## keys
@@ -30,3 +30,6 @@ modal
   meta
     hypr
       .navigation
+
+key-duplication
+  #? while key held: space = duplicated input if release key later than space
