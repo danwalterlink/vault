@@ -2,11 +2,11 @@
 id: u5a2r3t5crdr76nrndm3h1h
 title: Vim
 desc: ''
-updated: 1678966227976
+updated: 1678968734055
 created: 1636203835676
 ---
 ## keyboard layout implications
-
+qwerty - qwertz : remap yank to z #?
 
 closing vim #p ZZ
 ## bindings
@@ -19,12 +19,16 @@ base building block
 - buffer
 
 matching character = %
+matching under cursor */#
 
 #research
 next group : }
 
 ## motions
 f, t are direction-specific
+: sneak remapping s to extended f
+$ goes to last character in line
+g_ : last non-blank character
 
 ## marks
 delete all with :delmarks!
@@ -42,19 +46,21 @@ list global marks:
 # selection
 gv : reselect last visual selection
 
-## surround - vim.surround
+## surround - [vim.surround](https://github.com/tpope/vim-surround)
 :v S(surroundings)
   for brackets/braces, closing braces insert without spaces
 :n
   ys(move)(surroundings)
   cs(move)(surroundings)
 
+
 ### brackets
 ysi(Bracket)
   [ with space
   ] without
 
-#### selection
+### selection
+S and the same commands as before
 
 ## search case sensitive
 :set smartcase/ignorecase/noignorecase
