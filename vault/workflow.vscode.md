@@ -2,7 +2,7 @@
 id: 124dgbokmurr0cx039rmtzl
 title: Vscode
 desc: ''
-updated: 1676546824816
+updated: 1664716096808
 created: 1664715032300
 ---
 
@@ -11,8 +11,3 @@ alignment
 
 hovering tab/bar ?
   -> modal
-
-ephemeral tabs/windows -> exit if unfocussed #feature
-sort (EOL) & add tags to frontmatter => #tool.vscode inline annotations
-
-(vim) add space and enter insert-mode before
