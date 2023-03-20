@@ -2,7 +2,7 @@
 id: 2niri6txyh0dwz154ox31ex
 title: Projects
 desc: ''
-updated: 1681065332119
+updated: 1681211258541
 created: 1643633838840
 ---
 
@@ -10,6 +10,8 @@ created: 1643633838840
 ## main
 site - sales / books
 -> server: nginx alpine/arch
+
+- [ ] yask
 
 ## side
 sfv - hitboxes & advantage injector
