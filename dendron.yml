@@ -70,7 +70,6 @@ workspace:
             M: medium
             L: low
         statusSymbols:
-            '': ' '
             wip: w
             done: x
             assigned: a
@@ -79,6 +78,9 @@ workspace:
             delegated: l
             dropped: d
             pending: 'y'
+            mutated: t
+            undulated: u
+            conjugated: c
         todoIntegration: true
         createTaskSelectionType: selection2link
         addBehavior: asOwnDomain
@@ -88,6 +90,7 @@ workspace:
             - done
             - x
             - followed
+            - mutated
     graph:
         zoomSpeed: 1
         createStub: true

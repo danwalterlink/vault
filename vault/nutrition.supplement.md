@@ -2,7 +2,7 @@
 id: WmpSc6wkGioN2mwq2pv6q
 title: Supplement
 desc: ''
-updated: 1678023514408
+updated: 1679246904692
 created: 1633199319626
 ---
 myprotein
@@ -29,3 +29,7 @@ curcumin
 k2
 d3
 prebiotics
+
+dht/test:
+  - mucuna pruriens
+  - ashwagandha

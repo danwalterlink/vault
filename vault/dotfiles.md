@@ -2,7 +2,7 @@
 id: qy59jr5bemxqn1vbcj4kzk8
 title: windows-dotfiles-KonBCuE9o9lD
 desc: ''
-updated: 1679052852110
+updated: 1679054929365
 created: 1633199321522
 ---
 
@@ -22,9 +22,7 @@ follow symlinks
 #? pathlogs -> what happens to symlinks?
 preexisting yask attempt #!
 
-<[[17|dendron://dwl/task.2023.03.17]]>
-
-
+<[[daily|dendron://task/task.2023.03.17]]>
 cli tools -> gh starring :
   fasd
 
