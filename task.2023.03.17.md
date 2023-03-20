@@ -2,13 +2,15 @@
 id: 40awp8eqlkaenyceydwwe1t
 title: '17'
 desc: ''
-updated: 1679052972675
+updated: 1679055447066
 created: 1679052737869
-status: ''
+status: wip
 due: ''
 priority: ''
 owner: ''
-TODO: '17'
+TODO: ds
 ---
 
-## ds
+- + [ ] #dotfiles refactor : git placement
+  + [d] dendron file hierarchies : todo & notes
+  + [ ]
