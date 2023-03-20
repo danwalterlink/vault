@@ -2,9 +2,10 @@
 id: u5a2r3t5crdr76nrndm3h1h
 title: Vim
 desc: ''
-updated: 1678968734055
+updated: 1679311224683
 created: 1636203835676
 ---
+
 ## keyboard layout implications
 qwerty - qwertz : remap yank to z #?
 

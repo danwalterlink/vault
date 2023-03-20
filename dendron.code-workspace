@@ -37,7 +37,7 @@
         "editor.suggest.showSnippets": true,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.tabSize": 2,
-        "editor.wordWrap": "off",
+        "editor.wordWrap": "bounded",
         "files.autoSave": "onFocusChange",
         "git.enableSmartCommit": true,
         "git.fetchOnPull": true,

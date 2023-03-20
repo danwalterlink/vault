@@ -2,9 +2,16 @@
 id: xhvxd3ban3dhphrexrny4hy
 title: Git
 desc: ''
-updated: 1678361563762
+updated: 1679311562595
 created: 1636845109860
 ---
+
+## nested repositories
+use case: dotfile management
+### issue
+nested repo depends on upstream off-project source, but has significant changes that warrant commit histories, but are still only minor changes in the grand scheme.
+
+->
 
 ## rewriting history
 commonly over git.rebase or resetting HEAD to <revision> and reapplying
