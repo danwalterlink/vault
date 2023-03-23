@@ -1,8 +1,8 @@
 ---
 id: qy59jr5bemxqn1vbcj4kzk8
-title: windows-dotfiles-KonBCuE9o9lD
+title: dotfiles
 desc: ''
-updated: 1679054929365
+updated: 1679312321179
 created: 1633199321522
 ---
 
@@ -25,6 +25,9 @@ preexisting yask attempt #!
 <[[daily|dendron://task/task.2023.03.17]]>
 cli tools -> gh starring :
   fasd
+
+#i recursive references in dendron? a
+-> meta-notebooks like organizations of reflinks -> generate/fold notebooks from git reflogs #i
 
 > $ sudo add-apt-repository ppa:aacebedo/fasd
 > $ sudo apt-get update
@@ -72,3 +75,6 @@ think
   vocal
   video
   movement/proprioceptional
+
+
+dotfile

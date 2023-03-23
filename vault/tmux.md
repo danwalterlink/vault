@@ -33,3 +33,8 @@ define leader as $cmd
 #todo fix status line
 - [ ] #fix emacs doom config
 - [ ] #fix theme #extend
+
+send to all panes #i
+  Ctrl-b :setw synchronize-panes on
+    cmd
+    sync-panes off

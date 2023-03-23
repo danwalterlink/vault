@@ -16,3 +16,6 @@ adding assets via link in buffer? -> symlinks?
 combined with
 
 text search notes -> vscode fulltext search
+
+#+TODO couple subtask status to task/note
+maybe workflow intent differs?

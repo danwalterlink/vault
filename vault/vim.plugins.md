@@ -6,7 +6,6 @@ updated: 1638067790665
 created: 1637960296883
 ---
 
-
 if script -> use completion from eg. pip if python
 
 TS Treesitter, basis for many plugins

@@ -2,9 +2,14 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1638044198927
+updated: 1679312502718
 created: 1636846848375
 ---
+
+#i syntax-clean : move tags to line endings
+-> order?
+#workflow squash autocommit to semantic commits
+-> generate flows/graphs
 
 [] autoremove stub?
 
