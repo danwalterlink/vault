@@ -2,7 +2,7 @@
 id: igb3j8okbzz78mqo62d6n06
 title: durchstart
 desc: ''
-updated: 1679908493514
+updated: 1679911508900
 created: 1679305280166
 status: ''
 due: ''
@@ -22,3 +22,4 @@ TODO: durchstart
   ! git branch --remote : not indicating that branch tmux HEAD points to ddubl/tmux
   -> not possible in merge-redirects. : overwriting default function behaviour yields desired results
   - [ ] default commit message on dendron:
+    changing dendron scripts
