@@ -15,6 +15,10 @@
     },
     "folders": [
         {
+            "path": "dendron/vault",
+            "name": "dendron"
+        },
+        {
             "path": "task"
         },
         {
@@ -37,7 +41,7 @@
         "editor.suggest.showSnippets": true,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.tabSize": 2,
-        "editor.wordWrap": "bounded",
+        "editor.wordWrap": "off",
         "files.autoSave": "onFocusChange",
         "git.enableSmartCommit": true,
         "git.fetchOnPull": true,
@@ -87,6 +91,8 @@
         "workbench.iconTheme": "gruvbox-material-icon-theme",
         "window.autoDetectColorScheme": true,
         "typescript.inlayHints.enumMemberValues.enabled": true,
-        "workbench.preferredLightColorTheme": "Gruvbox Material Light"
+        "workbench.preferredLightColorTheme": "Gruvbox Material Light",
+        "git.enableCommitSigning": true,
+        "git.alwaysShowStagedChangesResourceGroup": true
     }
 }

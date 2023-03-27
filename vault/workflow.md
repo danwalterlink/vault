@@ -2,7 +2,7 @@
 id: us435gxc0c1dw164r2yw5sw
 title: Workflow
 desc: ''
-updated: 1676890272959
+updated: 1679658347834
 created: 1664372851354
 ---
 
@@ -62,7 +62,20 @@ associate task - orgmode
   ### vscode
   #### dendron
   autologging - timed autocommit on significant actions -> #issue compute significance
+    memory | significance | computability
 
 systemwide - define INTENT -> informs workflows
 
 #feature history -> eg. tab
+
+#feature semantic commit - squash to intent
+-> automated autosave commits get squashed
+
+implementation dendron plugins
+implement touchbar/pad into workflows
+  -> selection tmux panels
+
+keyboard - space while holding non-modifiers repeats held inputs
+  chords in karabiner? #os.mac
+
+- [ ] [[tmux]]

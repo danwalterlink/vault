@@ -2,7 +2,7 @@
 id: k50hz0cyu9tnfyudi6ibv5y
 title: Tmux
 desc: ''
-updated: 1677672750429
+updated: 1679660992571
 created: 1636903106989
 ---
 
@@ -24,6 +24,8 @@ define leader as $cmd
 -> navigation
 
 :understanding pane/window/tab nesting in iterm
+-> add attach sth to pane/window
+-> breaking pane -> window as inverse 'breaking up the tree' of window -> pane
 
 [] themeing
 - default themeing uses ANSI-Colors from iterm2
