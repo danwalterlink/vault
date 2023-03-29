@@ -2,7 +2,7 @@
 id: igb3j8okbzz78mqo62d6n06
 title: durchstart
 desc: ''
-updated: 1679911508900
+updated: 1679917039464
 created: 1679305280166
 status: ''
 due: ''
@@ -21,5 +21,8 @@ TODO: durchstart
       -> git alias : from pull => (ownRemote --rebase --onto upstream.pull)
   ! git branch --remote : not indicating that branch tmux HEAD points to ddubl/tmux
   -> not possible in merge-redirects. : overwriting default function behaviour yields desired results
+    - [ ] [[workflow.git]]
   - [ ] default commit message on dendron:
-    changing dendron scripts
+    changing dendron scripts : add '!squash' to non-tagged, non-flagged commits (ie. lifecycle commits)
+      if flagged/tagged : add flag/tag to :intent
+        add all files/links/resources added to task-graph
