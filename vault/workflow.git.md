@@ -2,7 +2,7 @@
 id: tgslwm8h0kupakddwut2gtl
 title: Git
 desc: ''
-updated: 1678193423912
+updated: 1680000198893
 created: 1664713853433
 ---
 
@@ -24,3 +24,10 @@ sparse checkout
 ## nested branch modules
 if narrower branch A' of named master branch A:base
   then A' contains only diffs on A:base and needs rebaseing onto A:base to be feature-complete
+
+## dotfile reo
+- detached work-tree
+- modified base functions:
+  pull : rebase 'name:feature' onto master:master
+
+![[Workflow|dendron://vault/dendron.workflow]]

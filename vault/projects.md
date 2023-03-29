@@ -2,15 +2,17 @@
 id: 2niri6txyh0dwz154ox31ex
 title: Projects
 desc: ''
-updated: 1681211584756
+updated: 1681211680361
 created: 1643633838840
 ---
 
-## main
-site - sales / books
+## [[projects.ddublu]]
+
+MVP : site - sales / books
+
 -> server: nginx alpine/arch
 
-- [ ] yask
+- [ ] yask (#prodOS)
   - ![[windows-dotfiles-KonBCuE9o9lD|dendron://dwl/dotfiles]] management
   - plugd : data schemer and gestalt analyzer
 

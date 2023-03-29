@@ -2,7 +2,7 @@
 id: us435gxc0c1dw164r2yw5sw
 title: Workflow
 desc: ''
-updated: 1679658347834
+updated: 1679917376182
 created: 1664372851354
 ---
 
@@ -77,5 +77,8 @@ implement touchbar/pad into workflows
 
 keyboard - space while holding non-modifiers repeats held inputs
   chords in karabiner? #os.mac
+  -> implementation difficulty
+  check: current karabiner implementation
 
 - [ ] [[tmux]]
+- tmux: attach to pane

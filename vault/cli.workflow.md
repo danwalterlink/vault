@@ -27,3 +27,9 @@ tmux
     -> prefix + backspace : hide
 
 search command history
+  tmux - pre + tab : fzf cmd history
+
+manpage #flow -> #discovery
+  open manpage to
+    side/top sub-panel
+    if in man-ish cmd -> current panel is  sub-panel

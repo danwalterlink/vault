@@ -20,3 +20,15 @@ add :
 
 git templates signing
 -> branch protection
+
+dotfile repo
+  root dir : starting with .
+    but otherwise same name as branch
+    and origin.url contains ddubl
+    -> current feature branch follows remote ddubl/^.(BRANCHNAME)
+    HEAD pointing to
+
+    experimental config
+      submodule.propagateBranches = true
+        enabling branch support in submodules :
+      submodule.recurse = true

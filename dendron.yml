@@ -32,11 +32,6 @@ workspace:
     vaults:
         -
             fsPath: vault
-            name: dendron
-            workspace: dendron
-            sync: noPush
-        -
-            fsPath: vault
             name: vault
             remote:
                 type: git
@@ -108,11 +103,7 @@ workspace:
     maxNoteLength: 204800
     enableUserTags: true
     enableHashTags: true
-    workspaces:
-        dendron:
-            remote:
-                type: git
-                url: https://github.com/dendronhq/dendron-site.git
+    workspaces: {}
     enableEditorDecorations: true
     enableHandlebarTemplates: true
     enableFullHierarchyNoteTitle: false
@@ -166,6 +157,7 @@ publishing:
             - journal
             - stream
             - task
-            - dendron
     enableHierarchyDisplay: true
-noRandomlyColoredTags: true
+    noRandomlyColoredTags: true
+plugins:
+    enableAutoCreateOnDefinition:

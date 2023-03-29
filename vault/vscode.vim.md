@@ -13,6 +13,8 @@ cursor movement gets stuck in folds #issue
   deletion/management
   crossfile navigation
   multiple marks on same line -> override?
-#b :gf file follow : follows semantic definitions in workspace
 
--> follow .vimrc /.nvimrc [[vim]]
+
+#issue file link :gf follows literally
+#b :gf file follow : follows semantic definitions in workspace
+-> follow .vimrc /.nvimrc [[vim]] : full nvim-instance : different

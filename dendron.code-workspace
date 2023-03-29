@@ -15,10 +15,6 @@
     },
     "folders": [
         {
-            "path": "dendron/vault",
-            "name": "dendron"
-        },
-        {
             "path": "task"
         },
         {
