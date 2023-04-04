@@ -6,6 +6,7 @@ updated: 1637934667702
 created: 1636927442273
 ---
 
+if contains todo.elements -> get state from topmost element unless set explicitly
 
 structure:
 - transclude unfinished todo from day before
