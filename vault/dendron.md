@@ -2,7 +2,7 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1680167117424
+updated: 1680603418449
 created: 1636846848375
 ---
 
@@ -50,3 +50,7 @@ type-signatures as in haskell
 
 interaction notebooks:
   opening - writing in transclusions
+
+followable navigation
+  either generate notebook-like metafiles
+  leave 'trail'

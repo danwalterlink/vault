@@ -2,7 +2,7 @@
 id: pwyctn6qdw862y56hldqhka
 title: Keyboard Shortcuts
 desc: ''
-updated: 1678966307029
+updated: 1680603094040
 created: 1665736224570
 ---
 ## keys
@@ -33,3 +33,6 @@ modal
 
 key-duplication
   #? while key held: space = duplicated input if release key later than space
+  -> shift + space
+  #derive chord-mode
+    -> if mod held : chord-mode
