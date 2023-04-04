@@ -45,7 +45,7 @@ list global marks:
 #q how to regex in ":s//g"?
 
 # selection
-gv : reselect last visual selection
+gv : ![[Task|dendron://task/task]]ct last visual selection
 
 ## surround - [vim.surround](https://github.com/tpope/vim-surround)
 :v S(surroundings)
@@ -53,7 +53,6 @@ gv : reselect last visual selection
 :n
   ys(move)(surroundings)
   cs(move)(surroundings)
-
 
 ### brackets
 ysi(Bracket)

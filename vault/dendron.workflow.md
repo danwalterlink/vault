@@ -2,9 +2,10 @@
 id: lp5k29isaoyhx00brf6x1bp
 title: Workflow
 desc: ''
-updated: 1680000708630
+updated: 1680254086599
 created: 1638022787958
 ---
+
 git templates - autoconfigure signing
 
 #todo
@@ -24,6 +25,12 @@ maybe workflow intent differs?
 #i trait rendering / schema data via [[vscode.annotations]]
 trait doctoring
 
-integrating notebooks into dendron workflows:
+integrating notebooks into dendaron workflows:
   #issue linking to cell via vscode.dev resolves via browser
   -> x-url resolver? // vscode//browser settings
+
+create (wikilink) stub from under cursor #f #i
+
+create pending imp from tagfile (ie. f or i)
+
+move tag semantically (line-beginning)

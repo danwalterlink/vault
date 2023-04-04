@@ -2,7 +2,7 @@
 id: txvyj875kh39rbr4bmcaf3r
 title: CLI
 desc: ''
-updated: 1678360925213
+updated: 1680598723398
 created: 1636904252349
 ---
 as a rule, keep defaults unless very necessary
@@ -66,6 +66,11 @@ tmux integration
 tmux not displaying vi-mode cursor shapes
 #resolved by --HEAD updating zsh-vi-mode omz plugin
 
-#feature modal tmux
-#feature per pane history
+#f modal tmux
+#f per pane history
 #f tmux : currently busy panes/windows | iterm integration: finished output
+
+## line wrapping
+tput -> cut screen content
+  pager defaults
+  ie. less -D -S

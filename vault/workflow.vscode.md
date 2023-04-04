@@ -2,7 +2,7 @@
 id: 124dgbokmurr0cx039rmtzl
 title: Vscode
 desc: ''
-updated: 1664716096808
+updated: 1680599775677
 created: 1664715032300
 ---
 
@@ -11,3 +11,7 @@ alignment
 
 hovering tab/bar ?
   -> modal
+
+#f tab indent to depth
+  : wrappings -> indent.?+
+  -> #f generate newline from parent line yields depth

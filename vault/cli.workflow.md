@@ -2,9 +2,10 @@
 id: e50x7bookxcrlvfsrv5g82q
 title: Workflow
 desc: ''
-updated: 1676633824024
+updated: 1680253908737
 created: 1664475634237
 ---
+
 # zsh
 omz plugins
   zsh-vi-mode
@@ -33,3 +34,7 @@ manpage #flow -> #discovery
   open manpage to
     side/top sub-panel
     if in man-ish cmd -> current panel is  sub-panel
+
+## auth
+using fingerprint scanner #f #i
+-> \#!f password manager -> 3 actions #action.economy

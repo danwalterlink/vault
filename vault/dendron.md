@@ -2,7 +2,7 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1679312502718
+updated: 1680167117424
 created: 1636846848375
 ---
 
@@ -41,9 +41,12 @@ type-signatures as in haskell
 
 #issue escape hashtags
 
-#explore #learn using dendron.collections
+#explore #learn using dendron.collections - pods | attach & search
 ---
 [dendron frontmatter docs](https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b/#other-keys)
 ---
 #! literate
 #! inline-folds in nvim available
+
+interaction notebooks:
+  opening - writing in transclusions
