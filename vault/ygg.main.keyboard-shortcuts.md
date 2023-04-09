@@ -2,9 +2,16 @@
 id: p9jubwiotuit8u1k7tczzyc
 title: Keyboard Shortcuts
 desc: ''
-updated: 1663435570915
+updated: 1674150464920
 created: 1662650060042
 ---
+## win - basic
+### explorer
+open nav pane -> bound to ribbon (alt + num)
+
+## win - fancyzones
+win + arrowDir := move to zone
+win + ctl + alt + arrowDir := expand to zone
 
 ## todoist
 win + alt + s : show

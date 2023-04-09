@@ -2,11 +2,9 @@
 id: 8wnw0fzzqj0m35gnzbdn952
 title: Powershell
 desc: ''
-updated: 1637436741385
+updated: 1677924262866
 created: 1633199321476
 ---
-
-
 ## Concepts
 
 ### PSDrive
@@ -58,7 +56,7 @@ Get-Variable : returns variables in current session
 get-help about_...
 where clause after pipeline operator:
  PowerShell deploys Pipeline to introduce a 'Where' clause.
- Get-Eventlog security |where {$_.Eventid -eq "540"}
+ Get-Eventlog security | where {$_.Eventid -eq "540"}
 
 ## Working with .NET COM-Objects
 Boils down to the ability to inspect classes, namespaces, assemblies etc. without? creating instances. This would be called browsing the .net framework class library.

@@ -2,7 +2,7 @@
 id: 4kboymzwyhpq7feh0osdgll
 title: Sfv
 desc: ''
-updated: 1662649073135
+updated: 1676491160531
 created: 1634391048552
 ---
 
@@ -37,7 +37,6 @@ active frame start on frame 0 post
 2) keep it clean
 3) dps hold df or OS-direction
 --- above, except 3 is bullshit...
-
 
 ## building blocks
 
