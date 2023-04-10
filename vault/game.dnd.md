@@ -2,7 +2,7 @@
 id: q0okq1dbfyf3x39jptwfuul
 title: Dnd
 desc: ''
-updated: 1679053558348
+updated: 1681091352391
 created: 1679053558348
 ---
 
@@ -72,3 +72,10 @@ topics
 
   attachment to
     ideas
+
+## dm-ing
+
+## resources
+kobold fightclub - encounter management https://koboldplus.club
+-> https://improvedinitiative.app/e/
+5e api https://open5e.com

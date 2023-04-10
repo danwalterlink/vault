@@ -2,7 +2,7 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1680603418449
+updated: 1680776370032
 created: 1636846848375
 ---
 
@@ -54,3 +54,5 @@ interaction notebooks:
 followable navigation
   either generate notebook-like metafiles
   leave 'trail'
+
+linking/referencing resources
