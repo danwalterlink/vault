@@ -2,7 +2,7 @@
 id: q0okq1dbfyf3x39jptwfuul
 title: Dnd
 desc: ''
-updated: 1681091352391
+updated: 1681091696210
 created: 1679053558348
 ---
 
@@ -79,3 +79,12 @@ topics
 kobold fightclub - encounter management https://koboldplus.club
 -> https://improvedinitiative.app/e/
 5e api https://open5e.com
+encounterPlus app
+d&d-beyond spell-list
+
+dming advice
+https://alphastream.org/index.php/2020/04/09/the-official-timeline-for-the-forgotten-realms-and-its-adventures/
+
+show images - cuts
+animate text
+battlemaps
