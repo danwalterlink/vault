@@ -2,9 +2,16 @@
 id: pwyctn6qdw862y56hldqhka
 title: Keyboard Shortcuts
 desc: ''
-updated: 1680603094040
+updated: 1681216817784
 created: 1665736224570
 ---
+
+# layouts
+
+macos - extended Logical
+\therefore
+
+# shortcuts
 ## keys
   follows [[ahk syntax|vault://syntax.ahk]]
 ctrl

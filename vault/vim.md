@@ -2,7 +2,7 @@
 id: u5a2r3t5crdr76nrndm3h1h
 title: Vim
 desc: ''
-updated: 1679311224683
+updated: 1681217215942
 created: 1636203835676
 ---
 
@@ -70,8 +70,6 @@ S and the same commands as before
 
 ## reselect visual
 * gv
-for surround commands, now that we have brackets, the ys-commands work
-
 #? paste to eol?
 ## insert to [motion]
 move to space in normal

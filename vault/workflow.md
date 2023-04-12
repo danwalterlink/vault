@@ -2,7 +2,7 @@
 id: us435gxc0c1dw164r2yw5sw
 title: Workflow
 desc: ''
-updated: 1679917376182
+updated: 1681213267875
 created: 1664372851354
 ---
 
@@ -82,3 +82,5 @@ keyboard - space while holding non-modifiers repeats held inputs
 
 - [ ] [[tmux]]
 - tmux: attach to pane
+
+#f #flow adding symbols to keyboard
