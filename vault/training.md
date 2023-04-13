@@ -2,9 +2,20 @@
 id: thhQgSiM2RZYg1TZjaOep
 title: Training
 desc: ''
-updated: 1676367136831
+updated: 1681394779220
 created: 1633292753469
 ---
+
+## types
+log ::
+, (macro, meso, micro, nano) -> cycles
+  (
+
+  ) -> (folds)
+, movement
+, projection
+, (pro/re)gression
+
 
 u/l
 l/s
@@ -78,7 +89,6 @@ mobility {
     quad voume additoin
     rhomboids
     lower traps
-
   }
   issue {
     brachialis, radiobrachialis inflamation lhs
@@ -89,3 +99,6 @@ mobility {
     ankle mobility -> hip shift / tilt lhs
   }
 }
+
+## functions
+ƒ := taper :: (training.state -> training.dsc)

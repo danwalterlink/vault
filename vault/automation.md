@@ -2,7 +2,7 @@
 id: h4ilxta0jr3b0h7x5d82935
 title: Automation
 desc: ''
-updated: 1681390171918
+updated: 1681393852928
 created: 1637080824781
 ---
 
@@ -27,6 +27,10 @@ iterm2
 ## ios shortcut templates
 #deps scriptable
 , charty
+working copy (git)
+uri-resolver as part of state-machine
+
+
 
 modeled after ramda library and focussed around composition
   -> composable state-machine
@@ -36,3 +40,17 @@ modeled after ramda library and focussed around composition
     peer into structure, return structured ref
     struct ->
   find
+
+### functions
+- extract text
+  structured plaintext
+  -> formatting issues
+  #+TODO train tesseract model
+- generate metatext
+- logging/monitoring
+- weave tooling into flows
+- planning/management
+  + finances
+  + time
+    + calendar
+  + attention/actions
