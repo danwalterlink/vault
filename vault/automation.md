@@ -2,7 +2,7 @@
 id: h4ilxta0jr3b0h7x5d82935
 title: Automation
 desc: ''
-updated: 1681389930278
+updated: 1681390171918
 created: 1637080824781
 ---
 
@@ -25,8 +25,11 @@ iterm2
   }
 
 ## ios shortcut templates
-#deps
+#deps scriptable
+, charty
+
 modeled after ramda library and focussed around composition
+  -> composable state-machine
 - compose
   autocurried, variadic
 - lens
