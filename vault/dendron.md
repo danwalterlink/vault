@@ -2,7 +2,7 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1680776370032
+updated: 1681395320981
 created: 1636846848375
 ---
 
@@ -56,3 +56,7 @@ followable navigation
   leave 'trail'
 
 linking/referencing resources
+
+function tags
+ie. f::text:outline
+following type-signature notation conventions (haskell)
