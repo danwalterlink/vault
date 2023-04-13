@@ -2,7 +2,7 @@
 id: h4ilxta0jr3b0h7x5d82935
 title: Automation
 desc: ''
-updated: 1637963515187
+updated: 1681389930278
 created: 1637080824781
 ---
 
@@ -23,3 +23,13 @@ iterm2
   , profiles
   , colorKeys?
   }
+
+## ios shortcut templates
+#deps
+modeled after ramda library and focussed around composition
+- compose
+  autocurried, variadic
+- lens
+    peer into structure, return structured ref
+    struct ->
+  find
