@@ -2,7 +2,7 @@
 id: thhQgSiM2RZYg1TZjaOep
 title: Training
 desc: ''
-updated: 1681463359974
+updated: 1681983473784
 created: 1633292753469
 ---
 
@@ -105,4 +105,4 @@ mobility {
 
 ## resources
 renaissance periodization
-reactiveTrainingSystes
+reactiveTrainingSystems

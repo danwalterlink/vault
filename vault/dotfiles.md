@@ -2,7 +2,7 @@
 id: qy59jr5bemxqn1vbcj4kzk8
 title: dotfiles
 desc: ''
-updated: 1679312321179
+updated: 1681984564958
 created: 1633199321522
 ---
 
@@ -19,10 +19,13 @@ follow symlinks
 -> autolog
 #? dsc
 #? submodules
+recursively adding submodules to conf
+
 #? pathlogs -> what happens to symlinks?
 preexisting yask attempt #!
 
 <[[daily|dendron://task/task.2023.03.17]]>
+
 cli tools -> gh starring :
   fasd
 
@@ -38,11 +41,8 @@ install cmder
 install choco
 install scoop
 
-download evernote
-
 windows developer:
 .NET framework 4+
-vs2017
 Rider
 
 WebDev: Chrome & Canary
@@ -75,6 +75,5 @@ think
   vocal
   video
   movement/proprioceptional
-
 
 dotfile
