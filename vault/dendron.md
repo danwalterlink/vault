@@ -2,7 +2,7 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1681395320981
+updated: 1681990445451
 created: 1636846848375
 ---
 
@@ -46,7 +46,8 @@ type-signatures as in haskell
 [dendron frontmatter docs](https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b/#other-keys)
 ---
 #! literate
-#! inline-folds in nvim available
+#! inline-folds in nvim available -> folds step over
+#! to file url | functions as data -> evaluating with kernels | if url points to struct -> getter
 
 interaction notebooks:
   opening - writing in transclusions

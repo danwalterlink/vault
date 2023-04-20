@@ -2,9 +2,10 @@
 id: xr93cdqoqz6le5cw65otu1i
 title: Config
 desc: ''
-updated: 1681985116209
+updated: 1681990323042
 created: 1665768522736
 ---
+$path:=
 
 default config:
 pull in aliases from:
@@ -12,10 +13,11 @@ pull in aliases from:
 
 in git config --global (~/.gitconfig)
 add :
-```gitconfig
-[path]
+```mermaid
+  [[config|file://~/.dotfiles]]
   ~[[gitalias]]
 ```
+
 
 git templates signing
 -> branch protection

@@ -2,7 +2,7 @@
 id: qy59jr5bemxqn1vbcj4kzk8
 title: dotfiles
 desc: ''
-updated: 1681984564958
+updated: 1681989924129
 created: 1633199321522
 ---
 
@@ -20,6 +20,7 @@ follow symlinks
 #? dsc
 #? submodules
 recursively adding submodules to conf
+#? #f dynamic x-curl callback resolver
 
 #? pathlogs -> what happens to symlinks?
 preexisting yask attempt #!
