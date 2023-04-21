@@ -2,9 +2,11 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1681990445451
+updated: 1682070767061
 created: 1636846848375
 ---
+
+#f task note in sidebar
 
 #i syntax-clean : move tags to line endings
 -> order?
@@ -47,7 +49,7 @@ type-signatures as in haskell
 ---
 #! literate
 #! inline-folds in nvim available -> folds step over
-#! to file url | functions as data -> evaluating with kernels | if url points to struct -> getter
+#! to file url | functions as data -> evaluating with kernels | if url points to struct -> gettr
 
 interaction notebooks:
   opening - writing in transclusions

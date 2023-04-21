@@ -2,9 +2,12 @@
 id: xhvxd3ban3dhphrexrny4hy
 title: Git
 desc: ''
-updated: 1679311562595
+updated: 1682070637277
 created: 1636845109860
 ---
+
+## flow
+find <rev.y> that introduced changes to <rev.x>
 
 ## nested repositories
 use case: dotfile management
