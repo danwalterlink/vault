@@ -94,6 +94,7 @@
         "workbench.preferredLightColorTheme": "Gruvbox Material Light",
         "git.enableCommitSigning": true,
         "git.alwaysShowStagedChangesResourceGroup": true,
-        "notebook.output.wordWrap": true
+        "notebook.output.wordWrap": true,
+        "dmbinder.chromeExecutablePath": "/Applications/Google Chrome.app"
     }
 }

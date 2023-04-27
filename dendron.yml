@@ -58,17 +58,18 @@ workspace:
         dailyDomain: journal
         dailyVault: journal
         name: daily
-        dateFormat: y.MM.dd
+        dateFormat: yy.MM.dd
         addBehavior: childOfDomain
     scratch:
         name: scratch
-        dateFormat: y.MM.dd.HHmmss
+        dateFormat: yy.MM.dd:HH.mm.ss
         addBehavior: asOwnDomain
     task:
         prioritySymbols:
             H: high
-            M: medium
             L: low
+            P: pressing
+            V: valuable
         statusSymbols:
             wip: w
             done: x
@@ -81,12 +82,11 @@ workspace:
             mutated: t
             undulated: u
             conjugated: c
-            '': ' '
         todoIntegration: true
         createTaskSelectionType: selection2link
         addBehavior: asOwnDomain
         name: task
-        dateFormat: y.MM.dd
+        dateFormat: 'yy.MM.dd '
         taskCompleteStatus:
             - done
             - followed
@@ -108,8 +108,6 @@ workspace:
     enableHandlebarTemplates: true
     enableFullHierarchyNoteTitle: false
     enableSmartRefs: true
-    hooks:
-        onCreate: []
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -160,4 +158,4 @@ publishing:
     enableHierarchyDisplay: true
     noRandomlyColoredTags: true
 plugins:
-    enableAutoCreateOnDefinition:
+    enableAutoCreateOnDefinition: null
