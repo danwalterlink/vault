@@ -2,9 +2,10 @@
 id: 0vi17d42eooupk9utoda7n3
 title: Ds
 desc: ''
-updated: 1682596228290
+updated: 1682686004579
 created: 1674724560890
 ---
+
 ```mermaid
 %%{init: { "theme": "forest" } }%%
 gantt
@@ -22,7 +23,7 @@ gantt
 ![[webapp|dendron://task/project.ds.webapp]]
 
 page :: wordpress
-  [] content selector -> content | shop
+  - [ ] content selector -> content | shop
 
 ## project.names
 ![[Wikilinking|dendron://task/project.ds.wikilinking]]
@@ -32,10 +33,12 @@ sideproj
   ios shortcut
     reflection | introspection
     uri-scheme rev proxy
+    -> ingress/api gateway
   charting
   : intent::
 
 subproj
+  - server architecture(headless rpi swarm)
   - leverless controller
   - grip-implements
     - extendable
