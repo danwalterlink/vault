@@ -2,7 +2,7 @@
 id: yp92xa60fcrlxsigxff3t5x
 title: Spells
 desc: ''
-updated: 1683198909023
+updated: 1683201594698
 created: 1683195327371
 ---
 
@@ -42,7 +42,7 @@ generally, arcane peak later than priest
 - improved invisibility
 - stoneskin
 - fireshield(blue)
-- polymorph self
+- polymorph self (combo)
 - spider spawn
 - teleport field
 - wizard eye
@@ -121,8 +121,16 @@ generally, arcane peak later than priest
 - aerial servant (great overall summon, good hasted)
 - blade barrier (before sanctuary or invis)
 - harm (high THAC0 and Speed, or Fighter HLA Critical Strike)
-- conjure fire elemental (druid, great summon)
+- conjure fire elemental (druid, great summon, low strength -> Strength of One)
 - heal (if no rod of resurrection)
 - fire seeds (very situational but extremely potent;
     druid, (greater) deathblow, or with Dorn's Poison Weapon
     only Frag Grenade Big Metal Rod does comparable AoE Damage)
+- dolorous decay (only after malison or doom, the slow is nice)
+7:
+- firestorm (no saving throw and bypasses magic res)
+- symbol, stun(/fear) (trap)
+- ! resurrection (reminder to get the rod!)
+- sunray (undead killer, especially for evil clerics)
+- nature's beauty (with pixie dust, since casting doesn't break invis)
+- holy word (only really good against elder orb for the 75% spell failure)
