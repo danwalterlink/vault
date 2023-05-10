@@ -2,7 +2,7 @@
 id: yp92xa60fcrlxsigxff3t5x
 title: Spells
 desc: ''
-updated: 1683201594698
+updated: 1683578628271
 created: 1683195327371
 ---
 
@@ -66,7 +66,7 @@ generally, arcane peak later than priest
 - invisible stalker (great overall summon, unless web)
 - summon nishruu (good anti-mage summon)
 - death spell
-- death fog (if immune to poison, works on liches, pack acid immunity)
+- death fog (if immune to poison, works on liches, bring6 acid immunity)
 - tenser's transformation (only really good on blade)
 - pierce magic (against high magic res)
 - spell deflection (situationally amazing)
