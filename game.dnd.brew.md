@@ -1,10 +1,16 @@
 ---
 id: v6f9mvtfgh7cwyywakv89sz
-title: Brew
+title: dnd-6
 desc: ''
-updated: 1684366842789
+updated: 1684439004817
 created: 1684357294795
 ---
+general
+tie regenerative capabilities to resources -> action surge regeneration to hit die / or other resources.
+- give panic-options that are expensive. get cheaper during rests. -> active rests
+
+maneuvers for martials
+
 ### feats
 poisoner
 - 1 dose = coating amount on dagger or 2 pieces of ammunition for it to show effects
@@ -39,3 +45,65 @@ Typecast:
 Cumulative Subclasses:
   - Scaling features and sidegrades
   - typeclass scaling and incentives to return to classes
+
+## feats
+  enable power-fantasy of gwm-pom||shs-cbe, by enabling the core fantasy in more ways.
+  -> generic power attack:
+    gambling: scale: (-1 attack roll -> +2 dmg roll)xmaxPmod, 2->3, 3-4 (choose either attack or dmg mod, other gets calcd: rounded up.), can only go up in a turn.
+  -> allow dynamic resource allocation
+class passives:
+  maneuvers for martial classes
+  steal from ygp.
+    overhaul:
+      ranger
+        lean into different playstyles
+      barbarian
+        pro/con rage, reckless attack
+  figher: bake fighter/battlemaster into base class
+  warlock: bake hexblade-features into base-class
+
+smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
+-> small changes have potentially far-reaching effects.
+along general type system, classes fulfill a more 'templative' role
+warrior/expert(martial/expert);priest(divine/primal);caster(arcane/psionic);occult(pact/crucible)
+  martial: monk? -> fighter/warrior
+  expert: rogue/(alchemist)
+  divine: cleric
+  primal: druid
+  arcane: wizard
+  psionic: mystic
+  pact: warlock
+  crucible: witcher/blood hunter
+  --
+  martial/martial: monk
+  martial/expert: fighter -> battlemaster
+  martial/primal: barbarian
+  martial/divine: paladin
+  martial/arcane: bladesinger/rune knight
+  martial/psionic: psion/psi-warrior
+  martial/pact: hexblade/eldritch knight/oath of vengeance
+  martial/crucible: crucible knight
+  --
+  expert/expert: bard/rogue
+  expert/martial: rogue/fighter
+  expert/divine: thaumaturge??
+  expert/primal: ranger
+  expert/arcane: artificer/arcane trickster
+  expert/psionic: soul knife
+  expert/pact: ??
+  expert/crucible: blood hunter(mutant)
+  -- divine
+  + divine : cleric
+  + martial : war domain/forge domain
+  + expert : trickery domain
+  + primal : tempest domain
+  + arcane : arcana domain
+  + psi : ?
+  + pact : twilight/death?
+  + crucible : godeater
+  -- primal
+  + arcane
+  -- arcane
+  -- psi
+  -- pact
+  -- crucible
