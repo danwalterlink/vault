@@ -2,7 +2,11 @@
 id: k50hz0cyu9tnfyudi6ibv5y
 title: Tmux
 desc: ''
+<<<<<<< Updated upstream
 updated: 1680608576560
+=======
+updated: 1667345073796
+>>>>>>> Stashed changes
 created: 1636903106989
 ---
 
@@ -32,6 +36,7 @@ define leader as $cmd
 ## theme
 ~/.tmux.conf
 
+<<<<<<< Updated upstream
 #todo fix status line
 - [ ] #fix emacs doom config
 - [ ] #fix theme #extend
@@ -40,3 +45,8 @@ send to all panes #i
   Ctrl-b :setw synchronize-panes on
     cmd
     sync-panes off
+=======
+[[~/.tmux.conf]]
+
+#todo
+>>>>>>> Stashed changes
