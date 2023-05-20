@@ -2,14 +2,24 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1684439004817
+updated: 1684439190089
 created: 1684357294795
 ---
 general
 tie regenerative capabilities to resources -> action surge regeneration to hit die / or other resources.
 - give panic-options that are expensive. get cheaper during rests. -> active rests
 
+action surge type restrictions?
+-> cost backloading. action surge - attempt thing and then pay resources.
+->
+
 maneuvers for martials
+
+weapon masteries, tool and crafting more important.
+
+complexity creep
+there's cost to smaller chunks. -> paper
+more granular, pregens
 
 ### feats
 poisoner
