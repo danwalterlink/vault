@@ -37,6 +37,12 @@ workspace:
                 type: git
                 url: git@github.com:ddubl/vault.git#master
         -
+            fsPath: dnd
+            name: dnd
+            remote:
+                type: git
+                url: git@github.com:ddubl/vault.git#dnd
+        -
             fsPath: stream
             name: stream
             remote:
@@ -70,6 +76,7 @@ workspace:
             L: low
             P: pressing
             V: valuable
+            M: medium
         statusSymbols:
             wip: w
             done: x
@@ -128,6 +135,7 @@ publishing:
         - task
         - stream
         - journal
+        - dnd
     writeStubs: false
     siteRootDir: dwl
     seo:
@@ -155,6 +163,7 @@ publishing:
             - journal
             - stream
             - task
+            - dnd
     enableHierarchyDisplay: true
     noRandomlyColoredTags: true
 plugins:

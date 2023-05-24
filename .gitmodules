@@ -10,3 +10,7 @@
 	path = stream
 	url = git@github.com:ddubl/vault
 	branch = stream
+[submodule "dnd"]
+	path = dnd
+	url = ./dnd
+	branch = dnd

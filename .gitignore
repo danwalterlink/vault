@@ -6,7 +6,9 @@ dendron.code-workspace
 task
 journal
 stream
-
+dnd
 .backup
 vault
 dendron
+.
+.dendron.cache.*
