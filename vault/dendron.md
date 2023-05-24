@@ -2,11 +2,13 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1682070767061
+updated: 1684927819923
 created: 1636846848375
 ---
+boilerplate for submodule vault additions
+- assume new vault has the same config as existing vaults
 
-#f task note in sidebar
+#f task note in sidebar -> floating window in macos for similar functionality
 
 #i syntax-clean : move tags to line endings
 -> order?
