@@ -2,22 +2,131 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1684919834738
+updated: 1684934500563
 created: 1684357294795
 ---
-I believe it possible to build a "dnd 6" while being backwards compatible (even further back than 5th edition)
-dnd brew -> yaml formatting
-todo: integrate 5etools - mpmb
-- rewrite current spells/features
-- yml interchange format
 
-general
+## foreword
+I believe it possible to build "dnd 6" while backwards compatible (even further back than 5th edition), through "ports"
+ports are interfaces (in essence) that translate rules verbiage from one edition to another.
+within these ports, design decision will need to be made. This will boil down to having different versions for implementations, which will only really be an issue, if they're obtuse and hard to extract/change.
+this issue already present's itself in current (5th) edition of dnd, where text in publications doesn't lockstep with similar features introduced in later publications, ie. double skill proficiency to expertise.
+It is quite obvious that in earlier publications, expertise was privy to certain classes only. Later feats have adopted the expertise phrasing but earlier features didn't receive errata.
+-> make abundantly clear, which version something is from and is trying to sync with.
+-> if you want to play with "the good ol\' sharpshooter", you play < 5.2 (which would be XGE).
+-> 5.5 (what is now the dndOne approach, ironing out kinks)
+-> 6 : more fundamental changes that make "ports" more necessary : ie. moving from the "class" model to the "pregen" model and having radically smaller chunks with fewer restrictions between them, making choosing the real restriction.
+
+## design maxims in contrast and reaction to 5e
+iterative, generative and clear versioning/templating including errata ![[Tooling|dendron://dnd/dnd.brew.tooling]]
+  -> not "stranding" old material
+
+strengthen overarching idea that the world is inherently magical. Even the most mundane thing works magic. Doing something repeatly steeps the location in this ritual. Fireplaces grow closer to the elemental flame by each kindling; ancient fireplaces might even spark themselves through sheer habit.
+certain tankards fit snugly in dwarven hands while feeling off to a human with the same prints.
+
+focus on meaningful differentiation
+
+powers for drawbacks
+
+flexible resource interchange system
+
 tie regenerative capabilities to resources -> action surge regeneration to hit die / or other resources.
 - give panic-options that are expensive. get cheaper during rests. -> active rests
+- have other ways of regenerating resources other than cooldowns
+- certain interactions diminish resource availability
 
-character creation:
+complexity creep
+there's cost to smaller chunks. -> paper; more choices and prone to "bookkeeping"
+more granular, pregens. classes work more like pregens, because I can essentially build classes and their amalgamations from these chunks.
+[[residual ancestry]], [[trait doctoring]] and [[typecasting]] inverts and restricts this bottom up, extremely granular approach to retrofit the class structure presented in previous dnd editions.
+
+## character creation
+new standard array (17, 15, 13, 12, 10, 8) or by using the resulting point-buy total (33).
 ABC: Ancestry, Background, Class
--> if more than one source grants you ability increases as base feature, pick one or bolster to +3 (+2 to one, +1 to another), unless a single source grants more, in which case you are allowed to choose the option granted.
++2 to any Ability Score. Ability Scores listed in the Ancestry description denote the most common association. This ability score modification is associated with your ancestry. Choose up to one different source granting ability score increases. You may increase an Ability Score that this source could increase by up to 1.
+You may choose another source granting ability scores to apply instead.
+If the total cumulative amount of ASI no more than 3, you may take a feat.
+### Ancestry
+- culural/heritage, vestigial, partial, mixed and transformation trait templates
+  + cultural: traits are available to individuals growing up in a community centered around {{ancestry}}
+  + vestigial: features from distant ancestry that has shrunk to near disfunctionality (vestigial wings that allow you to hover/fall gracefully, essentially)
+  + partial: only some features of this trait are available. If there are multiple options, choose one. You choose for every instance.
+  + mixed: pick any trait from ancestry. You may acquire up to two features via this trait.
+  + transformation: Traits gained overwrite base ancestry.
+  modifications targeting traits do so for one instance of your choice.
+### Backgrounds
+  - basic: 2 skills, 1 tool(choice)
+  - some gain other benefits instead
+  - Extreme backgrounds: mali for boni (usual feat choices)
+
+### classes
+you are considered lvl0 for all (base) classes you haven't picked a level in
+if something refers to class, it refers (its) base class unless noted otherwise.
+#### class types
+##### arcane
+cast/concentrate/practice
+  wizard: scribe/memorize/alter spell
+    - scribe anything, artificing
+  sorcerer: intuitive alter spell -> metamagic
+    - multi-casting, volatile/wild spells
+  warlock: make their patron's magic their own. #f?
+    - living spell, granting pacts
+
+##### martial
+maneuver/focus/drill
+- fighter: allrounder/technician
+  + fighter:battlemaster:: all maneuvers/exploits
+- rogue: sneak
+- barbarian: brute
+
+##### priest
+invoke(cast?)/concentrate/pray
+- cleric: divine
+- druid: primordial
+? warlock: eldritch
+
+##### crucible
+mutate/concentrate/research
+- warlock
+- blood hunter
+
+##### expert
++/craft (verb)
+- artificer
+- monk
+
+#### prestige class
+prestige classes: stackable templates
+advance in
+
+## optional rules
+casting spells:
+in reverse order of genericity(?)
+magic action -> casting spell (includes innate casting, magical traits, reading scrolls etc)
+cast (arcane/divine/primordial)
+invoke -> contact to extraplanar entity involved
+
+
+mastery trait level
+  having used something (weapon, tool, armor) extensively, it is steeped in your essence.
+  : 4th mastery
+  : 9th grand mastery
+  : 14th epic
+  : 19th legendary
+  incentivise upgrading, networking (finding craftsmen), collecting raw materials
+
+weapon masteries, tool and crafting more important.
+- exploits and boni tied to specific weapon family.
+
+(field) crafting
+  : giving plentiful options to harvest materials
+  : known recipes
+  : rewarding experimentation
+  : maxim: if it is a trait of a monster, you can probably craft something out of it.
+ie. containers are infusables
+
+spellcasting:
+
 action surge type restrictions?
 -> cost backloading. action surge - attempt thing and then pay resources.
 
@@ -32,14 +141,6 @@ healing:
   - while starved and without adequate hit dice additionally gives you one level of exhaustion.
 
 maneuvers for martials
-
-weapon masteries, tool and crafting more important.
-- exploits and boni tied to specific weapon family.
-
-complexity creep
-there's cost to smaller chunks. -> paper; more choices and prone to "bookkeeping"
-more granular, pregens. classes work more like pregens, because I can essentially build classes and their amalgamations from these chunks.
-[[residual ancestry]], [[trait doctoring]] and [[typecasting]] inverts and restricts this bottom up, extremely granular approach to retrofit the class structure presented in previous dnd editions.
 
 degrees of success:
 combat: critical failure/success

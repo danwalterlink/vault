@@ -2,7 +2,7 @@
 id: n9xaxc28nlmk79nqjs2empz
 title: Cosmology
 desc: ''
-updated: 1681494497320
+updated: 1684928216054
 created: 1681491090123
 ---
 
