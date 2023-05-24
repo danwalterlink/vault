@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1684958389600
+updated: 1684964988824
 created: 1684357294795
 ---
 
@@ -16,11 +16,6 @@ It is quite obvious that in earlier publications, expertise was privy to certain
 -> if you want to play with "the good ol\' sharpshooter", you play < 5.2 (which would be XGE).
 -> 5.5 (what is now the dndOne approach, ironing out kinks)
 -> 6 : more fundamental changes that make "ports" more necessary : ie. moving from the "class" model to the "pregen" model and having radically smaller chunks with fewer restrictions between them, making choosing the real restriction.
-
-dc20 tests:
-skill checks: modes of success:
-  clear failure/success: -/+ 5 or more of DC
-  slight failure/success: -/+ 4 or less of DC
 
 ## design maxims in contrast and reaction to 5e
 iterative, generative and clear versioning/templating including errata ![[Tooling|dendron://dnd/dnd.brew.tooling]]
@@ -150,40 +145,39 @@ paladin
 ranger
 bard expert/sorcerer
 
-
-  -- warrior
-    + warrior: monk
-    + expert: fighter -> battlemaster
-    + primal: barbarian
-    + divine: paladin
-    + arcane: bladesinger/rune knight
-    + psionic: psion/psi-warrior
-    + pact: hexblade/eldritch knight/oath of vengeance
-    + crucible: crucible knight
-  -- expert
-    + expert: bard/rogue
-    + warrior: rogue/fighter
-    + divine: thaumaturge??
-    + primal: ranger
-    + arcane: artificer/arcane trickster
-    + psionic: soul knife
-    + pact: ??
-    + crucible: blood hunter(mutant)
-  -- divine
-  + divine : cleric
-  + martial : war domain/forge domain
-  + expert : trickery domain
-  + primal : tempest domain
-  + arcane : arcana domain
-  + psi : ?
-  + pact : twilight/death?
-  + crucible : godeater
-  -- primal
-  + arcane
-  -- arcane
-  -- psi
-  -- pact
-  -- crucible
+-- warrior
+  + warrior: monk
+  + expert: fighter -> battlemaster
+  + primal: barbarian
+  + divine: paladin
+  + arcane: bladesinger/rune knight
+  + psionic: psion/psi-warrior
+  + pact: hexblade/eldritch knight/oath of vengeance
+  + crucible: crucible knight
+-- expert
+  + expert: bard/rogue
+  + warrior: rogue/fighter
+  + divine: thaumaturge??
+  + primal: ranger
+  + arcane: artificer/arcane trickster
+  + psionic: soul knife
+  + pact: ??
+  + crucible: blood hunter(mutant)
+-- divine
++ divine : cleric
++ martial : war domain/forge domain
++ expert : trickery domain
++ primal : tempest domain
++ arcane : arcana domain
++ psi : ?
++ pact : twilight/death?
++ crucible : godeater
+-- primal
++ arcane
+-- arcane
+-- psi
+-- pact
+-- crucible
 
 #### subclasses
 Typecast:

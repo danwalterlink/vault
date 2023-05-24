@@ -2,10 +2,12 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1684960251581
+updated: 1684965313055
 created: 1684956724533
 ---
 
+"action surge becomes a general feature -> [[]]
+"eldritch features: eldritch blast,
 ## class list
   class features
 artificer: infusions, spell creations
@@ -14,11 +16,12 @@ bard
 blood hunter
 cleric
 druid
-fighter
+fighter: martial masteries,
 monk
 monster hunter
-mystic
+mystic:
 paladin
+psion: raw arcane,
 ranger:
 rogue: tools for the job, expertise, sneak attack
 sorcerer: metamagic
@@ -27,9 +30,9 @@ wizard: scholarly tradition[spellbook], researcher, ritual
 
 ## class types
 subtype: "tone"
-warrior(honed/wit/brute)
-caster(learned/innate/pact)
-priest(divine/primal/eldritch)
+warrior(honed/wit/brute): fighting style
+caster(learned/innate/pact): spellcasting
+priest(divine/primal/eldritch): channel {{source}}
 
 subtype: "kiln"
 crucible/pact
@@ -55,6 +58,7 @@ mixed martial classes:
   ranger (warrior/primal)
   artificer (warrior/arcane)
   - wit
+  - brute
 
 supertype: (spell slot progression, trait tinkering)
 - spellcaster(cantrips, spells, )
@@ -70,7 +74,9 @@ supertype: (spell slot progression, trait tinkering)
   + focus
   + drills
 - expert
-  +
+  + expertise
+  + stroke of genius
+  + strangling specifics (enhances trait tinkering)
 alternative resource system
   monk, psion, mystic
 mixed type
