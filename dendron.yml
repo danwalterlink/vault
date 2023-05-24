@@ -101,7 +101,7 @@ workspace:
     graph:
         zoomSpeed: 1
         createStub: true
-    enableAutoCreateOnDefinition: true
+    enableAutoCreateOnDefinition: false
     enableXVaultWikiLink: true
     enableRemoteVaultInit: true
     workspaceVaultSyncMode: sync
@@ -166,5 +166,3 @@ publishing:
             - dnd
     enableHierarchyDisplay: true
     noRandomlyColoredTags: true
-plugins:
-    enableAutoCreateOnDefinition: null
