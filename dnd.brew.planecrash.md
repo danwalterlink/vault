@@ -2,14 +2,9 @@
 id: emvyq987lb5t97kbhnh6vzw
 title: Planecrash
 desc: ''
-updated: 1684754228645
+updated: 1684944920714
 created: 1681729892783
 ---
-
-dc20 tests:
-skill checks: modes of success:
-  clear failure/success: -/+ 5 or more of DC
-  slight failure/success: -/+ 4 or less of DC
 
 over:
   determined to free the material - and thus the multiverse - from the shackles of order, the abyss tries to merge with the it. Extraplanar entities have an easier time existing on certain pockets of the prime material to either keep the existing order, or side with chaos for their own ends.
@@ -100,14 +95,16 @@ You can change spells slightly through study or improvisation, but experimenting
 casting a fireball cools your surroundings very slightly or connects to the elemental plane of fire, for example.
 
 ### typecasting
-when you could take a class passive (2nd, 6th, 10th, 12th, 14th, 18th level) and any level you could take a feat, you may typecast.
-typecast: change the associated ability score modifier on a feat, talent or passive. The associated checks and calculations change accordingly.
-the typecast property is transitive.
+whenever you gain a character feature, you may typecast.
+typecast: change the associated ability score modifier on a character feature.
+All derived checks and calculations change accordingly.
 
-typecasting artifacts:
+### trait tinkering
+whenever you gain a character feature, you may tinker with traits.
+Trait doctoring: select a feature gained on a class level up to your cumulative class type level of its class.
 
 ### infusions
-if you aren't at least a master artificer, infused items have a chance to lose their infusions
+items have a chance to lose their infusions and magical traits.
 add your artificer proficiency to checks
 
 ### magic and items

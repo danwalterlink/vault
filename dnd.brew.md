@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1684934500563
+updated: 1684958389600
 created: 1684357294795
 ---
 
@@ -17,6 +17,11 @@ It is quite obvious that in earlier publications, expertise was privy to certain
 -> 5.5 (what is now the dndOne approach, ironing out kinks)
 -> 6 : more fundamental changes that make "ports" more necessary : ie. moving from the "class" model to the "pregen" model and having radically smaller chunks with fewer restrictions between them, making choosing the real restriction.
 
+dc20 tests:
+skill checks: modes of success:
+  clear failure/success: -/+ 5 or more of DC
+  slight failure/success: -/+ 4 or less of DC
+
 ## design maxims in contrast and reaction to 5e
 iterative, generative and clear versioning/templating including errata ![[Tooling|dendron://dnd/dnd.brew.tooling]]
   -> not "stranding" old material
@@ -28,12 +33,24 @@ focus on meaningful differentiation
 
 powers for drawbacks
 
+generally, roll for upsides:
+  for permanent rolls: anything below average gets rounded to dice average (rounded down).
 flexible resource interchange system
+- half of unused resources from last turn, pay in current turn or restrict your next turn: up to double your turn maximum.
+- movement for reactions
 
 tie regenerative capabilities to resources -> action surge regeneration to hit die / or other resources.
 - give panic-options that are expensive. get cheaper during rests. -> active rests
 - have other ways of regenerating resources other than cooldowns
 - certain interactions diminish resource availability
+
+(take a breather, short rest, long rest, recuperation)
+taking a breather uses available minor consumables to
+less punishing initial exhaustion effects.
+-> recovering from exhaustion reduces your total hit dice
+- long rests without available hit dice only recovers a single hit dice instead of any other benefits.
+- long rests with your current maximum hit dice are recuperative.
+- a recuperative rest restores your hit dice maximum
 
 complexity creep
 there's cost to smaller chunks. -> paper; more choices and prone to "bookkeeping"
@@ -62,42 +79,146 @@ If the total cumulative amount of ASI no more than 3, you may take a feat.
 ### classes
 you are considered lvl0 for all (base) classes you haven't picked a level in
 if something refers to class, it refers (its) base class unless noted otherwise.
+
+figher: bake fighter/battlemaster into base class #changes.5e
+warlock: bake hexblade-features into base-class #changes.5e
+
 #### class types
-##### arcane
+smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
+-> small changes have potentially far-reaching effects.
+along general type system, classes fulfill a more 'templative' role
+warrior/expert(martial/expert);priest(divine/primal);caster(arcane/psionic);occult(pact/crucible)
+  warrior: monk? -> fighter/warrior
+  expert: rogue/(alchemist)
+  divine: cleric
+  primal: druid
+  arcane: wizard
+  psionic: mystic
+  pact: warlock
+  crucible: witcher/blood hunter
+-> crucial distinction: no-spell-progression, half-spell-progression, full-spell-progression
+
+##### caster
 cast/concentrate/practice
   wizard: scribe/memorize/alter spell
     - scribe anything, artificing
   sorcerer: intuitive alter spell -> metamagic
     - multi-casting, volatile/wild spells
-  warlock: make their patron's magic their own. #f?
+  warlock: make their patron's magic their own. #f? -> priest?
     - living spell, granting pacts
 
-##### martial
+##### warrior
 maneuver/focus/drill
 - fighter: allrounder/technician
   + fighter:battlemaster:: all maneuvers/exploits
-- rogue: sneak
-- barbarian: brute
+- rogue: dexterity
+- barbarian: strength
 
 ##### priest
-invoke(cast?)/concentrate/pray
+invoke|cast/concentrate/pray
 - cleric: divine
 - druid: primordial
-? warlock: eldritch
+- warlock: eldritch
 
+--- auxiliary
 ##### crucible
 mutate/concentrate/research
-- warlock
-- blood hunter
+- apothecary
+- blood hunter (completes the paladin/ranger trio) -> mixed base type?
+- monster hunter
+- living crucible
+
+##### innate?
+- sorcerer
+- bard
+- psion
 
 ##### expert
-+/craft (verb)
-- artificer
-- monk
++/craft/focus/invent(flash of mind)
+- artificer () - expert: arcane
+- monk:
+- bard
+
+##### arcane
++ arcane = mystic
++ innate = sorcerer
++ caster = wizard
+
+--- mixed
+##### mixed
+paladin
+ranger
+bard expert/sorcerer
+
+
+  -- warrior
+    + warrior: monk
+    + expert: fighter -> battlemaster
+    + primal: barbarian
+    + divine: paladin
+    + arcane: bladesinger/rune knight
+    + psionic: psion/psi-warrior
+    + pact: hexblade/eldritch knight/oath of vengeance
+    + crucible: crucible knight
+  -- expert
+    + expert: bard/rogue
+    + warrior: rogue/fighter
+    + divine: thaumaturge??
+    + primal: ranger
+    + arcane: artificer/arcane trickster
+    + psionic: soul knife
+    + pact: ??
+    + crucible: blood hunter(mutant)
+  -- divine
+  + divine : cleric
+  + martial : war domain/forge domain
+  + expert : trickery domain
+  + primal : tempest domain
+  + arcane : arcana domain
+  + psi : ?
+  + pact : twilight/death?
+  + crucible : godeater
+  -- primal
+  + arcane
+  -- arcane
+  -- psi
+  -- pact
+  -- crucible
+
+#### subclasses
+Typecast:
+  Class: Subclasses may alter class type.
+  Ability association: when typecasting a feature, it, and all subfeatures thus gained, change their associated ability to another.
+  #i features become less effective, the more centralized it becomes.
+  -> uses of typecasting are inversely tied to diversity of ability scores.
+
+Cumulative Subclasses:
+  - Scaling features and sidegrades
+  - typeclass scaling and incentives to return to classes
 
 #### prestige class
-prestige classes: stackable templates
-advance in
+prestige classes are augmented versions of base classes if you meet criteria and work as stackable templates.
+you may always only ever be member of one prestige class, advance in it if you meet its additional requirements and any level gained degrades into any one of its constituent classes, should you no longer fulfill those requirements, such as advancing in another prestige class.
+example:
+artificer(5)[5 acquirable prestige levels]: (Wizard/5, Dex:13, Crafting Rank: Master, Expertise at least one Arcane Tool and either Arcana or another Arcane Tool)
+
+only one prestige class. any combination of base classes. newer choices trump old ones -> augmented class degrades into base class.
+with several class types: raise trait tinkering level.
+  Balanced:
+dual subclass: counts as prestige class. 2nd(+mod3) subclass features as if half cumulative class type.
+without prestige class level: every 3 cumulative shared class type levels other than the chosen class count as one level in its progression.
+prestige class: you may take a level in a prestige class if you fulfill its requirements. The prestige class counts towards its base class' level progressions.
+every prestige class level decays into any one of its base classes should you not meet their requirements when you next level up.
+
+Prestige Classes: when meeting criteria, your most advanced class becomes the base class for the prestige class. Future class advancements may not invalidate past choices.
+  bonus features will unlock when cumulative class type levels reach thresholds.
+  Advance in 2 Classes simultaneously up to a maximum.
+  Mystic Theurge: 3+ Caster / 3+ Priest or higher, but still balanced levels. (eg. 2-Cleric, 2 Paladin, 3 Wizard), Max Level = Level of Base Class
+    6/6/6
+
+Partial class progression:
+  pick features from a class belonging to the same type of the advancing class. The chosen class feature must be of a level less than half your total class type level.
+
 
 ## optional rules
 casting spells:
@@ -182,25 +303,6 @@ Potions
   anything over 1/2 is restored over time at (1/2 number of dice) hp/round.
 (the following makes frequent cooking and/or magical food a necessity for adventurers)
 
-Prestige Classes: when meeting criteria, your most advanced class becomes the base class for the prestige class. Future class advancements may not invalidate past choices.
-  bonus features will unlock when cumulative class type levels reach thresholds.
-  Advance in 2 Classes simultaneously up to a maximum.
-  Mystic Theurge: 3+ Caster / 3+ Priest or higher, but still balanced levels. (eg. 2-Cleric, 2 Paladin, 3 Wizard), Max Level = Level of Base Class
-    6/6/6
-
-Partial class progression:
-  pick features from a class belonging to the same type of the advancing class. The chosen class feature must be of a level less than half your total class type level.
-
-Typecast:
-  Class: Subclasses may alter class type.
-  Ability association: when typecasting a feature, it, and all subfeatures thus gained, change their associated ability to another.
-  #i features become less effective, the more centralized it becomes.
-  -> uses of typecasting are inversely tied to diversity of ability scores.
-
-Cumulative Subclasses:
-  - Scaling features and sidegrades
-  - typeclass scaling and incentives to return to classes
-
 ## feats
   enable power-fantasy of gwm-pom||shs-cbe, by enabling the core fantasy in more ways.
   -> generic power attack:
@@ -214,51 +316,3 @@ class passives:
         lean into different playstyles
       barbarian
         pro/con rage, reckless attack
-  figher: bake fighter/battlemaster into base class
-  warlock: bake hexblade-features into base-class
-
-smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
--> small changes have potentially far-reaching effects.
-along general type system, classes fulfill a more 'templative' role
-warrior/expert(martial/expert);priest(divine/primal);caster(arcane/psionic);occult(pact/crucible)
-  martial: monk? -> fighter/warrior
-  expert: rogue/(alchemist)
-  divine: cleric
-  primal: druid
-  arcane: wizard
-  psionic: mystic
-  pact: warlock
-  crucible: witcher/blood hunter
-  -- warrior
-    + warrior: monk
-  martial/expert: fighter -> battlemaster
-  martial/primal: barbarian
-  martial/divine: paladin
-  martial/arcane: bladesinger/rune knight
-  martial/psionic: psion/psi-warrior
-  martial/pact: hexblade/eldritch knight/oath of vengeance
-  martial/crucible: crucible knight
-  --
-  expert/expert: bard/rogue
-  expert/martial: rogue/fighter
-  expert/divine: thaumaturge??
-  expert/primal: ranger
-  expert/arcane: artificer/arcane trickster
-  expert/psionic: soul knife
-  expert/pact: ??
-  expert/crucible: blood hunter(mutant)
-  -- divine
-  + divine : cleric
-  + martial : war domain/forge domain
-  + expert : trickery domain
-  + primal : tempest domain
-  + arcane : arcana domain
-  + psi : ?
-  + pact : twilight/death?
-  + crucible : godeater
-  -- primal
-  + arcane
-  -- arcane
-  -- psi
-  -- pact
-  -- crucible
