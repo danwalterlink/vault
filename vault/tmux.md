@@ -2,11 +2,7 @@
 id: k50hz0cyu9tnfyudi6ibv5y
 title: Tmux
 desc: ''
-<<<<<<< Updated upstream
-updated: 1680608576560
-=======
-updated: 1667345073796
->>>>>>> Stashed changes
+updated: 1663081671962
 created: 1636903106989
 ---
 
@@ -49,4 +45,3 @@ send to all panes #i
 [[~/.tmux.conf]]
 
 #todo
->>>>>>> Stashed changes
