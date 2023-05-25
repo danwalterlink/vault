@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1684965313055
+updated: 1685012793591
 created: 1684956724533
 ---
 
@@ -10,39 +10,111 @@ created: 1684956724533
 "eldritch features: eldritch blast,
 ## class list
   class features
-artificer: infusions, spell creations
-barbarian
-bard
-blood hunter
-cleric
-druid
-fighter: martial masteries,
-monk
-monster hunter
+  generally:
+    - additional resource allocation
+    -
+artificer:
+  [ infusions
+  , spell creations
+  , right tool for the job
+  ] -> armorer
+barbarian:
+  [ reckless attack
+  , rage
+  , crucible of ancients
+  ] -> totem
+bard:
+  [ bardic inspiration
+  , magical secrets
+  , (counter)charming
+  ] -> lore
+blood hunter:
+  [ blood malediction
+  , crimson rites
+  , hemocraft
+  ] -> mutant
+cleric:
+  [ emboldening bond
+  , turn undead
+  , domain expansion
+  ] -> peace domain
+druid:
+  [ natural recovery
+  , wildshape
+  , cultivate shape
+  ] -> moon druid
+fighter:
+  [ martial mastery (any weapon mastery, multiples)
+  , second wind(indomitable(unstun), additional movement, hp regen)
+  , balanced training (additional feats, tool proficiency, improves action surge)
+  ] -> champion/cavalier
+monk:
+  [ flurry of blows
+  , stunning strike
+  , ki
+  ] -> shadow monk
+monster hunter:
+  [ imbibe
+  , prowl
+  , quarry
+  ] -> move into ranger; spellless
 mystic:
-paladin
-psion: raw arcane,
-ranger:
-rogue: tools for the job, expertise, sneak attack
-sorcerer: metamagic
-warlock: pactsmith, eldritch arcana, invocations
-wizard: scholarly tradition[spellbook], researcher, ritual
+  [ psionics
+  , meditate
+  , discipline
+  ] -> immortal
+paladin:
+  [ divine sense
+  , aura presence
+  , lay on hands
+  ] -> oath of vengeance
+psion:
+  [ psionics
+  , raw talent
+  , discipline
+  ] -> awakened -> move mystic/psion together
+ranger: (environmentally oriented)
+  [ prowl(explorer, foe, awareness)
+  , scavenge clean
+  , primal preparation (+ability appropriation: primal)
+  ] -> gloom stalker
+rogue:
+  [ cunning action (+ ability appropriation)
+  , magic hands (mage hand(can put objects on people), use of magical devices)
+  , sneak attack
+  ] -> thief
+sorcerer:
+  [ metamagic (additional metamagic: spell echo, living spell, partial/condensed spell)
+  , font of magic
+  , magical guidance
+  ] -> clockwork soul (expanded spell lists)
+warlock:
+  [ pactsmith
+  , eldritch arcana
+  , invocations
+  ] -> hex/eldritch blast integration
+wizard:
+  [ scholarly tradition[spellbook]
+  , researcher [additional doctorings for spell]
+  , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
+  ] -> scribe (scribe/alter/memorize)
 
 ## class types
-subtype: "tone"
+subtype: "tone/primary"
 warrior(honed/wit/brute): fighting style
-caster(learned/innate/pact): spellcasting
-priest(divine/primal/eldritch): channel {{source}}
+caster(learned(ritual casting)/innate/pact): spellcasting
+priest(divine/primal/eldritch): channel {{source}}, ritual casting
 
-subtype: "kiln"
-crucible/pact
-innate
-learned
+subtype: "kiln/secondary"
+crucible/pact: prolong temporary buffs, permanence, living spell
+innate: metamagic, improvise
+learned: acribic, ritual casting
 
-subtype: "chord"
-arcane
-primal
-divine
+subtype: "chord/power/tertiary"
+arcane:
+primal:
+divine:
+(material)
 
 -> 27 3-subtype combinations
 up to 3 components. multiclass combinations are cut to 3.
@@ -56,29 +128,32 @@ mixed martial classes:
   - honed(fighter)
   paladin (warrior/divine)
   ranger (warrior/primal)
-  artificer (warrior/arcane)
+  ? artificer (warrior/arcane)
   - wit
   - brute
 
 supertype: (spell slot progression, trait tinkering)
-- spellcaster(cantrips, spells, )
+- spellcaster(cantrips, spells, "meta"[metamagic, scribe, pact])
   + non-
-    barbarian, fighter, rogue, monk
+    barbarian, fighter, rogue, monk, bh, mh
   + half-
+    -> divine smite, nature's wrath, x-infused
     (paladin, ranger, artificer) third: [profane soul, arcane trickster, eldritch knight]
   + full-
-    (bard, warlock, sorcerer, wizard)
+    -> feature regaining slots (outside of short-resting)
+    (bard, sorcerer, wizard)(warlock)
     spellcaster
 - martial
   + maneuvers
-  + focus
+  + focus (stances, requiring resources: concentration)
   + drills
 - expert
   + expertise
   + stroke of genius
-  + strangling specifics (enhances trait tinkering)
+  + escape strangling specifics (enhances trait tinkering)
 alternative resource system
   monk, psion, mystic
+    psi/chi (psi -> chi: "bodied" psi)
 mixed type
 
 closeness in type:

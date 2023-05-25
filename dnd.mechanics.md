@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1684963367059
+updated: 1685012230972
 created: 1684961188700
 ---
 ## d20 tests
@@ -28,8 +28,11 @@ minimal ritual:
 
 ## modes of success
 4 stage:
-  clear fail/success : by 5 or more
+  clear/clean fail/success : by 5 or more
   fail/success
+  also applies to hits: clean hit:
+    clean hit: one additional hit dice
+    sloppy? failure: minor mishap
 
 3 stage: from binary
   dc ± 2:
@@ -42,7 +45,7 @@ double 1 on disadvantage: major mishap table
 ## magical fatigue
 even the most mundane things work their magic. an ancient fireplace might kindle itself. using things infuses them with your being. magical weapons lose their edge when used as paperweights too often.
 an arcane focus might alleviate the need of components, but it grows gaunt and its magics shallow if not
+##
 ## grievous wounds
-
 ## crafting
 ## infusions

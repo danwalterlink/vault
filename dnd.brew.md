@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1684964988824
+updated: 1684973093168
 created: 1684357294795
 ---
 
@@ -66,12 +66,12 @@ If the total cumulative amount of ASI no more than 3, you may take a feat.
   + mixed: pick any trait from ancestry. You may acquire up to two features via this trait.
   + transformation: Traits gained overwrite base ancestry.
   modifications targeting traits do so for one instance of your choice.
-### Backgrounds
+### Background
   - basic: 2 skills, 1 tool(choice)
   - some gain other benefits instead
   - Extreme backgrounds: mali for boni (usual feat choices)
 
-### classes
+### Classe
 you are considered lvl0 for all (base) classes you haven't picked a level in
 if something refers to class, it refers (its) base class unless noted otherwise.
 
