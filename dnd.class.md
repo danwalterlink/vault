@@ -2,17 +2,17 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685012793591
+updated: 1685022623959
 created: 1684956724533
 ---
 
 "action surge becomes a general feature -> [[]]
-"eldritch features: eldritch blast,
+if you dont want feature to be readily accessible through multiclassing/trait doctoring, make it an amalgam feature (features that exist through layering if class features) and describe the fantasy/surrounding ideas through the closest (sub)class
 ## class list
   class features
   generally:
     - additional resource allocation
-    -
+    - base class features are unspecific and tied to resources
 artificer:
   [ infusions
   , spell creations
@@ -46,7 +46,7 @@ druid:
 fighter:
   [ martial mastery (any weapon mastery, multiples)
   , second wind(indomitable(unstun), additional movement, hp regen)
-  , balanced training (additional feats, tool proficiency, improves action surge)
+  , balanced training (additional feats, floating proficiency, improve action surge)
   ] -> champion/cavalier
 monk:
   [ flurry of blows
@@ -62,7 +62,7 @@ mystic:
   [ psionics
   , meditate
   , discipline
-  ] -> immortal
+  ] -> immortal -> move into psion
 paladin:
   [ divine sense
   , aura presence
@@ -72,7 +72,7 @@ psion:
   [ psionics
   , raw talent
   , discipline
-  ] -> awakened -> move mystic/psion together
+  ] -> awakened -> move to crucible -> improves arcane resource generation (or move into monk?)
 ranger: (environmentally oriented)
   [ prowl(explorer, foe, awareness)
   , scavenge clean
@@ -89,13 +89,13 @@ sorcerer:
   , magical guidance
   ] -> clockwork soul (expanded spell lists)
 warlock:
-  [ pactsmith
-  , eldritch arcana
+  [ pactsmith [meldmind]
+  , eldritch arcana [unwanted inquiries]
   , invocations
   ] -> hex/eldritch blast integration
 wizard:
   [ scholarly tradition[spellbook]
-  , researcher [additional doctorings for spell]
+  , acribic arcaneries [additional doctorings for spell]
   , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
   ] -> scribe (scribe/alter/memorize)
 
@@ -111,10 +111,10 @@ innate: metamagic, improvise
 learned: acribic, ritual casting
 
 subtype: "chord/power/tertiary"
-arcane:
-primal:
-divine:
-(material)
+arcane: damage types: all[elemental, raw=arcane=force, ], )
+primal: damage types: elemental
+divine: damage types: necrotic/radiant
+material -> all damage types:
 
 -> 27 3-subtype combinations
 up to 3 components. multiclass combinations are cut to 3.
@@ -123,38 +123,41 @@ blood hunter (warrior, arcane, {mutant}:crucible || {profane soul}:priest)
 pure classes (one of subtype) ie. wizard(caster, arcane)
   diverging subclasses: 2 tones ie. wiz::bladesinger(caster, warrior)
   focussing subclasses: count a subtype doubly ie. wizard[subclass](caster, caster, arcane)
-focussing multiclasses?: wizard/artificer
+focussing multiclasses? -> monk: you do not gain additional features, but you count your monk class levels as 3 levels for the purposes of gaining additional traits in your primary class
+balanced multiclasses: lose primary class, gains an additional secondary class
 mixed martial classes:
   - honed(fighter)
   paladin (warrior/divine)
   ranger (warrior/primal)
   ? artificer (warrior/arcane)
-  - wit
-  - brute
+  - wit (apply generics through dice)
+  - brute (typecast to a certain attribute/ability score)
+  -> intellect brute(psion!): typecast everything to intelligence
+  adding subclass options that improve on the specific nature:
+  -> speeding up spell progression (2/3rds caster): every 3 classes count as 2 additional as to spell progressions. Rest: 1, neglect. Rest 2 add another 1.
 
 supertype: (spell slot progression, trait tinkering)
-- spellcaster(cantrips, spells, "meta"[metamagic, scribe, pact])
+- spellcaster(cantrips, spellcasting(+ritual), "meta"[metamagic, scribe, pact])
   + non-
     barbarian, fighter, rogue, monk, bh, mh
-  + half-
+  + half- -> construct by stacking martial with caster?
     -> divine smite, nature's wrath, x-infused
     (paladin, ranger, artificer) third: [profane soul, arcane trickster, eldritch knight]
   + full-
     -> feature regaining slots (outside of short-resting)
     (bard, sorcerer, wizard)(warlock)
-    spellcaster
 - martial
-  + maneuvers
+  + maneuvers (martial cantrips/spells)
   + focus (stances, requiring resources: concentration)
-  + drills
+  + drills (minor buffs, debuff removal, equipment prep)
 - expert
   + expertise
   + stroke of genius
   + escape strangling specifics (enhances trait tinkering)
-alternative resource system
-  monk, psion, mystic
-    psi/chi (psi -> chi: "bodied" psi)
 mixed type
+  half-casters
+  monk(extreme dedication: double progression, no additional features), psion(raw arcane prodigy), mystic()
+    psi/chi (psi -> chi: "bodied" psi)
 
 closeness in type:
 caster:

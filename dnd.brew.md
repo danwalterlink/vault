@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1684973093168
+updated: 1685013025217
 created: 1684357294795
 ---
 
@@ -24,10 +24,9 @@ iterative, generative and clear versioning/templating including errata ![[Toolin
 strengthen overarching idea that the world is inherently magical. Even the most mundane thing works magic. Doing something repeatly steeps the location in this ritual. Fireplaces grow closer to the elemental flame by each kindling; ancient fireplaces might even spark themselves through sheer habit.
 certain tankards fit snugly in dwarven hands while feeling off to a human with the same prints.
 
-focus on meaningful differentiation
+focus on meaningful differentiation, packaging in distinct classes
 
 powers for drawbacks
-
 generally, roll for upsides:
   for permanent rolls: anything below average gets rounded to dice average (rounded down).
 flexible resource interchange system
