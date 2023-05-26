@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685135560192
+updated: 1685139425647
 created: 1684956724533
 ---
 "action surge becomes a general feature -> [[]]
@@ -98,7 +98,7 @@ ranger: (environmentally oriented)
   [ prowl(explorer, foe, awareness)
   , scavenge clean
   , primal preparation (+ability appropriation: primal)
-  ] -> gloom stalker
+  ] (gloom stalker)
 rogue:
   [ cunning action (+ ability appropriation)
   , magic hands (mage hand(can put objects on people), use of magical devices)
@@ -135,9 +135,10 @@ priest(divine/primal/eldritch): channel {{source}}
 (rituals?)
 
 subtype: "kiln/secondary" - power: source
-crucible/pact: prolong temporary buffs, pact, living spell
+crucible: prolong temporary buffs
 innate: metamagic, improvise
 learned: acribic, ritual casting
+pact: living spell
 
 subtype: "chord/power/tertiary" - power: origin
 arcane: damage types: all[elemental, raw=arcane=force, ], )
@@ -155,15 +156,14 @@ pure classes (one of subtype) ie. wizard(caster, arcane)
 focussing multiclasses? -> monk: you do not gain additional features, but you count your monk class levels as 3 levels for the purposes of gaining additional traits in your primary class
 balanced multiclasses: lose primary class, gains an additional secondary class
 mixed martial classes:
-  - honed(fighter)
-  ? artificer (warrior/arcane)
-  - wit (apply generics through dice)
-  - brute (typecast to a certain attribute/ability score)
+  - honed(balanced, any style)
+  - wit (apply generics through dice, )
+  - brute (typecast certain ability score to str/con)
   -> intellect brute(psion!): typecast everything to intelligence
   adding subclass options that improve on the specific nature:
   -> speeding up spell progression (2/3rds caster): every 3 classes count as 2 additional as to spell progressions. Rest: 1, neglect. Rest 2 add another 1.
 
-supertype: (spell slot progression, trait tinkering)
+supertype: (spell slot progression, trait doctoring -> supplanting traits = grafting)
 - spellcaster(cantrips, spellcasting(+ritual), "meta"[metamagic, scribe, pact])
   + non-
     barbarian, fighter, rogue, monk, bh, mh
