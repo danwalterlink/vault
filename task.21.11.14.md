@@ -2,7 +2,7 @@
 id: a1d2oarb6ialeic7ztcr2ie
 title: '14'
 desc: ''
-updated: 1636927516122
+updated: 1685105026299
 created: 1636913971394
 status: ''
 due: ''
@@ -10,8 +10,6 @@ priority: ''
 owner: ''
 TODO: '14'
 ---
-
-
 tmux system-theme aware
 . polarized_dual theme
     [x] in iterm2

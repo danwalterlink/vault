@@ -1,11 +1,34 @@
 ---
 id: 0vi17d42eooupk9utoda7n3
-title: Ds
+title: Project
 desc: ''
-updated: 1682686004579
+updated: 1685101679825
 created: 1674724560890
 ---
 
+webfront
+  MVP
+  server
+
+tooling: roaming railroad
+  git
+  dendron - polyglot notebooks - projektplanung
+    vscode cleanup
+  data and derivatives
+    rev proxy: node on ios
+    data analysis
+sticks and stones
+  leverless openframe1 controller
+  fingerboard - frame
+    tensegrite fingerboard
+      slantboard convertible with:
+    tensegrite stick/monopod
+dnd character tools
+  sheet consumer interface
+  sheet printer designs
+  extendible markup integration
+    dendron
+    vscode -> tooling
 ```mermaid
 %%{init: { "theme": "forest" } }%%
 gantt
@@ -20,13 +43,13 @@ gantt
     click cl3 call printTask()
 ```
 
-![[webapp|dendron://task/project.ds.webapp]]
+![[dendron://task/ds.project.webapp]]
 
 page :: wordpress
   - [ ] content selector -> content | shop
 
 ## project.names
-![[Wikilinking|dendron://task/project.ds.wikilinking]]
+![[dendron://task/ds.project.wikilinking]]
 
 sideproj
   data-aggregation
