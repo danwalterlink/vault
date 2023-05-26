@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685114958573
+updated: 1685117895773
 created: 1684961188700
 ---
 calculations: averages are rounded down
@@ -25,6 +25,7 @@ ie. a d6 resource becomes a d2 resource becomes 1. A feature becomes an illegal 
         hardening: as a reaction, you increase your ac by +2. Until the end of your next turn, spells you cast can only be of range:touch or less(self).
         (notice it doesn't say expend).
         rules note: effects of the same name don't stack.
+
 ## ability score
 ### ability score class
 physical
@@ -38,18 +39,29 @@ mental
 (status
   renown
   sanity
+### disfigurements
+- lose a hand
+- lose a foot
+- mute
+- deaf
+- blind
+-
+
 ## item hit dice
 along the {{generic object}} table.
 object[size[tiny,...,huge], ac[material[paper,11],...,[adamantine,23]],dice.size[d4,...,10], dice.amount[2,...,5], modifier:[craftingQuality, trait[resilient:2,fragile:1/2]]
 -> retrieving arrows: arrow[1d4]
+
 ## trait doctoring
 having traits with the same name in different categories and layering traits/features on top of them could be interesting:
   ie. mage slayer (focus: ); (weapon mastery); (spellcasting specialization)
   (generic improvement):slasher: enhances "mage slayer": a creature hit with the attack while casting or continuing a spell becomes vulnerable to {slashing} damage
+
 ## d20 tests
 skill checks: modes of success:
   clear failure/success: -/+ 5 or more of DC
   slight failure/success: -/+ 4 or less of DC
+
 ## action surge
 you may spend/do up to double your turn rate, by trading:
 - last turn's remaining resource at half the rate

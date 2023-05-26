@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685115408068
+updated: 1685117920208
 created: 1684357294795
 ---
 ## foreword
@@ -70,19 +70,21 @@ amalgam ancestry:
   pick up to 4 races as your closest ancestors, 2 of which may be considered your race. Choose up to one trait from among your closest ancestors per ancestral trait category to inherit.
   you may additionally choose to:
     - gain darkvision up to 60ft
-    - gain a feat
+    - gain a feat, eldritch invocation or innate infusion. You may change that choice whenever you gain a feat.
     - change your size by one category up to huge or down to small
     - gain + 1 in an ability score of your choice
     - choose a cantrip to gain at 1st level, and a spell of 1st and 2nd level to gain at 3rd and 5th level respectively as innate Spells known #dnd.templating . Choose a mental Ability Score as Spellcasting Ability Score associated with those spells. You may cast each of those Spells once per Long Rest without expending non-consumed Material Components or Spell Slots. You also know those Spells if you have a spellcasting trait.
-    - choose a
+    - gain resistance to a damage type of your choice.
+    your total ability score increase gained this way is limited to 2.
     for each choice beyond the first, you:
     - subtract 1 from an AS of your choice
-    - gain a disfigure trait
+    (- gain up to one disfigurement/disability.)
 
 ### Background
   - basic: 2 skills, 1 tool(choice)
   - some gain other benefits instead
-  - Extreme backgrounds: mali for boni (usual feat choices)
+engaged backgrounds: mali for boni (usual feat choices)
+additionally, you may choose to affiliate with an order, association, guild or other faction.
 
 ### Class
 autodidact: meta-class; what amalgam ancestry is for ancestry; autodidact is for classes.
