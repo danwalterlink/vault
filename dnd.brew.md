@@ -2,10 +2,15 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685117920208
+updated: 1685124808257
 created: 1684357294795
 ---
 ## foreword
+Options are fun. Being able to make meaningful choices between options is powerful.
+While many proposed changes and additional options blow the door open to ultimate power creep, they are intended as radical empowerment to mechanically underline gameplay choices.
+
+Interface, Implement, Interplay
+
 I believe it possible to build "dnd 6" while backwards compatible (even further back than 5th edition), through "ports"
 ports are interfaces (in essence) that translate rules verbiage from one edition to another.
 within these ports, design decision will need to be made. This will boil down to having different versions for implementations, which will only really be an issue, if they're obtuse and hard to extract/change.
@@ -25,7 +30,6 @@ certain tankards fit snugly in dwarven hands while feeling off to a human with t
 
 
 - powers for drawbacks
--
 - focus on meaningful differentiation, packaging in distinct classes; power level is secondary.
 
 generally, roll for upsides:
@@ -96,7 +100,7 @@ if something refers to class, it refers (its) base class unless noted otherwise.
 fighter: bake fighter/battlemaster into base class #changes.5e
 warlock: bake hexblade-features into base-class #changes.5e
 
-#### class types
+## class types
 smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
 -> small changes have potentially far-reaching effects.
 along general type system, classes fulfill a more 'templative' role
@@ -159,9 +163,10 @@ mutate/concentrate/research
 
 --- mixed
 ##### mixed
-paladin
-ranger
-bard expert/sorcerer
+
+- paladin: divine (pick associated mental ability stat)
+- ranger
+- artificer
 
 -- warrior
   + warrior: monk
@@ -238,7 +243,6 @@ in reverse order of genericity(?)
 magic action -> casting spell (includes innate casting, magical traits, reading scrolls etc)
 cast (arcane/divine/primordial)
 invoke -> contact to extraplanar entity involved
-
 
 mastery trait level
   having used something (weapon, tool, armor) extensively, it is steeped in your essence.

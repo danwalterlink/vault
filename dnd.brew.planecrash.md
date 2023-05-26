@@ -2,7 +2,7 @@
 id: emvyq987lb5t97kbhnh6vzw
 title: Planecrash
 desc: ''
-updated: 1684944920714
+updated: 1685120668988
 created: 1681729892783
 ---
 
@@ -54,7 +54,7 @@ superfactions:
 - carceri
 - hecatonchaeris
 - io
-- the living gate ->the far realm
+- the living gate - the far realm
 
 · neutral, absconding or split
 ysgard(dwarves and elves)
