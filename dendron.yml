@@ -69,7 +69,7 @@ workspace:
     scratch:
         name: scratch
         dateFormat: yy.MM.dd:HH.mm.ss
-        addBehavior: asOwnDomain
+        addBehavior: childOfDomainNamespace
     task:
         prioritySymbols:
             H: high
@@ -89,9 +89,10 @@ workspace:
             mutated: t
             undulated: u
             conjugated: c
+            '': ' '
         todoIntegration: true
         createTaskSelectionType: selection2link
-        addBehavior: asOwnDomain
+        addBehavior: childOfDomainNamespace
         name: task
         dateFormat: 'yy.MM.dd '
         taskCompleteStatus:
