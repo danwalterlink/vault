@@ -2,7 +2,7 @@
 id: k50hz0cyu9tnfyudi6ibv5y
 title: Tmux
 desc: ''
-updated: 1685116168898
+updated: 1685116314119
 created: 1636903106989
 ---
 
@@ -32,7 +32,6 @@ define leader as $cmd
 ## theme
 ~/.tmux.conf
 
-<<<<<<< Updated upstream
 #todo fix status line
 - [ ] #fix emacs doom config
 - [ ] #fix theme #extend
@@ -41,5 +40,6 @@ send to all panes #i
   Ctrl-b :setw synchronize-panes on
     cmd
     sync-panes off
-=======
 [[~/.tmux.conf]]
+
+#todo
