@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685124248353
+updated: 1685133453325
 created: 1684961188700
 ---
 calculations: averages are rounded down
@@ -29,6 +29,8 @@ ie. a d6 resource becomes a d2 resource becomes 1. A feature becomes an illegal 
         (notice it doesn't say expend).
         rules note: effects of the same name don't stack.
 
+- buy an additional roll with exhaustion
+  -> oDnD exhaustion rules
 ## ability score
 ### ability score class
 physical
@@ -129,7 +131,13 @@ if multiple dice in the same roll show the same face, you add one of these dice 
 luck to the bold: legerdemain skill contest: you appropriate the dice and store it for a rainy day. Swap either the number or size of a dice roll with your stored dice.
 
 ## resources
-generally, resource changes and allocations add dice
+modifiers can be converted to dice.
+dice can be spent as resources to gain more, whenever an associated roll is called:
+  attack
+  check
+  throw
+
+resource changes and allocations add dice
 (also, resource expenditure can be indicated by dice size)
 -> generation of feature usage makes dice smaller (until size breakpoint)
 
@@ -146,6 +154,10 @@ dice size average is your proficiency modifier.
 you use spell slots, but can convert between spell slots at spell point rate.
 2,3 5,6,7 9,10,11 13; points cost per spell level
 can only convert 1 slot above 6th per spell level per day.
+
+## feat: featuring
+analogous to "ability score increase",
+"featuring" allows you to choose a class feature from a class sharing your primary class type and of a level up to that cumulative class type level. traits gained this way have the "feature" type.
 
 ## modes of success
 4 stage:

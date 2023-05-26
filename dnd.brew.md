@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685124808257
+updated: 1685128197278
 created: 1684357294795
 ---
 ## foreword
@@ -163,10 +163,11 @@ mutate/concentrate/research
 
 --- mixed
 ##### mixed
-
+  associate your spellcasting to a mental ability stat
+  associated spell-ability you can convert into abilities (like smite)
 - paladin: divine (pick associated mental ability stat)
 - ranger
-- artificer
+- artificer/warlock?
 
 -- warrior
   + warrior: monk
@@ -235,7 +236,6 @@ Prestige Classes: when meeting criteria, your most advanced class becomes the ba
 
 Partial class progression:
   pick features from a class belonging to the same type of the advancing class. The chosen class feature must be of a level less than half your total class type level.
-
 
 ## optional rules
 casting spells:
