@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685024358240
+updated: 1685114958573
 created: 1684961188700
 ---
 calculations: averages are rounded down
@@ -25,6 +25,19 @@ ie. a d6 resource becomes a d2 resource becomes 1. A feature becomes an illegal 
         hardening: as a reaction, you increase your ac by +2. Until the end of your next turn, spells you cast can only be of range:touch or less(self).
         (notice it doesn't say expend).
         rules note: effects of the same name don't stack.
+## ability score
+### ability score class
+physical
+  str
+  con
+  dex
+mental
+  wis
+  int
+  cha
+(status
+  renown
+  sanity
 ## item hit dice
 along the {{generic object}} table.
 object[size[tiny,...,huge], ac[material[paper,11],...,[adamantine,23]],dice.size[d4,...,10], dice.amount[2,...,5], modifier:[craftingQuality, trait[resilient:2,fragile:1/2]]

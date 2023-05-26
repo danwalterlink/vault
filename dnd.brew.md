@@ -2,10 +2,9 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685013025217
+updated: 1685115408068
 created: 1684357294795
 ---
-
 ## foreword
 I believe it possible to build "dnd 6" while backwards compatible (even further back than 5th edition), through "ports"
 ports are interfaces (in essence) that translate rules verbiage from one edition to another.
@@ -24,9 +23,11 @@ iterative, generative and clear versioning/templating including errata ![[Toolin
 strengthen overarching idea that the world is inherently magical. Even the most mundane thing works magic. Doing something repeatly steeps the location in this ritual. Fireplaces grow closer to the elemental flame by each kindling; ancient fireplaces might even spark themselves through sheer habit.
 certain tankards fit snugly in dwarven hands while feeling off to a human with the same prints.
 
-focus on meaningful differentiation, packaging in distinct classes
 
-powers for drawbacks
+- powers for drawbacks
+-
+- focus on meaningful differentiation, packaging in distinct classes; power level is secondary.
+
 generally, roll for upsides:
   for permanent rolls: anything below average gets rounded to dice average (rounded down).
 flexible resource interchange system
@@ -60,21 +61,37 @@ If the total cumulative amount of ASI no more than 3, you may take a feat.
 ### Ancestry
 - culural/heritage, vestigial, partial, mixed and transformation trait templates
   + cultural: traits are available to individuals growing up in a community centered around {{ancestry}}
-  + vestigial: features from distant ancestry that has shrunk to near disfunctionality (vestigial wings that allow you to hover/fall gracefully, essentially)
+  + vestigial: features from distant ancestry that atrophied to (near) disfunction (ie. vestigial wings that allow you to hover/fall gracefully, essentially)
   + partial: only some features of this trait are available. If there are multiple options, choose one. You choose for every instance.
   + mixed: pick any trait from ancestry. You may acquire up to two features via this trait.
   + transformation: Traits gained overwrite base ancestry.
   modifications targeting traits do so for one instance of your choice.
+amalgam ancestry:
+  pick up to 4 races as your closest ancestors, 2 of which may be considered your race. Choose up to one trait from among your closest ancestors per ancestral trait category to inherit.
+  you may additionally choose to:
+    - gain darkvision up to 60ft
+    - gain a feat
+    - change your size by one category up to huge or down to small
+    - gain + 1 in an ability score of your choice
+    - choose a cantrip to gain at 1st level, and a spell of 1st and 2nd level to gain at 3rd and 5th level respectively as innate Spells known #dnd.templating . Choose a mental Ability Score as Spellcasting Ability Score associated with those spells. You may cast each of those Spells once per Long Rest without expending non-consumed Material Components or Spell Slots. You also know those Spells if you have a spellcasting trait.
+    - choose a
+    for each choice beyond the first, you:
+    - subtract 1 from an AS of your choice
+    - gain a disfigure trait
+
 ### Background
   - basic: 2 skills, 1 tool(choice)
   - some gain other benefits instead
   - Extreme backgrounds: mali for boni (usual feat choices)
 
-### Classe
+### Class
+autodidact: meta-class; what amalgam ancestry is for ancestry; autodidact is for classes.
+pick:
+
 you are considered lvl0 for all (base) classes you haven't picked a level in
 if something refers to class, it refers (its) base class unless noted otherwise.
 
-figher: bake fighter/battlemaster into base class #changes.5e
+fighter: bake fighter/battlemaster into base class #changes.5e
 warlock: bake hexblade-features into base-class #changes.5e
 
 #### class types
