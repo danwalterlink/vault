@@ -2,10 +2,11 @@
 id: q0okq1dbfyf3x39jptwfuul
 title: Dnd
 desc: ''
-updated: 1685134519795
+updated: 1685179288005
 created: 1679053558348
 ---
-## top down designs
+saturation of action economy
+
 -> pick: either of 2 choices, generally
 caster: spell
   wis
@@ -31,7 +32,6 @@ martial: maneuver can, focus will associate with AS. drills, con to sth
 spell-origin
   pact: short rest, invoke entity
     cha or int multiclass spell scaling
-      ->
     half or full caster
 
 ## pilfering
@@ -43,8 +43,10 @@ item
   artificer
 class feature
   rogue
+weapon masteries
+  fighter
+maneuvers
+  battle master
 any, but additional cost/restriction, additional/restricted typecast options
     crucible (temporary)
   warlock: invocations/mystic arcanum
-martial skill
-  fighter

@@ -2,41 +2,42 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685139425647
+updated: 1685195283661
 created: 1684956724533
 ---
 "action surge becomes a general feature -> [[]]
 if you dont want feature to be readily accessible through multiclassing/trait doctoring, make it an amalgam feature (features that exist through layering if class features) and describe the fantasy/surrounding ideas through the closest (sub)class
-## type additions
-### item
-minor, medior, major
-### spell
-minor(0,1), medior(2,3,4,5), major(6+)
-### character level tier
-(4) 0-2 novice, 3-6 journey, 7-11 grand, 11-16 heroic, 17+ epic
+
 ## template
 ### progression
 prof(4): 5, 9, 13, 17 [4]
+  improvements: -> class level tier
 feat(4*): (0), 4, 8, 12, 16, 19
   feat(3): 1, 4, 7, 10, 13, 16, 19 [7]
 subclass feature: {subclass} choice,
+  subclass features(3): 3, 6, 9, 12, 15, 18
 feature(3): 2, 5, 8, 11, 14, 17
-  improvements: +1
+  improvements: -> prof?/cumulative ct?
   feature(3): 2,5,8,11,14,17
-subclass features(3): 3, 6, 9, 12, 15, 18
 epic boon: 20, 21, 22,…
 spell level(2): 1, 3, 5, 7, 9, 11, 13, 15
 spell slots(1): sp
+  when access to spell level
+  +1 per level, up to:
+  4 for minor, 3 for medior (2 for 5th level) and 1 for major spells
+  epic levels: slot restriction is raised to 3 for 5th, and 2 for major spells. backfill +1 slot per level.
 action economy: 0, 5, 10, 15
-## class list
-  class features
+
+## feature
+feature can be untyped -> inaccessible by any other means!
+[core, base, sub, paragon, prestige, origin, kiln]
   generally:
     - additional resource allocation
     - base class features are unspecific
     - abilities are preferably tied to resources, instead of binary cooldowns (per day)
 artificer:= tinkerer
-  [ arcane infusions
-  , spell creations
+  [ infusion specialist
+  , cobbled creations (cobble)
   , right tool for the job
   ] (armorer)
 barbarian:
@@ -86,7 +87,7 @@ monk:
   ] -> immortal -> move into psion)
 paladin:
   [ divine sense
-  , aura presence
+  , paragon/champion (divine presence/aura)
   , lay on hands
   ] (vengeance)
 ( psion:
@@ -95,56 +96,55 @@ paladin:
   , discipline
   ] -> awakened -> move to crucible -> improves arcane resource generation (or move into monk?))
 ranger: (environmentally oriented)
-  [ prowl(explorer, foe, awareness)
-  , scavenge clean
+  [ pick: prowl(explorer, foe, awareness), scavenge()
+  ,
   , primal preparation (+ability appropriation: primal)
-  ] (gloom stalker)
+  ] (gloom stalker)[adaptable]
 rogue:
-  [ cunning action (+ ability appropriation)
+  [ cunning action (+ ability appropriation, moving actions into different action types)
   , magic hands (mage hand(can put objects on people), use of magical devices)
-  , sneak attack
+  , sneak: attack, focus,
   ] (thief)
 sorcerer:
-  [ metamagic (additional metamagic: spell echo, living spell, partial/condensed spell)
+  [ metamagic - "intuitive" (additional metamagic: spell echo, living spell, partial/condensed spell)
   , font of magic
   , magical guidance
-  ] -> clockwork soul (expanded spell lists)
-warlock:
+  ] (clockwork soul (expanded spell lists))
+warlock: (patron powers, or mutate existing ones)
   [ pactsmith [meldmind]
   , eldritch arcana [unwanted inquiries]
   , invocations
   ] (hexblade hex/eldritch blast integration)
 wizard:
   [ scholarly tradition[spellbook]
-  , acribic arcaneries [additional doctorings for spell]
+  , metamagic: acribic [scribe/alter/memorize metamagic options]
   , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
   ] (scribe (scribe/alter/memorize))
 
 ## class types
+[affix/prefix system?]
 class types are different than "caster - martial - channeler" character types that are tied to traits:
   if you have either
     spellcasting, maneuvers, or channel powers, you count as a caster, martial or channeler respectively.
 other character types, such as alchemist, artificer or other professions are tied to proficiency in tools.
 your proficiency bonus with tools can be increased by renown. See: Journeyman.
 
-(invoke names, cast spells)
+(invoke names/entities, cast spells)
 subtype: "tone/primary" - power: essence
-warrior(honed/wit/brute): fighting style
-caster(learned(ritual casting)/innate/pact): spellcasting
-priest(divine/primal/eldritch): channel {{source}}
-(rituals?)
+(passive, primary, secondary)
+warrior(honed/wit/brute): fighting style, maneuvers, focus
+caster(learned/innate/pact): spellcasting, metamagic, additional access
+priest(divine/primal/eldritch): paragon, channel, invocations
 
 subtype: "kiln/secondary" - power: source
-crucible: prolong temporary buffs
-innate: metamagic, improvise
+innate: metamagic, intuit [crucible -> temporary innate]
 learned: acribic, ritual casting
 pact: living spell
 
-subtype: "chord/power/tertiary" - power: origin
-arcane: damage types: all[elemental, raw=arcane=force, ], )
-primal: damage types: elemental
-divine: damage types: necrotic/radiant
-material -> all damage types:
+subtype: "chord/tertiary" - power: origin
+arcane: primary damage types: all/none
+primal(prime material): primary damage types: elemental, physical [primordial]
+divine: primary damage types: necroti/radiant
 
 -> 27 3-subtype combinations
 up to 3 components. multiclass combinations are cut to 3.
@@ -155,10 +155,10 @@ pure classes (one of subtype) ie. wizard(caster, arcane)
   focussing subclasses: count a subtype doubly ie. wizard[subclass](caster, caster, arcane)
 focussing multiclasses? -> monk: you do not gain additional features, but you count your monk class levels as 3 levels for the purposes of gaining additional traits in your primary class
 balanced multiclasses: lose primary class, gains an additional secondary class
-mixed martial classes:
-  - honed(balanced, any style)
-  - wit (apply generics through dice, )
-  - brute (typecast certain ability score to str/con)
+mixed martial classes: style
+  honed(flat boni, balanced, any style)
+  wit(emphasize dex/precision, dice conversions and additional effects)
+  brute(typecast certain ability score to str/con)
   -> intellect brute(psion!): typecast everything to intelligence
   adding subclass options that improve on the specific nature:
   -> speeding up spell progression (2/3rds caster): every 3 classes count as 2 additional as to spell progressions. Rest: 1, neglect. Rest 2 add another 1.
@@ -208,5 +208,31 @@ supertype: (spell slot progression, trait doctoring -> supplanting traits = graf
 closeness in type:
 caster:
   bard - artificer - : both have "create" spells worldly
+
+subclass-less: "pure"/generic class: counts as a prestige and paragon class.
+  - gains quicker progressions by foregoing subclass choice
+  - more resources?
+  - gains "featureless pilferer"
+
+## paragon class type
+paragon of:
+  might (fighter/psion/barbarian)
+  cunning (bard/rogue, through paragon pilfering)
+  {deity}/elemental {element} (cleric/druid)
+  power (fighter)
+  arcana (wizard/sorcerer)
+  {any: warlock}
+
+warrior paragon -> champion/cavalier (warrior/warrior/warrior)
+  fighter: typecast any martial ability [typecast]
+priest paragon: choose invocations paragon progression (priest/priest/priest)
+  primal paragon: channel: elemental wildshapes
+  divine paragon:
+caster paragon (caster/caster/caster)
+  wizard
+    scribe: typecast spell-like abilities into arcane spells
+    onomant: drop material and somatic components, power words, smaller spell book
+warlock doesn't advance any other progressions. typecast class
+(hybrid classes aren't paragon classes)
 
 ## prestige

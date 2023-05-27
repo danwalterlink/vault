@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685133453325
+updated: 1685205265197
 created: 1684961188700
 ---
 calculations: averages are rounded down
@@ -10,12 +10,30 @@ definitions:
   "per day" is synonymous with "per long rest" since you cannot take multiple long rests within 24 hours.
   effects with the same name don't stack.
   turn rate: per resource per turn
+  dice sizes are:
+    d{2,4,6,8,10,12,20}
+  swap dice according to:
+  - 1d20 = 3d6
+  - 3d6 = 7d2
+  if you convert dice sizes pick the closest amount resulting in the same average
+
+## categories
+### type
+types are additive, category-specific (non-commutative) and transitive.
+#### type additions
+##### item
+minor, medior, major
+##### spell level tier
+cantrip(0), minor(1,2,3), medior(4,5), major(6,7,8), epic(9)
+##### character level tier
+(4) 0-2 novice, 3-6 journey, 7-11 grand, 11-16 heroic, 17+ epic
+alternate ways to unlock epic tier traits: increase an ability score above 20?
 
 ## default critical misses
   messing with resources adds to the messed with resource instead while losing your expended resource.
 
 ## resources
-{interface}: "once per {length} rest" is equivalent to 1d2 dice, doubling in size per stacking instance.
+{interface}: "once per {length} rest" is equivalent to 1d2, doubling in size per stacking instance.
 heroic inspiration can be converted into resource dice.
 future resource gains of the same type are cut in dice size until recuperating rest, rounded down.
 ie. a d6 resource becomes a d2 resource becomes 1. A feature becomes an illegal action, if you can't pay its base costs, even if a trait allows you to pay alternate costs.
@@ -29,21 +47,73 @@ ie. a d6 resource becomes a d2 resource becomes 1. A feature becomes an illegal 
         (notice it doesn't say expend).
         rules note: effects of the same name don't stack.
 
-- buy an additional roll with exhaustion
+- buy a reroll with exhaustion
   -> oDnD exhaustion rules
+
+### activity dice
+translate fixed action economy into activity dice
+[typed] - attack, move, magic {
+- activity dice size = proficiency dice size -> conversions become more expensive in general, if you level up.
+  spending activity dice allows you to exceed your action limit, not vice versa.
+- whenever you expend resources, you can spend up to the amount stated.
+- typed dice other than movement expire at the end of your round
+expired dice appreciate, convert into activity dice and return to your activity dice pool
+-> follow proration rules. leftovers fuse into dice( 3 depreciated d2s becomes 1s, add to d3 and round down to d2).
+-> converting multiple instances of typed dice is very inefficient
+-> spending slightly less can accrue significant mid-term value
+(splitting dice, rogue: moving to 3d6, can expend)
+receiving activity dice:
+  interacting with objects uses movement (or magic dice)
+  interacting with creatures uses attack dice}
+- 1 action = 1 dice
+- bonus action = 1/2 dice
+- reaction = 1/2 dice
+- base mvmt = 1 dice
+(linear addition of resource accruement)
+spending dice: (initial, prorate, max)
+    grants additional effects?
+    -> swifter attacks become less accurate
+  action: (1, +2, 5)
+  [cost modifiers]
+  bonus: (1, +1, 2)
+  reaction: (1, +1, 0) proration decreases for each turn you haven't used one
+  -> reactions become cheaper when certain enemies are around
+  concentrating: +.5
+  -> war caster: letting you cast spells as reaction is way cheaper
+  mvmt speed: 1 dice (doubling speed halves cost)
+-> equivalent to halving movement speed = double dice cost
+prorate:
+  features like extra attack adapt to:
+    - attack actions have lower initial proration.
+    - attack actions cost less (minimal scaling)
+    (2 attacks halves the cost, )
+  some actions can have hybrid costs
+  i.e. it's beneficial for users of costly actions, such as magic to be as stationary as possible.
+total level class -> variant scaling: some
+ways of gaining additional attacks:
+  extra attack
+  2 weapon
+  + action surge
+
+action class: (more dex, yields more speed)
+  reaction: speed
+
+actions have different additional costs:
+ie. spells somatic components require movement speed.
+this means that some spells can be cast
+
 ## ability score
-### ability score class
-physical
+### ability score type
+#### physical
   str
   con
   dex
-mental
+#### mental
   wis
   int
   cha
-(status
+#### status
   renown
-  sanity
 ### disfigurements
 - lose a hand
 - lose a foot
@@ -51,10 +121,24 @@ mental
 - deaf
 - blind
 
+## trait
+### metatrait
+generics, apply if possible.
+[adaptible] change type on trigger
+[typecast] ability score association
+[pilfering] assume type previous action
+[aleatoric] dice shape {amount· size}, effects on combinations
+[cunning] change action type {action, bonus action, reaction}
+[swift] add of type
+[deft] improve one type
+[conserving] retains type
+
 ## item hit dice
 along the {{generic object}} table.
 object[size[tiny,...,huge], ac[material[paper,11],...,[adamantine,23]],dice.size[d4,...,10], dice.amount[2,...,5], modifier:[craftingQuality, trait[resilient:2,fragile:1/2]]
 -> retrieving arrows: arrow[1d4]
+using items without tracking individual hit dice:
+  map hit dice to chanced traits that are rolled on interaction.
 
 ## status conditions
 {{template}}: while {{status.condition}} you experience the following effect:
@@ -66,6 +150,8 @@ dazed: Can't take bonus actions or use reactions. You cannot concentrate. You ca
   · take an action
   · or move,
   not both.
+#### grievous wounds
+on receiving lethal strikes, you have a chance to sustain a grievous wound.
 ### objects
 damaged: at or below half hp
 broken/torn: up to one maximized hit dice away from 0 hp.
@@ -75,6 +161,7 @@ shattered/ripped: 0 hp.
 having traits with the same name in different categories and layering traits/features on top of them could be interesting:
   ie. mage slayer (focus: ); (weapon mastery); (spellcasting specialization)
   (generic improvement):slasher: enhances "mage slayer": a creature hit with the attack while casting or continuing a spell becomes vulnerable to {slashing} damage
+#i -> replace typed concept with another concept of that type (not commutative!)
 
 ## d20 tests
 skill checks: modes of success:
@@ -83,46 +170,63 @@ skill checks: modes of success:
 saving throws
 attack rolls
 
-## action dice
+## action economy
+-> hybrid d6/d20 system
+turn rate: resource expenditure rate per turn
+conversions prorate. whenever you convert activity dice, you either:
+- remove one
+- shrink dice size
+
+## activity dice
+your activity dice carry over.
+you cannot store more than double your turn rate in dice
 your action dice size is equal to your proficiency dice's
 -> resource system
 
 ## heroic actions
 much like legendary creatures have access to additional actions in legendary actions, heroic actions may be taken by creatures if they expend heroic inspiration.
-when you take a heroic action, you may
-
-## heroic: action surge
-you may spend/do up to double your turn rate, by trading:
-- last turn's remaining resource at half the rate
-- this turn's remaining resource at rate
-- next turn's remaining resource at half the rate
-(or unlimited, but usage prorates)
--> convert into action dice(?)
+you may take a heroic action on your as a by spending:
+- heroic inspiration
+- half your available hit dice, rounded up
+- your activity dice maximum
+you cannot take heroic actions if you
+- cannot gain heroic inspiration
+- if you are incapacitated
+### heroic: surge
+you may take an additional action.
 : traits have action dice usage templates/associations
 -> tied to proficiency dice size, multiply and/or add with modifiers
-
-action class: (more dex, yields more speed)
-  reaction: speed
-
-actions have different additional costs:
-ie. spells somatic components require movement speed.
-this means that some spells can be cast
 
 minimal ritual:
 - dc check to cast, fail to make less effective
 
-## maneuver: power attack
-((-1 attack roll := +2 damage)x up to weapon dice size/2)xup to prof mod
+## martial features
+### maneuver: power attack
+((-1 attack roll := +2 damage)x up to weapon dice size/2)?(up to prof mod)
+(improved by brute)
 
-## maneuver: precision attack
-((-1 attack roll)xweapon dice size/2 := expanded clean hit range // crit range)x up to prof mod
+### maneuver: precision attack
+((-1 attack roll)xweapon dice size/4 := expanded clean hit range // crit range)x up to prof mod
+-> power stance: 2 weapon of same type: benefit
+(improved by cunning/witty fighters)
 
-## focus: enhanced attack
+### maneuver: honed attack
+both precision and power at half efficiency
+-1att x dmgDiceSize/2 = +2dmg+dmDiceSize/2)
+improved by weapon mastery
+-> variant: if longsword: when you expand crit range: 20, 1, 19, 2, ... instead.
+  (optional variant): if you expand your crit range this way, the lowest roll not resulting in a crit becomes a crit miss instead
+
+### focus: enhanced attack
 concentrate on applying a maneuver to an attack without expending resources. If a feature allows you to expend additional resources, you may apply them at a rate of normal expenditure/prof mod (rounded down)
 (this implies that if you lose concentration, you lose the attack advantage. you roll concentration checks as if concentrating on a spell.
 similarly, a spellcaster that casts a spell that doesn't ask concentration, while casting, you still roll for concentration checks as if you were concentrating.)
 
-## focus: mage slayer
+### fighting style: orthodox
+stance: you cannot critically strike, but your clean hit range expands by 2 and
+mastery: your clean hits deal brutal damage
+
+### focus: mage slayer
   if a creature takes a magic action within your reach, you may expend your reaction to make an opportunity attack against that creature.
   the target rolls d20 tests made this way to maintain concentration on casting or continuing spells with disadvantage.
 
@@ -142,18 +246,28 @@ resource changes and allocations add dice
 -> generation of feature usage makes dice smaller (until size breakpoint)
 
 ### heroic inspiration
-you can only ever have 1 heroic insiration.
-heroic inspiration can replace ability costs paid in dice and is your proficiency dice size.
-- you gain heroic inspiration whenever you roll a 20 on a d20 test.
+you can only ever have 1 heroic insiration, and gain it by:
+- at least two dice rolls would have resulted in successes on contested d20 tests with disadvantage or worse, or if additonally one of those hits resulted in a critical hit for rolls made with advantage or better.
+- rare demonstrations of cunning and character, occasionally.
+you can spend heroic inspiration to:
+- replace costs paid in dice. Your heroic inspiration dice is the same size as the cost it replaced, or your proficiency dice in size, whichever results in lesser effects.
+- roll an additional dice for a d20 test, pick one to discard.
 
 ### proficiency
-dice size average is your proficiency modifier.
+dice size average equals your proficiency modifier.
 +2 is d4, etc. up to +6 = d12 increased every 4th level past 1st (5th, 9th…)
 
 ### spell points
 you use spell slots, but can convert between spell slots at spell point rate.
 2,3 5,6,7 9,10,11 13; points cost per spell level
 can only convert 1 slot above 6th per spell level per day.
+
+## epic feat: {spell school} master
+(prereq: 5th level spells)
+spells known of school/total spell level of 3rd level or higher
+- {1}: master: conversion rebate to locked slots.
+- {2}: grandmaster: diviner-like refueling
+- {3}: legend: spellweaving {max slot lvl + mSl/4}
 
 ## feat: featuring
 analogous to "ability score increase",
@@ -184,6 +298,12 @@ an arcane focus might alleviate the need of components, but it grows gaunt and i
 ### infusions
 traits of magical objects are treated as infusions. on use by non-proficient users, magical objects can lose charges or infusions in addition.
 
-## grievous wounds
-on receiving lethal strikes, you have a chance to sustain a grievous wound.
 ## crafting
+innate abilities of creatures can be harvested.
+
+## fighting styles
+### great weapon fighting
+additional damage dice: heavy weapons as if they had brutal(1)
+
+### defensive
+ac: +1, you gain access to the parrying stance
