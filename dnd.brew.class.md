@@ -2,13 +2,9 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685279618285
+updated: 1685283345622
 created: 1684956724533
 ---
-
-"action surge becomes a general feature -> [[]]
-if you dont want feature to be readily accessible through multiclassing/trait doctoring, make it an amalgam feature (features that exist through layering if class features) and describe the fantasy/surrounding ideas through the closest (sub)class
-
 ![[Progressions|dendron://dnd/dnd.brew.class.progressions]]
 ## feature
 feature can be untyped -> inaccessible by any other means!
@@ -17,91 +13,118 @@ feature can be untyped -> inaccessible by any other means!
     - additional resource allocation
     - base class features are unspecific
     - abilities are preferably tied to resources, instead of binary cooldowns (per day)
-artificer:= tinkerer
+
+### artificer
+:= tinkerer
   [ infusion specialist
   , cobbled creations (cobble)
   , right tool for the job
   ] (armorer)
-barbarian: (berserker/zealot, psion, )
+(armorer, artillerist, alchemist)
+
+### barbarian
   [ reckless attack
   , rage
   , crucible of ancients
   ] (totem, ancestral guardian)
-bard:
+(berserker/zealot, psion, )
+
+### bard
   [ bardic inspiration
   , magical secrets
   , (counter)charming
   ] (lore)
-blood hunter:
+()
+
+### blood hunter
   [ blood malediction
   , crimson rites
   , hemocraft
   ] (mutant)
-cleric:
+()
+
+### cleric
   [ emboldening bond
   , turn undead
   , domain expansion
   ] (peace)
-druid:
+
+### druid
   [ natural recovery
   , wildshape (shapes known, 12 statblocks)
   ,
   ] (moon)
-fighter:
+
+### fighter
   [ martial mastery (weapon mastery, multiples, any class)
   , second wind(indomitable(unstun), additional movement, hp regen)
   , balanced training (additional feats, floating proficiency, improve action surge)
   ] (champion/cavalier)
-monk:
+
+### monk
   [ flurry of blows
   , stunning strike
   , ki
   ] (shadow)
-( monster hunter:
+
+### monster hunter
   [ imbibe
   , prowl
   , quarry
   ] -> move into ranger; spellless)
-( mystic:
+
+### mystic
   [ psionics
   , meditate
   , discipline
   ] -> immortal -> move into psion)
-paladin:
+
+### paladin
   [ divine sense
   , paragon/champion (divine presence/aura)
   , lay on hands
   ] (vengeance)
-( psion:
+
+### psion
   [ psionics
   , raw talent
   , discipline
   ] -> awakened -> move to crucible -> improves arcane resource generation (or move into monk?))
-ranger: (hunter/monster hunter/monster slayer, drake warden/beast master, trapper)
+
+### ranger
   [ pick: prowl(explorer, foe, awareness),
   , scavenge
   , primal preparation (+ability appropriation: primal)
   ] (gloom stalker)[adaptable]
-rogue: (assassin/arc trickster/swashbuckler)
+(hunter/monster hunter/monster slayer, drake warden/beast master, trapper)
+
+### rogue
   [ cunning action (+ ability appropriation, moving actions into different action types)
   , magic hands (mage hand(can put objects on people), use of magical devices)
   , sneak: attack, focus,
   ] (thief)
-sorcerer: (archfey, draconic, abyssal)
+(assassin/arc trickster/swashbuckler)
+
+### sorcerer
   [ metamagic - "intuitive" (additional metamagic: spell echo, living spell, partial/condensed spell)
   , font of magic
   , magical guidance
   ] (clockwork soul (expanded spell lists))
-warlock: (patron powers, or mutate existing ones)
+(archfey, draconic, abyssal)
+
+### warlock
   [ pactsmith [meldmind]
   , eldritch arcana [unwanted inquiries]
   , invocations
   ] (hexblade hex/eldritch blast integration)
-wizard: (evoker, )
+(patron powers, or mutate existing ones)
+
+### wizard
   [ scholarly tradition[spellbook]
   , metamagic: acribic [scribe/alter/memorize metamagic options]
   , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
   ] (scribe (scribe/alter/memorize))
+(evoker, )
 
 ## class types
 [legacy]
@@ -221,3 +244,7 @@ warlock doesn't advance any other progressions. typecast class
 (hybrid classes aren't paragon classes)
 
 ## prestige
+
+## divergence from 5e
+"action surge becomes a general feature -> [[]]
+if you dont want feature to be readily accessible through multiclassing/trait doctoring, make it an amalgam feature (features that exist through layering if class features) and describe the fantasy/surrounding ideas through the closest (sub)class
