@@ -2,9 +2,14 @@
 id: fb1ww9aa519dql8jnh8j8vu
 title: Tooling
 desc: ''
-updated: 1684930253654
+updated: 1685280659152
 created: 1684928875075
 ---
+5etools features
+- tag / type
+- nested lookups
+  - inheritance
+  - derivatives
 
 database/table - graph/json/yml - textual - pdf
 dnd brew -> yaml formatting

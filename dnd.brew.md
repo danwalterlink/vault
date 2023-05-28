@@ -2,9 +2,14 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685128197278
+updated: 1685282794157
 created: 1684357294795
 ---
+scaling, power
+- centralising ideas: moving closer to "stem" of characters
+- generally, more powerful options are specialising and repeatable, then try to apply that stack to as much as possible
+- choices are empowering, so blowing the door open for more granular amalgamations of features will raise the roof of mechanical abilities, AND give access to new lows of synergy. So while, in an absolute sense, the gulf of power becomes more, rather than less, the difference between maximized and basic, "by-the-book" characters is intended to be much smaller, since the new lows are only accessible if you engage with the granular "build-it-yourself" system extensively.
+
 ## foreword
 Options are fun. Being able to make meaningful choices between options is powerful.
 While many proposed changes and additional options blow the door open to ultimate power creep, they are intended as radical empowerment to mechanically underline gameplay choices.
@@ -28,7 +33,6 @@ iterative, generative and clear versioning/templating including errata ![[Toolin
 strengthen overarching idea that the world is inherently magical. Even the most mundane thing works magic. Doing something repeatly steeps the location in this ritual. Fireplaces grow closer to the elemental flame by each kindling; ancient fireplaces might even spark themselves through sheer habit.
 certain tankards fit snugly in dwarven hands while feeling off to a human with the same prints.
 
-
 - powers for drawbacks
 - focus on meaningful differentiation, packaging in distinct classes; power level is secondary.
 
@@ -38,15 +42,23 @@ flexible resource interchange system
 - half of unused resources from last turn, pay in current turn or restrict your next turn: up to double your turn maximum.
 - movement for reactions
 
+
 tie regenerative capabilities to resources -> action surge regeneration to hit die / or other resources.
 - give panic-options that are expensive. get cheaper during rests. -> active rests
+  - make the time spent during rests meaningful
 - have other ways of regenerating resources other than cooldowns
 - certain interactions diminish resource availability
+condition checks tied to resources default to #dnd.generics half or less.
 
+## rest
 (take a breather, short rest, long rest, recuperation)
 taking a breather uses available minor consumables to
 less punishing initial exhaustion effects.
--> recovering from exhaustion reduces your total hit dice
+recovering from exhaustion reduces:
+1) total no. of hit dice
+2) hit dice size
+3) [restfulness] regaining hit dice {[rested]amount/size[fatigue]} vs [preparedness] regenerating resources;
+: a character counts as fatigued, if their current hit dice size lesser than half their maximum
 - long rests without available hit dice only recovers a single hit dice instead of any other benefits.
 - long rests with your current maximum hit dice are recuperative.
 - a recuperative rest restores your hit dice maximum
@@ -285,33 +297,6 @@ combat: critical failure/success
   failure: failed by 5 or more: automatic minor weapon damage, slight chance of major weapon damage (rendering unusable or less effective). Can use reaction to mitigate.
   critical failure: automatic major weapon damage. Can use reaction to mitigate.
 
-### feats
-shared mind:
-(becomes highly abusable with: one-sided telepathy block, sleeping potions or as torture)
-arcane etchings back of head, willing participants rest back to back for one minute to implant their mind into the one not concentrating.
-moving more than 30 ft apart from one another without other means of telepathy ends the bond.
-unconscious or charmed creatures are considered willing.
-  - without concentrating, either party hears the others thoughts as if they were their own
-  - as an action, you can assume control of a willing party
-  - either party makes concentration checks with disadvantage
-  - either party takes psychic damage if any party takes psychic damage not received via this trait
-  - you cannot rest
-
-shield master
-  {++}
-  you can don a shield as your free item interaction.
-  you may use armor class calculations that forbid using a shield with shields.
-  shield bash: advantage on shove action
-arcane notes
-  if you discerned the makeup of an arcane spell, you may use generic spell components and magical ink to scribe the spell into your spellbook.
-  there is a chance at least parts of the spell have escaped your scrutiny or intricacies have eluded your mind.
-  For each 3 points you have missed the DC (10 + double the spells level) of the target spell
-poisoner
-- 1 dose = coating amount on dagger or 3 pieces of ammunition for it to show effects
-- heavy dose = not deliverable via coating. consumes double the amount of poison and requires a special container
-- craft 1 heavy dose by distilling 2 normal ones
-- ignore resistance
-- half damage as acid damage if immune
 
 Potions
 : healing potions restore health according to : minor healing potion (2d4 + constitution modifier) ||
@@ -319,16 +304,4 @@ Potions
   anything over 1/2 is restored over time at (1/2 number of dice) hp/round.
 (the following makes frequent cooking and/or magical food a necessity for adventurers)
 
-## feats
-  enable power-fantasy of gwm-pom||shs-cbe, by enabling the core fantasy in more ways.
-  -> generic power attack:
-    gambling: scale: (-1 attack roll -> +2 dmg roll)xmaxPmod, 2->3, 3-4 (choose either attack or dmg mod, other gets calcd: rounded up.), can only go up in a turn.
-  -> allow dynamic resource allocation
-class passives:
-  maneuvers for martial classes
-  steal from ygp.
-    overhaul:
-      ranger
-        lean into different playstyles
-      barbarian
-        pro/con rage, reckless attack
+![[Brew|dendron://dnd/dnd.brew.feats]]
