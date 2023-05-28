@@ -2,9 +2,10 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685195283661
+updated: 1685279406693
 created: 1684956724533
 ---
+
 "action surge becomes a general feature -> [[]]
 if you dont want feature to be readily accessible through multiclassing/trait doctoring, make it an amalgam feature (features that exist through layering if class features) and describe the fantasy/surrounding ideas through the closest (sub)class
 
@@ -40,11 +41,11 @@ artificer:= tinkerer
   , cobbled creations (cobble)
   , right tool for the job
   ] (armorer)
-barbarian:
+barbarian: (berserker/zealot, psion, )
   [ reckless attack
   , rage
   , crucible of ancients
-  ] (totem)
+  ] (totem, ancestral guardian)
 bard:
   [ bardic inspiration
   , magical secrets
@@ -95,17 +96,17 @@ paladin:
   , raw talent
   , discipline
   ] -> awakened -> move to crucible -> improves arcane resource generation (or move into monk?))
-ranger: (environmentally oriented)
-  [ pick: prowl(explorer, foe, awareness), scavenge()
-  ,
+ranger: (hunter/monster hunter/monster slayer, drake warden/beast master, trapper)
+  [ pick: prowl(explorer, foe, awareness),
+  , scavenge
   , primal preparation (+ability appropriation: primal)
   ] (gloom stalker)[adaptable]
-rogue:
+rogue: (assassin/arc trickster/swashbuckler)
   [ cunning action (+ ability appropriation, moving actions into different action types)
   , magic hands (mage hand(can put objects on people), use of magical devices)
   , sneak: attack, focus,
   ] (thief)
-sorcerer:
+sorcerer: (archfey, draconic, abyssal)
   [ metamagic - "intuitive" (additional metamagic: spell echo, living spell, partial/condensed spell)
   , font of magic
   , magical guidance
@@ -115,13 +116,19 @@ warlock: (patron powers, or mutate existing ones)
   , eldritch arcana [unwanted inquiries]
   , invocations
   ] (hexblade hex/eldritch blast integration)
-wizard:
+wizard: (evoker, )
   [ scholarly tradition[spellbook]
   , metamagic: acribic [scribe/alter/memorize metamagic options]
   , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
   ] (scribe (scribe/alter/memorize))
 
 ## class types
+[legacy]
+obsolete class, superseded by a newer version
+[derived]
+beast master -> drakewarden
+: variations/sub-subclasses
+just syntactical sugar that makes inheritance-like models more apparent
 [affix/prefix system?]
 class types are different than "caster - martial - channeler" character types that are tied to traits:
   if you have either
@@ -205,20 +212,17 @@ supertype: (spell slot progression, trait doctoring -> supplanting traits = graf
   monk(extreme dedication: double progression, no additional features), psion(raw arcane prodigy), mystic()
     psi/chi (psi -> chi: "bodied" psi)
 
-closeness in type:
-caster:
-  bard - artificer - : both have "create" spells worldly
-
-subclass-less: "pure"/generic class: counts as a prestige and paragon class.
+subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon class.
   - gains quicker progressions by foregoing subclass choice
   - more resources?
   - gains "featureless pilferer"
+  other means of acquiring paragon traits: high level (sub)class feature
 
 ## paragon class type
 paragon of:
   might (fighter/psion/barbarian)
   cunning (bard/rogue, through paragon pilfering)
-  {deity}/elemental {element} (cleric/druid)
+  {deity}/{circle} (cleric/druid)
   power (fighter)
   arcana (wizard/sorcerer)
   {any: warlock}

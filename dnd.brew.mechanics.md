@@ -133,6 +133,18 @@ generics, apply if possible.
 [deft] improve one type
 [conserving] retains type
 
+adaptive reselection:
+- contextual:
+  ie. hunter: horde breaker / colossus slayer
+  -> species specialist?
+  : intuition/wit: learn on the fly. -> [deferred]
+  : leveling decision fixed :-> resets on long rest. [hesitant]
+  : some choice made permanent on repeated choice without [honed]
+  : honed abilities can be extended.
+  -> size
+  making similar distinction in martial classes that exists in casters:
+    prepared/learned casters
+
 ## item hit dice
 along the {{generic object}} table.
 object[size[tiny,...,huge], ac[material[paper,11],...,[adamantine,23]],dice.size[d4,...,10], dice.amount[2,...,5], modifier:[craftingQuality, trait[resilient:2,fragile:1/2]]
