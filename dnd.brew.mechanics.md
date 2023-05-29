@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685359429776
+updated: 1685377748772
 created: 1684961188700
 ---
 
@@ -30,7 +30,7 @@ minor, medior, major
 cantrip(0), minor(1,2,3), medior(4,5), major(6,7,8), epic(9)
 
 ##### character level tier
-(4) 0-2 novice, 3-6 journey, 7-11 grand, 11-16 heroic, 17+ epic
+(4) 0-2 novice, 3-6 master, 7-11 heroic, 12-16 grand, 17+ epic
 
 alternate ways to unlock epic tier traits: increase an ability score above 20?
 
@@ -131,29 +131,36 @@ this means that some spells can be cast
 ## trait
 ### metatrait
 generics, apply if possible.
+[core]
 [adaptible] change type on trigger
 [typecast] ability score association
 [pilfering] assume type previous action
 [aleatoric] dice shape {amount· size}, effects on combinations
 [cunning] change action type {action, bonus action, reaction}
-[swift] add of type
+[precise] expanding beneficial ranges
+[brutal] additional dice
+[paragon] improve core
+[heroic] surge; replaces action surge.
+[epic] improve heroic actions;
+[reactive] expend reaction for benefit, convert into reaction
+[improved] add of type
+[greater] additional effects
 [deft] improve one type
 [conserving] retains type
 [common][lesser][greater][grand][epic] additional use
 [canny] expertise
-[adaptive] ^'adaptive reselection"
-
-adaptive reselection:
-- contextual:
-  ie. hunter: horde breaker / colossus slayer
-  -> species specialist?
-  : intuition/wit: learn on the fly. -> [deferred]
-  : leveling decision fixed :-> resets on long rest. [hesitant]
-  : some choice made permanent on repeated choice without [honed]
-  : honed abilities can be extended.
-  -> size
-  making similar distinction in martial classes that exists in casters:
-    prepared/learned casters
+[adaptive] (re)selection
+  - contextual:
+    ie. hunter: horde breaker / colossus slayer
+    -> species specialist?
+    : intuition/wit: learn on the fly. -> [deferred]
+    : leveling decision fixed :-> resets on long rest. [hesitant]
+    : some choice made permanent on repeated choice without [honed]
+    : honed abilities can be extended.
+    -> size
+    making similar distinction in martial classes that exists in casters:
+      prepared/learned casters
+ie. barbarians(12) get brutal(1) on 9, brutal(2) on 13 and brutal(3) on 17
 
 ## item hit dice
 along the {{generic object}} table.
@@ -193,6 +200,7 @@ saving throws
 attack rolls
 
 ## action economy
+generic increases
 -> hybrid d6/d20 system
 turn rate: resource expenditure rate per turn
 conversions prorate. whenever you convert activity dice, you either:

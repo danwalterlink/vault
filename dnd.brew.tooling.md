@@ -2,9 +2,10 @@
 id: fb1ww9aa519dql8jnh8j8vu
 title: Tooling
 desc: ''
-updated: 1685294809564
+updated: 1685377536163
 created: 1684928875075
 ---
+
 5etools features
 - tag / type
 - nested lookups
@@ -30,4 +31,5 @@ todo: integrate 5etools - mpmb
 - armor & equipment
   + layers
 
-  ![[proxy.dendron.wiki]]
+Homebrew Translations:
+L'Arsene's Ledger of Treasure and Trinkets
