@@ -2,21 +2,39 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685359326182
+updated: 1685364685915
 created: 1684956724533
 ---
 
 # typification / classification
-arch(etype): martial[proficiency[armor, weapons]], magical(spellcasting)
-, caster(known), priest(prepared)
-caster type: [adaptive, prepared, known]
-class type: [base, sub, derived, prestige, paragon]
-  super class type: [legacy]
-character class type: [single, mixed, multi]
-feature origin type: [hone, pilfer, crucible]
+arch(e)type: martial(proficiency(with martical weapons)), caster(spellcasting)
+  trait defined; if both: dual.
+character (class) type: [single, mixed, multi]:
+  total character class: cumulative type description
+    total character class level: legacy character level
+    derived character class level: cumulative character class level
+type:class: [warrior, expert, caster(known), priest(prepared), crucible]
+    warrior: [honed, sly, brute]
+      maneuvers
+    caster: [prepared, known, innate]
+      spellcasting
+    expert: [artifical, intuitive(pilfered), studied]
+      expertise
+    priest: [divine, primal, eldritch]
+      channel
+    crucible: [investiture, imbibe, pact]
+      invoke
+  class:type: [legacy, base, sub, derived, prestige, paragon]
+feature type: [learned, pilfered, crucible]
 
 ## class type features
-base: defining characteristics,
+adapter: {legacy}
+base: core
+sub: supplemental
+derived: multiclass: replacements; resulting from multiclass;
+  fighter -> monk: martial; mystic
+prestige: multi/core/supplemental/replacement
+paragon: improved scaling
 
 # base class template:
 {one phrase description}
@@ -101,6 +119,7 @@ generally:
   ] (shadow)
 [monastic] if you  you may replace somatic components with {monk weapon} strikes or meditation
 if you use a ki ability via meditation, reduce it's ki-point cost by {amount}
+: multi
 
 ### monster hunter
   [ imbibe
@@ -163,11 +182,23 @@ features
   , metamagic: acribic [scribe/alter/memorize metamagic options]
   , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
   ]
-subclasses:
-  - {spell.school.adherent}: spell school features:
-    {}
-  - bladesinging
 
+subclasses: (2, 6, 10, 14)
+  - {spell.school.adherent}: spell school features:
+      (2) {spell.school} savant: reduced cost spell scribing
+    + abjuration: [arcane ward, projected ward, improved abjuration, spell resistance]
+    + conjuration: [minor conjuration, benign transposition, focused conjuration, durable summons]
+    + divination: [portent, expert divinitation, the third eye, greater portent]
+    + enchantment: [hypnotic gaze, double target, instinctive charm, split enchantment, alter memories]
+    + evocation: [sculpt spell, potent cantrip, empowered evocation, overchannel]
+    + illusion: [improved minor illusion, malleable illusions, illusory self, illusory reality]
+    + necromancy: [grim harvest, undead thralls, inured to undeath, command undeath]
+    + transmutation: [minor alchemy, transmuter's stone, shapechanger, master transmuter]
+  - bladesinging
+    + attacks with int
+    + replace somatic components with a melee attack, if you do, you may change range to touch
+      - arcane maneuver: mark: [enhances mark]: spell echo {spell lvl + 1}
+      - while casting a spell: additional target marked.
   - {specialty}:
     + chronurgy
     + war/graviturgy
@@ -217,10 +248,14 @@ ie. wizard(caster, arcane)
 focussing multiclasses? -> monk: you do not gain additional features, but you count your monk class levels as 3 levels for the purposes of gaining additional traits in your primary class
 balanced multiclasses: lose primary class, gains an additional secondary class
 mixed martial classes: style
-  honed(flat boni, balanced, any style)
-  wit(emphasize dex/precision, dice conversions and additional effects; precise styles)
-  brute(typecast certain ability score to str/con; brutal styles)
-  -> intellect brute(psion!): typecast everything to intelligence
+  honed(flat boni; balanced; any style)
+    : power attack; all Weapons
+  sly(emphasize dex/precision; dice conversions and additional effects; precise styles)
+    : sneak attack; Dextrous Weapons
+  brute(rage; typecast certain ability score to str/con; brutal styles)
+    : reckless attack; Strength Weapons
+    -> intellect brute(psion!): typecast everything to intelligence
+
   adding subclass options that improve on the specific nature:
   -> speeding up spell progression (2/3rds caster): every 3 classes count as 2 additional as to spell progressions. Rest: 1, neglect. Rest 2 add another 1.
 
@@ -275,12 +310,12 @@ subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon
 
 ## paragon class type
 paragon of:
-  might (fighter/psion/barbarian)
-  cunning (bard/rogue, through paragon pilfering)
-  {deity}/{circle} (cleric/druid)
-  power (fighter)
-  arcana (wizard/sorcerer)
-  {any: warlock}
+  might (fighter/psion/barbarian); primary martial ability score over 20
+  cunning (bard/rogue, through paragon pilfering);  over 20
+  {deity}/{circle} (cleric/druid); casting ability score priest over 20
+  power (fighter);
+  arcana (wizard/sorcerer); primary casting ability score caster over 20
+  {any: warlock};
 
 warrior paragon -> champion/cavalier (warrior/warrior/warrior)
   fighter: typecast any martial ability [typecast]
@@ -291,9 +326,7 @@ caster paragon (caster/caster/caster)
   wizard
     scribe: typecast spell-like abilities into arcane spells
     onomant: drop material and somatic components, power words, smaller spell book
-warlock doesn't advance any other progressions. typecast class
-
-(hybrid classes aren't paragon classes)
+warlock doesn't advance any other progressions. typecast class; crucible;
 
 ## prestige
 

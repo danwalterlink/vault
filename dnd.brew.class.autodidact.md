@@ -2,7 +2,7 @@
 id: wk6tzr0zfwjzhn185tl640p
 title: Autodidact
 desc: ''
-updated: 1685359392898
+updated: 1685364785467
 created: 1685128334068
 tag: template
 ---
@@ -32,6 +32,6 @@ based around: "pick"
 15
 16
 17
-18
+18 epic feature
 19
 20
