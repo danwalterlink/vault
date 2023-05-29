@@ -2,17 +2,39 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685283345622
+updated: 1685359326182
 created: 1684956724533
 ---
+
+# typification / classification
+arch(etype): martial[proficiency[armor, weapons]], magical(spellcasting)
+, caster(known), priest(prepared)
+caster type: [adaptive, prepared, known]
+class type: [base, sub, derived, prestige, paragon]
+  super class type: [legacy]
+character class type: [single, mixed, multi]
+feature origin type: [hone, pilfer, crucible]
+
+## class type features
+base: defining characteristics,
+
+# base class template:
+{one phrase description}
+traits: [class type]
+unified basic features: extended in subclasses
+extending type class features: {}
+paragon features: {}
+base class feature: {}
+
 ![[Progressions|dendron://dnd/dnd.brew.class.progressions]]
+
 ## feature
-feature can be untyped -> inaccessible by any other means!
+feature can be untyped
 [core, base, sub, paragon, prestige, origin, kiln]
-  generally:
-    - additional resource allocation
-    - base class features are unspecific
-    - abilities are preferably tied to resources, instead of binary cooldowns (per day)
+generally:
+  - additional resource allocation
+  - base class features are unspecific
+  - abilities are preferably tied to resources, instead of binary cooldowns (per day)
 
 ### artificer
 := tinkerer
@@ -61,11 +83,24 @@ feature can be untyped -> inaccessible by any other means!
   , balanced training (additional feats, floating proficiency, improve action surge)
   ] (champion/cavalier)
 
+#### champion
+  expanded critical range
+  exceptional athlete
+  additional fighting style
+  survivor
+
+#### cavalier
+  unwavering mark
+  warding maneuver
+  hold the line
+
 ### monk
   [ flurry of blows
   , stunning strike
   , ki
   ] (shadow)
+[monastic] if you  you may replace somatic components with {monk weapon} strikes or meditation
+if you use a ki ability via meditation, reduce it's ki-point cost by {amount}
 
 ### monster hunter
   [ imbibe
@@ -96,14 +131,14 @@ feature can be untyped -> inaccessible by any other means!
   , scavenge
   , primal preparation (+ability appropriation: primal)
   ] (gloom stalker)[adaptable]
-(hunter/monster hunter/monster slayer, drake warden/beast master, trapper)
+(hunter/monster hunter/monsterslayer, drakewarden/beastmaster, trapper)
 
 ### rogue
   [ cunning action (+ ability appropriation, moving actions into different action types)
   , magic hands (mage hand(can put objects on people), use of magical devices)
   , sneak: attack, focus,
   ] (thief)
-(assassin/arc trickster/swashbuckler)
+(assassin/trickster/swashbuckler)
 
 ### sorcerer
   [ metamagic - "intuitive" (additional metamagic: spell echo, living spell, partial/condensed spell)
@@ -113,18 +148,29 @@ feature can be untyped -> inaccessible by any other means!
 (archfey, draconic, abyssal)
 
 ### warlock
+hexblade hex/eldritch blast integration
   [ pactsmith [meldmind]
   , eldritch arcana [unwanted inquiries]
   , invocations
-  ] (hexblade hex/eldritch blast integration)
+  ]
 (patron powers, or mutate existing ones)
+#### genie
 
 ### wizard
+scribe + added spells(scribe/memorize/alter spell)
+features
   [ scholarly tradition[spellbook]
   , metamagic: acribic [scribe/alter/memorize metamagic options]
   , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
-  ] (scribe (scribe/alter/memorize))
-(evoker, )
+  ]
+subclasses:
+  - {spell.school.adherent}: spell school features:
+    {}
+  - bladesinging
+
+  - {specialty}:
+    + chronurgy
+    + war/graviturgy
 
 ## class types
 [legacy]
@@ -141,17 +187,20 @@ other character types, such as alchemist, artificer or other professions are tie
 your proficiency bonus with tools can be increased by renown. See: Journeyman.
 
 (invoke names/entities, cast spells)
+'{arche}type
 subtype: "tone/primary" - power: essence
 (passive, primary, secondary)
 warrior(honed/wit/brute): fighting style, maneuvers, focus
 caster(learned/innate/pact): spellcasting, metamagic, additional access
 priest(divine/primal/eldritch): paragon, channel, invocations
 
+'{source}type
 subtype: "kiln/secondary" - power: source
 innate: metamagic, intuit [crucible -> temporary innate]
 learned: acribic, ritual casting
 pact: living spell
 
+'{spell}type
 subtype: "chord/tertiary" - power: origin
 arcane: primary damage types: all/none
 primal(prime material): primary damage types: elemental, physical [primordial]
@@ -161,15 +210,16 @@ divine: primary damage types: necroti/radiant
 up to 3 components. multiclass combinations are cut to 3.
 blood hunter (warrior, arcane, {mutant}:crucible || {profane soul}:priest)
 
-pure classes (one of subtype) ie. wizard(caster, arcane)
+pure / non-subclassed // rule for class name alteration:
+ie. wizard(caster, arcane)
   diverging subclasses: 2 tones ie. wiz::bladesinger(caster, warrior)
   focussing subclasses: count a subtype doubly ie. wizard[subclass](caster, caster, arcane)
 focussing multiclasses? -> monk: you do not gain additional features, but you count your monk class levels as 3 levels for the purposes of gaining additional traits in your primary class
 balanced multiclasses: lose primary class, gains an additional secondary class
 mixed martial classes: style
   honed(flat boni, balanced, any style)
-  wit(emphasize dex/precision, dice conversions and additional effects)
-  brute(typecast certain ability score to str/con)
+  wit(emphasize dex/precision, dice conversions and additional effects; precise styles)
+  brute(typecast certain ability score to str/con; brutal styles)
   -> intellect brute(psion!): typecast everything to intelligence
   adding subclass options that improve on the specific nature:
   -> speeding up spell progression (2/3rds caster): every 3 classes count as 2 additional as to spell progressions. Rest: 1, neglect. Rest 2 add another 1.
@@ -215,6 +265,7 @@ supertype: (spell slot progression, trait doctoring -> supplanting traits = graf
 
   monk(extreme dedication: double progression, no additional features), psion(raw arcane prodigy), mystic()
     psi/chi (psi -> chi: "bodied" psi)
+    - replace innate casting somatic component with an {unarmed strike}
 
 subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon class.
   - gains quicker progressions by foregoing subclass choice
@@ -241,6 +292,7 @@ caster paragon (caster/caster/caster)
     scribe: typecast spell-like abilities into arcane spells
     onomant: drop material and somatic components, power words, smaller spell book
 warlock doesn't advance any other progressions. typecast class
+
 (hybrid classes aren't paragon classes)
 
 ## prestige

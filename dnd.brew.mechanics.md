@@ -2,9 +2,10 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685282944517
+updated: 1685359429776
 created: 1684961188700
 ---
+
 calculations: averages are rounded down
 definitions:
   "per day" is synonymous with "per long rest" since you cannot take multiple long rests within 24 hours.
@@ -20,13 +21,17 @@ definitions:
 ## categories
 ### type
 types are additive, category-specific (non-commutative) and transitive.
+
 #### type additions
 ##### item
 minor, medior, major
+
 ##### spell level tier
 cantrip(0), minor(1,2,3), medior(4,5), major(6,7,8), epic(9)
+
 ##### character level tier
 (4) 0-2 novice, 3-6 journey, 7-11 grand, 11-16 heroic, 17+ epic
+
 alternate ways to unlock epic tier traits: increase an ability score above 20?
 
 ## default critical misses
@@ -108,10 +113,12 @@ this means that some spells can be cast
   str
   con
   dex
+
 #### mental
   wis
   int
   cha
+
 #### status
   renown
 ### disfigurements
@@ -132,6 +139,9 @@ generics, apply if possible.
 [swift] add of type
 [deft] improve one type
 [conserving] retains type
+[common][lesser][greater][grand][epic] additional use
+[canny] expertise
+[adaptive] ^'adaptive reselection"
 
 adaptive reselection:
 - contextual:
@@ -227,6 +237,8 @@ dice can be spent as resources to gain more, whenever an associated roll is call
 resource changes and allocations add dice
 (also, resource expenditure can be indicated by dice size)
 -> generation of feature usage makes dice smaller (until size breakpoint)
+
+[mystical] alternate casting cost of differing type
 
 ### heroic inspiration
 you can only ever have 1 heroic insiration, and gain it by:

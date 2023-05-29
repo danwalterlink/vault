@@ -2,14 +2,15 @@
 id: fb1ww9aa519dql8jnh8j8vu
 title: Tooling
 desc: ''
-updated: 1685280659152
+updated: 1685294809564
 created: 1684928875075
 ---
 5etools features
 - tag / type
 - nested lookups
   - inheritance
-  - derivatives
+  - derivatives: derive homebrews
+- reword integrations
 
 database/table - graph/json/yml - textual - pdf
 dnd brew -> yaml formatting
@@ -28,3 +29,5 @@ todo: integrate 5etools - mpmb
 - crafting
 - armor & equipment
   + layers
+
+  ![[proxy.dendron.wiki]]

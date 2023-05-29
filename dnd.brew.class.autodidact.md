@@ -2,9 +2,14 @@
 id: wk6tzr0zfwjzhn185tl640p
 title: Autodidact
 desc: ''
-updated: 1685129693754
+updated: 1685359392898
 created: 1685128334068
+tag: template
 ---
+
+class type: any
+class subtype: any
+
 -> templating class
 based around: "pick"
 1
