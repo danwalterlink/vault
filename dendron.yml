@@ -15,8 +15,6 @@ commands:
             vaultSelectionModeOnCreate: smart
             fuzzThreshold: 0.2
     randomNote: {}
-    insertNote:
-        initialValue: template
     insertNoteLink:
         aliasMode: snippet
         enableMultiSelect: true
@@ -113,13 +111,10 @@ workspace:
     enableHashTags: true
     workspaces: {}
     enableEditorDecorations: true
-    enableHandlebarTemplates: true
     enableFullHierarchyNoteTitle: false
-    enableSmartRefs: true
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
@@ -154,7 +149,6 @@ publishing:
     enableTaskNotes: true
     enablePrettyLinks: true
     searchMode: lookup
-    enableMermaid: true
     assetsPrefix: asset
     duplicateNoteBehavior:
         action: useVault
@@ -166,4 +160,3 @@ publishing:
             - task
             - dnd
     enableHierarchyDisplay: true
-    noRandomlyColoredTags: true
