@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685555815203
+updated: 1685558424321
 created: 1684961188700
 ---
 
@@ -32,6 +32,10 @@ fire, cold, lightning, thunder
 #### type additions
 ##### item
 minor, medior, major
+
+###### generic
+[spellcharge]({damage.type}) spell does {damage.type} gain charge.
+  [discharge]
 
 ##### spell level tier
 cantrip(0), minor(1,2,3), medior(4,5), major(6,7,8), epic(9)
@@ -182,6 +186,8 @@ generics, apply if possible.
     making similar distinction in martial classes that exists in casters:
       prepared/learned casters
 ie. barbarians(12) get brutal(1) on 9, brutal(2) on 13 and brutal(3) on 17
+[recharge](num) regain use on roll num
+[discharge](num) up to all and for each (num) stored charges on {trigger}
 
 ## item hit dice
 along the {{generic object}} table.

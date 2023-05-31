@@ -2,9 +2,10 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685282979436
+updated: 1685559308492
 created: 1685282944352
 ---
+
 ## martial features
 ### maneuver: power attack
 ((-1 attack roll := +2 damage)x up to weapon dice size/2)?(up to prof mod)
