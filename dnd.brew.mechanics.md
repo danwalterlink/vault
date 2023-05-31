@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685548074912
+updated: 1685549824061
 created: 1684961188700
 ---
 
@@ -200,6 +200,7 @@ dazed: Can't take bonus actions or use reactions. You cannot concentrate. You ca
   · take an action
   · or move,
   not both.
+despaired: you become frightened of creatures that attack you. You cannot be inspired.
 #### grievous wounds
 on receiving lethal strikes, you have a chance to sustain a grievous wound.
 ### objects
@@ -221,14 +222,28 @@ saving throws
 attack rolls
 
 ## action economy
-default action: defer.
-  you move your turn to after a friendly character.
--> hybrid d6/d20 system
+-> hybrid d6/d20 system?
 turn rate: resource expenditure rate per turn
-conversions prorate. whenever you convert activity dice, you either:
-- remove one
-- shrink dice size
+(default max turn rate:
+  1 action -> 4 activity die
+  1 bonus action -> 2 activity die
+  1 reaction -> 1 activity die per turn
+  1 move -> 1 activity die/30ft (1/2 die per 15 ft remaining)
+  1 item iteraction -> no activity die needed
+    : as part of action
+    : using item generally uses either action
+  ) -> cast activity type:
+    first reaction per turn as an action: 1 + 4 activity die
+    move out of turn: (ft mvmt * 6 /speed)
+usage prorates
+whenever you convert activity dice, you either:
 at the end of your turn, you convert unexpended resources into activity dice.
+can't expend more than double your turn rate?
+-> more dextrous and faster characters can take more actions
+-> complex actions cost more
+
+### action: defer.
+  you move your turn to after a friendly character.
 
 ## activity dice
 your activity dice carry over.
@@ -238,18 +253,18 @@ your action dice size is equal to your proficiency dice's
 
 ## heroic actions
 much like legendary creatures have access to additional actions in legendary actions, heroic actions may be taken by creatures if they expend heroic inspiration.
+you cannot take heroic actions if you:
+- are below 7th level and have used a heroic action this combat.
 you may take a heroic action on your as a by spending:
 - heroic inspiration
 - half your available hit dice, rounded up
 - your activity dice maximum
-you cannot take heroic actions if you
-- cannot gain heroic inspiration
-- you are below 7th level and have used a heroic action this combat
 
 ### heroic: surge
 you may take an additional action.
 : traits have action dice usage templates/associations
 -> tied to proficiency dice size, multiply and/or add with modifiers
+-> gain 4 activity dice?
 
 ### heroic: resistance
 choose a damage type to gain resistance to until the end of your next turn.
@@ -257,7 +272,7 @@ heroic: the target of your next attack or spell either gains or loses resistance
 
 ### heroic: resilience
 either:
-- end the incapacitated, stunned or dazed condition, gain 2 activity dice.
+- end the incapacitated, stunned or dazed condition, gain 1 activity dice.
 - cast half your smallest hit dice size amount of dice in your biggest hit die. Regain that amount of hp.
 
 ### heroic: bulwark
