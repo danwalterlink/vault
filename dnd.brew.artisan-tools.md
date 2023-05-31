@@ -2,7 +2,7 @@
 id: mo1zavmbk2x493e49gyztss
 title: artisan-tools
 desc: ''
-updated: 1685560130652
+updated: 1685563969636
 created: 1684949008078
 ---
 
@@ -18,10 +18,7 @@ artisan tool class:
   + mason
   + carpenter
   + stonehewing/mining
-
 - harvesting kit
 - herbalist
 leatherworker woodworker -> fletching
   -> cobbler / weaver
-  armorer
-cartographer
