@@ -90,7 +90,7 @@ workspace:
             '': ' '
         todoIntegration: true
         createTaskSelectionType: selection2link
-        addBehavior: childOfDomainNamespace
+        addBehavior: asOwnDomain
         name: task
         dateFormat: 'yy.MM.dd '
         taskCompleteStatus:
