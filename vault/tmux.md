@@ -2,7 +2,7 @@
 id: k50hz0cyu9tnfyudi6ibv5y
 title: Tmux
 desc: ''
-updated: 1685138987816
+updated: 1685564263465
 created: 1636903106989
 ---
 
