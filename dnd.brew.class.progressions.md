@@ -2,7 +2,7 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685532086494
+updated: 1685571555270
 created: 1685279618031
 ---
 
@@ -19,18 +19,25 @@ tier class -> feat/trait improvements/accessibility (can pick, but not use)
   heroic>=7 [heroic]
   grand>=11 [greater, grand]
   epic>=17 [epic]
+
 proficiency(2,4,6): [1, 5, 9, 13, 17]
+
 feat(1,(3,4,3),6): 1, 4, 8, 12, 16, 19
   faster feats(1,3,7): 1, 4, 7, 10, 13, 16, 19
+
 action feature((+1),(6,7),4): 5, 11, 18
+
 epic boon(1,1,_): 20, 21, 22,…
+
 (martial vs caster progression)?
 
 #### class
 class type feature(2,4,4)
   1, 5, 11, 18
+
 core progression(2,(1,3,3,4,4),6)
   1(2), 2(2), 5, 8, 12, 16
+
 generic class group: core: {1,2}
   warrior.style: fighting style, recovery, maneuver,
   expert.style: pilfering, fighting style, maneuver, dodging
@@ -38,15 +45,19 @@ generic class group: core: {1,2}
   priest.style(oath/order/circle): spellcasting, channel, invoke, aid
   --
   pact: pact magic, pact boon, eldritch invocations, agonizing choice, {liminal loop, mystic arcanum}
+
 generic class group: master(5)
   warrior: weapon mastery
   expert: pilfering
   mage: tradition
   priest:
+
 generic class group: heroic
   spell mastery
+
 generic class group: epic
   mage: signature spells
+
 specialist: subclass (rogue with more rogue -> thief)
 generalist -> no subclass
 
