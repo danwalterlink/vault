@@ -2,10 +2,11 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685377748772
+updated: 1685548074912
 created: 1684961188700
 ---
 
+or is inclusive, oor is exclusive, xor is not or
 calculations: averages are rounded down
 definitions:
   "per day" is synonymous with "per long rest" since you cannot take multiple long rests within 24 hours.
@@ -21,6 +22,12 @@ definitions:
 ## categories
 ### type
 types are additive, category-specific (non-commutative) and transitive.
+
+#### damage
+force, physical(b,p,s),
+necrotic, radiant
+poison, acid
+fire, cold, lightning, thunder
 
 #### type additions
 ##### item
@@ -39,9 +46,13 @@ alternate ways to unlock epic tier traits: increase an ability score above 20?
 
 ## resources
 {interface}: "once per {length} rest" is equivalent to 1d2, doubling in size per stacking instance.
+any trait that instances usage counts as a resource spent per instance.
+resource refers to sources of those instances.
 heroic inspiration can be converted into resource dice.
-future resource gains of the same type are cut in dice size until recuperating rest, rounded down.
-ie. a d6 resource becomes a d2 resource becomes 1. A feature becomes an illegal action, if you can't pay its base costs, even if a trait allows you to pay alternate costs.
+after a resource die is replenished, the source die shrinks a size, or to half it's size if the maximum amount was replenished.
+  ie. a d6 resource becomes a d2 becomes 0.
+A d0 is equivalent to 0dx.
+If a base cost requirement cannot be met, even if another trait allows you to pay alternate costs, you cannot use that trait.
 -> maintaining at least 1 resource die becomes very important -> recovery worsens drastically if you expend all of it.
 -> damage you receive can be in the form of resources
 -> hit dice on equipment becomes an available resource to spend
@@ -49,7 +60,7 @@ ie. a d6 resource becomes a d2 resource becomes 1. A feature becomes an illegal 
   using your reaction does not need expend it. It may pose restrictions in the future: ie:
       elven bladesinging armor:
         hardening: as a reaction, you increase your ac by +2. Until the end of your next turn, spells you cast can only be of range:touch or less(self).
-        (notice it doesn't say expend).
+        (notice it doesn't say "use").
         rules note: effects of the same name don't stack.
 
 - buy a reroll with exhaustion
@@ -121,6 +132,7 @@ this means that some spells can be cast
 
 #### status
   renown
+
 ### disfigurements
 - lose a hand
 - lose a foot
@@ -131,23 +143,32 @@ this means that some spells can be cast
 ## trait
 ### metatrait
 generics, apply if possible.
-[core]
-[adaptible] change type on trigger
-[typecast] ability score association
-[pilfering] assume type previous action
+[adaptible] change on trigger
+  adaptible(SR): change on short rest
+[typecast] ability association
+[pilfering] assume a type of same class type
 [aleatoric] dice shape {amount· size}, effects on combinations
+  aleatoric[n][n+1][n+2]: the target becomes poisoned
+  aleatoric(max[min]): explode
+    (if all dice rolled the minimum number: roll again)
+  aleatoric[1,20][1,20]: choose
+    (if you roll two of 1 or 20, choose any combination)
+  aleatoric(odd[even]): {if odd dice number, for each even dice}:
+    half or double
 [cunning] change action type {action, bonus action, reaction}
-[precise] expanding beneficial ranges
+[sly] additional benefit from advantage, hidden: default: activity dice
+[precise] expanding ranges
 [brutal] additional dice
-[paragon] improve core
-[heroic] surge; replaces action surge.
-[epic] improve heroic actions;
-[reactive] expend reaction for benefit, convert into reaction
+[core] base feature, generally scaling with class type levels
+[paragon] core expansion
+[heroic] character level restriction; surge; replaces action surge.
+[epic] level restriction; improve heroic actions;
+[reactive] use other action types as reaction
 [improved] add of type
 [greater] additional effects
 [deft] improve one type
-[conserving] retains type
-[common][lesser][greater][grand][epic] additional use
+[conserving] replenishing resources on use
+[minor][lesser][greater][grand][epic]: level restriction
 [canny] expertise
 [adaptive] (re)selection
   - contextual:
@@ -200,16 +221,18 @@ saving throws
 attack rolls
 
 ## action economy
-generic increases
+default action: defer.
+  you move your turn to after a friendly character.
 -> hybrid d6/d20 system
 turn rate: resource expenditure rate per turn
 conversions prorate. whenever you convert activity dice, you either:
 - remove one
 - shrink dice size
+at the end of your turn, you convert unexpended resources into activity dice.
 
 ## activity dice
 your activity dice carry over.
-you cannot store more than double your turn rate in dice
+you cannot store more than double your turn rate in dice.
 your action dice size is equal to your proficiency dice's
 -> resource system
 
@@ -221,11 +244,29 @@ you may take a heroic action on your as a by spending:
 - your activity dice maximum
 you cannot take heroic actions if you
 - cannot gain heroic inspiration
-- if you are incapacitated
+- you are below 7th level and have used a heroic action this combat
+
 ### heroic: surge
 you may take an additional action.
 : traits have action dice usage templates/associations
 -> tied to proficiency dice size, multiply and/or add with modifiers
+
+### heroic: resistance
+choose a damage type to gain resistance to until the end of your next turn.
+heroic: the target of your next attack or spell either gains or loses resistance to the damage type until the end of its turn
+
+### heroic: resilience
+either:
+- end the incapacitated, stunned or dazed condition, gain 2 activity dice.
+- cast half your smallest hit dice size amount of dice in your biggest hit die. Regain that amount of hp.
+
+### heroic: bulwark
+- you gain +3 to your AC until the end of your next turn.
+heroic: if an attack targeting you misses, you may use your reaction to make an opportunity attack.
+
+### heroic: sentinel
+hitting opportunity attacks replenish your reaction until the end of your next turn.
+heroic: disengaging enemies still provoke opportunity attacks
 
 minimal ritual:
 - dc check to cast, fail to make less effective
@@ -275,6 +316,7 @@ spells known of school/total spell level of 3rd level or higher
 ## feat: featuring
 analogous to "ability score increase",
 "featuring" allows you to choose a class feature from a class sharing your primary class type and of a level up to that cumulative class type level. traits gained this way have the "feature" type.
+-> type restriction from character
 
 ## modes of success
 4 stage:
@@ -292,7 +334,15 @@ analogous to "ability score increase",
 ## criticals
 1: roll on the associated minor mishap table
 double 1 on disadvantage: major mishap table
-critical success (if roll additional dice, resource replenish if rolled nice)
+critical success: additional minor benefits
+miraculous success: if you roll more than one dice, and at least two result in critical success, you either gain heroic inspiration or replenish a resource die spent during this action
+critical hit: minor benefits, double damage
+lethal hit: if you rolled at least two die and at least two would result in a critical hit, your hit is lethal.
+  Choose up to the amount of critical hits that would've resulted from casting the die:
+  - grow your die one size
+  - critical hit
+  - replenish expended resource or gain heroic inspiration
+  - your hit is brutal
 
 ## magic
 ### magical fatigue
@@ -310,3 +360,8 @@ additional damage dice: heavy weapons as if they had brutal(1)
 
 ### defensive
 ac: +1, you gain access to the parrying stance
+
+## weapon attack types
+ranged attacks with melee weapons count as ranged weapon attacks for that attacks instance.
+A ranged attack with melee weapon generates a ranged weapon attack instance for the purposes of fulfilling restrictions of traits.
+(ie. thrown weapons work with feat.sharpshooter.phb.5.0)

@@ -2,7 +2,7 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685379102886
+updated: 1685532086494
 created: 1685279618031
 ---
 
@@ -14,7 +14,7 @@ created: 1685279618031
 ### progression
 #### general
 tier class -> feat/trait improvements/accessibility (can pick, but not use)
-  novice<=2
+  talent<=2
   master>=3 [master, improved]
   heroic>=7 [heroic]
   grand>=11 [greater, grand]
