@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685549824061
+updated: 1685555287749
 created: 1684961188700
 ---
 
@@ -222,28 +222,43 @@ saving throws
 attack rolls
 
 ## action economy
+(call/check)
+combat:
+roll initiative (dex ab check)
+round: (3 ticks)
+  gain reaction (unless surprised)
+  reverse order:
+    announce intent (move destination, action)
+    3 ticks: (2s/tick)
+      1st: turn order: action, move (simultaneuous)
+      2nd: ''
+      3rd: ''
+      : gain resources
 -> hybrid d6/d20 system?
+
 turn rate: resource expenditure rate per turn
 (default max turn rate:
   1 action -> 4 activity die
   1 bonus action -> 2 activity die
   1 reaction -> 1 activity die per turn
   1 move -> 1 activity die/30ft (1/2 die per 15 ft remaining)
-  1 item iteraction -> no activity die needed
+  1 item interaction -> no activity die needed
     : as part of action
     : using item generally uses either action
+  speaking does not impede:
   ) -> cast activity type:
-    first reaction per turn as an action: 1 + 4 activity die
-    move out of turn: (ft mvmt * 6 /speed)
+    first reaction per turn as an action: 4 activity die
+    move out of turn: 5ft = 1 die
 usage prorates
 whenever you convert activity dice, you either:
 at the end of your turn, you convert unexpended resources into activity dice.
 can't expend more than double your turn rate?
 -> more dextrous and faster characters can take more actions
 -> complex actions cost more
+-> taking "partial turns"
 
-### action: defer.
-  you move your turn to after a friendly character.
+### action: defer
+ use your reaction: you move your turn to after a friendly character.
 
 ## activity dice
 your activity dice carry over.
@@ -287,9 +302,10 @@ minimal ritual:
 - dc check to cast, fail to make less effective
 
 ![[Martial|dendron://dnd/dnd.brew.martial]]
+
 ## trait: luck
-if multiple dice in the same roll show the same face, you add one of these dice to your dice .
-luck to the bold: legerdemain skill contest: you appropriate the dice and store it for a rainy day. Swap either the number or size of a dice roll with your stored dice.
+if multiple dice in the same roll show the same face, you may add a copy one of these dice to your lucky dice pool.
+create your own luck: legerdemain skill contest: you appropriate the dice instead and store it for a rainy day. Swap either the result or size of a dice roll with your stored dice before or after, respectively.
 
 ## resources
 modifiers can be converted to dice.
@@ -305,7 +321,7 @@ resource changes and allocations add dice
 [mystical] alternate casting cost of differing type
 
 ### heroic inspiration
-you can only ever have 1 heroic insiration, and gain it by:
+you can only ever have 1 heroic inspiration, and gain it by:
 - at least two dice rolls would have resulted in successes on contested d20 tests with disadvantage or worse, or if additonally one of those hits resulted in a critical hit for rolls made with advantage or better.
 - rare demonstrations of cunning and character, occasionally.
 you can spend heroic inspiration to:
@@ -318,15 +334,16 @@ dice size average equals your proficiency modifier.
 
 ### spell points
 you use spell slots, but can convert between spell slots at spell point rate.
-2,3 5,6,7 9,10,11 13; points cost per spell level
+2,3 5,6,7 9,10,11,13; points cost per spell level
 can only convert 1 slot above 6th per spell level per day.
 
-## epic feat: {spell school} master
-(prereq: 5th level spells)
+## paragon feat: {spell school} master
+(prereq: 5th level spells, paragon of knowledge)
 spells known of school/total spell level of 3rd level or higher
-- {1}: master: conversion rebate to locked slots.
-- {2}: grandmaster: diviner-like refueling
-- {3}: legend: spellweaving {max slot lvl + mSl/4}
+- {1}: master: spell point cost decrease for {school} per paragon rank (min 1,3)
+- {2}: grandmaster: expert {typecast: divination -> school}
+- {3}: legend: spellweaver {max slot lvl + mSl/4} majority {spell school}}
+  if non-spellschool: every activity: concentration check
 
 ## feat: featuring
 analogous to "ability score increase",
