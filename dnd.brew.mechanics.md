@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685555287749
+updated: 1685555815203
 created: 1684961188700
 ---
 
@@ -391,7 +391,14 @@ innate abilities of creatures can be harvested.
 additional damage dice: heavy weapons as if they had brutal(1)
 
 ### defensive
-ac: +1, you gain access to the parrying stance
+ac: you gain access to the defender's focus:
+  stance:
+    reposition: safe mvmnt 5ft
+    parrying maneuver,
+    after successful parry:
+      reposition
+      riposte
+      heighten: reaction proration -2
 
 ## weapon attack types
 ranged attacks with melee weapons count as ranged weapon attacks for that attacks instance.
