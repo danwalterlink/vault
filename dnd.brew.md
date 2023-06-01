@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685374091596
+updated: 1685627182876
 created: 1684357294795
 ---
 
@@ -108,7 +108,11 @@ warlock: bake hexblade-features into base-class #changes.5e
 smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
 -> small changes have potentially far-reaching effects.
 along general type system, classes fulfill a more 'templative' role
-warrior/expert(martial/expert);priest(divine/primal);caster(arcane/psionic);occult(pact/crucible)
+warrior {honed, sly, brute}
+expert {artificer, thaumaturge, pilferer}
+priest(divine/primal)
+caster(arcane/psionic)
+occult(pact/crucible)
   warrior: monk? -> fighter/warrior
   expert: rogue/(alchemist)
   divine: cleric
@@ -141,7 +145,7 @@ invoke|cast/concentrate/pray
 - druid: primordial
 - warlock: eldritch
 
---- auxiliary
+#### occult
 ##### crucible
 mutate/concentrate/research
 - apothecary
@@ -165,7 +169,7 @@ mutate/concentrate/research
 + innate = sorcerer
 + caster = wizard
 
---- mixed
+#### mixed
 ##### mixed
   associate your spellcasting to a mental ability stat
   associated spell-ability you can convert into abilities (like smite)

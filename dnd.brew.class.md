@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685622740289
+updated: 1685627339139
 created: 1684956724533
 ---
 
@@ -212,6 +212,8 @@ subclasses: (2, 6, 10, 14)
 
 
 ## class types
+all class types have empty/generic variants.
+-> ie. pick: generic metaclass warrior:
 [legacy]
 obsolete class, superseded by a newer version
 [derived]
@@ -256,12 +258,15 @@ ie. wizard(caster, arcane)
 focussing multiclasses? -> monk: you do not gain additional features, but you count your monk class levels as 3 levels for the purposes of gaining additional traits in your primary class
 balanced multiclasses: lose primary class, gains an additional secondary class
 mixed martial classes: style
+
+warrior metaclass
+
   honed(flat boni; balanced; any style)
-    : power attack; all Weapons
+    :maneuver power attack; all Weapons
   sly(emphasize dex/precision; dice conversions and additional effects; precise styles)
-    : sneak attack; Dextrous Weapons
+    :maneuver: sneak attack; Dextrous Weapons
   brute(rage; typecast certain ability score to str/con; brutal styles)
-    : reckless attack; Strength Weapons
+    :maneuver reckless attack; Strength Weapons
     -> intellect brute(psion!): typecast everything to intelligence
 
   adding subclass options that improve on the specific nature:
@@ -279,8 +284,8 @@ supertype: (spell slot progression, trait doctoring -> supplanting traits = graf
     (bard, sorcerer, wizard)(warlock)
 - martial
   + maneuvers (martial cantrips/spells)
-  + focus (stances, requiring resources: concentration)
-  + drills (minor buffs, debuff removal, equipment prep, spell-like effects)
+  + focus (requiring resources: concentration)
+  + drills (resting activity, temporary buffs, debuff removal, equipment prep, spell-like effects)
 - expert
   + expertise
   + stroke of genius
