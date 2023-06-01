@@ -2,10 +2,9 @@
 id: wau3f5g0rgu9hilm1syanvo
 title: Dat
 desc: ''
-updated: 1685571911307
+updated: 1685572455815
 created: 1685278126930
 type.data: [[assets/ddubl.default.ipynb#default-notebook]]
-yml.type.function: /type.function.yml
 ---
 
 {{fm.type.data}}
