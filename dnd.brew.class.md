@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685634668133
+updated: 1685635935985
 created: 1684956724533
 ---
 
@@ -55,12 +55,7 @@ generally:
   - abilities are preferably tied to resources, instead of binary cooldowns (per day)
 
 ### artificer
-:= tinkerer
-  [ infusion specialist
-  , cobbled creations (cobble)
-  , right tool for the job
-  ] (armorer)
-(armorer, artillerist, alchemist)
+![[Class|dendron://dnd/dnd.brew.class.artificer]]
 
 ### barbarian
   [ reckless attack
@@ -184,8 +179,8 @@ features
   ]
 
 subclasses: (2, 6, 10, 14)
-  - {spell.school.adherent}: spell school features:
-      (2) {spell.school} savant: reduced cost spell scribing
+  - {magic.school.adherent}: spell school features:
+      (2) {school} savant: reduced cost spell scribing
     + abjuration: [arcane ward, projected ward, improved abjuration, spell resistance]
     + conjuration: [minor conjuration, benign transposition, focused conjuration, durable summons]
     + divination: [portent, expert divinitation, the third eye, greater portent]
@@ -199,11 +194,13 @@ subclasses: (2, 6, 10, 14)
       heroic: for all weapon attacks when your bladesong is active.
     +{heroic} replace somatic components of spells that target a creature within your reach with an attack action. You may change the spell's range to touch.
     +{grand}
-      [Spellstained] When you target a creature with a spell, you may mark it.
-      [arcane maneuver: echoing mark](enhances mark):
+      [Spellstain] When you mark a creature while casting a spell, that mark becomes a spellstained mark.
+      [arcane maneuver: echoing spellstain]:
         You may either, when casting a spell with range touch:
-        - echo the spell for each marked creature.
+        - echo the spell for each spellstained creature.
+        - change the target of an effect targeting you to the creature you attack.
         - as a bonus action, teleport to an unoccupied space within reach of a marked creature.
+
     +{epic}
       [polyphony] you may choose other targets when making weapon attacks as part of casting a spell. For each target you may cast a spell of a level up to the number of targets.
       [arcane maneuver: finale -]: after an attack when casting a spell, you may end your bladesong. If you do so, either:
