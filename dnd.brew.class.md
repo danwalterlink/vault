@@ -2,30 +2,42 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685644073962
+updated: 1685655280922
 created: 1684956724533
 ---
 
-# typification / classification
+## typification / classification
 arch(e)type: martial(proficiency(with martical weapons)), caster(spellcasting)
   trait defined; if both: dual.
 character (class) type: [single, mixed, multi]:
   total character class: cumulative type description
     total character class level: legacy character level
     derived character class level: cumulative character class level
-type:class: [warrior, expert, caster(known), priest(prepared), crucible]
+type:class: [warrior, expert, caster, priest, occult]
     warrior: [honed, sly, brute]
-      maneuvers
+      attack [practiced, sneak, reckless]
+      maneuver, focus, stance
+      style
     caster: [prepared, known, innate]
       spellcasting
-    expert: [artifical, intuitive(pilfered), studied]
+      metamagic
+      specialization
+    expert: [artificer, pilferer, thaumaturge]
       expertise
     priest: [divine, primal, eldritch]
+      spellcasting
       channel
+
     crucible: [investiture, imbibe, pact]
       invoke
   class:type: [legacy, base, sub, derived, prestige, paragon]
 feature type: [learned, pilfered, crucible]
+  pilferer:
+    fighter: martial
+    rogue: skill/item
+    artificer: item
+    bard: spell
+    warlock: everything
 
 ## class type features
 adapter: {legacy}
@@ -69,14 +81,12 @@ generally:
   , magical secrets
   , (counter)charming
   ] (lore)
-()
 
 ### blood hunter
   [ blood malediction
   , crimson rites
   , hemocraft
   ] (mutant)
-()
 
 ### cleric
   [ emboldening bond
@@ -141,7 +151,7 @@ if you use a ki ability via meditation, reduce it's ki-point cost by {amount}
   ] -> awakened -> move to crucible -> improves arcane resource generation (or move into monk?))
 
 ### ranger
-  [ pick: prowl(explorer, foe, awareness),
+  [ prowl(explorer, foe, awareness),
   , scavenge
   , primal preparation (+ability appropriation: primal)
   ] (gloom stalker)[adaptable]
@@ -152,14 +162,14 @@ if you use a ki ability via meditation, reduce it's ki-point cost by {amount}
   , magic hands (mage hand(can put objects on people), use of magical devices)
   , sneak: attack, focus,
   ] (thief)
-(assassin/trickster/swashbuckler)
+assassin, arcane trickster, swashbuckler
 
 ### sorcerer
   [ metamagic - "intuitive" (additional metamagic: spell echo, living spell, partial/condensed spell)
   , font of magic
   , magical guidance
   ] (clockwork soul (expanded spell lists))
-(archfey, draconic, abyssal)
+(archfey, draconic, fiend, divine)
 
 ### warlock
 hexblade hex/eldritch blast integration
@@ -168,14 +178,14 @@ hexblade hex/eldritch blast integration
   , invocations
   ]
 (patron powers, or mutate existing ones)
-#### genie
+elemental(genie), fey/fell, fiend, celestial, deep
 
 ### wizard
 scribe + added spells(scribe/memorize/alter spell)
 features
   [ scholarly tradition[spellbook]
   , metamagic: acribic [scribe/alter/memorize metamagic options]
-  , experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
+  , specialist/experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
   ]
 
 subclasses: (2, 6, 10, 14)
@@ -243,10 +253,6 @@ arcane: primary damage types: all/none
 primal(prime material): primary damage types: elemental, physical [primordial]
 divine: primary damage types: necroti/radiant
 
--> 27 3-subtype combinations
-up to 3 components. multiclass combinations are cut to 3.
-blood hunter (warrior, arcane, {mutant}:crucible || {profane soul}:priest)
-
 pure / non-subclassed // rule for class name alteration:
 ie. wizard(caster, arcane)
   diverging subclasses: 2 tones ie. wiz::bladesinger(caster, warrior)
@@ -280,7 +286,7 @@ super (spell slot progression, trait doctoring -> supplanting traits = grafting)
 
   + full-
     -> feature regaining slots (outside of short-resting)
-    (bard, sorcerer, wizard)(warlock)
+    (druid, cleric)(bard, sorcerer, wizard)(warlock)
 
 - martial
   + maneuvers (martial cantrips/spells)
@@ -299,25 +305,25 @@ super (spell slot progression, trait doctoring -> supplanting traits = grafting)
   -> "half-casters"
     spell-like ability, fueled by expending spell slots
 
-      paladin (cha/wis)
-      (medium armor, maneuvers, mastery(longsword), non-finesse martial melee weapons)
-        -> convert smite spells into abilities
-        channel divine - smite: if spell prepared, add a smite effect
-          - aura: self and allies
+    paladin (cha/wis)
+    (medium armor, maneuvers, mastery(longsword), non-finesse martial melee weapons)
+      -> convert smite spells into abilities
+      channel divine - smite: if spell prepared, add a smite effect
+      - aura: self and allies
 
-      ranger (wis/int)
-      (light armor, maneuvers, mastery(shortsword, longbow), finesse martial melee weapons, non-firearm martial ranged weapons)
-        -> traps, consumables, temporary enchantment
-        channel nature - imbue: consumables, crucible
-          - triggers and traps -> traps
+    ranger (wis/int)
+    (light armor, maneuvers, mastery(shortsword, longbow), finesse martial melee weapons, non-firearm martial ranged weapons)
+      -> traps, consumables, temporary enchantment
+      channel nature - imbue: consumables, crucible
+      - triggers and traps -> traps
 
-      artificer (int/cha)
-      (heavy armor, mastery(tools), firearms)
-        channel arcane - infuse: spell-like effects to equipment
-          - aura: lasting on equipment
+    artificer (int/cha)
+    (heavy armor, mastery(tools), firearms)
+      channel arcane - infuse: spell-like effects to equipment
+      - aura: lasting on equipment
 
   monk(extreme dedication: double progression, no additional features),
-  psion(raw arcane prodigy),
+  psion(raw arcane(psychic force)),
   mystic
     psi/chi (psi -> chi: "bodied" psi)
     - replace innate casting somatic component with an {unarmed strike}
@@ -330,6 +336,11 @@ subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon
   other means of acquiring paragon traits: high level (sub)class feature
 
 ## paragon class type
+warrior / priest
+  exemplar - champion - paragon
+caster / expert
+  arch{class}
+
 paragon of:
   might (fighter/psion/barbarian); primary ability score over 20
   cunning (bard/rogue, through paragon pilfering); over 5 different classes in traits
@@ -351,10 +362,6 @@ warlock doesn't advance any other progressions. typecast class; crucible;
 
 ## prestige
 
-## divergence from 5e
-"action surge becomes a general feature -> [[]]
-if you dont want feature to be readily accessible through multiclassing/trait doctoring, make it an amalgam feature (features that exist through layering if class features) and describe the fantasy/surrounding ideas through the closest (sub)class
-
 ### meta
 warrior {honed, sly, brute}
 expert {artificer, thaumaturge, pilferer}
@@ -369,7 +376,7 @@ core: spellcasting/magic tinkering/
     - scribe anything, artificing
   sorcerer: intuitive alter spell -> metamagic
     - multi-casting, volatile/wild spells
-  bard:
+  bard: intuitive/honed
   warlock: make their patron's magic their own. #f? -> priest?
     - living spell, granting pacts
 

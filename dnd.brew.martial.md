@@ -2,7 +2,7 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685559308492
+updated: 1685654737426
 created: 1685282944352
 ---
 
@@ -35,3 +35,5 @@ mastery: your clean hits deal brutal damage
 ### focus: mage slayer
 if a creature takes a magic action within your reach, you may expend your reaction to make an opportunity attack against that creature.
 the target rolls d20 tests made this way to maintain concentration on casting or continuing spells with disadvantage.
+
+### focus: parry

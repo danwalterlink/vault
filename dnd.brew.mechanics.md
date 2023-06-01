@@ -368,7 +368,6 @@ when a spell fizzles after it was cast within your reach, you may use your react
 - synergy
   expend a
 
-
 ## splitting spells
 [spellweave: echo]
 for each instance of additional damage a spell would gain, you may instead, either:
