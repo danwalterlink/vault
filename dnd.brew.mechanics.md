@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685646325141
+updated: 1685648553393
 created: 1684961188700
 ---
 
@@ -358,7 +358,16 @@ analogous to "ability score increase",
 ## unraveling weave
 DC Spell level - closeness to spell: damage type - school
 opposed types +5
+if you fail the check, chaos bolt at creature within reach.
+critical fail: arcane anomaly (DoD:225)
 when a spell fizzles after it was cast within your reach, you may use your reaction to cast a spell that takes at most an action. If you cast a spell this way, reduce the needed spell slot by up to half the fizzled spells level.
+
+## counterweave
+- disergy
+
+- synergy
+  expend a
+
 
 ## splitting spells
 [spellweave: echo]
