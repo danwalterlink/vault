@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685364685915
+updated: 1685622740289
 created: 1684956724533
 ---
 
@@ -194,14 +194,22 @@ subclasses: (2, 6, 10, 14)
     + illusion: [improved minor illusion, malleable illusions, illusory self, illusory reality]
     + necromancy: [grim harvest, undead thralls, inured to undeath, command undeath]
     + transmutation: [minor alchemy, transmuter's stone, shapechanger, master transmuter]
-  - bladesinging
-    + attacks with int
-    + replace somatic components with a melee attack, if you do, you may change range to touch
-      - arcane maneuver: mark: [enhances mark]: spell echo {spell lvl + 1}
-      - while casting a spell: additional target marked.
-  - {specialty}:
-    + chronurgy
-    + war/graviturgy
+  - bladesinging [2,6,10,14]:
+    +{core: replaces "song of victory"} you can choose to add your int ability modifier for melee weapon attacks made as part of casting a spell.
+      heroic: for all weapon attacks when your bladesong is active.
+    +{heroic} replace somatic components of spells that target a creature within your reach with an attack action. You may change the spell's range to touch.
+    +{grand}
+      [Spellstained] When you target a creature with a spell, you may mark it.
+      [arcane maneuver: echoing mark](enhances mark):
+        You may either, when casting a spell with range touch:
+        - echo the spell for each marked creature.
+        - as a bonus action, teleport to an unoccupied space within reach of a marked creature.
+    +{epic}
+      [polyphony] you may choose other targets when making weapon attacks as part of casting a spell. For each target you may cast a spell of a level up to the number of targets.
+      [arcane maneuver: finale -]: after an attack when casting a spell, you may end your bladesong. If you do so, either:
+        [of devastation] you may recast a spell resulting in melee weapon attacks for each different target you cast during this bladesong. You may cast these spells using spell slots totaling half their cumulative level on each target.
+        [da capo] regain spell points equal to half your expended spell points expended with spells resulting in melee weapon attacks.
+
 
 ## class types
 [legacy]

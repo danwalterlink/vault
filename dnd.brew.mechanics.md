@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685558424321
+updated: 1685623456007
 created: 1684961188700
 ---
 
@@ -188,6 +188,10 @@ generics, apply if possible.
 ie. barbarians(12) get brutal(1) on 9, brutal(2) on 13 and brutal(3) on 17
 [recharge](num) regain use on roll num
 [discharge](num) up to all and for each (num) stored charges on {trigger}
+[echo](spell) choose the order of targets of each echo. create an instance of the spell each target, decrease its level by 1 for each instance.
+  If you are concentrating on a spell, make a concentration check.
+  You may concentrate on each instance of an echoed spell simultaneously as if spellweaving{x}.
+[spellweave] if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
 
 ## item hit dice
 along the {{generic object}} table.
@@ -343,18 +347,25 @@ you use spell slots, but can convert between spell slots at spell point rate.
 2,3 5,6,7 9,10,11,13; points cost per spell level
 can only convert 1 slot above 6th per spell level per day.
 
-## paragon feat: {spell school} master
-(prereq: 5th level spells, paragon of knowledge)
-spells known of school/total spell level of 3rd level or higher
-- {1}: master: spell point cost decrease for {school} per paragon rank (min 1,3)
-- {2}: grandmaster: expert {typecast: divination -> school}
-- {3}: legend: spellweaver {max slot lvl + mSl/4} majority {spell school}}
-  if non-spellschool: every activity: concentration check
 
-## feat: featuring
+## feat
+### featuring
 analogous to "ability score increase",
 "featuring" allows you to choose a class feature from a class sharing your primary class type and of a level up to that cumulative class type level. traits gained this way have the "feature" type.
 -> type restriction from character
+
+## splitting spells
+[spellweave: echo]
+for each instance of additional damage a spell would gain, you may instead, either:
+- copy the spell an equal number of times. You may choose new targets for the copy.
+
+## [paragon] {spell school} practicioner
+(prereq: 5th level spells, paragon of knowledge)
+spells known of school/total spell level of 3rd level or higher
+- {1}: practicioner: [enhances: arcane recovery] spell point cost decrease for {school} per paragon rank (min 1,3); additional spell points only usable for {school}
+- {2}: master: [expert](school) {typecast(divination expert::school)}
+- {3}: grandmaster: enhances:[spellweaver] {max slot lvl + mSl/4} majority {spell school}}
+  if non-spellschool: every activity: concentration check
 
 ## modes of success
 4 stage:
