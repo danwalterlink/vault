@@ -1,15 +1,13 @@
 ---
 id: wau3f5g0rgu9hilm1syanvo
-title: Dat
+title: Data
 desc: ''
-updated: 1685572455815
+updated: 1685626796293
 created: 1685278126930
-type.data: [[assets/ddubl.default.ipynb#default-notebook]]
+notebook: assets/ddubl.default.ipynb#^second-block
 ---
 
-{{fm.type.data}}
-
-[] data direction through frontmatter
+data direction through frontmatter
 typed definitions:
 as yml
 

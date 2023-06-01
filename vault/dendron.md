@@ -2,9 +2,12 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1684927819923
+updated: 1685624746006
 created: 1636846848375
 ---
+
+[Dendron Links](https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2/)
+
 boilerplate for submodule vault additions
 - assume new vault has the same config as existing vaults
 
