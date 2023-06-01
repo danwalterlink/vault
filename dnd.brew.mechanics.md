@@ -2,12 +2,14 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685623456007
+updated: 1685646325141
 created: 1684961188700
 ---
 
 or is inclusive, oor is exclusive, xor is not or
-calculations: averages are rounded down
+calculations are by default:
+  rounded down
+  exclusive
 definitions:
   "per day" is synonymous with "per long rest" since you cannot take multiple long rests within 24 hours.
   effects with the same name don't stack.
@@ -347,12 +349,16 @@ you use spell slots, but can convert between spell slots at spell point rate.
 2,3 5,6,7 9,10,11,13; points cost per spell level
 can only convert 1 slot above 6th per spell level per day.
 
-
 ## feat
 ### featuring
 analogous to "ability score increase",
 "featuring" allows you to choose a class feature from a class sharing your primary class type and of a level up to that cumulative class type level. traits gained this way have the "feature" type.
 -> type restriction from character
+
+## unraveling weave
+DC Spell level - closeness to spell: damage type - school
+opposed types +5
+when a spell fizzles after it was cast within your reach, you may use your reaction to cast a spell that takes at most an action. If you cast a spell this way, reduce the needed spell slot by up to half the fizzled spells level.
 
 ## splitting spells
 [spellweave: echo]

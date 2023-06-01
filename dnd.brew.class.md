@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685635935985
+updated: 1685644073962
 created: 1684956724533
 ---
 
@@ -270,44 +270,55 @@ mixed martial classes: style
 
 super (spell slot progression, trait doctoring -> supplanting traits = grafting)
 - spellcaster(cantrips, spellcasting(+ritual), "meta"[metamagic, scribe, pact])
+
   + non-
     barbarian, fighter, rogue, monk, bh, mh
+
   + half- -> construct by stacking martial with caster?
     -> divine smite, nature's wrath, x-infused
     (paladin, ranger, artificer) third: [profane soul, arcane trickster, eldritch knight]
+
   + full-
     -> feature regaining slots (outside of short-resting)
     (bard, sorcerer, wizard)(warlock)
+
 - martial
   + maneuvers (martial cantrips/spells)
   + focus (requiring resources: concentration)
   + drills (resting activity, temporary buffs, debuff removal, equipment prep, spell-like effects)
+
 - expert
   + expertise
   + stroke of genius
   + escape strangling specifics (enhances trait tinkering)
+
 - hybrid type (mixed?)
   : feature converts spell slots into
   -- [armor, cantrip-type, weapon]
-  warrior(honed) derived classes:
+  warrior, derived classes:
   -> "half-casters"
     spell-like ability, fueled by expending spell slots
+
       paladin (cha/wis)
       (medium armor, maneuvers, mastery(longsword), non-finesse martial melee weapons)
         -> convert smite spells into abilities
-        channel - smite: if spell prepared, add a smite effect
+        channel divine - smite: if spell prepared, add a smite effect
           - aura: self and allies
+
       ranger (wis/int)
       (light armor, maneuvers, mastery(shortsword, longbow), finesse martial melee weapons, non-firearm martial ranged weapons)
-        -> traps, consumables,
-        channel - imbue: consumables, self-buff
+        -> traps, consumables, temporary enchantment
+        channel nature - imbue: consumables, crucible
           - triggers and traps -> traps
+
       artificer (int/cha)
       (heavy armor, mastery(tools), firearms)
-        infuse: spell-like effects to equipment
+        channel arcane - infuse: spell-like effects to equipment
           - aura: lasting on equipment
 
-  monk(extreme dedication: double progression, no additional features), psion(raw arcane prodigy), mystic()
+  monk(extreme dedication: double progression, no additional features),
+  psion(raw arcane prodigy),
+  mystic
     psi/chi (psi -> chi: "bodied" psi)
     - replace innate casting somatic component with an {unarmed strike}
 

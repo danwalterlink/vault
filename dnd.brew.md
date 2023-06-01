@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685630472400
+updated: 1685646263789
 created: 1684357294795
 ---
 
@@ -10,7 +10,6 @@ scaling, power
 - centralising ideas: moving closer to "stem" of characters
 - generally, more powerful options are specialising and repeatable, then try to apply that stack to as much as possible
 - choices are empowering, so blowing the door open for more granular amalgamations of features will raise the roof of mechanical abilities, AND give access to new lows of synergy. So while, in an absolute sense, the gulf of power becomes more, rather than less, the difference between maximized and basic, "by-the-book" characters is intended to be much smaller, since the new lows are only accessible if you engage with the granular "build-it-yourself" system extensively.
-
 
 ## foreword
 Options are fun. Being able to make meaningful choices between options is powerful.
