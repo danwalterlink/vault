@@ -89,7 +89,7 @@
         "discord.enabled": false,
         "foam.openDailyNote.directory": "${workspaceFolder}/journal",
         "foam.openDailyNote.titleFormat": "journal.daily.yyyy.mm.dd",
-        "workbench.colorTheme": "Gruvbox Material Dark",
+        "workbench.colorTheme": "Gruvbox Material Light",
         "workbench.preferredDarkColorTheme": "Gruvbox Material Dark",
         "workbench.iconTheme": "gruvbox-material-icon-theme",
         "window.autoDetectColorScheme": true,
