@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685627339139
+updated: 1685634668133
 created: 1684956724533
 ---
 
@@ -210,7 +210,6 @@ subclasses: (2, 6, 10, 14)
         [of devastation] you may recast a spell resulting in melee weapon attacks for each different target you cast during this bladesong. You may cast these spells using spell slots totaling half their cumulative level on each target.
         [da capo] regain spell points equal to half your expended spell points expended with spells resulting in melee weapon attacks.
 
-
 ## class types
 all class types have empty/generic variants.
 -> ie. pick: generic metaclass warrior:
@@ -259,8 +258,8 @@ focussing multiclasses? -> monk: you do not gain additional features, but you co
 balanced multiclasses: lose primary class, gains an additional secondary class
 mixed martial classes: style
 
-warrior metaclass
-
+### meta
+#### warrior
   honed(flat boni; balanced; any style)
     :maneuver power attack; all Weapons
   sly(emphasize dex/precision; dice conversions and additional effects; precise styles)
@@ -272,7 +271,7 @@ warrior metaclass
   adding subclass options that improve on the specific nature:
   -> speeding up spell progression (2/3rds caster): every 3 classes count as 2 additional as to spell progressions. Rest: 1, neglect. Rest 2 add another 1.
 
-supertype: (spell slot progression, trait doctoring -> supplanting traits = grafting)
+super (spell slot progression, trait doctoring -> supplanting traits = grafting)
 - spellcaster(cantrips, spellcasting(+ritual), "meta"[metamagic, scribe, pact])
   + non-
     barbarian, fighter, rogue, monk, bh, mh
@@ -315,6 +314,7 @@ supertype: (spell slot progression, trait doctoring -> supplanting traits = graf
     psi/chi (psi -> chi: "bodied" psi)
     - replace innate casting somatic component with an {unarmed strike}
 
+metaclass: "pick" mechanic
 subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon class.
   - gains quicker progressions by foregoing subclass choice
   - more resources?
@@ -323,10 +323,10 @@ subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon
 
 ## paragon class type
 paragon of:
-  might (fighter/psion/barbarian); primary martial ability score over 20
-  cunning (bard/rogue, through paragon pilfering);  over 20
+  might (fighter/psion/barbarian); primary ability score over 20
+  cunning (bard/rogue, through paragon pilfering); over 5 different classes in traits
   {deity}/{circle} (cleric/druid); casting ability score priest over 20
-  power (fighter);
+  power (fighter/paladin);
   arcana (wizard/sorcerer); primary casting ability score caster over 20
   {any: warlock};
 
@@ -346,3 +346,100 @@ warlock doesn't advance any other progressions. typecast class; crucible;
 ## divergence from 5e
 "action surge becomes a general feature -> [[]]
 if you dont want feature to be readily accessible through multiclassing/trait doctoring, make it an amalgam feature (features that exist through layering if class features) and describe the fantasy/surrounding ideas through the closest (sub)class
+
+### meta
+warrior {honed, sly, brute}
+expert {artificer, thaumaturge, pilferer}
+priest(divine, primal, eldritch)
+caster(arcane, innate, psionic)
+occult(pact, crucible)
+-> crucial distinction: no-spell-progression, half-spell-progression, full-spell-progression
+
+##### caster
+core: spellcasting/magic tinkering/
+  wizard: scribe/memorize/alter spell
+    - scribe anything, artificing
+  sorcerer: intuitive alter spell -> metamagic
+    - multi-casting, volatile/wild spells
+  bard:
+  warlock: make their patron's magic their own. #f? -> priest?
+    - living spell, granting pacts
+
+##### warrior
+core: maneuver/focus/drill
+- fighter: allrounder/technician
+  + fighter:battlemaster:: all maneuvers/exploits
+- rogue: dexterity
+- barbarian: strength
+
+##### priest
+cast/channel/pray
+- cleric: divine
+- druid: primordial
+- warlock: eldritch
+
+#### occult
+##### crucible
+mutate/concentrate/research
+- apothecary
+- blood hunter (completes the paladin/ranger trio) -> mixed base type?
+- monster hunter
+- living crucible
+
+##### innate?
+- sorcerer
+- bard
+- psion
+
+##### expert
++/craft/focus/invent(flash of mind)
+- artificer () - expert: arcane
+- monk:
+- bard
+
+##### arcane
++ arcane = mystic
++ innate = sorcerer
++ caster = wizard
+
+#### mixed
+##### mixed
+  associate your spellcasting to a mental ability stat
+  associated spell-ability you can convert into abilities (like smite)
+- paladin: divine (pick associated mental ability stat)
+- ranger
+- artificer/warlock?
+
+-- warrior
+  + warrior: monk
+  + expert: fighter -> battlemaster
+  + primal: barbarian
+  + divine: paladin
+  + arcane: bladesinger/rune knight
+  + psionic: psion/psi-warrior
+  + pact: hexblade/eldritch knight/oath of vengeance
+  + crucible: crucible knight
+-- expert
+  + expert: bard/rogue
+  + warrior: rogue/fighter
+  + divine: thaumaturge??
+  + primal: ranger
+  + arcane: artificer/arcane trickster
+  + psionic: soul knife
+  + pact: ??
+  + crucible: blood hunter(mutant)
+-- divine
++ divine : cleric
++ martial : war domain/forge domain
++ expert : trickery domain
++ primal : tempest domain
++ arcane : arcana domain
++ psi : ?
++ pact : twilight/death?
++ crucible : godeater
+-- primal
++ arcane
+-- arcane
+-- psi
+-- pact
+-- crucible

@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685627182876
+updated: 1685630472400
 created: 1684357294795
 ---
 
@@ -59,7 +59,7 @@ less punishing initial exhaustion effects.
 recovering from exhaustion reduces:
 1) total no. of hit dice
 2) hit dice size
-3) [restfulness] regaining hit dice {[rested]amount/size[fatigue]} vs [preparedness] regenerating resources;
+3) [restful] regaining hit dice {[rested]amount/size[fatigue]} vs [preparing] regenerating resources;
 : a character counts as fatigued, if their current hit dice size lesser than half their maximum
 - long rests without available hit dice only recovers a single hit dice instead of any other benefits.
 - long rests with your current maximum hit dice are recuperative.
@@ -108,108 +108,8 @@ warlock: bake hexblade-features into base-class #changes.5e
 smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
 -> small changes have potentially far-reaching effects.
 along general type system, classes fulfill a more 'templative' role
-warrior {honed, sly, brute}
-expert {artificer, thaumaturge, pilferer}
-priest(divine/primal)
-caster(arcane/psionic)
-occult(pact/crucible)
-  warrior: monk? -> fighter/warrior
-  expert: rogue/(alchemist)
-  divine: cleric
-  primal: druid
-  arcane: wizard
-  psionic: mystic
-  pact: warlock
-  crucible: witcher/blood hunter
--> crucial distinction: no-spell-progression, half-spell-progression, full-spell-progression
 
-##### caster
-cast/concentrate/practice
-  wizard: scribe/memorize/alter spell
-    - scribe anything, artificing
-  sorcerer: intuitive alter spell -> metamagic
-    - multi-casting, volatile/wild spells
-  warlock: make their patron's magic their own. #f? -> priest?
-    - living spell, granting pacts
-
-##### warrior
-maneuver/focus/drill
-- fighter: allrounder/technician
-  + fighter:battlemaster:: all maneuvers/exploits
-- rogue: dexterity
-- barbarian: strength
-
-##### priest
-invoke|cast/concentrate/pray
-- cleric: divine
-- druid: primordial
-- warlock: eldritch
-
-#### occult
-##### crucible
-mutate/concentrate/research
-- apothecary
-- blood hunter (completes the paladin/ranger trio) -> mixed base type?
-- monster hunter
-- living crucible
-
-##### innate?
-- sorcerer
-- bard
-- psion
-
-##### expert
-+/craft/focus/invent(flash of mind)
-- artificer () - expert: arcane
-- monk:
-- bard
-
-##### arcane
-+ arcane = mystic
-+ innate = sorcerer
-+ caster = wizard
-
-#### mixed
-##### mixed
-  associate your spellcasting to a mental ability stat
-  associated spell-ability you can convert into abilities (like smite)
-- paladin: divine (pick associated mental ability stat)
-- ranger
-- artificer/warlock?
-
--- warrior
-  + warrior: monk
-  + expert: fighter -> battlemaster
-  + primal: barbarian
-  + divine: paladin
-  + arcane: bladesinger/rune knight
-  + psionic: psion/psi-warrior
-  + pact: hexblade/eldritch knight/oath of vengeance
-  + crucible: crucible knight
--- expert
-  + expert: bard/rogue
-  + warrior: rogue/fighter
-  + divine: thaumaturge??
-  + primal: ranger
-  + arcane: artificer/arcane trickster
-  + psionic: soul knife
-  + pact: ??
-  + crucible: blood hunter(mutant)
--- divine
-+ divine : cleric
-+ martial : war domain/forge domain
-+ expert : trickery domain
-+ primal : tempest domain
-+ arcane : arcana domain
-+ psi : ?
-+ pact : twilight/death?
-+ crucible : godeater
--- primal
-+ arcane
--- arcane
--- psi
--- pact
--- crucible
+![[Class|dendron://dnd/dnd.brew.class]]
 
 #### subclasses
 Typecast:
@@ -276,7 +176,7 @@ action surge type restrictions?
 -> cost backloading. action surge - attempt thing and then pay resources.
 
 sharpshooter
-you ignore half and 3/4 cover up to your prof mod amount of times.
+[no quarter]: you treat half as no and 3/4 as half cover.
 
 healing:
 : receiving over your biggest hit dice worth of hp in healing:
@@ -285,14 +185,11 @@ healing:
   - while starved depletes hit dice a number of hit dice could have rolled (rounded up).
   - while starved and without adequate hit dice additionally gives you one level of exhaustion.
 
-maneuvers for martials
-
 degrees of success:
 combat: critical failure/success
   slight failure: slight chance of minor weapon damage (knick, bend or tear),
   failure: failed by 5 or more: automatic minor weapon damage, slight chance of major weapon damage (rendering unusable or less effective). Can use reaction to mitigate.
   critical failure: automatic major weapon damage. Can use reaction to mitigate.
-
 
 Potions
 : healing potions restore health according to : minor healing potion (2d4 + constitution modifier) ||
