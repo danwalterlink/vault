@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "dnd": true,
+    "vault": true,
+    "task": true,
+    "stream": true,
+    "journal": true
+  }
+}

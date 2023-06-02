@@ -15,92 +15,30 @@
     },
     "folders": [
         {
-            "path": "dendron/vault",
-            "name": "dendron"
+            "name": "dendron",
+            "path": "./"
         },
         {
-            "path": "task"
+            "path": "./task"
         },
         {
-            "path": "stream"
+            "path": "./stream"
         },
         {
             "path": "./journal"
         },
         {
-            "path": "vault"
+            "path": "./vault"
         },
         {
-            "path": "dnd"
+            "path": "./dnd"
         }
     ],
     "settings": {
-        "commentBox.styles": {
-            "defaultStyle": {}
-        },
         "dendron.rootDir": ".",
-        "editor.snippetSuggestions": "inline",
-        "editor.suggest.localityBonus": true,
-        "editor.suggest.showSnippets": true,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.tabSize": 2,
-        "editor.wordWrap": "bounded",
-        "files.autoSave": "onFocusChange",
-        "git.enableSmartCommit": true,
-        "git.fetchOnPull": true,
-        "git.pruneOnFetch": true,
-        "gitdoc.autoPullDelay": 10000,
-        "gitdoc.autoPushDelay": 10000,
-        "gitlens.codeLens.enabled": false,
-        "markdownlint.config": {
-            "MD013": false,
-            "MD018": false,
-            "MD022": false
-        },
-        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
-        "pasteImage.path": "${currentFileDir}/assets/images",
-        "pasteImage.prefix": "/",
-        "rpc.enabled": false,
-        "todo-tree.tree.scanMode": "workspace",
-        "gitblame.ignoreWhitespace": true,
-        "gitlens.blame.ignoreWhitespace": true,
-        "markdownShortcuts.icons.strikethrough": false,
-        "markdownShortcuts.icons.italic": false,
-        "markdownShortcuts.icons.bullets": false,
-        "markdownShortcuts.icons.bold": false,
-        "editor.tabCompletion": "on",
-        "editor.acceptSuggestionOnEnter": "smart",
-        "gitdoc.enabled": true,
-        "zenMode.fullScreen": false,
-        "zenMode.centerLayout": false,
-        "workbench.experimental.layoutControl.enabled": true,
-        "workbench.list.smoothScrolling": true,
-        "gitdoc.autoCommitDelay": 5000,
-        "editor.guides.highlightActiveIndentation": false,
-        "editor.guides.indentation": false,
-        "editor.stickyTabStops": true,
-        "gitdoc.pushMode": "forcePushWithLease",
-        "gitdoc.commitValidationLevel": "none",
-        "gitdoc.commitMessageFormat": "DATETIME_SHORT",
-        "gitdoc.timeZone": "CH",
         "git.followTagsWhenSync": true,
         "git.rebaseWhenSync": true,
-        "discord.enabled": false,
-        "foam.openDailyNote.directory": "${workspaceFolder}/journal",
-        "foam.openDailyNote.titleFormat": "journal.daily.yyyy.mm.dd",
-        "workbench.colorTheme": "Gruvbox Material Light",
-        "workbench.preferredDarkColorTheme": "Gruvbox Material Dark",
-        "workbench.iconTheme": "gruvbox-material-icon-theme",
-        "window.autoDetectColorScheme": true,
-        "typescript.inlayHints.enumMemberValues.enabled": true,
-        "workbench.preferredLightColorTheme": "Gruvbox Material Light",
         "git.enableCommitSigning": true,
-        "git.alwaysShowStagedChangesResourceGroup": true,
-        "notebook.output.wordWrap": true,
-        "dmbinder.chromeExecutablePath": "/Applications/Google Chrome.app",
-        "git-blame.gitWebUrl": "",
-        "editor.stickyScroll.enabled": false,
-        "editor.stickyScroll.maxLineCount": 5
+        "git.alwaysShowStagedChangesResourceGroup": true
     }
 }
