@@ -2,11 +2,49 @@
 id: hsr8c6m5dxnyheqm1kazrkq
 title: Project
 desc: ''
-updated: 1685294543419
+updated: 1685697989323
 created: 1637959839459
 ---
-# sub
-# prodOS
+
+3t
+webfront
+  store
+    totality training
+    publishing ruleset
+      dendron renders
+tooling
+  dotfile
+    tmux
+      git
+    zsh
+      autoupdater
+  todo/task organization
+    dendron
+      notebook - code - richtext - plaintext
+      task-as-text
+        path-content idempotency
+        time - efficacy - efficiency
+      path-as-data
+        schema generators
+        hooks
+          metatemplates
+            ? md as yml
+      yml type definitions
+    ios-data-visualizer
+      defining minimal data set
+      aggregation
+      automation
+        uri resolver reverse proxy
+        js-jit
+3ttools
+  fingerboard
+  stool-monopod
+dnd-sheet-gen
+  fuzzy5e
+    srd-data
+
+## sub
+## prodOS
 + literate
   - cli
   -> yAsk
@@ -17,14 +55,14 @@ created: 1637959839459
 |- windowGenerator
 |->? hs.tiling
 #fgc
-# sports
+## compete
 sfv-hitboxViewer
 + decompilation
 |-> rebuilding working on current patch
 ![[d:vault/games]]
 
 ## training
-## tttotality
+### tttotality
 - inheritable listlike components
   -> datastructure/ast converter
   different visual working paradigm
@@ -46,7 +84,7 @@ educational programming
 - stereovisual velocity-training
 - movement-pattern/load recognition
 
-# stream
+## stream
 - ingest
 - context informed state-based definitions
   - typed/voiced/motioned commands
@@ -60,20 +98,20 @@ educational programming
 - pwsh automation framework – screenReader integration: stream
 - phantomBot
 
-## touchPortal
+### touchPortal
   Buttons:
   - in/outCut/mark w/ text
   - buffer2text
   +> voice2buffer on ygg:main&stream
   - autoswitch on/off (midi?)
-  -> #stuff motorized knob - midi
+    motorized knob - midi #/get
 
-  ### sfx
-  ### vfx
+#### sfx
+#### vfx
   - glitch
   - sloMo
 
-## obs-studio
+### obs-studio
 - touchPortal -> stateful.record
 - twitch-plugin: hyper
 - autoEmbed
