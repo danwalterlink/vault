@@ -2,7 +2,7 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1685624746006
+updated: 1685702050251
 created: 1636846848375
 ---
 
@@ -49,12 +49,26 @@ type-signatures as in haskell
 #issue escape hashtags
 
 #explore #learn using dendron.collections - pods | attach & search
----
 [dendron frontmatter docs](https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b/#other-keys)
----
+
+syntactic definitions:
+  yml -> functions?
+
 #! literate
-#! inline-folds in nvim available -> folds step over
+  textual flow
+    git tags
+      untagged=untagged
+      data
+        :: functions
+      skeleton
+
+#! inline-folds
+    nvim? available -> folds step over
+
 #! to file url | functions as data -> evaluating with kernels | if url points to struct -> gettr
+  template with uri endpoints: queries
+    template: onCreate
+    hook: dynamic(?onSave)
 
 interaction notebooks:
   opening - writing in transclusions
