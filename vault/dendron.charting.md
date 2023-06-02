@@ -1,8 +1,8 @@
 ---
 id: ht360xo4u7wc20su21l7v7y
-title: Chartin
+title: Charting
 desc: ''
-updated: 1682685171683
+updated: 1685725632054
 created: 1682685153545
 ---
 - [ ] variables and transclusions

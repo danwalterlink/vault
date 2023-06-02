@@ -2,7 +2,7 @@
 id: lvxg1lmdr1ljpucbki5ymii
 title: tmux
 desc: ''
-updated: 1636456903553
+updated: 1685725866657
 created: 1633199321516
 ---
 
@@ -41,7 +41,7 @@ rename window| ^b
 list all windows| ^b w
 move to window number| ^b [number]
 | split window vertically| ^b %
-split window horizontally| ^b “
+split window horizontally| ^b "
 next pane| ^b o
 previous pane| ^b ;
 show pane numbers| ^b q
