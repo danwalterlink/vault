@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685648553393
+updated: 1685659116527
 created: 1684961188700
 ---
 
@@ -30,6 +30,10 @@ force, physical(b,p,s),
 necrotic, radiant
 poison, acid
 fire, cold, lightning, thunder
+
+counterpunch: range longer: more force
+- same type cancel out
+- elemental vulnerabilities
 
 #### type additions
 ##### item
@@ -364,9 +368,10 @@ when a spell fizzles after it was cast within your reach, you may use your react
 
 ## counterweave
 - disergy
-
+  add spell levels
 - synergy
-  expend a
+  remove spell levels
+enhance next attack
 
 ## splitting spells
 [spellweave: echo]

@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685655280922
+updated: 1685657627915
 created: 1684956724533
 ---
 
@@ -199,10 +199,11 @@ subclasses: (2, 6, 10, 14)
     + illusion: [improved minor illusion, malleable illusions, illusory self, illusory reality]
     + necromancy: [grim harvest, undead thralls, inured to undeath, command undeath]
     + transmutation: [minor alchemy, transmuter's stone, shapechanger, master transmuter]
+
   - bladesinging [2,6,10,14]:
-    +{core: replaces "song of victory"} you can choose to add your int ability modifier for melee weapon attacks made as part of casting a spell.
-      heroic: for all weapon attacks when your bladesong is active.
-    +{heroic} replace somatic components of spells that target a creature within your reach with an attack action. You may change the spell's range to touch.
+    +{core: replaces "song of victory"} you can choose to add your int ability modifier for melee weapon attacks made as part of casting a spell instead.
+      heroic: for all weapon attacks while your bladesong is active.
+    +{heroic} replace somatic components of spells that target a creature within your reach with an attack. You may change the spell's range to touch.
     +{grand}
       [Spellstain] When you mark a creature while casting a spell, that mark becomes a spellstained mark.
       [arcane maneuver: echoing spellstain]:
@@ -215,7 +216,7 @@ subclasses: (2, 6, 10, 14)
       [polyphony] you may choose other targets when making weapon attacks as part of casting a spell. For each target you may cast a spell of a level up to the number of targets.
       [arcane maneuver: finale -]: after an attack when casting a spell, you may end your bladesong. If you do so, either:
         [of devastation] you may recast a spell resulting in melee weapon attacks for each different target you cast during this bladesong. You may cast these spells using spell slots totaling half their cumulative level on each target.
-        [da capo] regain spell points equal to half your expended spell points expended with spells resulting in melee weapon attacks.
+        [reprise] regain spell points equal to half your expended spell points expended with spells resulting in melee weapon attacks.
 
 ## class types
 all class types have empty/generic variants.
@@ -263,12 +264,12 @@ mixed martial classes: style
 
 ### meta
 #### warrior
-  honed(flat boni; balanced; any style)
-    :maneuver power attack; all Weapons
+  honed(balanced; any style)
+    :maneuver, power attack; all Weapons
   sly(emphasize dex/precision; dice conversions and additional effects; precise styles)
-    :maneuver: sneak attack; Dextrous Weapons
+    :maneuver, sneak attack; Dextrous Weapons
   brute(rage; typecast certain ability score to str/con; brutal styles)
-    :maneuver reckless attack; Strength Weapons
+    :maneuver, reckless attack; Strength Weapons
     -> intellect brute(psion!): typecast everything to intelligence
 
   adding subclass options that improve on the specific nature:

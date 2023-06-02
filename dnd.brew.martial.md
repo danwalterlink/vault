@@ -2,7 +2,7 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685654737426
+updated: 1685659823208
 created: 1685282944352
 ---
 
@@ -35,5 +35,12 @@ mastery: your clean hits deal brutal damage
 ### focus: mage slayer
 if a creature takes a magic action within your reach, you may expend your reaction to make an opportunity attack against that creature.
 the target rolls d20 tests made this way to maintain concentration on casting or continuing spells with disadvantage.
+when you dispel magic, you can either:
+- ground the arcane energies, granting you 5ft of safe movement
+- emit a 10/3SLft line of force originating from you dealing 1d6 of damage that either pulls or pushes creatures 5ft to or from it.
+- store energy in your weapon. For the next minute, it deals an extra 1d6 of force damage
 
 ### focus: parry
+you learned to wrestle the elements itself,
+  same shape or reach, same damage type
+  improvised weapon proficient, dex save dc 10+dex or half damage

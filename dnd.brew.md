@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685646263789
+updated: 1685656233596
 created: 1684357294795
 ---
 
@@ -175,7 +175,13 @@ action surge type restrictions?
 -> cost backloading. action surge - attempt thing and then pay resources.
 
 sharpshooter
-[no quarter]: you treat half as no and 3/4 as half cover.
+  [no quarter]: you treat half as no and 3/4 as half cover and other foes do not impede line of sight.
+  you can use any attack maneuver with ranged weapons
+  focus: if you haven't moved this turn +1 to attack and damage rolls with ranged attacks.
+  eagle eyed: no disadvantage max range; you can discern color even in dim environments.
+
+close-quarters shooter
+
 
 healing:
 : receiving over your biggest hit dice worth of hp in healing:
