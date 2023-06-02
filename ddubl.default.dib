@@ -1,0 +1,13 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!csharp
+
+var array = new[] { 1,2,3 };
+
+#!javascript
+
+#!share --from csharp array
+
+return array;

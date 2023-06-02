@@ -4,6 +4,6 @@
       "vault": true,
       "task": true,
       "stream": true,
-    "journal": true
+      "journal": true
   }
 }
