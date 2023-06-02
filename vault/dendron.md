@@ -2,7 +2,7 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1685702050251
+updated: 1685704503172
 created: 1636846848375
 ---
 
@@ -51,12 +51,17 @@ type-signatures as in haskell
 #explore #learn using dendron.collections - pods | attach & search
 [dendron frontmatter docs](https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b/#other-keys)
 
-syntactic definitions:
-  yml -> functions?
+separation vault - git submodule per branch / sub-branch
+  where hooks?
 
-#! literate
+
+syntactic definitions:
+  types as yml tags: function hooks
+  /hook:
+
+#! literate flow: treat file as markdown
   textual flow
-    git tags
+    geared functionality: git tags
       untagged=untagged
       data
         :: functions
