@@ -2,7 +2,7 @@
 id: 0vi17d42eooupk9utoda7n3
 title: Project
 desc: ''
-updated: 1685101679825
+updated: 1685721073676
 created: 1674724560890
 ---
 
@@ -29,6 +29,7 @@ dnd character tools
   extendible markup integration
     dendron
     vscode -> tooling
+
 ```mermaid
 %%{init: { "theme": "forest" } }%%
 gantt
