@@ -2,9 +2,23 @@
 id: edu8qw1tgsjub51732c6vjy
 title: macOS
 desc: ''
-updated: 1680603252267
+updated: 1685698369860
 created: 1656433122774
 ---
+
+autoupdate function
+  generate: subcommand of name : manager.installed
+    :: verb -> manager.installed(verb) -> ledger.noun.verb
+    #/intent find submanager
+  empty: add last run command to autoupdate chain
+  query url
+  default {
+    {system.packagemanager}
+    pip
+    node
+    pnpm
+    npm
+  }
 
 
 A quick Google search uncovered the simple change. Add the following line to /etc/pam.d/sudo:
