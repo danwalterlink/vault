@@ -2,10 +2,12 @@
 id: wau3f5g0rgu9hilm1syanvo
 title: Data
 desc: ''
-updated: 1685626796293
+updated: 1685732562586
 created: 1685278126930
 notebook: assets/ddubl.default.ipynb#^second-block
 ---
+
+yml directed data generation
 
 data direction through frontmatter
 typed definitions:

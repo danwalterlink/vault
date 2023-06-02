@@ -2,9 +2,10 @@
 id: e0hzf9dpsudzjkz8djdvgdl
 title: '22'
 desc: ''
-updated: 1666616149705
+updated: 1685739302462
 created: 1666464015826
 ---
+
 ## general
 - pose transitions
   + (big movements make large)
@@ -69,7 +70,6 @@ elbows higher
       est fat-mass 92@10
       9.2
       1.67kg per mesocycle
-
 
       d : 3.3 in 8.2 over 6 cycles
       4.9kg lean body mass across
