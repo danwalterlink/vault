@@ -2,16 +2,16 @@
 id: hsr8c6m5dxnyheqm1kazrkq
 title: Project
 desc: ''
-updated: 1685697989323
+updated: 1685700812125
 created: 1637959839459
 ---
 
 3t
-webfront
-  store
-    totality training
-    publishing ruleset
-      dendron renders
+  webfront
+    store
+      totality training
+      publishing ruleset
+        dendron renders
 tooling
   dotfile
     tmux
@@ -36,6 +36,7 @@ tooling
       automation
         uri resolver reverse proxy
         js-jit
+      uri-redirection
 3ttools
   fingerboard
   stool-monopod
@@ -95,7 +96,7 @@ educational programming
 +> transition/animation framework
 +> digital camerastation workfow -> UE5 pipeline w/ extractable nodes
 +> integrated rtAfterEffects/resolve
-- pwsh automation framework – screenReader integration: stream
+- pwsh automation framework - screenReader integration: stream
 - phantomBot
 
 ### touchPortal
