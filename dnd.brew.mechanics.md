@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685787214734
+updated: 1685820919418
 created: 1684961188700
 ---
 
@@ -51,8 +51,19 @@ cantrip(0), minor(1,2,3), medior(4,5), major(6,7,8), epic(9)
 
 alternate ways to unlock epic tier traits: increase an ability score above 20?
 
-## default critical misses
+# action
+## attack
+### default critical misses
   messing with resources adds to the messed with resource instead while losing your expended resource.
+
+### roll
+extraordinary fumble: min on at least 2 dice on disadvantage or worse: minor and major adverse
+fumble: min attack dice size: minor adverse: nick your weapon
+miss <=-3 to hit
+graze (to hit and up to -2): minimal damage (1)
+hit >= to hit
+clean >=5 hit
+critical >= max attack dice size
 
 ## resources
 {interface}: "once per {length} rest" is equivalent to 1d2, doubling in size per stacking instance.
@@ -200,14 +211,25 @@ ie. barbarians(12) get brutal(1) on 9, brutal(2) on 13 and brutal(3) on 17
 [spellweave] if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
 [riposte]
 
-
-
-## item hit dice
+## item
+### hit dice
 along the {{generic object}} table.
 object[size[tiny,...,huge], ac[material[paper,11],...,[adamantine,23]],dice.size[d4,...,10], dice.amount[2,...,5], modifier:[craftingQuality, trait[resilient:2,fragile:1/2]]
 -> retrieving arrows: arrow[1d4]
 using items without tracking individual hit dice:
   map hit dice to chanced traits that are rolled on interaction.
+tracking hitpoints per item is tedious,
+  simple variant rules:
+    post combat: \#rounds = dmg for used weapons
+    armor gets damaged when hit
+
+### status conditions
+[blunt]: below half maxed half hit dice
+  slashing: -1 dmg
+  piercing: -1 atk
+[sharp]: slashing: within num hit dice from full
+  slashing: +1 dmg
+  piercing: +1 atk
 
 ## status conditions
 {{template}}: while {{status.condition}} you experience the following effect:
@@ -446,3 +468,5 @@ ac: you gain access to the defender's focus:
 ranged attacks with melee weapons count as ranged weapon attacks for that attacks instance.
 A ranged attack with melee weapon generates a ranged weapon attack instance for the purposes of fulfilling restrictions of traits.
 (ie. thrown weapons work with feat.sharpshooter.phb.5.0)
+
+## potent cantrip

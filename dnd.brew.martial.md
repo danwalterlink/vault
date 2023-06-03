@@ -2,7 +2,7 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685787905288
+updated: 1685809948267
 created: 1685282944352
 ---
 
@@ -44,8 +44,8 @@ since magic is worlded: strong focus. mere presence makes working with magic mor
 you may not be able to cast spells, but you are attuned enough to disrupt it.
 if you are able to weave spells, use dregs and tearings to infuse simpler castings.
 
-if a creature takes a magic action within your reach, you may expend your reaction to make an opportunity attack against that creature.
-the target rolls d20 tests made this way to maintain concentration on casting or continuing spells with disadvantage.
+if a creature takes a magic action within your reach, you may use your reaction to make an opportunity attack against that creature.
+the target rolls d20 tests made this way to maintain concentration on spells with disadvantage.
 when you dispel magic, you can either:
 - ground the arcane energies, granting you 5ft of safe movement
 - emit a 10/3SLft line of force originating from you dealing 1d6 of damage that either pulls or pushes creatures 5ft to or from it.
@@ -64,3 +64,16 @@ you learned to wrestle the elements itself,
   - deflect: action economy
   - attack maneuver but only effects
   - attack replacement actions
+
+feat: marksman, replaces "crossbow expert"
+- you ignore the loading property of weapons you are proficient with
+- being within 5 ft of your target does not impose disadvantage on ranged weapon attacks.
+- gain a martial ranged weapon maneuver or "precise attack"
+
+ranged weapon maneuver:
+- barrage: overload: multiple in cone or circle
+- steady: sacrifice movement to gain atk roll
+- backstep/kite: 5 feet of safe movement
+- trick shot: ricochet
+- overpull: damage weapon to increase atk
+- improvised ammunition

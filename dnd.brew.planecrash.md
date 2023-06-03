@@ -2,7 +2,7 @@
 id: emvyq987lb5t97kbhnh6vzw
 title: Planecrash
 desc: ''
-updated: 1685744109657
+updated: 1685796279762
 created: 1681729892783
 ---
 
@@ -243,7 +243,6 @@ draconic magic: all spells acquired through this feat count as sorcerer and drac
     5th:
   brass:
     1st: fire bolt,
-
 
   gems:
     amethyst - force
