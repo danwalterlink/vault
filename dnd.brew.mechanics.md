@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685659116527
+updated: 1685787214734
 created: 1684961188700
 ---
 
@@ -198,6 +198,9 @@ ie. barbarians(12) get brutal(1) on 9, brutal(2) on 13 and brutal(3) on 17
   If you are concentrating on a spell, make a concentration check.
   You may concentrate on each instance of an echoed spell simultaneously as if spellweaving{x}.
 [spellweave] if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
+[riposte]
+
+
 
 ## item hit dice
 along the {{generic object}} table.
@@ -423,6 +426,9 @@ traits of magical objects are treated as infusions. on use by non-proficient use
 innate abilities of creatures can be harvested.
 
 ## fighting styles
+? technician / fighter
+  once per turn, if you make an attack, you may make an additional attack.
+
 ### great weapon fighting
 additional damage dice: heavy weapons as if they had brutal(1)
 

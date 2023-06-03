@@ -2,9 +2,14 @@
 id: emvyq987lb5t97kbhnh6vzw
 title: Planecrash
 desc: ''
-updated: 1685120668988
+updated: 1685744109657
 created: 1681729892783
 ---
+
+the world is magic'd and magic is worlded.
+removing a curse requires a ritualistic drawing out of the suffusing powers. Often, additional imolements are needed.
+Running white quartz sand through the lightly clenched fist in loose circles around the afflicted creature, the grains slowly vibrate into shapes of fine runes in unison with your low chant.
+Your companions have 3 silver-imbued swords buried hand-deep into loose, scented earth. They brace themselves to erect stronger conduits for the fell and its probable shadowspawn your spell could birth.
 
 over:
   determined to free the material - and thus the multiverse - from the shackles of order, the abyss tries to merge with the it. Extraplanar entities have an easier time existing on certain pockets of the prime material to either keep the existing order, or side with chaos for their own ends.
