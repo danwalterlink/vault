@@ -39,6 +39,13 @@
         "git.followTagsWhenSync": true,
         "git.rebaseWhenSync": true,
         "git.enableCommitSigning": true,
-        "git.alwaysShowStagedChangesResourceGroup": true
+        "git.alwaysShowStagedChangesResourceGroup": true,
+        "pasteImage.path": "${currentFileDir}/assets/images",
+        "pasteImage.prefix": "/",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": true
     }
 }
