@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685820919418
+updated: 1685873594479
 created: 1684961188700
 ---
 
@@ -470,3 +470,7 @@ A ranged attack with melee weapon generates a ranged weapon attack instance for 
 (ie. thrown weapons work with feat.sharpshooter.phb.5.0)
 
 ## potent cantrip
+typecast cleric feature for any mental ability
+
+## lightning reflexes
+
