@@ -30,4 +30,4 @@ if narrower branch A' of named master branch A:base
 - modified base functions:
   pull : rebase 'name:feature' onto master:master
 
-![[Workflow|dendron://vault/dendron.workflow]]
+![[dendron://vault/dendron.flow]]
