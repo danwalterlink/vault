@@ -2,14 +2,13 @@
 id: n1dtdcd6apkucqer7c0qc6a
 title: dbfz practice
 desc: ''
-updated: 1631560106201
+updated: 1685898636744
 created: 1631560106201
-tags: 'gaming,practice'
+tags:
+  - gaming
+  - practice
 notebook: practice
 ---
-
-
-
 
 ## t2 practice 2020-08-05 10:57:12
 
