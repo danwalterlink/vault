@@ -2,7 +2,7 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685883475288
+updated: 1685896303845
 created: 1685279618031
 ---
 
@@ -14,7 +14,28 @@ generate mappings; NLP
 : more unwieldy unless digital
 
 ### progression
+overall progression charts additive:
+character
+  feat
+    1, 4, 8, 12, 16, 19
+  tier
+    3, 7, 11, 17
+  action
+    5, 11, 18
+archetype : are generally replaced by class
+  1, 2, 3,
+  warrior
+  expert
+  mage
+  priest
+  {crucible}
+class
+subclass
+occupation/pastimes
+
 #### general
+::type(initial, interval, amount) [levels]
+
 tier class -> feat/trait improvements/accessibility (can pick, but not use)
   talent<=2
   master>=3 [master, improved]

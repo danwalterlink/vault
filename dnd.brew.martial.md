@@ -2,11 +2,13 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685878056398
+updated: 1685896303805
 created: 1685282944352
 ---
 
 ## martial features
+if multiple features change calculations, choose one.
+attack maneuvers: after you use an attack maneuver, you roll atk
 ### maneuver: power attack
 ((-1 attack roll := +2 damage)x up to weapon dice size/2)?(up to prof mod)
 (improved by brute)

@@ -2,9 +2,11 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685884205859
+updated: 1685896303835
 created: 1684956724533
 ---
+
+types inheritable
 
 ## typification / classification
 arch(e)type: martial(proficiency(with martical weapons)), caster(spellcasting)
@@ -13,17 +15,25 @@ character (class) type: [single, mixed, multi]:
   total character class: cumulative type description
     total character class level: legacy character level
     derived character class level: cumulative character class level
-type:class: [warrior, expert, caster, priest, occult]
+
+martial: trait class:
+  martial weapons
+caster:
+  spellcasting
+specialist
+hybrid
+
+type:class: [warrior, expert, mage, priest, occult]
     warrior: [honed, sly, brute]
       attack [practiced, sneak, reckless]
       maneuver, focus, stance
       style
-    caster: [prepared, known, innate]
+    expert: [artificer, pilferer, thaumaturge]
+      expertise
+    mage: [prepared, known, innate]
       spellcasting
       metamagic
       specialization
-    expert: [artificer, pilferer, thaumaturge]
-      expertise
     priest: [divine, primal, eldritch]
       spellcasting
       channel
@@ -31,6 +41,7 @@ type:class: [warrior, expert, caster, priest, occult]
     crucible: [investiture, imbibe, pact]
       invoke
   class:type: [legacy, base, sub, derived, prestige, paragon]
+
 feature type: [learned, pilfered, crucible]
   pilferer:
     fighter: martial
@@ -40,13 +51,17 @@ feature type: [learned, pilfered, crucible]
     warlock: everything
 
 ## class type features
-adapter: {legacy}
-base: core
-sub: supplemental
-derived: multiclass: replacements; resulting from multiclass;
-  fighter -> monk: martial; mystic
-prestige: multi/core/supplemental/replacement
-paragon: improved scaling
+supertypes: focused (+50% type scaling), dip, poly: paragon requirements
+_ {class}:
+  adapter: {legacy}
+  base: core
+    un-subclassed: generic: supertype features
+    paragon: non-derived: acquired feature types congruent with base class
+  sub: supplemental
+    derived: multiclass: replacements; resulting from multiclass;
+    fighter -> monk: martial; mystic
+  prestige: multi/core/supplemental/replacement
+  paragon: improved scaling?
 
 # base class template:
 {one phrase description}
@@ -62,34 +77,43 @@ base class feature: {}
 feature can be untyped
 [core, base, sub, paragon, prestige, origin, kiln]
 generally:
-  - additional resource allocation
-  - base class features are unspecific
-  - abilities are preferably tied to resources, instead of binary cooldowns (per day)
+  additional resource allocation
+  base class features are unspecific
+    variants layer features on top
+  abilities are preferably tied to resources, instead of binary cooldowns (per day)
+
+whenever you choose character features, you can forego that choice and instead gain a feature that is at least as generic
+!# class gets subtypes you can choose : a la cleric XUA22CO holy order
+-> 2 options + no choice.
 
 ### artificer
+infuser, tinkerer
 ![[Class|dendron://dnd/dnd.brew.class.artificer]]
 
 ### barbarian
+berserker, primal
   [ reckless attack
   , rage
   , crucible of ancients
   ] (totem, ancestral guardian)
-(berserker/zealot, psion, )
+(berserker/zealot, psion)
 
 ### bard
+college: lore, sword
   [ bardic inspiration
   , magical secrets
   , (counter)charming
   ] (lore)
 
 ### blood hunter
+covenant: witcher, warlock
   [ blood malediction
   , crimson rites
   , hemocraft
   ] (mutant)
 
 ### cleric
-  holy order
+holy order, subclass: domain
     protector, scholar, thaumaturge {XUA22}
   [ emboldening bond
   , turn undead
@@ -99,10 +123,11 @@ generally:
 ### druid
   [ natural recovery
   , wildshape (shapes known, 12 statblocks)
-  ,
+  , channel: nature
   ] (moon)
 
 ### fighter
+academy: champion, cavalier, none
   [ martial mastery (weapon mastery, multiples, any class)
   , second wind(indomitable(unstun), additional movement, hp regen)
   , balanced training (additional feats, floating proficiency, improve action surge)
@@ -120,6 +145,8 @@ generally:
   hold the line
 
 ### monk
+  martial (artist), mental -> mystic
+  . meditation > movement meditation: flurry of blows
   [ flurry of blows
   , stunning strike
   , ki
@@ -135,24 +162,28 @@ if you use a ki ability via meditation, reduce it's ki-point cost by {amount}
   ] -> move into ranger; spellless)
 
 ### mystic
+applied, retreat
   [ psionics
   , meditate
   , discipline
   ] -> immortal -> move into psion)
 
 ### paladin
+priest, warrior
   [ divine sense
   , paragon/champion (divine presence/aura)
   , lay on hands
   ] (vengeance)
 
 ### psion
+derived class: typecast power source to psionic.
   [ psionics
   , raw talent
   , discipline
   ] -> awakened -> move to crucible -> improves arcane resource generation (or move into monk?))
 
 ### ranger
+explorer, exploiter
   [ prowl(explorer, foe, awareness),
   , scavenge
   , primal preparation (+ability appropriation: primal)
@@ -160,6 +191,7 @@ if you use a ki ability via meditation, reduce it's ki-point cost by {amount}
 (hunter/monster hunter/monsterslayer, drakewarden/beastmaster, trapper)
 
 ### rogue
+duelist, infiltrator
   [ cunning action (+ ability appropriation, moving actions into different action types)
   , magic hands (mage hand(can put objects on people), use of magical devices)
   , sneak: attack, focus,
@@ -167,6 +199,7 @@ if you use a ki ability via meditation, reduce it's ki-point cost by {amount}
 assassin, arcane trickster, swashbuckler
 
 ### sorcerer
+explorer, exploiter
   [ metamagic - "intuitive" (additional metamagic: spell echo, living spell, partial/condensed spell)
   , font of magic
   , magical guidance
@@ -174,6 +207,7 @@ assassin, arcane trickster, swashbuckler
 (archfey, draconic, fiend, divine)
 
 ### warlock
+subtype -> patron
 hexblade hex/eldritch blast integration
   [ pactsmith [meldmind]
   , eldritch arcana [unwanted inquiries]
@@ -183,10 +217,12 @@ hexblade hex/eldritch blast integration
 elemental(genie), fey/fell, fiend, celestial, deep
 
 ### wizard
-scribe + added spells(scribe/memorize/alter spell)
+scribe, war
+  +all added spells(scribe/memorize/alter spell)
 features [1, 2, 7, 15, 18]
   [1] Arcane Recovery, Wizard's Spellbook, Scribe Spell
   [2] Academic, acribic metamagic: [1:scribe, 5:memorize, 7:modify, 9:create] spell
+  []
   [] specialist/experimenter [attach spells to objects]
   spellskin: runic condensation of arcaneries inked on skin
 
