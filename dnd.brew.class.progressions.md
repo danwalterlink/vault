@@ -2,7 +2,7 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685879608000
+updated: 1685881512988
 created: 1685279618031
 ---
 
@@ -61,7 +61,7 @@ generic class group: epic
 specialist: subclass (rogue with more rogue -> thief)
 generalist -> no subclass
 
-subclass feature: {subclass}
+subclass feature: {subclass} {per class wording}
   subclass 5e:
     [fighter] 3, 6, 10, 14, 18
     [cleric] 1, 2, 6, 8, 17
