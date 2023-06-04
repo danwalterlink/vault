@@ -2,7 +2,7 @@
 id: v6f9mvtfgh7cwyywakv89sz
 title: dnd-6
 desc: ''
-updated: 1685656233596
+updated: 1685882241995
 created: 1684357294795
 ---
 
@@ -42,7 +42,6 @@ generally, roll for upsides:
 flexible resource interchange system
 - half of unused resources from last turn, pay in current turn or restrict your next turn: up to double your turn maximum.
 - movement for reactions
-
 
 tie regenerative capabilities to resources -> action surge regeneration to hit die / or other resources.
 - give panic-options that are expensive. get cheaper during rests. -> active rests
@@ -181,7 +180,6 @@ sharpshooter
   eagle eyed: no disadvantage max range; you can discern color even in dim environments.
 
 close-quarters shooter
-
 
 healing:
 : receiving over your biggest hit dice worth of hp in healing:

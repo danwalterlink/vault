@@ -2,9 +2,11 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685881512988
+updated: 1685883475288
 created: 1685279618031
 ---
+
+generate mappings; NLP
 
 ## template
 -> nested lookups: general power level adjustments
@@ -64,12 +66,19 @@ generalist -> no subclass
 subclass feature: {subclass} {per class wording}
   subclass 5e:
     [fighter] 3, 6, 10, 14, 18
-    [cleric] 1, 2, 6, 8, 17
-    [druid]
+    [barbarian] 3, 6, 10, 14
+    [rogue] 3, 9, 14, 17
+    [artificer] 3, 5, 9, 15
+    [ranger] 3, 7, 11, 15
     [paladin] 3, 7, 15, 20
-    [wizard] 2, 6, 10, 14
+    [cleric] 1, 2, 6, 8, 17
+    [druid] 2, 6, 10, 14
     [warlock] 1, 6, 10, 14
-  subclass dndOne: 3, 6, 10, 14
+    [sorcerer] 1, 6, 14, 18
+    [wizard] 2, 6, 10, 14
+  subclass dndOne:
+  [4] 3, 6, 10, 14
+
   subclass features(3): 3, 6, 9, 12, 15, 18
   subclass features(4): 3, 7, 11, 15,
 feature(3): 2, 5, 8, 11, 14, 17

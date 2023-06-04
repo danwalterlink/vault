@@ -2,9 +2,10 @@
 id: m7b0jk5lt6hjhj9q1ukarcb
 title: Session 0
 desc: ''
-updated: 1685125724857
+updated: 1685882140457
 created: 1685125719541
 ---
+
 ## session 0
 roles : players, world around them: spheres of influence.
 my role:

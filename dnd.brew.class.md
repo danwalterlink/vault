@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685657627915
+updated: 1685884205859
 created: 1684956724533
 ---
 
@@ -89,6 +89,8 @@ generally:
   ] (mutant)
 
 ### cleric
+  holy order
+    protector, scholar, thaumaturge {XUA22}
   [ emboldening bond
   , turn undead
   , domain expansion
@@ -182,25 +184,26 @@ elemental(genie), fey/fell, fiend, celestial, deep
 
 ### wizard
 scribe + added spells(scribe/memorize/alter spell)
-features
-  [ scholarly tradition[spellbook]
-  , metamagic: acribic [scribe/alter/memorize metamagic options]
-  , specialist/experimenter [attach spells to objects] -> spellskin: runic condensation of arcaneries inked on skin
-  ]
+features [1, 2, 7, 15, 18]
+  [1] Arcane Recovery, Wizard's Spellbook, Scribe Spell
+  [2] Academic, acribic metamagic: [1:scribe, 5:memorize, 7:modify, 9:create] spell
+  [] specialist/experimenter [attach spells to objects]
+  spellskin: runic condensation of arcaneries inked on skin
 
-subclasses: (2, 6, 10, 14)
-  - {magic.school.adherent}: spell school features:
-      (2) {school} savant: reduced cost spell scribing
-    + abjuration: [arcane ward, projected ward, improved abjuration, spell resistance]
-    + conjuration: [minor conjuration, benign transposition, focused conjuration, durable summons]
-    + divination: [portent, expert divinitation, the third eye, greater portent]
-    + enchantment: [hypnotic gaze, double target, instinctive charm, split enchantment, alter memories]
-    + evocation: [sculpt spell, potent cantrip, empowered evocation, overchannel]
-    + illusion: [improved minor illusion, malleable illusions, illusory self, illusory reality]
-    + necromancy: [grim harvest, undead thralls, inured to undeath, command undeath]
-    + transmutation: [minor alchemy, transmuter's stone, shapechanger, master transmuter]
+subclasses: scholarly tradition [2, 6, 10, 14]
+  {magic.school.adherent}: spell school features:
+    (2) {school} savant: reduced cost spell scribing
 
-  - bladesinging [2,6,10,14]:
+    abjuration: [arcane ward, projected ward, improved abjuration, spell resistance]
+    conjuration: [minor conjuration, benign transposition, focused conjuration, durable summons]
+    divination: [portent, expert divinitation, the third eye, greater portent]
+    enchantment: [hypnotic gaze, double target, instinctive charm, split enchantment, alter memories]
+    evocation: [sculpt spell, potent cantrip, empowered evocation, overchannel]
+    illusion: [improved minor illusion, malleable illusions, illusory self, illusory reality]
+    necromancy: [grim harvest, undead thralls, inured to undeath, command undeath]
+    transmutation: [minor alchemy, transmuter's stone, shapechanger, master transmuter]
+
+  bladesinging
     +{core: replaces "song of victory"} you can choose to add your int ability modifier for melee weapon attacks made as part of casting a spell instead.
       heroic: for all weapon attacks while your bladesong is active.
     +{heroic} replace somatic components of spells that target a creature within your reach with an attack. You may change the spell's range to touch.
