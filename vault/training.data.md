@@ -2,7 +2,7 @@
 id: zgyrtes8m2yp38z7qhefhjc
 title: Data
 desc: ''
-updated: 1685732118168
+updated: 1685877636522
 created: 1685731096818
 ---
 
@@ -19,9 +19,23 @@ session
       spec:hypertrophy
         shock
         cumulative
+          minimal
+          specific
+        velocity
       tech
+        movement progressions
+        explosiveness?
+      prep
+        maintenance
+          RoM
+          habitual integration
+        preHab
+        postHab
       strength
       conditioning
+        neat
+        vo2max
+          hiit
       debottleneck
     group:split:focus
       upper
