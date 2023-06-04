@@ -87,7 +87,6 @@ workspace:
             mutated: t
             undulated: u
             conjugated: c
-            '': ' '
         todoIntegration: true
         createTaskSelectionType: selection2link
         addBehavior: asOwnDomain
