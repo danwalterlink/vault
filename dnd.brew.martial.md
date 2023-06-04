@@ -2,7 +2,7 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685809948267
+updated: 1685878056398
 created: 1685282944352
 ---
 
@@ -60,7 +60,7 @@ you learned to wrestle the elements itself,
   same shape or reach, same damage type
   improvised weapon proficient, dex save dc 10+dex or half damage
   - blow for blow: contested strikes
-  - riposte:
+  - riposte
   - deflect: action economy
   - attack maneuver but only effects
   - attack replacement actions

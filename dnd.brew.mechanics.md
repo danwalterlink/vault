@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685873594479
+updated: 1685878157342
 created: 1684961188700
 ---
 
@@ -473,4 +473,3 @@ A ranged attack with melee weapon generates a ranged weapon attack instance for 
 typecast cleric feature for any mental ability
 
 ## lightning reflexes
-

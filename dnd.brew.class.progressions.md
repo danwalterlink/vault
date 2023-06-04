@@ -2,7 +2,7 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685571555270
+updated: 1685879608000
 created: 1685279618031
 ---
 
@@ -62,7 +62,14 @@ specialist: subclass (rogue with more rogue -> thief)
 generalist -> no subclass
 
 subclass feature: {subclass}
-  subclass feature: 3, 6, 10, 14
+  subclass 5e:
+    [fighter] 3, 6, 10, 14, 18
+    [cleric] 1, 2, 6, 8, 17
+    [druid]
+    [paladin] 3, 7, 15, 20
+    [wizard] 2, 6, 10, 14
+    [warlock] 1, 6, 10, 14
+  subclass dndOne: 3, 6, 10, 14
   subclass features(3): 3, 6, 9, 12, 15, 18
   subclass features(4): 3, 7, 11, 15,
 feature(3): 2, 5, 8, 11, 14, 17
