@@ -4,7 +4,6 @@ title: Template
 desc: ''
 updated: 1685983187726
 created: 1685982339430
-%TAG ! tag:dnd.ddubl,class:
 ---
 
 {{fm.class.name}}

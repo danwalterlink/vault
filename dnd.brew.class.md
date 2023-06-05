@@ -2,34 +2,17 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685989724368
+updated: 1686000752874
 created: 1684956724533
-%TAG ! tag:dnd.ddubl,dnd.char:
---- !class
-- !artificer
-    !subclass: ? [alchemist, armorer, artillerist, battle smith] : ()
-- !barbarian
-- !bard
-- !blood hunter
-- !cleric
-- !druid
-- !fighter
-- !monk
-- !paladin
-- !ranger
-- !rogue
-- !sorcerer
-- !warlock
-- !wizard
 ---
 
 rebuild class system on:
-  inheritable types
+  types
     generics
-    trait
+    traits
 
 ## typification / classification
-arch(e)type: martial(proficiency(with martical weapons)), caster(spellcasting)
+archetype: martial(proficiency(with martical weapons)), caster(spellcasting)
   trait defined; if both: dual.
 character (class) type: [single, mixed, multi]:
   total character class: cumulative type description
