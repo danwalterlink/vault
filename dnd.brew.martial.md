@@ -2,7 +2,7 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685896303805
+updated: 1685957770566
 created: 1685282944352
 ---
 
@@ -79,3 +79,7 @@ ranged weapon maneuver:
 - trick shot: ricochet
 - overpull: damage weapon to increase atk
 - improvised ammunition
+
+fighter -
+additional extra attacks
+  more efficient conversions

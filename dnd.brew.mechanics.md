@@ -162,7 +162,7 @@ this means that some spells can be cast
 - blind
 
 ## trait
-### metatrait
+### generic
 generics, apply if possible.
 [adaptible] change on trigger
   adaptible(SR): change on short rest

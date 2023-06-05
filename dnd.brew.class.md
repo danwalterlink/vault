@@ -2,11 +2,33 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685896303835
+updated: 1685964568885
 created: 1684956724533
 ---
 
-types inheritable
+class {
+  name
+  reference
+  feature
+  preparedSpells
+}
+
+```YML
+--- !class
+- !base
+  - feature: name
+    progression: []
+    *sub: []
+
+  !artificer
+--- !progression
+? map
+: map
+::map[...class] ->
+```
+
+rebuild class system on:
+  inheritable types
 
 ## typification / classification
 arch(e)type: martial(proficiency(with martical weapons)), caster(spellcasting)

@@ -1,0 +1,72 @@
+# composable schema
+%TAG ! tag:dnd.ddubl,type:
+--- !class
+- !archetype
+  name: {warrior, expert, priest, mage, crucible}
+  &sub: {}
+  feature:
+
+- !character #
+  type: [class:{martial,caster}]
+  trait:
+
+- !feature
+  name: name
+  source: []
+  type: [skill, boon, class, archetype, heroic, epic]
+  type: [ability, feat, trait, maneuver, focus]
+
+- !base
+  name: {
+    artificer
+    barbarian
+    bard
+    blood hunter
+    cleric
+    druid
+    fighter
+    monk
+    paladin
+    ranger
+    rogue
+    sorcerer
+    warlock
+    wizard
+  }
+
+- !subclass: [
+    archetype,
+    base,
+
+  ]
+
+--- !class
+
+  &archetype: { warrior, expert, priest, mage, crucible}
+  progression:
+
+--- !progression
+- recursive
+  type: map
+
+  [initial_value]
+- list
+  - !LI
+  entries:
+    level: [default:20]
+
+--- !trait #
+- !meta
+
+--- !AS #ability score
+- !physical
+  STR: strength
+  DEX: dexterity
+  CON: constitution
+
+- !mental
+  INT: intelligence
+  WIS: wisdom
+  CHA: charisma
+
+--- !

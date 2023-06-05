@@ -2,9 +2,9 @@
 id: q0okq1dbfyf3x39jptwfuul
 title: Dnd
 desc: ''
-updated: 1685642925443
+updated: 1685904452959
 created: 1679053558348
-tag: skeleton
+tag: git:skeleton
 ---
 
 ## manifesto
