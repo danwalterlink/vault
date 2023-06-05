@@ -1,13 +1,32 @@
 # composable schema
 %TAG ! tag:dnd.ddubl,type:
---- !class
-- !archetype
-  name: {warrior, expert, priest, mage, crucible}
-  &sub: {}
-  feature:
+--- !trait
 
-- !character #
-  type: [class:{martial,caster}]
+%TAG ! tag:dnd.ddubl,class:
+--- !archetype
+# warrior, expert, priest, mage, crucible
+- !warrior
+  feature:
+    core: [fighting style, maneuver, focus]
+  variant: [
+    honed: [STR, DEX] [@typecast unrestricted],
+    sly: [DEX],
+    brute: @typecast]
+  !@func.join: dendron://
+
+- !expert
+  feature:
+    core: [expertise]
+- !priest
+  : caster
+  hierarchy: []
+- !mage
+- !crucible
+
+--- !type # trait defined
+  type
+    ? [martial, caster]
+    : [martial weapon proficiency, spellcasting]
   trait:
 
 - !feature
@@ -18,31 +37,34 @@
 
 - !base
   name: {
-    artificer
-    barbarian
-    bard
-    blood hunter
-    cleric
-    druid
-    fighter
-    monk
-    paladin
-    ranger
-    rogue
-    sorcerer
-    warlock
-    wizard
+    *artificer
+    *barbarian
+    *bard
+    *blood hunter
+    *cleric
+    *druid
+    *fighter
+    *monk
+    *paladin
+    *ranger
+    *rogue
+    *sorcerer
+    *warlock
+    *wizard
   }
 
 - !subclass: [
     archetype,
-    base,
-
+    base
   ]
 
 --- !class
+- !artificer
+  type: base
+  name: *class.name:[
 
-  &archetype: { warrior, expert, priest, mage, crucible}
+  ]
+  &archetype|supertype: { warrior, expert, priest, mage, crucible}
   progression:
 
 --- !progression
@@ -56,8 +78,11 @@
     level: [default:20]
 
 --- !trait #
-- !meta
+- creature
+  spellcasting {variant:[innate, learned, pact]}
+  martial {variant:[honed, sly, brute]}
 
+- !meta
 --- !AS #ability score
 - !physical
   STR: strength
@@ -69,4 +94,7 @@
   WIS: wisdom
   CHA: charisma
 
---- !
+%TAG ! tag:dnd.ddubl,@func:
+--- !typecast
+
+%TAG ! tag:dnd.ddubl,

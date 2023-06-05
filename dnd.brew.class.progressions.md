@@ -2,8 +2,9 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685896303845
+updated: 1685989785279
 created: 1685279618031
+tag: [type, data]
 ---
 
 generate mappings; NLP
@@ -13,9 +14,9 @@ generate mappings; NLP
 (backwards compatibility)
 : more unwieldy unless digital
 
-### progression
-overall progression charts additive:
+
 character
+  progression:acquisition
   feat
     1, 4, 8, 12, 16, 19
   tier
@@ -36,7 +37,8 @@ occupation/pastimes
 #### general
 ::type(initial, interval, amount) [levels]
 
-tier class -> feat/trait improvements/accessibility (can pick, but not use)
+- character
+tier -> feat/trait improvements/accessibility (can pick, but not use)
   talent<=2
   master>=3 [master, improved]
   heroic>=7 [heroic]
@@ -44,8 +46,7 @@ tier class -> feat/trait improvements/accessibility (can pick, but not use)
   epic>=17 [epic]
 
 proficiency(2,4,6): [1, 5, 9, 13, 17]
-
-feat(1,(3,4,3),6): 1, 4, 8, 12, 16, 19
+feat(1,(3..,4,..3),6): 1, 4, 8, 12, 16, 19
   faster feats(1,3,7): 1, 4, 7, 10, 13, 16, 19
 
 action feature((+1),(6,7),4): 5, 11, 18

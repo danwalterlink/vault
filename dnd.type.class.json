@@ -1,0 +1,14 @@
+{
+  "$schema": "types.dnd.yml",
+  "$uri": "<URI>"
+  "class": {
+    "type": ["<class>", "<base>", "generic"],
+    "name": "string",
+    "progressions": [
+      "<feature>": {
+        "singleton": false,
+        "type": "array"
+      },
+    ]
+  }
+}

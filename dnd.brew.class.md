@@ -2,33 +2,31 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1685964568885
+updated: 1685989724368
 created: 1684956724533
----
-
-class {
-  name
-  reference
-  feature
-  preparedSpells
-}
-
-```YML
+%TAG ! tag:dnd.ddubl,dnd.char:
 --- !class
-- !base
-  - feature: name
-    progression: []
-    *sub: []
-
-  !artificer
---- !progression
-? map
-: map
-::map[...class] ->
-```
+- !artificer
+    !subclass: ? [alchemist, armorer, artillerist, battle smith] : ()
+- !barbarian
+- !bard
+- !blood hunter
+- !cleric
+- !druid
+- !fighter
+- !monk
+- !paladin
+- !ranger
+- !rogue
+- !sorcerer
+- !warlock
+- !wizard
+---
 
 rebuild class system on:
   inheritable types
+    generics
+    trait
 
 ## typification / classification
 arch(e)type: martial(proficiency(with martical weapons)), caster(spellcasting)
@@ -148,23 +146,23 @@ holy order, subclass: domain
   , channel: nature
   ] (moon)
 
-### fighter
-academy: champion, cavalier, none
+- fighter
+  academy: champion, cavalier, none
   [ martial mastery (weapon mastery, multiples, any class)
   , second wind(indomitable(unstun), additional movement, hp regen)
   , balanced training (additional feats, floating proficiency, improve action surge)
   ] (champion/cavalier)
 
-#### champion
-  expanded critical range
-  exceptional athlete
-  additional fighting style
-  survivor
+  + champion
+    expanded critical range
+    exceptional athlete
+    additional fighting style
+    survivor
 
-#### cavalier
-  unwavering mark
-  warding maneuver
-  hold the line
+  + cavalier
+    unwavering mark
+    warding maneuver
+    hold the line
 
 ### monk
   martial (artist), mental -> mystic
