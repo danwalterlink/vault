@@ -2,7 +2,7 @@ version: 5
 dev:
     enablePreviewV2: true
     enableExportPodV2: true
-    enableLinkCandidates: true
+    enableLinkCandidates: false
     enableEngineV3: true
     enableExperimentalIFrameNoteRef: true
 commands:
@@ -115,13 +115,14 @@ workspace:
     hooks:
         onCreate: []
 preview:
-    enableFMTitle: true
-    enableNoteTitleForLink: true
+    enableFMTitle: false
+    enableNoteTitleForLink: false
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
-    enableFrontmatterTags: true
-    enableHashesForFMTags: true
+    enableFrontmatterTags: false
+    enableHashesForFMTags: false
+    theme: light
 publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true

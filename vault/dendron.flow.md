@@ -2,9 +2,19 @@
 id: lp5k29isaoyhx00brf6x1bp
 title: Flow
 desc: ''
-updated: 1685895306525
+updated: 1686000752878
 created: 1638022787958
 ---
+
+frontmatter tag expansion
+{{fm.tag.tagName}}
+
+queries
+?[[<Expression> -> <Expression>]]
+  Data: Pods
+  DataScript | Prolog [[dendron.rfc]]
+
+frontmatter variable - pointer to .dib result
 
 trails - navigation with link to navigation
 -> easily done in refactoring, slightly less so while taking notes
@@ -13,6 +23,7 @@ trails - navigation with link to navigation
 - linking to first todo-item
 
 git templates - autoconfigure signing
+  follows frontmatter tags
 
 #todo
 adding assets via link in buffer? -> symlinks?
