@@ -2,7 +2,7 @@
 id: 0vi17d42eooupk9utoda7n3
 title: Project
 desc: ''
-updated: 1685721073676
+updated: 1685978749234
 created: 1674724560890
 ---
 
@@ -30,20 +30,6 @@ dnd character tools
     dendron
     vscode -> tooling
 
-```mermaid
-%%{init: { "theme": "forest" } }%%
-gantt
-  dateFormat  YY-MM-DD
-    section Clickable
-    Visit mermaidjs         :active, cl1, 2014-01-07, 3d
-    Print arguments         :cl2, after cl1, 3d
-    Print task              :cl3, after cl2, 3d
-
-    click cl1 href "https://mermaidjs.github.io/"
-    click cl2 call printArguments("test1", "test2", test3)
-    click cl3 call printTask()
-```
-
 ![[dendron://task/ds.project.webapp]]
 
 page :: wordpress
@@ -52,7 +38,7 @@ page :: wordpress
 ## project.names
 ![[dendron://task/ds.project.wikilinking]]
 
-sideproj
+#aside
   data-aggregation
   ios shortcut
     reflection | introspection
