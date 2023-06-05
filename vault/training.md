@@ -2,7 +2,7 @@
 id: thhQgSiM2RZYg1TZjaOep
 title: Training
 desc: ''
-updated: 1681983473784
+updated: 1685983106814
 created: 1633292753469
 ---
 
@@ -101,7 +101,7 @@ mobility {
 }
 
 ## functions
-ƒ := taper :: (type -> type.projection)
+ƒ := taper :: (T -> T(p))
 
 ## resources
 renaissance periodization

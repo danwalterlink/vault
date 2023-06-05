@@ -2,9 +2,11 @@
 id: u5a2r3t5crdr76nrndm3h1h
 title: Vim
 desc: ''
-updated: 1681217215942
+updated: 1685985444658
 created: 1636203835676
 ---
+
+goTo last non-whitespace char?
 
 ## keyboard layout implications
 qwerty - qwertz : remap yank to z #?
@@ -24,6 +26,23 @@ matching under cursor */#
 
 #research
 next group : }
+## goto next/previous mark
+[how to move to the next enclosing brackets in VI](https://stackoverflow.com/questions/1509855/how-to-move-to-the-next-enclosing-brackets-in-vi)
+
+use [ and ] to cycle to the previous and next matching brackets respectively. Commonly:
+
+[( - Previous (
+[{ - Previous {
+[< - Previous <
+and more interesting ones
+
+[m - Previous method start
+[M - Previous method end
+The same also applies for next items:
+]} - Next }
+]) - Next )
+]> - Next >
+The reason why this method is more effective is that you can specify count together with the commands
 
 ## motions
 f, t are direction-specific
@@ -66,7 +85,7 @@ S and the same commands as before
 :set smartcase/ignorecase/noignorecase
 
 ## remove highlighting
-:noh
+:noh // user.binding: C-n
 
 ## reselect visual
 * gv

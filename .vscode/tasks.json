@@ -1,0 +1,12 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "problemMatcher": "dendron://${workspaceRoot}/task.schema.yml",
+    // writing json schema adapters : tasks extends $schema:json.vscode <hydration>
+      "group": "hydrate",
+    }
+  ]
+}
