@@ -87,6 +87,7 @@ workspace:
             mutated: t
             undulated: u
             conjugated: c
+            '': ' '
         todoIntegration: true
         createTaskSelectionType: selection2link
         addBehavior: asOwnDomain
@@ -111,6 +112,8 @@ workspace:
     workspaces: {}
     enableEditorDecorations: true
     enableFullHierarchyNoteTitle: false
+    hooks:
+        onCreate: []
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
