@@ -2,7 +2,7 @@
 id: tqeivvli16fnuihfo5v6uib
 title: Progressions
 desc: ''
-updated: 1685989785279
+updated: 1686083621344
 created: 1685279618031
 tag: [type, data]
 ---
@@ -99,7 +99,7 @@ subclass feature: {subclass} {per class wording}
     [sorcerer] 1, 6, 14, 18
     [wizard] 2, 6, 10, 14
   subclass dndOne:
-  [4] 3, 6, 10, 14
+  (1,(3.,4),4) 3, 6, 10, 14
 
   subclass features(3): 3, 6, 9, 12, 15, 18
   subclass features(4): 3, 7, 11, 15,

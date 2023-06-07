@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1685878157342
+updated: 1686144332432
 created: 1684961188700
 ---
 
@@ -258,9 +258,19 @@ having traits with the same name in different categories and layering traits/fea
 ## d20 tests
 skill checks: modes of success:
   clear failure/success: -/+ 5 or more of DC
+  critical failure/success -/+ 10 of DC
+    nat 1/20 decrease/increase result category
   (slight) failure/success: -/+ 4 or less of DC
 saving throws
 attack rolls
+
+### death saves
+DC 10 + Death Save
+: stay, until treated in 1 min medical treatment
+without medical, during short rest: 1 hit dice = 1 death save
+ with prof med kit: 3 death saves = 1 hit dice: you gain half in hp
+
+or through magical means
 
 ## action economy
 (call/check)

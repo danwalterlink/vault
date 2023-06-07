@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1686000752874
+updated: 1686083621337
 created: 1684956724533
 ---
 
@@ -89,11 +89,14 @@ whenever you choose character features, you can forego that choice and instead g
 !# class gets subtypes you can choose : a la cleric XUA22CO holy order
 -> 2 options + no choice.
 
-### artificer
+#
+%TAG ! tag:dnd.ddubl,class:
+--- !base
+- artificer
 infuser, tinkerer
 ![[Class|dendron://dnd/dnd.brew.class.artificer]]
 
-### barbarian
+- barbarian
 berserker, primal
   [ reckless attack
   , rage
@@ -101,21 +104,21 @@ berserker, primal
   ] (totem, ancestral guardian)
 (berserker/zealot, psion)
 
-### bard
+- bard
 college: lore, sword
   [ bardic inspiration
   , magical secrets
   , (counter)charming
   ] (lore)
 
-### blood hunter
+- blood hunter
 covenant: witcher, warlock
   [ blood malediction
   , crimson rites
   , hemocraft
   ] (mutant)
 
-### cleric
+- cleric
 holy order, subclass: domain
     protector, scholar, thaumaturge {XUA22}
   [ emboldening bond
@@ -123,7 +126,7 @@ holy order, subclass: domain
   , domain expansion
   ] (peace)
 
-### druid
+ - druid
   [ natural recovery
   , wildshape (shapes known, 12 statblocks)
   , channel: nature
