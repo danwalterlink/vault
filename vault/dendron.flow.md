@@ -2,9 +2,13 @@
 id: zxfs9vjpm9sm4bitmacsodp
 title: Flow
 desc: ''
-updated: 1686000752878
+updated: 1686151783257
 created: 1638022787958
 ---
+
+- [linking to fragment syntax](https://wicg.github.io/scroll-to-text-fragment/#syntax)
+#:~:text=[prefix-,]start[,end][,-suffix]
+          context  |--match--|  context
 
 frontmatter tag expansion
 {{fm.tag.tagName}}

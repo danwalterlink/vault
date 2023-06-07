@@ -2,10 +2,16 @@
 id: tds9fre553s7lvh250jstm7
 title: Vim
 desc: ''
-updated: 1685985444658
+updated: 1686151823398
 created: 1636203835676
 ---
+
+#! ctags integration: word recognition
+
 goTo last non-whitespace char?
+jump markList: C-t
+jump jumpList forward: C-o
+jump jumpList: backward: C-i
 
 ## keyboard layout implications
 
@@ -166,4 +172,3 @@ Make sure that all participating buffers are in diff mode (see :h start-vimdiff)
 a. Get changes from a buffer to the current one: :%diffget <buffer-number>
 b. Put all changes from current buffer into another: :%diffput <buffer-number>
 (:% is a range to select the entire file; see :h :%. :ls will show currently opened buffers.)
-
