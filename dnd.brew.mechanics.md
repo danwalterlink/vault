@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686160635705
+updated: 1686160729347
 created: 1684961188700
 ---
 
@@ -197,7 +197,7 @@ generics, apply if possible.
 [greater] additional effects
 [deft] improve one type
 [conserving] replenishing resources on use
-[minor][lesser][greater][grand][epic]&#x3A; level restriction
+[minor][lesser][greater][grand][epic]; level restriction
 [canny] expertise
 [adaptive] \(re)selection
 
