@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686160573644
+updated: 1686160635705
 created: 1684961188700
 ---
 
@@ -262,7 +262,6 @@ despaired: you become frightened of creatures that attack you. You cannot be ins
 #### grievous wounds
 on receiving lethal strikes, you have a chance to sustain a grievous wound.
 
-
 ## trait doctoring
 having traits with the same name in different categories and layering traits/features on top of them could be interesting:
   ie. mage slayer (focus: ); (weapon mastery); (spellcasting specialization)
@@ -270,7 +269,6 @@ having traits with the same name in different categories and layering traits/fea
 #i -> replace typed concept with another concept of that type (not commutative!)
 
 ## d20 tests
-
 skill checks: modes of success:
   clear failure/success: -/+ 5 or more of DC
   critical failure/success -/+ 10 of DC
@@ -280,16 +278,13 @@ saving throws
 attack rolls
 
 ### death saves
-
 DC 10 + Death Save
 : stay, until treated in 1 min medical treatment
 without medical, during short rest: 1 hit dice = 1 death save
  with prof med kit: 3 death saves = 1 hit dice: you gain half in hp
-
 or through magical means
 
 ## action economy
-
 (call/check)
 combat:
 roll initiative (dex ab check)
@@ -395,7 +390,6 @@ resource changes and allocations add dice
 
 ### heroic inspiration
 you can only ever have 1 heroic inspiration, and gain it by:
-
 - at least two dice rolls would have resulted in successes on contested d20 tests with disadvantage or worse, or if additonally one of those hits resulted in a critical hit for rolls made with advantage or better.
 - rare demonstrations of cunning and character, occasionally.
   you can spend heroic inspiration to:
@@ -460,7 +454,6 @@ spells known of school/total spell level of 3rd level or higher
   (flavoured: "catching failed attempts": try again with disadvantage by slight misses)
 
 ## criticals
-
 1: roll on the associated minor mishap table
 double 1 on disadvantage: major mishap table
 critical success: additional minor benefits
@@ -475,31 +468,24 @@ lethal hit: if you rolled at least two die and at least two would result in a cr
 - your hit is brutal
 
 ## magic
-
 ### magical fatigue
-
 even the most mundane things work their magic. an ancient fireplace might kindle itself. using things infuses them with your being. magical weapons lose their edge when used as paperweights too often.
 an arcane focus might alleviate the need of components, but it grows gaunt and its magics shallow if not
 
 ### infusions
-
 traits of magical objects are treated as infusions. on use by non-proficient users, magical objects can lose charges or infusions in addition.
 
 ## crafting
-
 innate abilities of creatures can be harvested.
 
 ## fighting styles
-
 ? technician / fighter
   once per turn, if you make an attack, you may make an additional attack.
 
 ### great weapon fighting
-
 additional damage dice: heavy weapons as if they had brutal(1)
 
 ### defensive
-
 ac: you gain access to the defender's focus:
   stance:
     reposition: safe mvmnt 5ft
@@ -510,13 +496,11 @@ ac: you gain access to the defender's focus:
       heighten: reaction proration -2
 
 ## weapon attack types
-
 ranged attacks with melee weapons count as ranged weapon attacks for that attacks instance.
 A ranged attack with melee weapon generates a ranged weapon attack instance for the purposes of fulfilling restrictions of traits.
 (ie. thrown weapons work with feat.sharpshooter.phb.5.0)
 
 ## potent cantrip
-
 typecast cleric feature for any mental ability
 
 ## lightning reflexes
