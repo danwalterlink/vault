@@ -1,5 +1,5 @@
 ---
-id: wk6tzr0zfwjzhn185tl640p
+id: nm6gx6nlyxcbrmkfox46qxg
 title: Autodidact
 desc: ''
 updated: 1685617048311

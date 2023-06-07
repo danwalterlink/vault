@@ -1,10 +1,12 @@
 ---
-id: tqeivvli16fnuihfo5v6uib
+id: jrapyvq36bq8zfhk83yulpe
 title: Progressions
 desc: ''
 updated: 1686083621344
 created: 1685279618031
-tag: [type, data]
+tag:
+  - type
+  - data
 ---
 
 generate mappings; NLP
