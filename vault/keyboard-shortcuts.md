@@ -1,18 +1,19 @@
 ---
-id: c1uskfsqz5uwlz1pcje4but
+id: uj0smbxut7xteetc5pocxjy
 title: Keyboard Shortcuts
 desc: ''
 updated: 1681216817784
 created: 1665736224570
 ---
-
-# layouts
+## layouts
 
 macos - extended Logical
-\therefore
+\\therefore
 
 # shortcuts
+
 ## keys
+
   follows [[ahk syntax|vault://syntax.ahk]]
 ctrl
 shift
@@ -23,8 +24,9 @@ hypr = right {ctrl, opt, cmd}, and/or separate virtual modifier
 lock/modal keys
 
 ## level hierarchy
+
 os
-  app launcher : <\#hypr(key)
+  app launcher : &lt;#hypr(key)
     default functions per [[os.function]]
 
 app
@@ -32,14 +34,15 @@ app
 
 modal
   subapp
-    +#($key)
+    \+#($key)
   function
   meta
     hypr
       .navigation
 
 key-duplication
-  #? while key held: space = duplicated input if release key later than space
-  -> shift + space
+  \#? while key held: space = duplicated input if release key later than space
+  \-> shift + space
   #derive chord-mode
-    -> if mod held : chord-mode
+    \-> if mod held : chord-mode
+

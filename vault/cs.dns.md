@@ -1,12 +1,11 @@
 ---
-id: anlx8agea352h76p2ytxso4
+id: yig2e1e4svzeu6pe77fe4hm
 title: DNS
 desc: ''
 updated: 1633199319598
 created: 1633199319598
 ---
-
-# DNS Record Definitions
+## DNS Record Definitions
 
 ### Summary
 
@@ -91,74 +90,75 @@ Please add any other comments or suggestions about this content:
 
 ## Recommended Help Content
 
-[
+\[
 
 #### What is an A Record?
 
 Definition of an A Record (updated 381 days ago)
 
-](https://my.bluehost.com/cgi/help/a_record)[
+](<https://my.bluehost.com/cgi/help/a_record)[>
 
 #### How to setup an MX Record
 
 How to use the DNS Zone Editor to create a new MX Record (updated 1576 days ago)
 
-](https://my.bluehost.com/cgi/help/mx)[
+](<https://my.bluehost.com/cgi/help/mx)[>
 
 #### What is a CNAME
 
 Definition of a CNAME (updated 389 days ago)
 
-](https://my.bluehost.com/cgi/help/cname)
+](<https://my.bluehost.com/cgi/help/cname>)
 
 ## Related Help Content
 
-[
+\[
 
 #### How to Modify Your DNS Records
 
 How Do I Add/Edit DNS settings for my cNAME, ARecord and TXT entries? (updated 74 days ago)
 
-](https://my.bluehost.com/cgi/help/559)[
+](<https://my.bluehost.com/cgi/help/559)[>
 
 #### What is a TXT Record
 
 Definition of a TXT Record (updated 1341 days ago)
 
-](https://my.bluehost.com/cgi/help/txt_record)[
+](<https://my.bluehost.com/cgi/help/txt_record)[>
 
 #### What is an SRV Record
 
 Definition of an SRV Record (updated 1330 days ago)
 
-](https://my.bluehost.com/cgi/help/srv_record)[
+](<https://my.bluehost.com/cgi/help/srv_record)[>
 
 #### What is an AAAA Record
 
 A definition of AAAA Records (updated 1330 days ago)
 
-](https://my.bluehost.com/cgi/help/aaaa_record)[
+](<https://my.bluehost.com/cgi/help/aaaa_record)[>
 
 #### Edit Reseller DNS Zone Template
 
 Explains how to edit the DNS Zone Timplate. (updated 492 days ago)
 
-](https://my.bluehost.com/cgi/help/2197)[
+](<https://my.bluehost.com/cgi/help/2197)[>
 
 #### Wildcard Subdomains or DNS
 
 Do you support wildcard subdomains or wildcard DNS entries? (updated 1277 days ago)
 
-](https://my.bluehost.com/cgi/help/527)[
+](<https://my.bluehost.com/cgi/help/527)[>
 
 #### Pointing domain to Wix's service
 
 How I do point my domain to my Wix account? (updated 1673 days ago)
 
-](https://my.bluehost.com/cgi/help/596)[
+](<https://my.bluehost.com/cgi/help/596)[>
 
 #### DNS Entry Already Exists - Error Message in WHM
 
 Explains how to fix the DNS entry already exists warning (updated 331 days ago)
 
-](https://my.bluehost.com/cgi/help/2198)
+](<https://my.bluehost.com/cgi/help/2198>)
+

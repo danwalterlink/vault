@@ -1,81 +1,80 @@
 ---
-id: uyj0eb0cliieyzhhz9guy3w
+id: srsazxayi2twhfdw30sny7g
 title: Klokov
 desc: ''
 updated: 1633199319596
 created: 1633199319596
 ---
-
 [All Things Gym](http://www.allthingsgym.com/)
 
-* [Shop](http://www.allthingsgym.com/shop/)
-* Topics
-    * [Featured Articles](http://www.allthingsgym.com/category/featured/)
-    * [Rep Max Calculator](http://www.allthingsgym.com/rep-max-calculator/)
-    * [Spreadsheets / Program Calculators](http://www.allthingsgym.com/category/spreadsheet/)
-    * [Exercises](http://www.allthingsgym.com/category/exercises/)
-    * [Interviews](http://www.allthingsgym.com/category/interviews/)
-    * [Warm Ups](http://www.allthingsgym.com/category/warm-up/)
-    * [Chinese Weightlifting](http://www.allthingsgym.com/category/chinese-weightlifting/)
-    * [Weightlifting](http://www.allthingsgym.com/category/weightlifting/)
-        * [Snatch](http://www.allthingsgym.com/category/snatch/)
-            * [Home](http://www.allthingsgym.com/)
-            * [How to Snatch Tutorial](http://www.allthingsgym.com/2011/10/how-to-snatch-tutorial-with-glenn-pendlay/)
-            * [Snatch Pull](http://www.allthingsgym.com/category/snatch-pull/)
-            * [Power Snatch](http://www.allthingsgym.com/category/power-snatch/)
-        * [Clean & Jerk](http://www.allthingsgym.com/category/clean-and-jerk/)
-            * [How to Clean Tutorial](http://www.allthingsgym.com/2011/10/how-to-clean-tutorial-with-glenn-pendlay/)
-            * [Clean](http://www.allthingsgym.com/category/clean/)
-            * [Clean Pull](http://www.allthingsgym.com/category/clean-pull/)
-            * [Power Clean](http://www.allthingsgym.com/category/power-clean/)
-            * [Jerk](http://www.allthingsgym.com/category/jerk/)
-        * [Technique Posters](http://www.allthingsgym.com/2012/10/weightlifting-technique-posters-for-snatch-clean-jerk/)
-    * [Powerlifting](http://www.allthingsgym.com/category/powerlifting/)
-        * [Squat](http://www.allthingsgym.com/category/squat/)
-        * [Bench Press](http://www.allthingsgym.com/category/bench-press/)
-        * [Deadlift](http://www.allthingsgym.com/category/deadlift/)
-    * [Strongman](http://www.allthingsgym.com/category/strongman/)
-        * [2012 World’s Strongest Man](http://www.allthingsgym.com/2012wsm/)
-    * [Gymnastics](http://www.allthingsgym.com/category/gymnastics/)
-    * [Mobility](http://www.allthingsgym.com/category/mobility/)
-        * [Stretching](http://www.allthingsgym.com/category/stretching/)
-            * [Upper Body Stretches for Weightlifters](http://www.allthingsgym.com/2011/10/upper-body-stretches-for-olympic-weightlifting/)
-            * [Lower Body Stretches for Weightlifters](http://www.allthingsgym.com/2011/10/hip-and-ankle-stretches-for-olympic-weightlifting/)
-        * [Ankle](http://www.allthingsgym.com/category/ankle/)
-        * [Hips](http://www.allthingsgym.com/category/hips/)
-        * [Shoulder](http://www.allthingsgym.com/category/shoulder/)
-        * [Hamstring](http://www.allthingsgym.com/category/hamstring/)
-        * [Prehab](http://www.allthingsgym.com/category/prehab/)
-        * [Lacrosse Ball](http://www.allthingsgym.com/category/lacrosse-ball/)
-        * [Rubber Bands](http://www.allthingsgym.com/category/rubber-bands/)
-        * [Compression Band](http://www.allthingsgym.com/category/compression-band/)
-    * [Tips](http://www.allthingsgym.com/category/tips/)
-    * [Apps](http://www.allthingsgym.com/category/apps/)
-    * [Recipes](http://www.allthingsgym.com/category/recipe/)
-    * [Equipment](http://www.allthingsgym.com/category/equipment/)
-    * [2013 Worlds](http://www.allthingsgym.com/2013wwc/)
-* [Mobility 101 Guide](http://www.allthingsgym.com/mobility101/)
-* [About](http://www.allthingsgym.com/about/)
-    * [Chat](http://www.allthingsgym.com/chat/)
-* [Submit](http://www.allthingsgym.com/submit/)
+- [Shop](http://www.allthingsgym.com/shop/)
+- Topics
+  - [Featured Articles](http://www.allthingsgym.com/category/featured/)
+  - [Rep Max Calculator](http://www.allthingsgym.com/rep-max-calculator/)
+  - [Spreadsheets / Program Calculators](http://www.allthingsgym.com/category/spreadsheet/)
+  - [Exercises](http://www.allthingsgym.com/category/exercises/)
+  - [Interviews](http://www.allthingsgym.com/category/interviews/)
+  - [Warm Ups](http://www.allthingsgym.com/category/warm-up/)
+  - [Chinese Weightlifting](http://www.allthingsgym.com/category/chinese-weightlifting/)
+  - [Weightlifting](http://www.allthingsgym.com/category/weightlifting/)
+    - [Snatch](http://www.allthingsgym.com/category/snatch/)
+      - [Home](http://www.allthingsgym.com/)
+      - [How to Snatch Tutorial](http://www.allthingsgym.com/2011/10/how-to-snatch-tutorial-with-glenn-pendlay/)
+      - [Snatch Pull](http://www.allthingsgym.com/category/snatch-pull/)
+      - [Power Snatch](http://www.allthingsgym.com/category/power-snatch/)
+    - [Clean & Jerk](http://www.allthingsgym.com/category/clean-and-jerk/)
+      - [How to Clean Tutorial](http://www.allthingsgym.com/2011/10/how-to-clean-tutorial-with-glenn-pendlay/)
+      - [Clean](http://www.allthingsgym.com/category/clean/)
+      - [Clean Pull](http://www.allthingsgym.com/category/clean-pull/)
+      - [Power Clean](http://www.allthingsgym.com/category/power-clean/)
+      - [Jerk](http://www.allthingsgym.com/category/jerk/)
+    - [Technique Posters](http://www.allthingsgym.com/2012/10/weightlifting-technique-posters-for-snatch-clean-jerk/)
+  - [Powerlifting](http://www.allthingsgym.com/category/powerlifting/)
+    - [Squat](http://www.allthingsgym.com/category/squat/)
+    - [Bench Press](http://www.allthingsgym.com/category/bench-press/)
+    - [Deadlift](http://www.allthingsgym.com/category/deadlift/)
+  - [Strongman](http://www.allthingsgym.com/category/strongman/)
+    - [2012 World’s Strongest Man](http://www.allthingsgym.com/2012wsm/)
+  - [Gymnastics](http://www.allthingsgym.com/category/gymnastics/)
+  - [Mobility](http://www.allthingsgym.com/category/mobility/)
+    - [Stretching](http://www.allthingsgym.com/category/stretching/)
+      - [Upper Body Stretches for Weightlifters](http://www.allthingsgym.com/2011/10/upper-body-stretches-for-olympic-weightlifting/)
+      - [Lower Body Stretches for Weightlifters](http://www.allthingsgym.com/2011/10/hip-and-ankle-stretches-for-olympic-weightlifting/)
+    - [Ankle](http://www.allthingsgym.com/category/ankle/)
+    - [Hips](http://www.allthingsgym.com/category/hips/)
+    - [Shoulder](http://www.allthingsgym.com/category/shoulder/)
+    - [Hamstring](http://www.allthingsgym.com/category/hamstring/)
+    - [Prehab](http://www.allthingsgym.com/category/prehab/)
+    - [Lacrosse Ball](http://www.allthingsgym.com/category/lacrosse-ball/)
+    - [Rubber Bands](http://www.allthingsgym.com/category/rubber-bands/)
+    - [Compression Band](http://www.allthingsgym.com/category/compression-band/)
+  - [Tips](http://www.allthingsgym.com/category/tips/)
+  - [Apps](http://www.allthingsgym.com/category/apps/)
+  - [Recipes](http://www.allthingsgym.com/category/recipe/)
+  - [Equipment](http://www.allthingsgym.com/category/equipment/)
+  - [2013 Worlds](http://www.allthingsgym.com/2013wwc/)
+- [Mobility 101 Guide](http://www.allthingsgym.com/mobility101/)
+- [About](http://www.allthingsgym.com/about/)
+  - [Chat](http://www.allthingsgym.com/chat/)
+- [Submit](http://www.allthingsgym.com/submit/)
 
 [Home](http://www.allthingsgym.com/) » [Dmitry Klokov](http://www.allthingsgym.com/category/dmitry-klokov/) » Dmitry Klokov Warm Up / Mobility Routine
 
-# Dmitry Klokov Warm Up / Mobility Routine
+## Dmitry Klokov Warm Up / Mobility Routine
 
 June 28, 2013 By [Gregor Winter](http://www.allthingsgym.com/author/gregor/) [6 Comments](http://www.allthingsgym.com/dmitry-klokov-warm-up-routine/#disqus_thread)
 
 Here is [Dmitry Klokov’s](http://www.allthingsgym.com/dmitry-klokov-paused-back-squats/) warm up routine.
 
-* massaging glutes and hamstrings (like foam rolling on pipes)
-* cracking / massaging lower back
-* quick shoulder stretch in the deep dip position
-* [his Ankle, anterior tibialis, quad stretch I mentioned here](http://www.allthingsgym.com/dmitry-klokov-ankle-stretch/)
-* butterfly pose stretch
-* upper back stretches (roll on shoulder blades, butt in the air shifting from side to side)
-* lying lateral leg raises, leg stretches in all directions
-* [pancake stretch](http://www.allthingsgym.com/pancake-stretch-with-stick/)
-* DSP knees out stretch
+- massaging glutes and hamstrings (like foam rolling on pipes)
+- cracking / massaging lower back
+- quick shoulder stretch in the deep dip position
+- [his Ankle, anterior tibialis, quad stretch I mentioned here](http://www.allthingsgym.com/dmitry-klokov-ankle-stretch/)
+- butterfly pose stretch
+- upper back stretches (roll on shoulder blades, butt in the air shifting from side to side)
+- lying lateral leg raises, leg stretches in all directions
+- [pancake stretch](http://www.allthingsgym.com/pancake-stretch-with-stick/)
+- DSP knees out stretch
 
 A true [Supple Leopard](http://www.allthingsgym.com/50-page-sample-of-kelly-starretts-book-becoming-a-supple-leopard/) …
 
@@ -120,9 +119,9 @@ Follow ATG on [Instagram @atginsta](http://instagram.com/atginsta), [on Twitter 
 
 [Shop Now Rogue Fitness (image/jpeg)](http://www.roguefitness.com/?a_aid=4e7f18d2dfb24&a_bid=5176f2fa)Europeans Try [RogueEurope.eu](http://www.rogueeurope.eu/?a_aid=4e7f18d2dfb24&a_bid=5176f2fa)
 
-* [Featured](http://www.allthingsgym.com/dmitry-klokov-warm-up-routine/#tab-tabber_widget-3-1)
-* [Popular](http://www.allthingsgym.com/dmitry-klokov-warm-up-routine/#tab-tabber_widget-3-2)
-* [Comments](http://www.allthingsgym.com/dmitry-klokov-warm-up-routine/#tab-tabber_widget-3-3)
+- [Featured](http://www.allthingsgym.com/dmitry-klokov-warm-up-routine/#tab-tabber_widget-3-1)
+- [Popular](http://www.allthingsgym.com/dmitry-klokov-warm-up-routine/#tab-tabber_widget-3-2)
+- [Comments](http://www.allthingsgym.com/dmitry-klokov-warm-up-routine/#tab-tabber_widget-3-3)
 
 [ROM Progression Icon (image/png)](http://www.allthingsgym.com/rom-progression-method-details-for-531/)
 
@@ -143,3 +142,4 @@ Follow ATG on [Instagram @atginsta](http://instagram.com/atginsta), [on Twitter 
 [Get the All Things Gym Shirt (image/jpeg)](http://store.hookgrip.com/shop/all-things-gym-t-shirt/)[Get the ATG Chingiz Shirt (image/jpeg)](http://store.hookgrip.com/shop/chingiz-leaning-on-things-t-shirt-by-atg/) [Get the All Things Gym Shirt (image/jpeg)](http://store.hookgrip.com/shop/all-things-gym-t-shirt/)[Get the ATG Chingiz Shirt (image/jpeg)](http://store.hookgrip.com/shop/chingiz-leaning-on-things-t-shirt-by-atg/) [Get the All Things Gym Shirt (image/jpeg)](http://store.hookgrip.com/shop/all-things-gym-t-shirt/)[Get the ATG Chingiz Shirt (image/jpeg)](http://store.hookgrip.com/shop/chingiz-leaning-on-things-t-shirt-by-atg/)
 
 Copyright © 2015 · Gregor · All Things Gym
+

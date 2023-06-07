@@ -1,31 +1,31 @@
 ---
-id: urudn764m88o30jytymcxs5
+id: wllxgy0jdgtqu5b0orgqohi
 title: Flow
 desc: ''
 updated: 1680253908737
 created: 1664475634237
 ---
+## zsh
 
-# zsh
 omz plugins
   zsh-vi-mode
     vv : open line in $EDITOR
 tmux
   fpp
-    -> prefix + f : open fpp selection
+    \-> prefix + f : open fpp selection
 
   extracto
-    -> prefix + tab : complete text that's on screen
+    \-> prefix + tab : complete text that's on screen
 
   session wizard
-   -> prefix + T
+   \-> prefix + T
 
   url view
-    -> prefix + U
+    \-> prefix + U
 
   sidebar
-    -> prefix + S-tab : show
-    -> prefix + backspace : hide
+    \-> prefix + S-tab : show
+    \-> prefix + backspace : hide
 
 search command history
   tmux - pre + tab : fzf cmd history
@@ -36,5 +36,7 @@ manpage #flow -> #discovery
     if in man-ish cmd -> current panel is  sub-panel
 
 ## auth
+
 using fingerprint scanner #f #i
--> \#!f password manager -> 3 actions #action.economy
+\-> #!f password manager -> 3 actions #action.economy
+

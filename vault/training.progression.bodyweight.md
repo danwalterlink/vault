@@ -1,12 +1,11 @@
 ---
-id: wet70iyqpzk189wd2o2vx5u
+id: e0p0wv1p0dfgwocjh84kg8l
 title: Bodyweight
 desc: ''
 updated: 1633199321508
 created: 1633199321508
 ---
-
-# The Ultimate Body Weight Progression Guide
+## The Ultimate Body Weight Progression Guide
 
 by [Todd Kuslikis](http://ashotofadrenaline.net/author/admin/) on August 1, 2013 [39 Comments](http://ashotofadrenaline.net/body-weight-progression-guide/#comments)
 
@@ -32,15 +31,15 @@ For example, in the Chest Category I can do 12 reps of Uneven Push Ups. That mea
 
 **Step 2:** Once you have a point value for each category add them up together. Locate your category below:
 
-***Bodyweight Grasshopper: 0-13***
+**_Bodyweight Grasshopper: 0-13_**
 
-***Bodyweight Ambassador: 14-27***
+**_Bodyweight Ambassador: 14-27_**
 
-***Bodyweight Warrior: 28-38***
+**_Bodyweight Warrior: 28-38_**
 
-***Bodyweight Jedi: 38-51 (This is where I am at with a score of 44.)***
+**_Bodyweight Jedi: 38-51 (This is where I am at with a score of 44.)_**
 
-***Bodyweight Sensei: 51-67***
+**_Bodyweight Sensei: 51-67_**
 
 **Step 3:** Make a list of the exercise from each category that are just above the level of difficulty that you are currently at and start working on it. There are a lot of tutorials that are designed to help you so follow them and continue to build up strength and size by staying a low rep range.
 
@@ -76,7 +75,7 @@ The progressions are laid out in order of easiest to hardest. Remember that the 
 
 **[(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/07/Screen-Shot-2013-07-31-at-5.24.28-AM.png)[Planche on Rings (Maltese)](http://www.youtube.com/watch?v=QfPW02-Txxo)** **(13 Points)** - And the kingpin of all chest body weight exercises…? The Maltese. Few people on the planet have the patience and determination to master this move. It is very much a “**gymnastic**” move but if you have a set of rings you’ll be to practice this move too.
 
-**Your Score For Chest: ___**
+**Your Score For Chest: \_\_\_**
 
 ## **Shoulders**
 
@@ -100,7 +99,7 @@ The progressions are laid out in order of easiest to hardest. Remember that the 
 
 **[(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/07/Screen-shot-2013-07-31-at-6.21.38-PM.png)[Iron Cross](http://www.youtube.com/watch?v=w2gPF1G_gN0)** **(10 Points)**- The Iron Cross is not only a brutally hard exercise but also an aesthetically pleasing move. I can’t do it yet but some day I will!
 
-**Your Score For Shoulders: ___**
+**Your Score For Shoulders: \_\_\_**
 
 ## **Biceps**
 
@@ -116,7 +115,7 @@ The progressions are laid out in order of easiest to hardest. Remember that the 
 
 [(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/07/Screen-Shot-2013-07-31-at-9.41.50-PM.png)**[One Arm Chin Ups](http://www.youtube.com/watch?v=JxoLbji8ts0)** **(6 Points)** - These chin ups are very difficult. I have yet to master them.
 
-**Your Score For Biceps: ___**
+**Your Score For Biceps: \_\_\_**
 
 ## **Triceps**
 
@@ -132,13 +131,13 @@ The progressions are laid out in order of easiest to hardest. Remember that the 
 
 [(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-5.45.55-PM.png)**[Tiger Bend](http://www.youtube.com/watch?v=95fApjT8J8c)** **(6 Points)** - The King Pumba of all tricep exercises. I can’t do this one but my buddy **[Hit Richards](http://ashotofadrenaline.net/interview-with-calisthenics-kingz-founder-hit-richards/)** can. Check out the video to learn how to do it.
 
-**Your Score For Triceps: ___**
+**Your Score For Triceps: \_\_\_**
 
 ## **Back**
 
 [(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-5.48.08-PM.png)**[Incline Pull Up](http://www.youtube.com/watch?v=xIrTMLJRsIU)** **(1 Point)** - Get in the normal pull up position but instead of dangling your legs, place them on a chair or stool. Some of your weight will be distributed to the chair and make the exercise easier.
 
-[(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-5.49.12-PM.png)**[Kipping Pull Up](http://www.youtube.com/watch?v=tAZaHzd6qAY)** **(2 Points)** - “*You’re using momentum! Your cheating!*” Not with Kipping Pull Ups. You’re supposed to use momentum with this exercise. (image/gif)
+[(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-5.49.12-PM.png)**[Kipping Pull Up](http://www.youtube.com/watch?v=tAZaHzd6qAY)** **(2 Points)** - “_You’re using momentum! Your cheating!_” Not with Kipping Pull Ups. You’re supposed to use momentum with this exercise. (image/gif)
 
 [(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-5.50.07-PM.png)**[Pull Up](http://www.youtube.com/watch?v=nj2v9L7S6Uc)** **(3 Points)** - Yep, the classic. Need I say more? Yes, I must. The only thing I want to say hear is that you should be focusing on your lats as you pull up. Visualize bringing your elbows down into your back. This will help you take the focus off of your biceps and put it into your back.
 
@@ -154,7 +153,7 @@ The progressions are laid out in order of easiest to hardest. Remember that the 
 
 [(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-5.59.32-PM.png)**[One Arm Pull Up](http://www.youtube.com/watch?v=XBFRZnjK8a4)** **(9 Points)** - This is just like the one arm chin up except you will have an overhand grip and not an underhand grip.
 
-**Your Score For Back: ___**
+**Your Score For Back: \_\_\_**
 
 ## **Core**
 
@@ -184,7 +183,7 @@ The progressions are laid out in order of easiest to hardest. Remember that the 
 
 [(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-6.14.57-PM.png)**[Human Flag](http://www.youtube.com/watch?v=XAtZj6lvFpw)** **(13 Points)** - The Human Flag works the core and shoulders a ton. I can’t do them yet but it is certainly on my list! Honestly, I could have just as easily added this exercise to the shoulder section but decided to put them here.
 
-**Your Score For Core: ___**
+**Your Score For Core: \_\_\_**
 
 ## **Legs**
 
@@ -208,27 +207,27 @@ The progressions are laid out in order of easiest to hardest. Remember that the 
 
 [(image/png)](http://ashotofadrenaline.net/wp-content/uploads/2013/08/Screen-Shot-2013-08-01-at-6.23.54-PM.png)**[Pistol Squat](http://www.youtube.com/watch?v=DjxQrgLsty4)** **(10 Points)**- My absolute FAVORITE leg exercise of all time. It takes balance, flexibility and strength. The ultimate combination.
 
-**Your Score For Legs: ___**
+**Your Score For Legs: \_\_\_**
 
-Now add up your total score from each category (*Chest Score + Shoulder Score + Bicep Score + Tricep Score + Back Score + Core Score + Leg Score = Total Score*) and check your level!
+Now add up your total score from each category (_Chest Score + Shoulder Score + Bicep Score + Tricep Score + Back Score + Core Score + Leg Score = Total Score_) and check your level!
 
 Here are the levels again…
 
-***Bodyweight Grasshopper: 0-13***
+**_Bodyweight Grasshopper: 0-13_**
 
-***Bodyweight Ambassador: 14-27***
+**_Bodyweight Ambassador: 14-27_**
 
-***Bodyweight Warrior: 28-38***
+**_Bodyweight Warrior: 28-38_**
 
-***Bodyweight Jedi: 38-51***
+**_Bodyweight Jedi: 38-51_**
 
-***Bodyweight Sensei: 51-67***
+**_Bodyweight Sensei: 51-67_**
 
 **So how did you do? Once you find out your level share it in the comments below…**
 
 Remember that the cool thing about body weight exercises is that there are so many ways of positioning the body to make things harder. Just try to put your body in different positions and you’ll soon find your own unique ways of making the exercises harder.
 
--Todd
+\-Todd
 
 Photo credit: [Push up](http://www.flickr.com/photos/aandaphotography/8703788718/)
 
@@ -238,3 +237,4 @@ Photo credit: [Push up](http://www.flickr.com/photos/aandaphotography/8703788718
 [Get My Program Here](https://my.leadpages.net/leadbox/12527a873f72a2%3A149d51da2b46dc/5730082031140864/)
 
 Filed Under: [Extreme Workouts](http://ashotofadrenaline.net/category/extreme-workouts/)
+

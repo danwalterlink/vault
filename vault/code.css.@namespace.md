@@ -1,21 +1,20 @@
 ---
-id: f4w1iky0ut3xs1xd5gesuss
+id: gw1w3l4asznxs9x8071jadr
 title: '@Namespace'
 desc: ''
 updated: 1633199319578
 created: 1633199319578
 ---
-
 1. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-* [Edit**](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit)
+- [Edit__](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit)
 
-# @namespace
+## @namespace
 
 [In This Article](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#toc)
 
 1. [Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#Syntax)
-    1. [Formal syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#Formal_syntax)
+   1. [Formal syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#Formal_syntax)
 2. [Specifications](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#Specifications)
 3. [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#Browser_compatibility)
 
@@ -39,15 +38,15 @@ Any `@namespace` rules must follow all [@charset](https://developer.mozilla.org/
 
 `@namespace` can be used to define the **default namespace** for the style sheet. When a default namespace is defined, all universal and type selectors (but not attribute selectors, see note below) apply only to elements in that namespace.
 
-The `@namespace` rule can also be used to define a **namespace prefix**. When a universal, type, or attribute selector is prefixed with a namespace prefix, then that selector only matches if the namespace *and* name of the element or attribute matches.
+The `@namespace` rule can also be used to define a **namespace prefix**. When a universal, type, or attribute selector is prefixed with a namespace prefix, then that selector only matches if the namespace _and_ name of the element or attribute matches.
 
 In [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5), known [foreign elements](https://html.spec.whatwg.org/#foreign-elements) will be automatically be assigned namespaces. This means that HTML elements will act as though they are in the XHTML namespace (`http://www.w3.org/1999/xhtml`), even if there is no `xmlns` attribute anywhere in the document, and the [<svg>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg) and [<math>](https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math) elements will be assigned their proper namespaces (`http://www.w3.org/2000/svg` and `http://www.w3.org/1998/Math/MathML`).
 
 
 
-**Note:** In XML, unless a prefix is defined directly on an attribute (*e.g.*, `xlink:href`), that attribute has no namespace. In other words, attributes do not inherit the namespace of the element they're on. To match this behaviour, the default namespace in CSS does not apply to attribute selectors.
+**Note:** In XML, unless a prefix is defined directly on an attribute (_e.g._, `xlink:href`), that attribute has no namespace. In other words, attributes do not inherit the namespace of the element they're on. To match this behaviour, the default namespace in CSS does not apply to attribute selectors.
 
-## Syntax[**Edit](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit#Syntax)
+## Syntax[__Edit](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit#Syntax)
 
 ```
 /* Default namespace */
@@ -61,12 +60,12 @@ In [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5), known [f
 
 ### Formal syntax
 
-@namespace [<namespace-prefix>](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#namespace-prefix)[?](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Question_mark_()) [[](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Brackets) [<string>](https://developer.mozilla.org/en-US/docs/Web/CSS/string) [|](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Single_bar) [<url>](https://developer.mozilla.org/en-US/docs/Web/CSS/url) []](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Brackets);
+@namespace [<namespace-prefix>](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#namespace-prefix)[?](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Question_mark_()) [\[\](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Brackets) \[<string>\](https://developer.mozilla.org/en-US/docs/Web/CSS/string) \[|\](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Single_bar) \[<url>\](https://developer.mozilla.org/en-US/docs/Web/CSS/url) \[\]](https://developer.mozilla.org/en-US/docs/CSS/Value_definition_syntax#Brackets);
 
 where
 `<namespace-prefix> = [<ident>](https://developer.mozilla.org/en-US/docs/Web/CSS/ident)`
 
-## Specifications[**Edit](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit#Specifications)
+## Specifications[__Edit](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit#Specifications)
 
 Specification
 
@@ -81,10 +80,10 @@ RECRecommendation
 
 Initial definition
 
-## Browser compatibility[**Edit](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit#Browser_compatibility)
+## Browser compatibility[__Edit](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace$edit#Browser_compatibility)
 
-* Desktop
-* Mobile
+- Desktop
+- Mobile
 
 Feature
 
@@ -130,27 +129,28 @@ Namespace selector (|)
 
 ## Document Tags and Contributors
 
-** **Tags:**
+__ **Tags:**
 
-* [At-rule](https://developer.mozilla.org/en-US/docs/tag/At-rule)
-* [CSS](https://developer.mozilla.org/en-US/docs/tag/CSS)
-* [Layout](https://developer.mozilla.org/en-US/docs/tag/Layout)
-* [Reference](https://developer.mozilla.org/en-US/docs/tag/Reference)
-* [Web](https://developer.mozilla.org/en-US/docs/tag/Web)
+- [At-rule](https://developer.mozilla.org/en-US/docs/tag/At-rule)
+- [CSS](https://developer.mozilla.org/en-US/docs/tag/CSS)
+- [Layout](https://developer.mozilla.org/en-US/docs/tag/Layout)
+- [Reference](https://developer.mozilla.org/en-US/docs/tag/Reference)
+- [Web](https://developer.mozilla.org/en-US/docs/tag/Web)
 
-** **Contributors to this page:** [wbamberg](https://developer.mozilla.org/en-US/profiles/wbamberg), [erikadoyle](https://developer.mozilla.org/en-US/profiles/erikadoyle), [Tigt](https://developer.mozilla.org/en-US/profiles/Tigt), [fscholz](https://developer.mozilla.org/en-US/profiles/fscholz), [Sebastianz](https://developer.mozilla.org/en-US/profiles/Sebastianz), [soluml](https://developer.mozilla.org/en-US/profiles/soluml), [vtsatskin](https://developer.mozilla.org/en-US/profiles/vtsatskin), [kscarfone](https://developer.mozilla.org/en-US/profiles/kscarfone), [Np](https://developer.mozilla.org/en-US/profiles/Np)
-** **Last updated by:** [wbamberg](https://developer.mozilla.org/en-US/profiles/wbamberg), Aug 16, 2017, 10:38:06 PM
+__ **Contributors to this page:** [wbamberg](https://developer.mozilla.org/en-US/profiles/wbamberg), [erikadoyle](https://developer.mozilla.org/en-US/profiles/erikadoyle), [Tigt](https://developer.mozilla.org/en-US/profiles/Tigt), [fscholz](https://developer.mozilla.org/en-US/profiles/fscholz), [Sebastianz](https://developer.mozilla.org/en-US/profiles/Sebastianz), [soluml](https://developer.mozilla.org/en-US/profiles/soluml), [vtsatskin](https://developer.mozilla.org/en-US/profiles/vtsatskin), [kscarfone](https://developer.mozilla.org/en-US/profiles/kscarfone), [Np](https://developer.mozilla.org/en-US/profiles/Np)
+__ **Last updated by:** [wbamberg](https://developer.mozilla.org/en-US/profiles/wbamberg), Aug 16, 2017, 10:38:06 PM
 
 See also
 
 1. **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)**
 2. **[CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)**
 3. **[CSS Namespaces](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Namespaces)**
-4. [****At-Rules**](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#)
-    1. *`@namespace`*
+4. [\***\*At-Rules**](https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace#)
+   1. _`@namespace`_
 
 ## Learn the best of web development
 
 Get the latest and greatest from MDN delivered straight to your inbox.
 
 E-mail
+

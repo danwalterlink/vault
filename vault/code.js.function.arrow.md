@@ -1,16 +1,15 @@
 ---
-id: g341i0w5vs2rfxqjyhu11hy
+id: c0zam7ip9ft3zbo8iky7anz
 title: Arrow
 desc: ''
 updated: 1633199319631
 created: 1633199319631
 ---
+## Arrow functions
 
-# Arrow functions
+_[ES6 In Depth](https://hacks.mozilla.org/category/es6-in-depth/) is a series on new features being added to the JavaScript programming language in the 6th Edition of the ECMAScript standard, ES6 for short._
 
-*[ES6 In Depth](https://hacks.mozilla.org/category/es6-in-depth/) is a series on new features being added to the JavaScript programming language in the 6th Edition of the ECMAScript standard, ES6 for short.*
-
-Arrows have been part of JavaScript from the very beginning. The first JavaScript tutorials advised wrapping inline scripts in HTML comments. This would prevent browsers that *didn’t* support JS from erroneously displaying your JS code as text. You would write something like this:
+Arrows have been part of JavaScript from the very beginning. The first JavaScript tutorials advised wrapping inline scripts in HTML comments. This would prevent browsers that _didn’t_ support JS from erroneously displaying your JS code as text. You would write something like this:
 
 ```
 <script language="javascript">
@@ -26,9 +25,9 @@ To support this odd hack, the JavaScript engine in your browser treats the chara
 
 As it happens, [this style of comment is standardized for the first time in ES6.](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-html-like-comments) But this isn’t the arrow we’re here to talk about.
 
-The arrow sequence `-->` also denotes a one-line comment. Weirdly, while in HTML characters *before* the `-->` are part of the comment, in JS the rest of the line *after* the `-->` is a comment.
+The arrow sequence `-->` also denotes a one-line comment. Weirdly, while in HTML characters _before_ the `-->` are part of the comment, in JS the rest of the line _after_ the `-->` is a comment.
 
-It gets stranger. This arrow indicates a comment *only* when it appears at the start of a line. That’s because in other contexts, `-->` is an operator in JS, the “goes to” operator!
+It gets stranger. This arrow indicates a comment _only_ when it appears at the start of a line. That’s because in other contexts, `-->` is an operator in JS, the “goes to” operator!
 
 ```
 function countdown(n) {
@@ -38,9 +37,9 @@ function countdown(n) {
 }
 ```
 
-[This code really works.](http://codepen.io/anon/pen/oXZaBY?editors=001) The loop runs until n gets to 0. This too is *not* a new feature in ES6, but a combination of familiar features, with a little misdirection thrown in. Can you figure out what’s going on here? As usual, the answer to the puzzle can be found [on Stack Overflow](http://stackoverflow.com/questions/1642028/what-is-the-name-of-the-operator).
+[This code really works.](http://codepen.io/anon/pen/oXZaBY?editors=001) The loop runs until n gets to 0. This too is _not_ a new feature in ES6, but a combination of familiar features, with a little misdirection thrown in. Can you figure out what’s going on here? As usual, the answer to the puzzle can be found [on Stack Overflow](http://stackoverflow.com/questions/1642028/what-is-the-name-of-the-operator).
 
-Of course there is also the less-than-or-equal-to operator, `<=`. Perhaps you can find more arrows in your JS code, Hidden Pictures style, but let’s stop here and observe that *an arrow is missing*.
+Of course there is also the less-than-or-equal-to operator, `<=`. Perhaps you can find more arrows in your JS code, Hidden Pictures style, but let’s stop here and observe that _an arrow is missing_.
 
 `<!--`
 
@@ -81,7 +80,7 @@ $("#confetti-btn").click(function (event) {
 });
 ```
 
-Writing code like this comes quite naturally to us now. So it’s strange to recall that before JavaScript popularized this kind of programming, many languages *did not have this feature*. Of course Lisp had function expressions, also called lambda functions, in 1958. But C++, Python, C#, and Java all existed for years without them.
+Writing code like this comes quite naturally to us now. So it’s strange to recall that before JavaScript popularized this kind of programming, many languages _did not have this feature_. Of course Lisp had function expressions, also called lambda functions, in 1958. But C++, Python, C#, and Java all existed for years without them.
 
 Not anymore. All four have lambdas now. Newer languages universally have lambdas built in. We have JavaScript to thank for this—and early JavaScript programmers who fearlessly built libraries that depended heavily on lambdas, leading to widespread adoption of the feature.
 
@@ -190,12 +189,12 @@ One reason this question comes up so often is that `function` functions receive 
 }
 ```
 
-Here, what you’d *like* to write in the inner function is just `this.add(piece)`. Unfortunately, the inner function doesn’t inherit the outer function’s `this` value. Inside the inner function, `this` will be `window` or `undefined`. The temporary variable `self` serves to smuggle the outer value of `this` into the inner function. (Another way is to use `.bind(this)` on the inner function. Neither way is particularly pretty.)
+Here, what you’d _like_ to write in the inner function is just `this.add(piece)`. Unfortunately, the inner function doesn’t inherit the outer function’s `this` value. Inside the inner function, `this` will be `window` or `undefined`. The temporary variable `self` serves to smuggle the outer value of `this` into the inner function. (Another way is to use `.bind(this)` on the inner function. Neither way is particularly pretty.)
 
 In ES6, `this` hacks mostly go away if you follow these rules:
 
-* Use non-arrow functions for methods that will be called using the `object.method()` syntax. Those are the functions that will receive a *meaningful* `this` value from their caller.
-* Use arrow functions for everything else.
+- Use non-arrow functions for methods that will be called using the `object.method()` syntax. Those are the functions that will receive a _meaningful_ `this` value from their caller.
+- Use arrow functions for everything else.
 
 ```
 // ES6
@@ -231,13 +230,13 @@ There’s one more minor difference between arrow and non-arrow functions: arrow
 
 We’ve talked about the many practical uses of arrow functions. There’s one more possible use case I’d like to talk about: ES6 arrow functions as a learning tool, to uncover something deep about the nature of computation. Whether that is practical or not, you’ll have to decide for yourself.
 
-In 1936, Alonzo Church and Alan Turing independently developed powerful mathematical models of computation. Turing called his model *a-machines*, but everyone instantly started calling them Turing machines. Church wrote instead about functions. His model was called the [λ-calculus](https://en.wikipedia.org/wiki/Lambda_calculus). (λ is the lowercase Greek letter lambda.) This work was the reason Lisp used the word `LAMBDA` to denote functions, which is why we call function expressions “lambdas” today.
+In 1936, Alonzo Church and Alan Turing independently developed powerful mathematical models of computation. Turing called his model _a-machines_, but everyone instantly started calling them Turing machines. Church wrote instead about functions. His model was called the [λ-calculus](https://en.wikipedia.org/wiki/Lambda_calculus). (λ is the lowercase Greek letter lambda.) This work was the reason Lisp used the word `LAMBDA` to denote functions, which is why we call function expressions “lambdas” today.
 
 But what is the λ-calculus? What is “model of computation” supposed to mean?
 
-It’s hard to explain in just a few words, but here is my attempt: the λ-calculus is one of the first programming languages. It was not *designed* to be a programming language—after all, stored-program computers wouldn’t come along for another decade or two—but rather a ruthlessly simple, stripped-down, purely mathematical idea of a language that could express any kind of computation you wished to do. Church wanted this model in order to prove things about computation in general.
+It’s hard to explain in just a few words, but here is my attempt: the λ-calculus is one of the first programming languages. It was not _designed_ to be a programming language—after all, stored-program computers wouldn’t come along for another decade or two—but rather a ruthlessly simple, stripped-down, purely mathematical idea of a language that could express any kind of computation you wished to do. Church wanted this model in order to prove things about computation in general.
 
-And he found that he only needed one thing in his system: *functions.*
+And he found that he only needed one thing in his system: _functions._
 
 Think how extraordinary this claim is. Without objects, without arrays, without numbers, without `if` statements, `while` loops, semicolons, assignment, logical operators, or an event loop, it is possible to rebuild every kind of computation JavaScript can do, from scratch, using only functions.
 
@@ -254,7 +253,7 @@ var fix = f => (x => f(v => x(x)(v)))
                (x => f(v => x(x)(v)));
 ```
 
-That is, JavaScript contains an implementation of the λ-calculus that actually runs. *The λ-calculus is in JavaScript.*
+That is, JavaScript contains an implementation of the λ-calculus that actually runs. _The λ-calculus is in JavaScript._
 
 The stories of what Alonzo Church and later researchers did with the λ-calculus, and how it has quietly insinuated itself into almost every major programming language, are beyond the scope of this blog post. But if you’re interested in the foundations of computer science, or you’d just like to see how a language with nothing but functions can do things like loops and recursion, you could do worse than to spend some rainy afternoon looking into [Church numerals](https://en.wikipedia.org/wiki/Church_encoding) and [fixed-point combinators](https://en.wikipedia.org/wiki/Fixed-point_combinator#Strict_fixed_point_combinator), and playing with them in your Firefox console or [Scratchpad](https://developer.mozilla.org/en-US/docs/Tools/Scratchpad). With ES6 arrows on top of its other strengths, JavaScript can reasonably claim to be the best language for exploring the λ-calculus.
 
@@ -265,3 +264,4 @@ ES6 arrow functions were implemented in Firefox by me, back in 2013. Jan de Mooi
 Arrow functions are also implemented in the Microsoft Edge preview release. They’re also available in [Babel](http://babeljs.io/), [Traceur](https://github.com/google/traceur-compiler#what-is-traceur), and [TypeScript](http://www.typescriptlang.org/), in case you’re interested in using them on the Web right now.
 
 Our next topic is one of the stranger features in ES6. We’ll get to see `typeof x` return a totally new value. We’ll ask: When is a name not a string? We’ll puzzle over the meaning of equality. It’ll be weird. So please join us next week as we look at ES6 symbols in depth.
+

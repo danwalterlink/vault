@@ -1,5 +1,5 @@
 ---
-id: 5ep4ah34vo7i6ljrulps5a6
+id: hhjtms8itx8le232lh42tjw
 title: Therapy
 desc: therapeutic measures counteracting or preventating symptoms
 updated: 1680776328481

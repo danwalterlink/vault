@@ -1,5 +1,5 @@
 ---
-id: c8zwgqagdc3cwsly5pmsn3u
+id: mru5srfqbmpj2citcs4r494
 title: Swiss German Logic macOS
 desc: ''
 updated: 1682074260634

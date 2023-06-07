@@ -1,5 +1,5 @@
 ---
-id: t9d3dvgpzus2mnzo31a9bx3
+id: fhel2fyf08y0h32infkzq3o
 title: Builds
 desc: ''
 updated: 1664374973130
@@ -9,12 +9,13 @@ paginate: false
 theme: gaia
 headingDivider: 2
 ---
+## standard
 
-# standard
 poke/harass FE into timing, overwhelm or macro
 
 ## protoss
-![[1 gate fe|dendron://dwl/game.sc2.builds.protoss.fe.1gate]]
+
+![[dendron://dwl/1 gate fe|game.sc2.builds.protoss.fe.1gate]]
 stargate
 3rd
 gatewayman
@@ -22,6 +23,7 @@ gatewayman
 overwhelm
 
 ## terran
+
 1 rax FE
 1/1/1
 3rd
@@ -30,7 +32,9 @@ overwhelm
 parade
 
 ## zerg
+
 3 hatch ling queen
 ling bling muta
 5 hatch
 lurker contain / overwhelm
+

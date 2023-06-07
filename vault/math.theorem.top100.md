@@ -1,14 +1,13 @@
 ---
-id: njkko233rkv6cqcki5q2uo8
+id: 2xc1ohb6rm5zcs85p2tfhrd
 title: Top100
 desc: ''
 updated: 1633210997367
 created: 1633199321505
 ---
-
 The Top 100 Theorems
 
-# The Hundred Greatest Theorems
+## The Hundred Greatest Theorems
 
 The millenium seemed to spur a lot of people to compile "Top 100" or "Best 100" lists of many things, including [movies](http://connect.afi.com/site/PageServer?pagename=micro_100landing) (by the American Film Institute) and [books](http://www.randomhouse.com/modernlibrary/100best/novels.html) (by the Modern Library). Mathematicians were not immune, and at a mathematics conference in July, 1999, Paul and Jack Abad presented their list of "The Hundred Greatest Theorems." Their ranking is based on the following criteria: "the place the theorem holds in the literature, the quality of the proof, and the unexpectedness of the result."
 The list is of course as arbitrary as the movie and book list, but the theorems here are all certainly worthy results. I hope to over time include links to the proofs of them all; for now, you'll have to content yourself with the list itself and the biographies of the principals.
@@ -820,3 +819,4 @@ Bertrands Postulate
 [Rene Descartes](http://www-history.mcs.st-and.ac.uk/~history/Mathematicians/Descartes.html)
 
 1637
+

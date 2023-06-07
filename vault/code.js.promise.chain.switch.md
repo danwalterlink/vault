@@ -1,14 +1,13 @@
 ---
-id: p9dcxmmrxg9zbubktfjw3ka
+id: o4iyr27qalxyaz89zhbsbg9
 title: Switch
 desc: ''
 updated: 1633199319501
 created: 1633199319501
 ---
-
 they be? · Issue #308 · kriskowal/q
 
-# Are switches/branches possible in promise chains? Should they be? #308
+## Are switches/branches possible in promise chains? Should they be? #308
 
 Closed
 
@@ -44,12 +43,15 @@ someBaz(val) {
             if (err.message == 'This was to be expected.')
                 return someBazBazBaz(val); // Try alternative function to return the promise
 
-            // If this was not the expected error, then it must be a serious error.
-            throw err;
-        }
-    );
+```
+        // If this was not the expected error, then it must be a serious error.
+        throw err;
+    }
+);
 
-    return promise;
+return promise;
+```
+
 }
 
 However, this is purely chain switching, so it would be nice if we could keep that in the chain part, without using so much code that will prevent the promise chain from looking sexy.
@@ -126,7 +128,7 @@ I understand you disagree and you're probably right. In my personal opinion, hav
 Just my POV, I am perfectly happy adding it manually. :)
 
 Btw, if non-bloat, plain, slim and clean is really paramount, I still suggest changing core functions like `post`, `tickle` and `robot` to something more sensible like `mcall` `mapply` and `nmcall` as I suggested here: [#235](https://github.com/kriskowal/q/pull/235)
-Because I have to look them up in the documentation *all the time*.
+Because I have to look them up in the documentation _all the time_.
 
 2 cents. :)
 
@@ -190,7 +192,7 @@ Collaborator
 
 In case anyone is interested, I put this small piece of code that adds the `if()` method to promises in a repo. I hope to expand on it in the future.
 
-https://github.com/Redsandro/qtree
+<https://github.com/Redsandro/qtree>
 
 I am trying to make promises [aware of their switched state](https://github.com/Redsandro/qtree#future-wishes), so I can have daisychained conditionals.
 
@@ -233,22 +235,22 @@ promise
   .case('baz', compose(doBaz, doBar))
   .case('qux', doSomethingElse)
 
-Ideally I'd like to wrap *all* promise-accepting `Q` functions in one *single* wrapper function. The wrapper would either execute/return the original function, or return the promise immediately.
+Ideally I'd like to wrap _all_ promise-accepting `Q` functions in one _single_ wrapper function. The wrapper would either execute/return the original function, or return the promise immediately.
 
 I'm not sure if that's possible in javascript. But OTOH, you have this clever `array_reduce` trick for batch-adding functions to a prototype. Maybe there is a clever hook type trick I can do for batch-wrapping?
 
 * * *
 
-**[@killdream](https://github.com/killdream):** *Why* do you think it's not a good idea? I think it's an excellent idea. I think your POV is too close to the promises as they are. Extend your frame of reference a bit and this will be awesome. You don't have to like it right away though. ;) It doesn't touch `Q` anyway. But before attempting it my way, I just like to verify if the clever Q people over here know of a better way to extend `Q` than I am about to try.
+**[@killdream](https://github.com/killdream):** _Why_ do you think it's not a good idea? I think it's an excellent idea. I think your POV is too close to the promises as they are. Extend your frame of reference a bit and this will be awesome. You don't have to like it right away though. ;) It doesn't touch `Q` anyway. But before attempting it my way, I just like to verify if the clever Q people over here know of a better way to extend `Q` than I am about to try.
 
-*"Because the promise chain provides such a nice overview of the order in which your code is executed, it is beneficial to be able to make promise trees in stead of promise chains."* *"The goal is to have more control over the flow of promises."*
+_"Because the promise chain provides such a nice overview of the order in which your code is executed, it is beneficial to be able to make promise trees in stead of promise chains."_ _"The goal is to have more control over the flow of promises."_
 
-The alternative you provided has no improvement over the `if()` statement, except for semantics which contradict the functionality of your typical `case` statement. ( *Note:* I am following `Bash` here because it uses a short and simple linear chain of commands like I am trying to implement. Javascript would call this a `switch` statement which encloses the `case` switches.)
+The alternative you provided has no improvement over the `if()` statement, except for semantics which contradict the functionality of your typical `case` statement. ( _Note:_ I am following `Bash` here because it uses a short and simple linear chain of commands like I am trying to implement. Javascript would call this a `switch` statement which encloses the `case` switches.)
 
-1. On first `case` statement, `promise` must remember he's in a case statement (i.e. be *branch-aware*) because:
-    * It must skip `then`s when `case` condition is not met;
-    * It must stop doing `case`s and skip the chain to `esac` when `break` is encountered;
-    * It must stop being branch-aware when `esac` is encountered.
+1. On first `case` statement, `promise` must remember he's in a case statement (i.e. be _branch-aware_) because:
+   - It must skip `then`s when `case` condition is not met;
+   - It must stop doing `case`s and skip the chain to `esac` when `break` is encountered;
+   - It must stop being branch-aware when `esac` is encountered.
 
 Anyway, daisychaining `if`s is also on my todo-list, but in order to do so, the question remains exactly the same because promises still need to be aware.
 
@@ -265,7 +267,7 @@ var baz = doSomething(foo)
 
 Not really.
 
-1. Promises already have states. 2) And having the (secret hidden helper) state of the promise defined by the previous `case` is the *definition* of compositionality. 3) These states are not global.
+1. Promises already have states. 2) And having the (secret hidden helper) state of the promise defined by the previous `case` is the _definition_ of compositionality. 3) These states are not global.
 
 var foo = promise.then(baz)
 var baz = doSomething(foo)
@@ -286,3 +288,4 @@ I often use [these if-switches I hacked together](https://github.com/Redsandro/q
 I'd love to see these clever guys implement something like this in core, and although I disagree with most arguments against it, **kriskowal** has expressed an understandable wish to keep things simple and focused.
 
 Attach files by dragging & dropping, selecting them, or pasting from the clipboard. (image/gif)
+

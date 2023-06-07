@@ -1,12 +1,11 @@
 ---
-id: uzfnvo8utsnu0sm18aakj4i
+id: a5zzcuqilz8tua83vap9r8w
 title: Destructuring
 desc: ''
 updated: 1633199319593
 created: 1633199319593
 ---
-
-# Destructuring assignment
+## Destructuring assignment
 
 The **destructuring assignment** syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
@@ -33,7 +32,7 @@ console.log(b); // 20
 
 ## Description
 
-The object and array literal expressions provide an easy way to create *ad hoc* packages of data.
+The object and array literal expressions provide an easy way to create _ad hoc_ packages of data.
 
 ```
 var x = [1, 2, 3, 4, 5];
@@ -389,8 +388,8 @@ console.log(fizzBuzz); // "true"
 
 ## Browser compatibility
 
-* Desktop
-* Mobile
+- Desktop
+- Mobile
 
 Feature
 
@@ -466,7 +465,8 @@ No support
 
 ## Firefox-specific notes
 
-* Firefox provided a non-standard language extension in [JS1.7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.7) for destructuring. This extension has been removed in Gecko 40 (Firefox 40 / Thunderbird 40 / SeaMonkey 2.37). See [bug 1083498](https://bugzilla.mozilla.org/show_bug.cgi?id=1083498).
-* Starting with Gecko 41 (Firefox 41 / Thunderbird 41 / SeaMonkey 2.38) and to comply with the ES2015 specification, parenthesized destructuring patterns, like `([a, b]) = [1, 2]` or `({a, b}) = { a: 1, b: 2 }`, are now considered invalid and will throw a [`SyntaxError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError). See [Jeff Walden's blog post](http://whereswalden.com/2015/06/20/new-changes-to-make-spidermonkeys-and-firefoxs-parsing-of-destructuring-patterns-more-spec-compliant/) and [bug 1146136](https://bugzilla.mozilla.org/show_bug.cgi?id=1146136) for more details.
+- Firefox provided a non-standard language extension in [JS1.7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.7) for destructuring. This extension has been removed in Gecko 40 (Firefox 40 / Thunderbird 40 / SeaMonkey 2.37). See [bug 1083498](https://bugzilla.mozilla.org/show_bug.cgi?id=1083498).
+- Starting with Gecko 41 (Firefox 41 / Thunderbird 41 / SeaMonkey 2.38) and to comply with the ES2015 specification, parenthesized destructuring patterns, like `([a, b]) = [1, 2]` or `({a, b}) = { a: 1, b: 2 }`, are now considered invalid and will throw a [`SyntaxError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError). See [Jeff Walden's blog post](http://whereswalden.com/2015/06/20/new-changes-to-make-spidermonkeys-and-firefoxs-parsing-of-destructuring-patterns-more-spec-compliant/) and [bug 1146136](https://bugzilla.mozilla.org/show_bug.cgi?id=1146136) for more details.
 
 ## See also
+

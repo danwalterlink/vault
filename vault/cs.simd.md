@@ -1,5 +1,5 @@
 ---
-id: f85ozo56wljc3037l1sum4e
+id: zpbf1p83esvucv3w43m39w6
 title: SIMD types
 desc: ''
 updated: 1633274792147

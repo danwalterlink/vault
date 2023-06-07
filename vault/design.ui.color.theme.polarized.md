@@ -1,19 +1,21 @@
 ---
-id: cottjjlr56egicve6pllcjs
+id: ohj13o2r1ilo4djko6emoet
 title: Polarized
 desc: ''
 updated: 1677061315381
 created: 1668108118774
 ---
+## adobe leonardo
 
-# adobe leonardo
-https://leonardocolor.io/theme.html?name=polarized.adaptive.dark&config=%7B%22baseScale%22%3A%22neutral%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22neutral%22%2C%22colorKeys%22%3A%5B%22%23cfb994%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22primary%22%2C%22colorKeys%22%3A%5B%22%235a489f%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22secondary%22%2C%22colorKeys%22%3A%5B%22%23ffca28%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22error%22%2C%22colorKeys%22%3A%5B%22%23bf009b%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22highlight%22%2C%22colorKeys%22%3A%5B%22%2354f0d2%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A9%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D
+<https://leonardocolor.io/theme.html?name=polarized.adaptive.dark&config=%7B%22baseScale%22%3A%22neutral%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22neutral%22%2C%22colorKeys%22%3A%5B%22%23cfb994%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22primary%22%2C%22colorKeys%22%3A%5B%22%235a489f%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22secondary%22%2C%22colorKeys%22%3A%5B%22%23ffca28%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22error%22%2C%22colorKeys%22%3A%5B%22%23bf009b%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22highlight%22%2C%22colorKeys%22%3A%5B%22%2354f0d2%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A9%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D>
 
 export all colors
--> #1c1813,#1d1913,#3c3528,#554b39,#71634b,#907f61,#b4a17d,#ddc8a4,#1b133a,#382971,#4f3e93,#6958ac,#8577c0,#a79cd3,#cdc7e6,#1f1802,#433403,#5f4904,#7e6106,#a17c09,#ca9d10,#f8c422,#38002b,#690052,#910072,#bc0098,#db3dbd,#ea7cd5,#f4b8e8,#0a1c19,#153c34,#1e554a,#277062,#328f7d,#3fb59e,#4ee1c4
+\-> #1c1813,#1d1913,#3c3528,#554b39,#71634b,#907f61,#b4a17d,#ddc8a4,#1b133a,#382971,#4f3e93,#6958ac,#8577c0,#a79cd3,#cdc7e6,#1f1802,#433403,#5f4904,#7e6106,#a17c09,#ca9d10,#f8c422,#38002b,#690052,#910072,#bc0098,#db3dbd,#ea7cd5,#f4b8e8,#0a1c19,#153c34,#1e554a,#277062,#328f7d,#3fb59e,#4ee1c4
 
 ## tokens
+
 ### dark
+
 9% darkness
 {
   "polarized.adaptive.dark": {
@@ -202,8 +204,9 @@ export all colors
 }
 
 ### bright
+
 88% brightness
-https://leonardocolor.io/theme.html?name=polarized.adaptive.dark&config=%7B%22baseScale%22%3A%22neutral%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22neutral%22%2C%22colorKeys%22%3A%5B%22%23cfb994%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22primary%22%2C%22colorKeys%22%3A%5B%22%235a489f%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22secondary%22%2C%22colorKeys%22%3A%5B%22%23ffca28%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22error%22%2C%22colorKeys%22%3A%5B%22%23bf009b%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22highlight%22%2C%22colorKeys%22%3A%5B%22%2354f0d2%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A88%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D
+<https://leonardocolor.io/theme.html?name=polarized.adaptive.dark&config=%7B%22baseScale%22%3A%22neutral%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22neutral%22%2C%22colorKeys%22%3A%5B%22%23cfb994%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22primary%22%2C%22colorKeys%22%3A%5B%22%235a489f%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22secondary%22%2C%22colorKeys%22%3A%5B%22%23ffca28%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22error%22%2C%22colorKeys%22%3A%5B%22%23bf009b%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22highlight%22%2C%22colorKeys%22%3A%5B%22%2354f0d2%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A88%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D>
 {
   "polarized.adaptive.dark": {
     "description": "Color theme tokens at lightness of 88%",
@@ -391,9 +394,11 @@ https://leonardocolor.io/theme.html?name=polarized.adaptive.dark&config=%7B%22ba
 }
 
 ## leonardo - gruvbox material-like
+
 [Leonardo](https://leonardocolor.io/theme.html?name=polarized.adaptive.dark&config=%7B%22baseScale%22%3A%22neutral%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22neutral%22%2C%22colorKeys%22%3A%5B%22%23f9f1cb%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22primary%22%2C%22colorKeys%22%3A%5B%22%235a489f%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22secondary%22%2C%22colorKeys%22%3A%5B%22%23ffca28%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22error%22%2C%22colorKeys%22%3A%5B%22%23bf009b%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22highlight%22%2C%22colorKeys%22%3A%5B%22%2354f0d2%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A93%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D)
 #f3ebc5,#cbc4a3,#aca588,#8c866e,#6d6957,#504d40,#333128,
 #eae8f4,#c7bfe3,#a99ed4,#8b7cc3,#6e5db0,#513f95,#332569,
 #ffeb75,#f1bd1e,#cd9e11,#a7810a,#846507,#614a05,#3d2f03,
 #fae3f6,#f2aee5,#eb7fd7,#df46c2,#c3059f,#930074,#61004b,
 #acf8e9,#4cdabf,#40b7a0,#349583,#297567,#1e574c,#133630
+

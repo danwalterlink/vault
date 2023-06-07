@@ -1,14 +1,13 @@
 ---
-id: e375xbgcwslqrzriu6gyajo
+id: f3shew83g3jmrho2rj7enti
 title: Disinfect
 desc: ''
 updated: 1633199319666
 created: 1633199319666
 ---
-
 peroxide and vinegar
 
-# Heavy-duty disinfecting the non-toxic way with hydrogen peroxide and vinegar
+## Heavy-duty disinfecting the non-toxic way with hydrogen peroxide and vinegar
 
 Mrs. Homegrown (image/jpeg)[Mrs. Homegrown](http://www.rootsimple.com/author/mrs-homegrown/)
 
@@ -25,7 +24,7 @@ Credit: Rocky Mountain Laboratories, NIAID, NIH
 
 The comments on yesterday’s post indicated some general interest in strong disinfectants, and questions as to whether vinegar really was a good disinfectant. Vinegar is an acid and as such it does kill wee beasties, though not as many wee beasties as the nuclear options such as bleach or Lysol will. For everyday use, I think vinegar does a fine job. But I admit there are times, like when you’re cleaning chicken juice off a cutting board, where you might want something stronger.
 
-Here’s a safe, super-strong way to disinfect. We covered it in *The Urban Homestead*, and it floats around the interwebs, too, so it may be review for some of you.
+Here’s a safe, super-strong way to disinfect. We covered it in _The Urban Homestead_, and it floats around the interwebs, too, so it may be review for some of you.
 
 1) Take a bottle of hydrogen peroxide (3% solution, the kind you buy in the drugstore). Leave it in the  brown bottle it comes in because hydrogen peroxide is light sensitive. Screw a spray bottle nozzle onto the brown bottle.
 
@@ -65,87 +64,87 @@ So no more excuses for clinging to your bleach, people. Ditch the poison!
 ## 41 Comments
 
 1. (image/png)[KC Pagano](http://www.blogger.com/profile/11754877585279239499)
-    [February 14, 2012 2:10 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9763)
+   [February 14, 2012 2:10 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9763)
 
-    This is great! Thank you. I’m a beginning hard cheese maker, I wish there was an option other then bleach fro sanitizing all the equipment. I’m a vinegar and baking soda gal as you know from yesterdays comment and I don’t really want to add bleach to my cabinet just because of the cheese. Will vinegar be good enough? Why do all the book recommend bleach for cleaning equipment? They say it’s for removing milk stone.
+   This is great! Thank you. I’m a beginning hard cheese maker, I wish there was an option other then bleach fro sanitizing all the equipment. I’m a vinegar and baking soda gal as you know from yesterdays comment and I don’t really want to add bleach to my cabinet just because of the cheese. Will vinegar be good enough? Why do all the book recommend bleach for cleaning equipment? They say it’s for removing milk stone.
 
-    * (image/jpeg)[Jonathan](http://www.jonathanevatt.com/)
-        [December 28, 2012 8:36 am](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-45761)
+   - (image/jpeg)[Jonathan](http://www.jonathanevatt.com/)
+       [December 28, 2012 8:36 am](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-45761)
 
-        In answer to KC Pagano:
-        As far as I know, it is an accepted standard practice to use food grade H2O2 for the sterilisation of certain food equipment, especially in cheese production. H2O2 is also sometimes used in milk itself in order to reduce bacteria levels.
+       In answer to KC Pagano:
+       As far as I know, it is an accepted standard practice to use food grade H2O2 for the sterilisation of certain food equipment, especially in cheese production. H2O2 is also sometimes used in milk itself in order to reduce bacteria levels.
 
-        H2O2 It leaves no residue, no taste, etc. For commercial use you would buy at least 35% concentrate, and then dilute accordingly.
+       H2O2 It leaves no residue, no taste, etc. For commercial use you would buy at least 35% concentrate, and then dilute accordingly.
 
-        I imagine can find the industry standard recommendations for concentration in food processing books and web sites.
+       I imagine can find the industry standard recommendations for concentration in food processing books and web sites.
 
-        You may also be interested to learn about Vinoxide. You can read about that here: <http://www.ahjs.biz/pdfs/Vinoxide-HTC.pdf>
+       You may also be interested to learn about Vinoxide. You can read about that here: <http://www.ahjs.biz/pdfs/Vinoxide-HTC.pdf>
 
-        Regarding vinegar. As Sada has pointed out, much of the cheap commercial vinegar we find in shops is anything but “natural”, in the sense that it does not occur naturally. It is manufactured from petrochemicals. That’s a concern for some people, and not for others. I certainly avoid eating anything with cheap vinegars in them.
+       Regarding vinegar. As Sada has pointed out, much of the cheap commercial vinegar we find in shops is anything but “natural”, in the sense that it does not occur naturally. It is manufactured from petrochemicals. That’s a concern for some people, and not for others. I certainly avoid eating anything with cheap vinegars in them.
 
-        But as cleaning products the refined and distilled vinegars are likely the best as they won’t leave a residue (unlike natural unfiltered apple cider vinegar which contains a lot of particulates… as does decent balsamic). It is also possible to buy acetic acid and make your own vinegar-like solution. But that’s likely more hassle than it’s worth for most people. Distilled white vinegar should do the trick.
+       But as cleaning products the refined and distilled vinegars are likely the best as they won’t leave a residue (unlike natural unfiltered apple cider vinegar which contains a lot of particulates… as does decent balsamic). It is also possible to buy acetic acid and make your own vinegar-like solution. But that’s likely more hassle than it’s worth for most people. Distilled white vinegar should do the trick.
 
 2. (image/png)[Dree](http://www.blogger.com/profile/15059983303403184992)
-    [February 14, 2012 3:02 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9764)
+   [February 14, 2012 3:02 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9764)
 
-    Would this work for the semi-annual chicken coop scrubdown? I will be needing to do that in the next month or two, and am starting to worry about the bleach, the ground, etc. BUT I want to kill any of those wee beasties that might be out there….
+   Would this work for the semi-annual chicken coop scrubdown? I will be needing to do that in the next month or two, and am starting to worry about the bleach, the ground, etc. BUT I want to kill any of those wee beasties that might be out there….
 
 3. (image/png)[Mrs. Homegrown](http://www.blogger.com/profile/04361170920135500100)
-    [February 14, 2012 3:42 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9765)
+   [February 14, 2012 3:42 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9765)
 
-    @KC: Well, I think this technique might work for some of equipment, but if you want something you can soak your tools in, you might want to look into iodine sanitizers, e.g. Iododophur (but there are other brands). We use this to sanitize our beer making equipment. Buy it at restaurant supply places or brew shops.
+   @KC: Well, I think this technique might work for some of equipment, but if you want something you can soak your tools in, you might want to look into iodine sanitizers, e.g. Iododophur (but there are other brands). We use this to sanitize our beer making equipment. Buy it at restaurant supply places or brew shops.
 
-    @Dree: When I clean my coop, I use vinegar and a scrub brush and a hose (and take anything moveable out into the sunlight for the day) but yes, I think this would be stronger. Maybe do basic cleaning first w. vinegar and/or soapy water and then, when you’re done, spray down all the surfaces with the one-two punch.
+   @Dree: When I clean my coop, I use vinegar and a scrub brush and a hose (and take anything moveable out into the sunlight for the day) but yes, I think this would be stronger. Maybe do basic cleaning first w. vinegar and/or soapy water and then, when you’re done, spray down all the surfaces with the one-two punch.
 
 4. (image/png)[Practical Parsimony](http://www.practical-parsimony.blogspot.com/)
-    [February 14, 2012 3:42 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9766)
+   [February 14, 2012 3:42 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9766)
 
-    As for cleaning the odor from meat, I have been known to use plain water, vinegar alone, baking soda alone, and Dawn. I don’t soak the meat in anything. It is just a quick dowsing and rubbing of the surface. Even the Dawn leaves no residue or taste. I don’t apply Dawn directly. It is diluted first.
+   As for cleaning the odor from meat, I have been known to use plain water, vinegar alone, baking soda alone, and Dawn. I don’t soak the meat in anything. It is just a quick dowsing and rubbing of the surface. Even the Dawn leaves no residue or taste. I don’t apply Dawn directly. It is diluted first.
 
-    I rarely use bleach, but I believe it has a place in a home. In a water emergency, it can be used to purify the water. I keep bleach but rarely use it and never in the washing machine. The fumes overwhelm me.
+   I rarely use bleach, but I believe it has a place in a home. In a water emergency, it can be used to purify the water. I keep bleach but rarely use it and never in the washing machine. The fumes overwhelm me.
 
-    It seems she used the vinegar first, wiped it down and dried. Then, she used the peroxide for the rest of the disinfectant. I will have to read the article again.
+   It seems she used the vinegar first, wiped it down and dried. Then, she used the peroxide for the rest of the disinfectant. I will have to read the article again.
 
 5. (image/png)[Nick](http://www.blogger.com/profile/15395655714606147363)
-    [February 14, 2012 4:05 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9767)
+   [February 14, 2012 4:05 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9767)
 
-    Hydrogen Peroxide breaks down into water and oxygen when exposed to sunlight (2H2O2 -> 2H2O +O2). Most powdered beer brewing sanitizers (steri-san and the like) utilize this chemical and they recommend a quick cold water rinse only to get the residue out (it tends not to completely dissolve in cold water), but will probably not be harmful by the time it gets to you at the concentrations you describe.
-    -Nick
+   Hydrogen Peroxide breaks down into water and oxygen when exposed to sunlight (2H2O2 -> 2H2O +O2). Most powdered beer brewing sanitizers (steri-san and the like) utilize this chemical and they recommend a quick cold water rinse only to get the residue out (it tends not to completely dissolve in cold water), but will probably not be harmful by the time it gets to you at the concentrations you describe.
+   \-Nick
 
 6. (image/png)joss
-    [February 14, 2012 4:20 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9768)
+   [February 14, 2012 4:20 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9768)
 
-    I have a question and am hoping you (or one of your followers) will have some advice. Before moving to Fallbrook CA, I washed everything with soap -laundry, the bathtub, dishes, etc- and it worked really well. I especially loved cleaning the tub with the baking soda and liquid castille soap ‘frosting.’ But now instead of getting anything clean it’s more like I’ve painstakingly applied a layer of soap scum. I think it’s the hard water. How do you counter that? Vinegar?
+   I have a question and am hoping you (or one of your followers) will have some advice. Before moving to Fallbrook CA, I washed everything with soap -laundry, the bathtub, dishes, etc- and it worked really well. I especially loved cleaning the tub with the baking soda and liquid castille soap ‘frosting.’ But now instead of getting anything clean it’s more like I’ve painstakingly applied a layer of soap scum. I think it’s the hard water. How do you counter that? Vinegar?
 
 7. (image/png)[Mrs. Homegrown](http://www.blogger.com/profile/04361170920135500100)
-    [February 14, 2012 4:34 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9769)
+   [February 14, 2012 4:34 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9769)
 
-    @Joss: It’s definitely the hard water.
+   @Joss: It’s definitely the hard water.
 
-    You know, I think you might be able to pull off a direct switch in all those activities from liquid castile soap to Dr. Bronner’s Sal Suds. It’s a detergent, technically, not a soap, but is responsibly made. And detergent doesn’t produce scum in hard water.
+   You know, I think you might be able to pull off a direct switch in all those activities from liquid castile soap to Dr. Bronner’s Sal Suds. It’s a detergent, technically, not a soap, but is responsibly made. And detergent doesn’t produce scum in hard water.
 
-    But yes, vinegar rinses do help with soap scum.
+   But yes, vinegar rinses do help with soap scum.
 
-    * (image/png)[FrancesVettergreenVisualArtist](http://francesvettergreen.ca/)
-        [February 15, 2012 6:07 am](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9779)
+   - (image/png)[FrancesVettergreenVisualArtist](http://francesvettergreen.ca/)
+       [February 15, 2012 6:07 am](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9779)
 
-        I’m up here in Calgary and I defy anyone to have harder water than we do! I clean most things with combinations of vinegar, baking soda, and castile soap, with a little bit of borax and, yes, occasional very dilute bleach. I’m not afraid of it making VOCs in combination with other compounds; first, I’m not using other commercial products, and second, I use it once in a blue moon. But on the rare occasion I’m really dealing with nasties, it’s cheap, easy and reliable.
+       I’m up here in Calgary and I defy anyone to have harder water than we do! I clean most things with combinations of vinegar, baking soda, and castile soap, with a little bit of borax and, yes, occasional very dilute bleach. I’m not afraid of it making VOCs in combination with other compounds; first, I’m not using other commercial products, and second, I use it once in a blue moon. But on the rare occasion I’m really dealing with nasties, it’s cheap, easy and reliable.
 
-        Back to hard water. In my experience vinegar rinses do work on soap scum, scale, and leftover baking soda grit, but in really hard water you wind up using a lot, and, I’ve found, having to let it sit, which is next to impossible on, say, the walls of the tub. Citric acid (had to order it from the pharmacy; a bit pricy but a little goes a long way) is food safe and works like magic. Especially in the dishwasher, hallelujah.
+       Back to hard water. In my experience vinegar rinses do work on soap scum, scale, and leftover baking soda grit, but in really hard water you wind up using a lot, and, I’ve found, having to let it sit, which is next to impossible on, say, the walls of the tub. Citric acid (had to order it from the pharmacy; a bit pricy but a little goes a long way) is food safe and works like magic. Especially in the dishwasher, hallelujah.
 
 8. (image/png)[Shin-yo](http://www.blogger.com/profile/03355888341769273783)
-    [February 14, 2012 5:00 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9770)
+   [February 14, 2012 5:00 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9770)
 
-    Weak.😉 (image/png)
-    Real experts use the same two ingredients to make a super disinfectant called VinOxide:
-    <http://www.ahjs.biz/pdfs/Vinoxide-HTC.pdf>
+   Weak.😉 (image/png)
+   Real experts use the same two ingredients to make a super disinfectant called VinOxide:
+   <http://www.ahjs.biz/pdfs/Vinoxide-HTC.pdf>
 
-    Way way stronger than the two ingredients alone. Its used in home tissue culture to kill ALL bacteria
+   Way way stronger than the two ingredients alone. Its used in home tissue culture to kill ALL bacteria
 
 9. (image/png)[Lyssa](http://www.blogger.com/profile/09063475025297754001)
-    [February 14, 2012 5:29 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9771)
+   [February 14, 2012 5:29 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9771)
 
-    All right, all right…I’ll stop buying the bleach cleaner. But I might as well use up what I’ve got, because otherwise I’m just pouring it down the drain, right? Might as well get some use out of it while it’s still in the house.
+   All right, all right…I’ll stop buying the bleach cleaner. But I might as well use up what I’ve got, because otherwise I’m just pouring it down the drain, right? Might as well get some use out of it while it’s still in the house.
 
 10. (image/png)Meg
     [February 14, 2012 6:57 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9772)
@@ -222,7 +221,7 @@ So no more excuses for clinging to your bleach, people. Ditch the poison!
 
     Well that’s a relief at least that the Heinz white vinegar I get from the grocery store says “distilled” on it. I’m not sure I’ve actually seen this other kind. Not sure either what her distinction is between a brewery and a lab. If someone made water “in a lab” I’d probably drink it and feel better about it (provided it was still just two hydrogens and an oxygen) than drinking, say, “naturally occurring” water flown in from Fiji.
 
-    This topic is surprisingly complicated. I *had* a system using just liquid castille soap, baking soda, and white distilled vinegar. But then we moved to a place with hard water (meaning lots of soap scum), septic (which made me wonder if, like gray water, we shouldn’t be sending a bunch of salts out to the yard), and stone floors and counters (so allegedly no acid cleaners, like vinegar). And past that, there’s the occasional nagging of “but I couldn’t make any of this stuff.” It’s a thought that is a waste of time; if we were suddenly in that kind of doomsday scenario, I hardly think I’d have the luxury of making vinegar just to clean my windows with it. But it’s there anyway.
+    This topic is surprisingly complicated. I _had_ a system using just liquid castille soap, baking soda, and white distilled vinegar. But then we moved to a place with hard water (meaning lots of soap scum), septic (which made me wonder if, like gray water, we shouldn’t be sending a bunch of salts out to the yard), and stone floors and counters (so allegedly no acid cleaners, like vinegar). And past that, there’s the occasional nagging of “but I couldn’t make any of this stuff.” It’s a thought that is a waste of time; if we were suddenly in that kind of doomsday scenario, I hardly think I’d have the luxury of making vinegar just to clean my windows with it. But it’s there anyway.
     So with the criteria of “cheaper”, “greener”, sustainable, and could-make-it-in-the-Zombie-pocalypse I find it hard to get anywhere. I might find a homemade laundry detergent recipe that is cheaper but still somewhat toxic. Or something that is green like soap nuts but not sustainable in that they are shipped from far, far away (or baking soda which is harmless but an industrial product). I’m just going to scour my dishes with gravel from the yard and go naked. Sigh.
 
 19. (image/png)[Mrs. Homegrown](http://www.blogger.com/profile/04361170920135500100)
@@ -248,7 +247,7 @@ So no more excuses for clinging to your bleach, people. Ditch the poison!
 
     And don’t hold on to guilt because you decide, for instance, that you really like Tide and don’t want to make your own laundry detergent. Or because you love your paper towels and won’t trade them for cloth. That’s fine! Don’t obsess on it. Focus on all the other little changes you’ve made in your lifestyle and the good that’s doing for both your health and the environment. It all adds up.
 
-    * (image/png)[Mrs. Homegrown](http://www.blogger.com/profile/04361170920135500100)
+    - (image/png)[Mrs. Homegrown](http://www.blogger.com/profile/04361170920135500100)
         [February 15, 2012 7:43 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-9783)
 
         I should add that a good example of one compromise that I have made is our dishwasher. We get some flack for having one, and I daresay there’s bleach in that detergent. So, yep, I’m pretty much a hypocrite–but on the good side, my marriage is intact!
@@ -303,7 +302,7 @@ So no more excuses for clinging to your bleach, people. Ditch the poison!
     Hi guys!
     Do you know if you could use this to clean brewing equipment, mainly carboys and bottles? I don’t know how I would get this solution into the bottles or if it would work. We keep bleach around purely for the fact that we need to get those bottles spic and span and super sterilized in between batches. I would love to have a safe green alternative!
 
-    * Mr. Homegrown (image/jpeg)Mr. Homegrown
+    - Mr. Homegrown (image/jpeg)Mr. Homegrown
         [February 16, 2013 5:16 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-127751)
 
         I don’t know. I noticed on some homebrew forums that people were talking about using hydrogen peroxide but I haven’t tried it myself. What I use is Star San which is made from phosphoric acid. That being said, I’ve been meaning to do a post about my sanitation problems. I’ve ruined the past three batches of beer.
@@ -333,12 +332,12 @@ So no more excuses for clinging to your bleach, people. Ditch the poison!
 
     “If the acetic acid got rid of 100 organisms, the hydrogen peroxide would get rid of 10,000, and the two together would get rid of 100,000.” Not at all.The correct math is a total of 10,100 & note the quote is preceded by the word “If”. The combo of acetic acid & peroxide is called ‘peracetic acid’.Please web search “Disinfecting 101” to check efficacy of disinfectants.
 
-    * (image/png)Caryn
+    - (image/png)Caryn
         [January 11, 2014 8:52 pm](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-153103)
 
         I think you’re missing the point of what she’s saying. It’s not a direct 1+1=2. You can use one or the other, but if you use both together they boost the efficacy of one another. In other words, the whole is greater than the sum of its parts.
 
-    * (image/png)tsarren
+    - (image/png)tsarren
         [December 17, 2014 12:06 am](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-178704)
 
         Caryn, you’re missing the point that Sumner’s not backing up what she’s saying with any kind of data. HOW does acetic acid provide a 10x boost to peroxide? And at what concentrations? Furthermore, if both chemicals mixed together in one bottle react and make something that’s not good for cleaning… what’s happening on the countertop when you spray both on there? Same thing! I want to see data before I believe this stuff.
@@ -374,9 +373,10 @@ So no more excuses for clinging to your bleach, people. Ditch the poison!
 
     How long does the vinegar and Hydrogen peroxide solution need to stay on a surface to be totally disinfected?
 
-    * Mrs. Homegrown (image/jpeg)Mrs. Homegrown
+    - Mrs. Homegrown (image/jpeg)Mrs. Homegrown
         [August 26, 2014 8:12 am](http://www.rootsimple.com/2012/02/heavy-duty-disinfecting-the-non-toxic-way-with-hydrogen-peroxide-and-vinegar/#comment-170050)
 
         I think it happens pretty much instantly.
 
 Comments are closed.
+

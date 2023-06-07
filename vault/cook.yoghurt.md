@@ -1,12 +1,11 @@
 ---
-id: dh5d27vut59t6h8zwchkcfe
+id: w5vucxk757o5lallvd8zg71
 title: Yoghurt
 desc: ''
 updated: 1633199319580
 created: 1633199319580
 ---
-
-# How To Culture Yogurt Without A Yogurt Maker
+## How To Culture Yogurt Without A Yogurt Maker
 
 (image/png)
 
@@ -40,8 +39,8 @@ Once you've heated the milk and added the yogurt starter, pour it into jars or a
 
 The [Folding Proofer](https://www.culturesforhealth.com/brod-taylor-folding-proofer.html) can be set to the temperature required for culturing yogurt. To use this, simply **arrange your jars of milk and starter in the proofer.**
 
-* If you don't plan to fill the proofer completely with jars, keep the jars **close to the edges** of the proofer.
-* If you fill your proofer completely with jars, plan to **rotate your jars** a few times while they are culturing to produce more even results.
+- If you don't plan to fill the proofer completely with jars, keep the jars **close to the edges** of the proofer.
+- If you fill your proofer completely with jars, plan to **rotate your jars** a few times while they are culturing to produce more even results.
 
 ### 3. Oven
 
@@ -83,7 +82,7 @@ You can take advantage of the heat during the **hot summer months** by culturing
 
 Set the covered yogurt jar in a large bowl, filling the bowl with **heated water**. The water level should be no more than one to two inches from the top of the jar.
 
-As the water cools, remove the jar *gently*, pour the water out, then replace the jar, and add new heated water.
+As the water cools, remove the jar _gently_, pour the water out, then replace the jar, and add new heated water.
 
 ### 10. Counter Top Yogurt Starters
 
@@ -91,3 +90,4 @@ If none of the above methods works for you, try one of our **counter top yogurt 
 
 Measure
 Measure
+

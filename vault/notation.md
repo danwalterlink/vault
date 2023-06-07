@@ -1,5 +1,5 @@
 ---
-id: 4cvjeq5bmz1cz6xf1xzjajw
+id: zdipd7682dv0fq3vhr3eo1m
 title: Notation
 desc: ''
 updated: 1681213210170

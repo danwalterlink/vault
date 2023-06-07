@@ -1,5 +1,5 @@
 ---
-id: aewd4ijqryf9r24cxcd9d4k
+id: 2bw5bfw47ovedxxq2d92pr5
 title: Netrw
 desc: ''
 updated: 1665747396792

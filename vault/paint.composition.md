@@ -1,73 +1,71 @@
 ---
-id: aiinlzm7r6fn16t3l5gfsuh
+id: hlrz2bkr4vzltvu80xl3w3u
 title: Composition
 desc: ''
 updated: 1633199321497
 created: 1633199321497
 ---
-
 [submit your art](http://emptyeasel.com/artwork-submission-form/) [write an article](http://emptyeasel.com/article-submission-form/) [get the newsletter](http://emptyeasel.com/newsletter/)
 [Designed to Sell: A Guide for Artists
 ](http://unconventionalguides.com/cmd.php?Clk=5232058)
 
 [emptyeasel.com](http://emptyeasel.com/)menu
 
-* [art tutorials](http://emptyeasel.com/art-tutorials/)art tutorials
+- [art tutorials](http://emptyeasel.com/art-tutorials/)art tutorials
 
-    * [color theory 101](http://emptyeasel.com/art-tutorials/color-theory/)
-    * [pencil drawing tips](http://emptyeasel.com/art-tutorials/drawing-tips/)
-    * [painting tutorials](http://emptyeasel.com/art-tutorials/painting-tutorials/)
-    * [video lessons](http://emptyeasel.com/art-tutorials/video-tutorials/)
-    * [photoshop tricks](http://emptyeasel.com/art-tutorials/photoshop-tricks/)
-    * [gimp instruction](http://emptyeasel.com/art-tutorials/gimp-help/)
-    * [photography guides](http://emptyeasel.com/art-tutorials/photography-tips/)
-    * [all other tutorials](http://emptyeasel.com/art-tutorials/other-tutorials/)
+  - [color theory 101](http://emptyeasel.com/art-tutorials/color-theory/)
+  - [pencil drawing tips](http://emptyeasel.com/art-tutorials/drawing-tips/)
+  - [painting tutorials](http://emptyeasel.com/art-tutorials/painting-tutorials/)
+  - [video lessons](http://emptyeasel.com/art-tutorials/video-tutorials/)
+  - [photoshop tricks](http://emptyeasel.com/art-tutorials/photoshop-tricks/)
+  - [gimp instruction](http://emptyeasel.com/art-tutorials/gimp-help/)
+  - [photography guides](http://emptyeasel.com/art-tutorials/photography-tips/)
+  - [all other tutorials](http://emptyeasel.com/art-tutorials/other-tutorials/)
 
-* [business advice](http://emptyeasel.com/art-business-advice/)business advice
+- [business advice](http://emptyeasel.com/art-business-advice/)business advice
 
-    * [art marketing tips](http://emptyeasel.com/art-business-advice/art-marketing-tips/)
-    * [selling at art fairs](http://emptyeasel.com/art-business-advice/selling-art-at-art-fairs/)
-    * [email list marketing](http://emptyeasel.com/art-business-advice/email-marketing-for-artists/)
-    * [a-z marketing guide](http://emptyeasel.com/art-business-advice/art-marketing-guide-from-a-to-z/)
-    * [selling art online](http://emptyeasel.com/art-business-advice/selling-art-online/)
-    * [advertising art online](http://emptyeasel.com/art-business-advice/advertising-art-online/)
-    * [seo tips for artists](http://emptyeasel.com/art-business-advice/seo-for-artists/)
-    * [general art advice](http://emptyeasel.com/art-business-advice/general-art-advice/)
-    * [motivation & more](http://emptyeasel.com/art-business-advice/motivation/)
+  - [art marketing tips](http://emptyeasel.com/art-business-advice/art-marketing-tips/)
+  - [selling at art fairs](http://emptyeasel.com/art-business-advice/selling-art-at-art-fairs/)
+  - [email list marketing](http://emptyeasel.com/art-business-advice/email-marketing-for-artists/)
+  - [a-z marketing guide](http://emptyeasel.com/art-business-advice/art-marketing-guide-from-a-to-z/)
+  - [selling art online](http://emptyeasel.com/art-business-advice/selling-art-online/)
+  - [advertising art online](http://emptyeasel.com/art-business-advice/advertising-art-online/)
+  - [seo tips for artists](http://emptyeasel.com/art-business-advice/seo-for-artists/)
+  - [general art advice](http://emptyeasel.com/art-business-advice/general-art-advice/)
+  - [motivation & more](http://emptyeasel.com/art-business-advice/motivation/)
 
-* [research](http://emptyeasel.com/research/)research
+- [research](http://emptyeasel.com/research/)research
 
-    * [art movements](http://emptyeasel.com/research/art-movements/)
-    * [historical artists](http://emptyeasel.com/research/historical-artists/)
-    * [art product reviews](http://emptyeasel.com/research/art-products/)
-    * [websites for artists](http://emptyeasel.com/research/art-websites/)
-    * [the online art market](http://emptyeasel.com/research/online-art-market/)
+  - [art movements](http://emptyeasel.com/research/art-movements/)
+  - [historical artists](http://emptyeasel.com/research/historical-artists/)
+  - [art product reviews](http://emptyeasel.com/research/art-products/)
+  - [websites for artists](http://emptyeasel.com/research/art-websites/)
+  - [the online art market](http://emptyeasel.com/research/online-art-market/)
 
-* [featured art](http://emptyeasel.com/featured-artists/)featured artists
+- [featured art](http://emptyeasel.com/featured-artists/)featured artists
 
-    * [oil paintings](http://emptyeasel.com/featured-artists/oil-paintings/)
-    * [acrylic paintings](http://emptyeasel.com/featured-artists/acrylic-paintings/)
-    * [watercolor paintings](http://emptyeasel.com/featured-artists/watercolor-paintings/)
-    * [graphite & pencil art](http://emptyeasel.com/featured-artists/pencil-drawings/)
-    * [pen & ink artwork](http://emptyeasel.com/featured-artists/pen-and-ink-art/)
-    * [mixed-media art](http://emptyeasel.com/featured-artists/mixed-media-art/)
-    * [fine art photography](http://emptyeasel.com/featured-artists/fine-art-photography/)
-    * [sculpture & 3D art](http://emptyeasel.com/featured-artists/sculpture-and-3D-art/)
-    * [all other mediums](http://emptyeasel.com/featured-artists/other-mediums/)
+  - [oil paintings](http://emptyeasel.com/featured-artists/oil-paintings/)
+  - [acrylic paintings](http://emptyeasel.com/featured-artists/acrylic-paintings/)
+  - [watercolor paintings](http://emptyeasel.com/featured-artists/watercolor-paintings/)
+  - [graphite & pencil art](http://emptyeasel.com/featured-artists/pencil-drawings/)
+  - [pen & ink artwork](http://emptyeasel.com/featured-artists/pen-and-ink-art/)
+  - [mixed-media art](http://emptyeasel.com/featured-artists/mixed-media-art/)
+  - [fine art photography](http://emptyeasel.com/featured-artists/fine-art-photography/)
+  - [sculpture & 3D art](http://emptyeasel.com/featured-artists/sculpture-and-3D-art/)
+  - [all other mediums](http://emptyeasel.com/featured-artists/other-mediums/)
 
-* [misc](http://emptyeasel.com/misc/)misc
+- [misc](http://emptyeasel.com/misc/)misc
 
-    * [art opinion pieces](http://emptyeasel.com/misc/art-opinion/)
-    * [artist polls](http://emptyeasel.com/misc/artist-polls/)
-    * [artist interviews](http://emptyeasel.com/misc/artist-interviews/)
-    * [art contests](http://emptyeasel.com/misc/art-contests/)
-    * [announcements](http://emptyeasel.com/misc/announcements/)
-    * [the ee newsletter](http://emptyeasel.com/newsletter/)
-
+  - [art opinion pieces](http://emptyeasel.com/misc/art-opinion/)
+  - [artist polls](http://emptyeasel.com/misc/artist-polls/)
+  - [artist interviews](http://emptyeasel.com/misc/artist-interviews/)
+  - [art contests](http://emptyeasel.com/misc/art-contests/)
+  - [announcements](http://emptyeasel.com/misc/announcements/)
+  - [the ee newsletter](http://emptyeasel.com/newsletter/)
 
 We're an online artist community sharing ways to create and sell art. Try one of our [easy websites for artists](http://foliotwist.com/) or just browse around and enjoy!
 
-# 7 Steps to a Stronger Composition
+## 7 Steps to a Stronger Composition
 
 By [Carrie Brummer](http://www.artiststrong.com/) in [Art Business Advice](http://emptyeasel.com/art-business-advice/) > [General Art Advice](http://emptyeasel.com/art-business-advice/general-art-advice/)
 
@@ -97,7 +95,7 @@ tangents (image/jpeg)
 
 Tangents are very distracting to the eye and hinder a composition. It’s much better to commit to having objects in your composition go completely off the edge of your surface.
 
-*NOTE: When your objects do leave the frame, it’s typically best to do this in more than one location—an odd number of times, if possible—to create visual balance.*
+_NOTE: When your objects do leave the frame, it’s typically best to do this in more than one location—an odd number of times, if possible—to create visual balance._
 
 ### 3. Follow the odd numbers rule
 
@@ -109,7 +107,7 @@ For whatever reason, having a composition with an odd number of elements can enh
 
 Speaking of the Renaissance, compositions from this time period often appear in triangular forms. This was regularly used as a tool to help create pleasing compositions in their artwork.
 
-You can see this in the two works I’ll share by Artemisia Gentileschi, below: *The Birth of St. John the Baptist* and *Judith Beheading Holofernes*.
+You can see this in the two works I’ll share by Artemisia Gentileschi, below: _The Birth of St. John the Baptist_ and _Judith Beheading Holofernes_.
 
 triangles (image/jpeg)triangles-2 (image/jpeg)
 
@@ -117,7 +115,7 @@ triangles (image/jpeg)triangles-2 (image/jpeg)
 
 The Renaissance is a time period that just keeps giving. I found many, many artists across history who would find a painting by a master they admired, and use the exact composition in a painting of their own.
 
-Edouard Manet’s *Luncheon on the Grass* or *Dejeuner Sur l’herbe* is a good example. You can see the work up close through the Google Art project, and I have the image for you below as well. Take note of the seating arrangement:
+Edouard Manet’s _Luncheon on the Grass_ or _Dejeuner Sur l’herbe_ is a good example. You can see the work up close through the Google Art project, and I have the image for you below as well. Take note of the seating arrangement:
 
 masters-compositions (image/jpeg)
 
@@ -145,15 +143,15 @@ Just move the frame around until you find the most pleasing version of the image
 
 I don’t often draw eye movement maps myself, but I do take some time looking at my art and observe how my viewing experience leads me through the artwork. This will help you see if your eyes travel to your desired focal point, and if your composition correctly emphasizes your theme or message.
 
-Here’s an example of how my eyes travel through the artwork *The Absinthe Drinkers* by Edgar Degas.
+Here’s an example of how my eyes travel through the artwork _The Absinthe Drinkers_ by Edgar Degas.
 
 eye-travel (image/jpeg)
 
-Now, per usual, I want to remind you all: rules are made to be broken! My experience, however, is that artists who break these rules and create successful art have educated themselves in rules of composition *first*. They’ve learned how to use them, before they deviate from them.
+Now, per usual, I want to remind you all: rules are made to be broken! My experience, however, is that artists who break these rules and create successful art have educated themselves in rules of composition _first_. They’ve learned how to use them, before they deviate from them.
 
 Good luck, and happy drawing!
 
-*Special thanks to Carrie Brummer for this article! Carrie helps artists build their skill and develop their unique voice at [www.ArtistStrong.com](http://www.artiststrong.com/). Check out her free guide 10 Drawing Truths [here](https://pages.convertkit.com/8981f2fba9/e34bb45c8e).*
+_Special thanks to Carrie Brummer for this article! Carrie helps artists build their skill and develop their unique voice at [www.ArtistStrong.com](http://www.artiststrong.com/). Check out her free guide 10 Drawing Truths [here](https://pages.convertkit.com/8981f2fba9/e34bb45c8e)._
 
 ★Help share this post
 
@@ -184,7 +182,7 @@ If you're looking for something else. . .
 Subscribe to our **totally free** weekly newsletter for artists. [Sign up today!](http://emptyeasel.com/newsletter/)
 
 Friends of EE
-[Foliotwist Artist Websites](http://foliotwist.com/) [Art & Money Guide](http://unconventionalguides.com/cmd.php?Clk=3596921) *Your purchase helps support EE* [Artpromotivate.com](http://www.artpromotivate.com/) [Artisan HQ](http://www.artisanhq.com/) [Foundmyself Art Community](http://www.foundmyself.com/) [ASC - Free Art Contests](http://www.asingularcreation.com/) [Art Instructional DVDs](http://ccpvideos.com/#oid=4_3) *Your purchase helps support EE*
+[Foliotwist Artist Websites](http://foliotwist.com/) [Art & Money Guide](http://unconventionalguides.com/cmd.php?Clk=3596921) _Your purchase helps support EE_ [Artpromotivate.com](http://www.artpromotivate.com/) [Artisan HQ](http://www.artisanhq.com/) [Foundmyself Art Community](http://www.foundmyself.com/) [ASC - Free Art Contests](http://www.asingularcreation.com/) [Art Instructional DVDs](http://ccpvideos.com/#oid=4_3) _Your purchase helps support EE_
 
 Top 5 Articles
 [Oil Paint Color Mixing Tips:
@@ -206,7 +204,7 @@ Other Stuff
 
 EE Writers
 [Cassie Rief](http://www.cassierief.wordpress.com/) [Niki Hilsabeck](http://nikihilsabeck.com/) [Lisa Orgler](http://www.lisaorglerdesign.com/) [Carrie Lewis](http://www.carrie-lewis.com/) [Aletta de Wal](http://www.artistcareertraining.com/) [Phawnda Moore](https://www.facebook.com/calligraphyanddesignbyphawnda)
-If *you'd* like to write for EmptyEasel, let us know!
+If _you'd_ like to write for EmptyEasel, let us know!
 We love publishing reader-submitted art tutorials, stories, and even reviews.[Submit yours here!](http://emptyeasel.com/article-submission-form/)
 
 Best of EE:
@@ -257,3 +255,4 @@ Best of EE:
 [Clean White](http://emptyeasel.com/2007/06/22/the-color-white-pure-cold-and-clean/)
 
 © 2006-2018 [EmptyEasel.com](http://emptyeasel.com/) [About](http://emptyeasel.com/faq/) [Contact](http://emptyeasel.com/contact/) [Sitemap](http://emptyeasel.com/visitor-sitemap/) [Privacy Policy](http://emptyeasel.com/privacy-statement/) [Terms of Use](http://emptyeasel.com/terms-of-use-and-disclaimer/) [Advertise](http://emptyeasel.com/advertise/)
+

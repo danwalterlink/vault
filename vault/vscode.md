@@ -1,5 +1,5 @@
 ---
-id: seo06twmyzjl8vi1ps73f3b
+id: 6m8t3gnvcf9mro3h21hqzdk
 title: vscode
 desc: ''
 updated: 1638050595103

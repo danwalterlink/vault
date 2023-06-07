@@ -1,19 +1,20 @@
 ---
-id: i91w7d45bpnyep33z15a60j
+id: t656k764gn7hsz8oonl9rv9
 title: Gameplan
 desc: ''
 updated: 1662649096646
 created: 1639077055146
 ---
+## base ideas
 
-# base ideas
 against most characters: the 'base game0
 
 neutral
+
 - centralizing tools?
   VS1-charge
 - abstracting situations
-poke
+  poke
 
 whiff-punish
 counter-poke

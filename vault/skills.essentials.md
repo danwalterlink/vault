@@ -1,12 +1,11 @@
 ---
-id: 5e5kz7mxznscm1230kwd3yc
+id: 7of9jlnqllmg33p7m2edcnh
 title: Essentials
 desc: ''
 updated: 1633199319633
 created: 1633199319633
 ---
-
-# 8 Essential Skills They Didn’t Teach You In School
+## 8 Essential Skills They Didn’t Teach You In School
 
 [Lifestyle](http://www.lifehack.org/lifestyle) by [BrianArmstrong](http://www.lifehack.org/articles/author/brianarmstrong) | 808 Shares
 
@@ -114,6 +113,7 @@ You may also like
 
 ### BrianArmstrong
 
-* [](http://www.startbreakingfree.com/)
+- [](http://www.startbreakingfree.com/)
 
 .
+

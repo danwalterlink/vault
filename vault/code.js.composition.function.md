@@ -1,5 +1,5 @@
 ---
-id: amqsf2m73i1veaj1fsv0uj4
+id: yor6c296n8bvxhxmnsrzyjc
 title: Function
 desc: ''
 updated: 1633199319647

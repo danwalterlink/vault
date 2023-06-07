@@ -1,13 +1,13 @@
 ---
-id: hl504vcustmzxcm1ktiuznf
+id: 5iq30mvzknjrxyprzuzt1aj
 title: Legumes
 desc: ''
 updated: 1633199418577
 created: 1633199319639
 ---
-
 Fermenting Beans And Legumes
-# Fermenting Beans And Legumes
+
+## Fermenting Beans And Legumes
 
 (image/png)
 
@@ -29,16 +29,16 @@ Another thing to consider is that beans must be cooked before they can be eaten.
 
 So even if those beans ferment while soaking, you will still have to cook them in order to make them edible. That cooking process will eliminate any beneficial enzymes or probiotics that have been added to the beans through the fermentation process.
 
-So, for all of those reasons, we recommend that you ferment your beans *after* cooking instead of before.
+So, for all of those reasons, we recommend that you ferment your beans _after_ cooking instead of before.
 
 ### Preparing Beans for Fermentation
 
 Fermenting beans will help to make them more digestible, but you need to start with properly prepared beans in the first place. Here are a few tips to cook great beans for eating fresh, and fermenting:
 
-* Soak them at least 24 hours, in warm water, in a warm place.
-* The more times you can change the soak water and rinse, the better. Pouring off that grungy soaking water will also throw out some of those tough-to-digest starches.
-* Cook the beans slowly and for a long time in plenty of liquid. The long, slow cooking process will help in breaking those starches down. A pressure cooker can also help in this regard.
-* Add tasty additions like garlic, onions, spices, and herbs to your cooking pot of beans for good flavor.
+- Soak them at least 24 hours, in warm water, in a warm place.
+- The more times you can change the soak water and rinse, the better. Pouring off that grungy soaking water will also throw out some of those tough-to-digest starches.
+- Cook the beans slowly and for a long time in plenty of liquid. The long, slow cooking process will help in breaking those starches down. A pressure cooker can also help in this regard.
+- Add tasty additions like garlic, onions, spices, and herbs to your cooking pot of beans for good flavor.
 
 Once you have a good pot of beans ready to go then you can get into fermentation.
 
@@ -58,3 +58,4 @@ You can then eat them as an addition to a cold bean salad, served as a mashed be
 
 Measure
 Measure
+

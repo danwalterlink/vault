@@ -1,5 +1,5 @@
 ---
-id: sqxj3ay5e68n5avce7hewjx
+id: d3up7wscobqqb67ltslm24b
 title: Color Palette
 desc: ''
 updated: 1643059272855

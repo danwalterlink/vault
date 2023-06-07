@@ -1,12 +1,11 @@
 ---
-id: y0sjepvgai4iw2aoho8j772
+id: v772dm64h6isrs96fe83f4r
 title: Functional
 desc: ''
 updated: 1633199321435
 created: 1633199321435
 ---
-
-# Javascript's Functional Class Pattern
+## Javascript's Functional Class Pattern
 
 In Ruby, we think of classes as entities that are capable of producing objects handle just one responsibility. For example, in a blogging application you would have a "Post" class that is responsible for creating posts.
 
@@ -76,7 +75,7 @@ For example, all Cylons need to share the ability to lie about the fact that the
 
 In other words, `lie(numberEight)` should output "I'm not a Cylon! I'm a human!" The same should be true of the object stored in `numberEleven`.
 
-Keeping out code DRY, we don't want to define *both* objects with the same functionality--that would cause us to repeat ourselves every time we create a new Cylon.
+Keeping out code DRY, we don't want to define _both_ objects with the same functionality--that would cause us to repeat ourselves every time we create a new Cylon.
 
 Let's abstract out the `lie` functionality:
 
@@ -131,7 +130,7 @@ var cylonLike = function(obj, number, attitude)
 }
 ```
 
-We *almost* have the ability to call `.lie` on a Cylon object. We need to refactor our `lie` function to that it no longer needs to take in an object, but is instead called on one:
+We _almost_ have the ability to call `.lie` on a Cylon object. We need to refactor our `lie` function to that it no longer needs to take in an object, but is instead called on one:
 
 ```
 var lie = function(){
@@ -158,13 +157,13 @@ var Cylon = function(number, attitude){
 }
 ```
 
-And there we have our very first class! The functions that produce our similar objects are called *constructor functions*.
+And there we have our very first class! The functions that produce our similar objects are called _constructor functions_.
 
-When the constructor function is invoked, it creates an *instance* of our `Cylon` class:
+When the constructor function is invoked, it creates an _instance_ of our `Cylon` class:
 
 `var numberThirteen = Cylon(13, "subdued")`
 
-But, what if I want to *add* methods to instances of the `Cylon` class? Or, what if I in fact *don't* need *all* of my Cylons to have the ability to lie? Remember when Sharon didn't even *know* she was a Cylon? How could she lie about it then? Enter **prototyping.**
+But, what if I want to _add_ methods to instances of the `Cylon` class? Or, what if I in fact _don't_ need _all_ of my Cylons to have the ability to lie? Remember when Sharon didn't even _know_ she was a Cylon? How could she lie about it then? Enter **prototyping.**
 
 **Prototyping**
 
@@ -197,3 +196,4 @@ var Cylon = function(number, attitude){
 Now, each instance of the `Cylon` class is able to have `.lie()` called on it but the compiler won't read and store that function until it is called by an instance of `Cylon`.
 
 That's all for now! This has been a brief intro to object orientation in Javascript (and Battlestar Gallactica).
+

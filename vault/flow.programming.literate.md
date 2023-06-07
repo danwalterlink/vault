@@ -1,11 +1,10 @@
 ---
-id: l5expcv6irmcygu3c0hj2o1
+id: egtp0gd6pmhqd1ijd4h93b5
 title: Literate
 desc: ''
-updated: 1638047043907
+updated: 1686148848466
 created: 1638044412041
 ---
-
 
 in $tool.vscode
   $env

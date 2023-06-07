@@ -1,42 +1,47 @@
 ---
-id: ofqbpuijaf1ev0hh54rudts
+id: tds9fre553s7lvh250jstm7
 title: Vim
 desc: ''
 updated: 1685985444658
 created: 1636203835676
 ---
-
 goTo last non-whitespace char?
 
 ## keyboard layout implications
+
 qwerty - qwertz : remap yank to z #?
 
 closing vim #p ZZ
+
 ## bindings
- --> international
- - [ ] backtick-mark traversal is broken
- - [ ]
- ---
+
+ \--> international
+
+- [ ] backtick-mark traversal is broken
+- ## [ ]
 
 base building block
+
 - buffer
 
 matching character = %
-matching under cursor */#
+matching under cursor \*/#
 
 #research
 next group : }
+
 ## goto next/previous mark
+
 [how to move to the next enclosing brackets in VI](https://stackoverflow.com/questions/1509855/how-to-move-to-the-next-enclosing-brackets-in-vi)
 
 use [ and ] to cycle to the previous and next matching brackets respectively. Commonly:
 
-[( - Previous (
-[{ - Previous {
-[< - Previous <
+\[( - Previous (
+\[{ - Previous {
+\[&lt; - Previous &lt;
 and more interesting ones
 
-[m - Previous method start
+\[m - Previous method start
 [M - Previous method end
 The same also applies for next items:
 ]} - Next }
@@ -45,12 +50,14 @@ The same also applies for next items:
 The reason why this method is more effective is that you can specify count together with the commands
 
 ## motions
+
 f, t are direction-specific
 : sneak remapping s to extended f
 $ goes to last character in line
-g_ : last non-blank character
+g\_ : last non-blank character
 
 ## marks
+
 delete all with :delmarks!
 issues with global marks
 
@@ -58,15 +65,18 @@ list global marks:
 :marks
 
 ## substitute
-\%V constrains to visual selection
-:s/\%Vsearch/replace/mod
+
+\\%V constrains to visual selection
+:s/\\%Vsearch/replace/mod
 
 #q how to regex in ":s//g"?
 
-# selection
-gv : ![[Task|dendron://task/task]]ct last visual selection
+## selection
+
+gv : ![[dendron://task/Task|task]]ct last visual selection
 
 ## surround - [vim.surround](https://github.com/tpope/vim-surround)
+
 :v S(surroundings)
   for brackets/braces, closing braces insert without spaces
 :n
@@ -74,40 +84,49 @@ gv : ![[Task|dendron://task/task]]ct last visual selection
   cs(move)(surroundings)
 
 ### brackets
+
 ysi(Bracket)
   [ with space
   ] without
 
 ### selection
+
 S and the same commands as before
 
 ## search case sensitive
+
 :set smartcase/ignorecase/noignorecase
 
 ## remove highlighting
+
 :noh // user.binding: C-n
 
 ## reselect visual
-* gv
-#? paste to eol?
+
+- gv
+  \#? paste to eol?
+
 ## insert to [motion]
+
 move to space in normal
 get to insert
 ^r and specify register to paste
 
-#? how to navigate filetrees?
--> :e . netrw in current dir, but navigation breaks
+\#? how to navigate filetrees?
+\-> :e . netrw in current dir, but navigation breaks
 
 ## literal input
+
 C-v in input mode and enter character
--> escape sequences
+\-> escape sequences
 
 ## merge [Merge changes using vimdiff](https://stackoverflow.com/questions/27832630/merge-changes-using-vimdiff#answers)
--> [[vim.plugins#fugitive]]
+
+\-> [[vim.plugins#fugitive]]
 do - Get changes from other window into the current window.
 dp - Put the changes from current window into the other window.
 ]c - Jump to the next change.
-[c - Jump to the previous change.
+\[c - Jump to the previous change.
 zo - Open folded lines.
 zc - Close folded lines.
 zr - Unfold both files completely.
@@ -123,8 +142,8 @@ Visual mode and finer grained control
 
 When selecting lines of text in Visual mode, you must use the normal commands:
 
-:'<,'>diffget and
-:'<,'>diffput.
+:'&lt;,'>diffget and
+:'&lt;,'>diffput.
 For example:
 
 Enter Visual mode and mark some text/lines.
@@ -147,3 +166,4 @@ Make sure that all participating buffers are in diff mode (see :h start-vimdiff)
 a. Get changes from a buffer to the current one: :%diffget <buffer-number>
 b. Put all changes from current buffer into another: :%diffput <buffer-number>
 (:% is a range to select the entire file; see :h :%. :ls will show currently opened buffers.)
+

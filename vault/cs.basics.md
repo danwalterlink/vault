@@ -1,11 +1,10 @@
 ---
-id: 93nhr6c6mdni7sezoplwoon
+id: zo09ffg6wdharaz32vtq0fg
 title: Basics
 desc: ''
 updated: 1633199319524
 created: 1633199319524
 ---
-
 Top highlight
 
 [![codeburst](https://cdn-images-1.medium.com/letterbox/120/56/50/50/1*LC0hwOq4FY2CG5F9W7R34Q.png?source=logoAvatar-lo_e8b64fe153e3---61061eb0c96b)](https://codeburst.io/?source=logo-lo_e8b64fe153e3---61061eb0c96b)
@@ -15,37 +14,37 @@ Follow
 
 [Sign up](https://medium.com/m/signin?redirect=https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0?source=userActivityShare-8b9e4d929a2-1499500919)
 
-* [Home](https://codeburst.io/)
-* [JavaScript](https://codeburst.io/tagged/javascript)
-* [Learn Web Development](https://codeburst.io/best-udemy-courses-for-learning-full-stack-web-development-45e2bd3ec28b)
-* [Write for Us](https://codeburst.io/write/home)
-* [Get Weekly Emails](https://goo.gl/NWJbz4)
-[](https://codeburst.io/search)[](https://codeburst.io/search) [](https://codeburst.io/search)[](https://codeburst.io/search)
+- [Home](https://codeburst.io/)
+- [JavaScript](https://codeburst.io/tagged/javascript)
+- [Learn Web Development](https://codeburst.io/best-udemy-courses-for-learning-full-stack-web-development-45e2bd3ec28b)
+- [Write for Us](https://codeburst.io/write/home)
+- [Get Weekly Emails](https://goo.gl/NWJbz4)
+  [](https://codeburst.io/search)[](https://codeburst.io/search) [](https://codeburst.io/search)[](https://codeburst.io/search)
 
 [Go to the profile of Arnav Aggarwal (image/jpeg)](https://codeburst.io/@arnav_aggarwal?source=post_header_lockup)[Arnav Aggarwal](https://codeburst.io/@arnav_aggarwal?source=post_header_lockup)BlockedUnblockFollowFollowingFull-Stack Developer
 Jul 1
 
 * * *
 
-# Explaining Value vs. Reference in Javascript
+## Explaining Value vs. Reference in Javascript
 
 ## A look at computer memory reveals what’s happening
 
 (image/jpeg) (image/jpeg)
 
-Javascript has 5 data types that are passed by ***value***: `Boolean`, `null`, `undefined`, `String`, and `Number`. We’ll call these **primitive types**.
+Javascript has 5 data types that are passed by **_value_**: `Boolean`, `null`, `undefined`, `String`, and `Number`. We’ll call these **primitive types**.
 
-Javascript has 3 data types that are passed by ***reference***: `Array`, `Function`, and `Object`. These are all technically Objects, so we’ll refer to them collectively as **Objects**.
+Javascript has 3 data types that are passed by **_reference_**: `Array`, `Function`, and `Object`. These are all technically Objects, so we’ll refer to them collectively as **Objects**.
 
 ### Primitives
 
-If a primitive type is assigned to a variable, we can think of that variable as *containing* the primitive value.
+If a primitive type is assigned to a variable, we can think of that variable as _containing_ the primitive value.
 
 var x = 10;
 var y = 'abc';
 var z = null;
 
-`x` *contains* `10`. `y` *contains* `'abc'`. To cement this idea, we’ll maintain an image of what these variables and their respective values look like in memory.
+`x` _contains_ `10`. `y` _contains_ `'abc'`. To cement this idea, we’ll maintain an image of what these variables and their respective values look like in memory.
 
 (image/png)
 
@@ -80,7 +79,7 @@ console.log(x, y, a, b); // -> 10, 'abc', 5, 'def'
 
 This will feel confusing, but bear with me and read through it. Once you get through it, it’ll seem easy.
 
-Variables that are assigned a non-primitive value are given a *reference* to that value. That reference points to the object’s location in memory. The variables don’t actually contain the value.
+Variables that are assigned a non-primitive value are given a _reference_ to that value. That reference points to the object’s location in memory. The variables don’t actually contain the value.
 
 Objects are created at some location in your computer’s memory. When we write `arr = []`, we’ve created an array in memory. What the variable `arr` receives is the address, the location, of that array.
 
@@ -88,7 +87,7 @@ Let’s pretend that `address` is a new data type that is passed by value, just 
 
 When we assign and use a reference-type variable, what we write and see is:
 
-1) var arr = [];
+1) var arr = \[];
 2) arr.push(1);
 
 A representation of lines 1 and 2 above in memory is:
@@ -114,7 +113,7 @@ The code above looks like this in memory.
 
 (image/png)
 
-Each variable now contains a reference to the *same array*. That means that if we alter `reference`, `refCopy` will see those changes:
+Each variable now contains a reference to the _same array_. That means that if we alter `reference`, `refCopy` will see those changes:
 
 reference.push(2);
 console.log(reference, refCopy); // -> [1, 2], [1, 2]
@@ -153,7 +152,7 @@ var two = 2;
 
 function multiply(x, y) {
     // PAUSE
-    return x * y;
+    return x \* y;
 }
 
 var twoHundred = multiplyByTwo(hundred, two);
@@ -162,7 +161,7 @@ In the example above, we give `hundred` the value `100`. When we pass it into `m
 
 (image/png)
 
-We refer to functions that don’t affect anything in the outside scope as *pure functions*. As long as a function only takes primitive values as parameters and doesn’t use any variables in its surrounding scope, it can’t affect anything in the outside scope.
+We refer to functions that don’t affect anything in the outside scope as _pure functions_. As long as a function only takes primitive values as parameters and doesn’t use any variables in its surrounding scope, it can’t affect anything in the outside scope.
 
 A function that takes in an Object, however, can mutate the state of its surrounding scope. If a function takes in an array reference and alters the array that it points to, perhaps by pushing to it, variables in the surrounding scope that reference that array see that change. The array has been mutated and affects information present outside the function. This can cause undesired side effects that can be difficult to track down.
 
@@ -177,33 +176,33 @@ Many popular array functions, including `Array.map` and `Array.filter`, are ther
 [**The Simple Rules to ‘this’ in Javascript**](https://codeburst.io/the-simple-rules-to-this-in-javascript-35d97f31bde3)[](https://codeburst.io/the-simple-rules-to-this-in-javascript-35d97f31bde3)
 [**Learn how Array.map & Array.filter work by writing them yourself**](https://medium.com/@arnav_aggarwal/array-functions-map-filter-18a6e5f75da1)[](https://medium.com/@arnav_aggarwal/array-functions-map-filter-18a6e5f75da1)
 [**React Ecosystem Setup — Step-By-Step Walkthrough**
-*Understand what React, Webpack, and Babel are doing and how to configure them yourself*](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)[](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)
+_Understand what React, Webpack, and Babel are doing and how to configure them yourself_](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)[](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)
 
 [](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)
 [](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)[](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)[](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)[](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)
 
-[](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)* [](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)[JavaScript](https://codeburst.io/tagged/javascript?source=post)
-* [Web Development](https://codeburst.io/tagged/web-development?source=post)
-* [Software Development](https://codeburst.io/tagged/software-development?source=post)
-* [Software](https://codeburst.io/tagged/software?source=post)
-* [Coding](https://codeburst.io/tagged/coding?source=post)
+[](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)\* [](https://codeburst.io/react-ecosystem-setup-step-by-step-walkthrough-721ff45a7fc1)[JavaScript](https://codeburst.io/tagged/javascript?source=post)
+
+- [Web Development](https://codeburst.io/tagged/web-development?source=post)
+- [Software Development](https://codeburst.io/tagged/software-development?source=post)
+- [Software](https://codeburst.io/tagged/software?source=post)
+- [Coding](https://codeburst.io/tagged/coding?source=post)
 
 64
 
 3
 
-* BlockedUnblockFollowFollowing[Go to the profile of Arnav Aggarwal (image/jpeg)](https://codeburst.io/@arnav_aggarwal?source=footer_card)
+- BlockedUnblockFollowFollowing[Go to the profile of Arnav Aggarwal (image/jpeg)](https://codeburst.io/@arnav_aggarwal?source=footer_card)
 
-    ### [Arnav Aggarwal](https://codeburst.io/@arnav_aggarwal)
+  ### [Arnav Aggarwal](https://codeburst.io/@arnav_aggarwal)
 
     Full-Stack Developer
 
-* Follow[codeburst (image/png)](https://codeburst.io/?source=footer_card)
+- Follow[codeburst (image/png)](https://codeburst.io/?source=footer_card)
 
-    ### [codeburst](https://codeburst.io/?source=footer_card)
+  ### [codeburst](https://codeburst.io/?source=footer_card)
 
     bursts of code to power through your day
-
 
 Responses
 
@@ -212,7 +211,7 @@ Conversation with [Arnav Aggarwal](https://medium.com/@arnav_aggarwal).
 [Go to the profile of Roger Howell (image/png)](https://medium.com/@MysterAitch)[Roger Howell](https://medium.com/@MysterAitch?source=responses---------0-----------)[Jul 7
 ](https://medium.com/@MysterAitch/a-really-useful-and-helpful-read-as-it-helps-to-clarify-ive-known-about-but-didn-t-know-the-full-77432b10f527?source=responses---------0-----------)
 
-[
+\[
 
 * * *
 
@@ -220,30 +219,28 @@ A really useful and helpful read as it helps to clarify I’ve known about but d
 
 Any chance of adding one final section or a follow up article to cover closures in the same style of description? This is one topic where there are practical and very common issues arising from the…
 
-
-](https://medium.com/@MysterAitch/a-really-useful-and-helpful-read-as-it-helps-to-clarify-ive-known-about-but-didn-t-know-the-full-77432b10f527?source=responses---------0-----------)
+](<https://medium.com/@MysterAitch/a-really-useful-and-helpful-read-as-it-helps-to-clarify-ive-known-about-but-didn-t-know-the-full-77432b10f527?source=responses---------0----------->)
 Read more…
 [1 response](https://medium.com/@MysterAitch/a-really-useful-and-helpful-read-as-it-helps-to-clarify-ive-known-about-but-didn-t-know-the-full-77432b10f527?source=responses---------0-----------#--responses)
 
 [Go to the profile of Arnav Aggarwal (image/jpeg)](https://medium.com/@arnav_aggarwal)[Arnav Aggarwal](https://medium.com/@arnav_aggarwal?source=responses---------0-----------)[Jul 7
 ](https://medium.com/@arnav_aggarwal/thanks-im-glad-you-found-it-useful-f63f158f2dc3?source=responses---------0-----------)
 
-[
+\[
 
 * * *
 
 Thanks, I’m glad you found it useful! I’ll consider writing a separate article on closures and scoping. I’m always looking for more topics to write about. Thanks for the recommendation.
 
-
-](https://medium.com/@arnav_aggarwal/thanks-im-glad-you-found-it-useful-f63f158f2dc3?source=responses---------0-----------)
+](<https://medium.com/@arnav_aggarwal/thanks-im-glad-you-found-it-useful-f63f158f2dc3?source=responses---------0----------->)
 
 Show all responses
 
-* Share
-* 64
-
+- Share
+- 64
 
 Open in app
 64
 
 3
+

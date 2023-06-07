@@ -1,12 +1,11 @@
 ---
-id: 9gi9kp9go6jgdlm7d5ldijm
+id: pvbuhcu5gg70klww3mkfbds
 title: Tools
 desc: ''
 updated: 1633199321473
 created: 1633199321473
 ---
-
-# 9 Open Source DevOps Tools We Love
+## 9 Open Source DevOps Tools We Love
 
 [Tomer Levy (image/png)](https://devops.com/author/tlevy/)By [Tomer Levy](https://devops.com/author/tlevy/) on August 7, 2015 —[55 Comments](https://devops.com/9-open-source-devops-tools-love/#disqus_thread)
 
@@ -71,3 +70,4 @@ The modern DevOps world is full of outstanding and unique open source tools—it
 Or am I wrong? What open source DevOps tools are in your toolkit? I’d love to hear your own recommendations and experiences in the comments below.
 
 Filed Under: [Blogs](https://devops.com/category/blogs/), [DevOps and Open Technologies](https://devops.com/category/blogs/devops-open-technologies/), [DevOps Toolbox](https://devops.com/category/blogs/devops-toolbox/) Tagged With: [open source](https://devops.com/tag/open-source/), [tools](https://devops.com/tag/tools/)
+

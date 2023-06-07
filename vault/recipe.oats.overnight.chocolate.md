@@ -1,20 +1,19 @@
 ---
-id: f158n5es936p0oqmrat7ddr
+id: 0kv1d5352hehlaagn7xc5ss
 title: Chocolate
 desc: ''
 updated: 1633199319656
 created: 1633199319656
 ---
-
 Gluten-Freeundefined Dairy-Free}
 
-# Gingerbread Chocolate Overnight Oats {Vegan, Gluten-Free, Dairy-Free}
+## Gingerbread Chocolate Overnight Oats {Vegan, Gluten-Free, Dairy-Free}
 
 December 15, 2014 by [26 Comments](http://laurenkellynutrition.com/gingerbread-chocolate-overnight-oats/#comments)
 
-###### *This shop is part of a social shopper marketing insight campaign with Pollinate Media Group® and Aloha, but all my opinions are my own. #pmedia* #myAloha and #AlohaMoment http://my-disclosur.es/OBsstV*”*
+###### _This shop is part of a social shopper marketing insight campaign with Pollinate Media Group® and Aloha, but all my opinions are my own. #pmedia_ #myAloha and #AlohaMoment <http://my-disclosur.es/OBsstV*”>\*
 
-*Many people tend to overindulge during the holiday season, but these delicious Gingerbread Chocolate Overnight Oats are an easy way to stack on track with your healthy habits!*
+_Many people tend to overindulge during the holiday season, but these delicious Gingerbread Chocolate Overnight Oats are an easy way to stack on track with your healthy habits!_
 
 [](http://cf.laurenkellynutrition.com/wp-content/uploads/2014/12/gingerbread-oats.jpg)[Gingerbread Chocolate Overnight Oats make the perfect, healthy breakfast! (image/jpeg)](http://cf.laurenkellynutrition.com/wp-content/uploads/2014/12/gingerbread-oats.jpg)
 
@@ -35,17 +34,17 @@ Author: Lauren Kelly
 
 Ingredients
 
-* 2 cups oats
-* 2 cups almond milk
-* ¼ cup chia seeds
-* ½ teaspoon cinnamon
-* ¼ teaspoon ginger
-* 1 teaspoon pure vanilla extract
-* 2 teaspoons 100% pure maple syrup
-* 2 packets or scoops of ALOHA Chocolate protein powder
-* Cacao nibs for topping
-[Powered by Chicory
-](http://chicory.co/?utm_source=widget-button&utm_medium=click-powered-by&utm_campaign=powered-by-chicory)
+- 2 cups oats
+- 2 cups almond milk
+- ¼ cup chia seeds
+- ½ teaspoon cinnamon
+- ¼ teaspoon ginger
+- 1 teaspoon pure vanilla extract
+- 2 teaspoons 100% pure maple syrup
+- 2 packets or scoops of ALOHA Chocolate protein powder
+- Cacao nibs for topping
+  [Powered by Chicory
+  ](http://chicory.co/?utm_source=widget-button&utm_medium=click-powered-by&utm_campaign=powered-by-chicory)
 
 Instructions
 
@@ -58,3 +57,4 @@ Instructions
 [](http://cf.laurenkellynutrition.com/wp-content/uploads/2014/12/gingerbread-oats41.jpg)[These Gingerbread Chocolate Overnight Oats are perfect to maintain healthy lifestyle during the busy holidays! #myAloha #Alohamoment  #PMedia #ad (image/jpeg)](http://cf.laurenkellynutrition.com/wp-content/uploads/2014/12/gingerbread-oats41.jpg)
 
 What are your favorite ways of staying healthy during the holidays?
+

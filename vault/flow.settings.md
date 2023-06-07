@@ -1,10 +1,11 @@
 ---
-id: we526da4u443b8408yp1nb4
+id: tws3q3d56htt8l9pmwix7zg
 title: Settings
 desc: ''
-updated: 1665654159949
+updated: 1686147649507
 created: 1665654099421
 ---
+
 plaintext propagation
   -> constructing from meta-files
     borrowing from linux concept

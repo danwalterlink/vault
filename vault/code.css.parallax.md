@@ -1,17 +1,16 @@
 ---
-id: 5azysaetnprs80br4wyipzd
+id: r1oxjfdxqo65zkru6xltj46
 title: Parallax
 desc: ''
 updated: 1678794224683
 created: 1633199319576
 ---
-
-# Creating Scrolling Parallax Effects with CSS
+## Creating Scrolling Parallax Effects with CSS
 
 By [Stefan Judis](http://4waisenkinder.de/) on June 9, 2014
 While this solution is elegant on desktop computers, it **does not** function on mobile devices. To create a mobile-compatible pure CSS parallax scrolling effect, [please visit this post by Keith Clark](http://blog.keithclark.co.uk/pure-css-parallax-websites/).
 
-*I generally dislike ESPN because  they're the McDonalds of sports news but they recently did a [piece on Luis Suarez](http://espn.go.com/espn/feature/story/_/id/10984370/portrait-serial-winner-luis-suarez-soccer-most-beautiful-player) that was eye-catching.  The content itself was great but their use of parallax and imagery was outstanding.  They've employed this technique in a few of their features now and I've been so impressed that I implored my readers to write about how it's done.  The following is a post principally written by Stefan Judis with detail added by myself.  Enjoy!*
+_I generally dislike ESPN because  they're the McDonalds of sports news but they recently did a [piece on Luis Suarez](http://espn.go.com/espn/feature/story/_/id/10984370/portrait-serial-winner-luis-suarez-soccer-most-beautiful-player) that was eye-catching.  The content itself was great but their use of parallax and imagery was outstanding.  They've employed this technique in a few of their features now and I've been so impressed that I implored my readers to write about how it's done.  The following is a post principally written by Stefan Judis with detail added by myself.  Enjoy!_
 
 ## Introduction
 
@@ -27,9 +26,9 @@ In short: parallax done with JavaScript can decrease the scrolling performance o
 
 What only a few people may know, is that this effect can be achieved via CSS, too. Check out the example below:
 
-* [HTML](https://codepen.io/stefanjudis/embed/nrzHI?height=268&theme-id=602&slug-hash=nrzHI&default-tab=result&user=stefanjudis#html-box)
-* [SCSS](https://codepen.io/stefanjudis/embed/nrzHI?height=268&theme-id=602&slug-hash=nrzHI&default-tab=result&user=stefanjudis#css-box)
-* [Result](https://codepen.io/stefanjudis/embed/nrzHI?height=268&theme-id=602&slug-hash=nrzHI&default-tab=result&user=stefanjudis#result-box)
+- [HTML](https://codepen.io/stefanjudis/embed/nrzHI?height=268&theme-id=602&slug-hash=nrzHI&default-tab=result&user=stefanjudis#html-box)
+- [SCSS](https://codepen.io/stefanjudis/embed/nrzHI?height=268&theme-id=602&slug-hash=nrzHI&default-tab=result&user=stefanjudis#css-box)
+- [Result](https://codepen.io/stefanjudis/embed/nrzHI?height=268&theme-id=602&slug-hash=nrzHI&default-tab=result&user=stefanjudis#result-box)
 
 [Edit on](http://codepen.io/stefanjudis/pen/nrzHI)
 
@@ -75,6 +74,7 @@ It gets interesting by setting the `background-attachment` to `fixed`. `fixed` d
 Let's have a quick check on the actual implementation:
 
 <!-- Four containers for setting the background images -->
+
 <div class="parallax">
   <div class="bg__foo">foo</div>
   <div class="bg__bar">bar</div>
@@ -88,44 +88,44 @@ Let's have a quick check on the actual implementation:
 
   text-indent: -9999px;
 
-  /* fix background */
+  /_ fix background _/
   background-attachment: fixed;
 
-  /* center it */
+  /_ center it _/
   background-position: center center;
 
-  /* Scale it nicely to the element */
+  /_ Scale it nicely to the element _/
   background-size: cover;
 
-  /* just make it look a bit better ;) */
+  /_ just make it look a bit better ;) _/
   &:nth-child(2n) {
     box-shadow: inset 0 0 1em #111;
   }
 }
 
-.bg__foo {
+.bg\_\_foo {
   background-image: url(
-    https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg
+    <https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg>
   );
 }
 
-.bg__bar {
+.bg\_\_bar {
   background-image: url(
-    https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax2.jpg
+    <https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax2.jpg>
   );
 }
 
-.bg__baz {
+.bg\_\_baz {
   background-image: url(
-    https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax3.jpg
+    <https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax3.jpg>
   );
 }
 
-.bg__bazz {
+.bg\_\_bazz {
   height: 100vh;
 
   background-image: url(
-    https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg
+    <https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg>
   );
 }
 
@@ -137,7 +137,7 @@ A quick check regarding [browser support](https://developer.mozilla.org/en-US/do
 
 I personally prefer CSS solutions to JavaScript solutions and this is a perfect example for my preference. There is no logic and no additional DOM manipulation needed, which makes the whole solution pretty nice. But there is still one thing to remember when dealing with parallax effects.
 
-*Even with this CSS solution there is a lot of stuff to do for the browser.* `background-attachment: fixed` will lead to much more painting that needs to be done by the browser, which can affect the scrolling performance and maybe drop your FPS (remember the 60FPS goal?). So keeping an eye on the FPS meter e.g. in Chrome when doing these kind of things is always a good idea.
+_Even with this CSS solution there is a lot of stuff to do for the browser._ `background-attachment: fixed` will lead to much more painting that needs to be done by the browser, which can affect the scrolling performance and maybe drop your FPS (remember the 60FPS goal?). So keeping an eye on the FPS meter e.g. in Chrome when doing these kind of things is always a good idea.
 
 Stefan Judis (image/jpeg)
 
@@ -145,4 +145,5 @@ Stefan Judis (image/jpeg)
 
 Stefan is a frontend developer from Berlin. He maintains the projects grunt-phantomas and grunt-photobox. Improving performance, automating everything, visualizing datasets and drinking good coffee are the things he is doing most of the time.
 
-[**4waisenkinder.de](http://4waisenkinder.de/)[**stefanjudis](https://twitter.com/stefanjudis)[**Posts](https://davidwalsh.name/author/stefan)
+[__4waisenkinder.de](http://4waisenkinder.de/)[__stefanjudis](https://twitter.com/stefanjudis)[__Posts](https://davidwalsh.name/author/stefan)
+

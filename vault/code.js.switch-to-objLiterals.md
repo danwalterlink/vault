@@ -1,12 +1,11 @@
 ---
-id: avbh2drpgctrc0kzff7s961
+id: lbvgp5xcdcmv1o3gnwp05uc
 title: switch-to-objLiterals
 desc: ''
 updated: 1633199321488
 created: 1633199321488
 ---
-
-# Replacing switch statements with Object literals
+## Replacing switch statements with Object literals
 
 In many programming languages, the `switch` statement exists - but should it any longer? If you’re a JavaScript programmer, you’re often jumping in and out of Objects, creating, instantiating and manipulating them. Objects are really flexible, they’re at the heart of pretty much everything in JavaScript, and using them instead of the `switch` statement has been something I’ve been doing lately.
 
@@ -187,7 +186,7 @@ var drink = getDrink('dr pepper');
 console.log(drink); // 'Default item'
 ```
 
-We could simplify the above `if` and `else` using the *or* `||` operator inside an expression:
+We could simplify the above `if` and `else` using the _or_ `||` operator inside an expression:
 
 ```
 function getDrink (type) {
@@ -211,7 +210,7 @@ function getDrink (type) {
 
 This wraps the two Object lookups inside parenthesis `( )`, treating them as an expression. The result of the expression is then invoked. If `drinks[type]` isn’t found in the lookup, it’ll default to `drinks['default']`, simple!
 
-We don’t *have* to always `return` inside the function either, we can change references to any variable then return it:
+We don’t _have_ to always `return` inside the function either, we can change references to any variable then return it:
 
 ```
 function getDrink (type) {
@@ -243,7 +242,7 @@ var drink = getDrink('coke');
 console.log(drink);
 ```
 
-These are very basic solutions, and the Object literals hold a `function` that returns a `String`, in the case you only need a `String`, you *could* use a `String` as the key’s value - some of the time the functions will contain logic, which will get returned from the function. If you’re mixing functions with strings, it might be easier to use a function at all times to save looking up the `type` and invoking if it’s a function - we don’t want to attempt invoking a `String`.
+These are very basic solutions, and the Object literals hold a `function` that returns a `String`, in the case you only need a `String`, you _could_ use a `String` as the key’s value - some of the time the functions will contain logic, which will get returned from the function. If you’re mixing functions with strings, it might be easier to use a function at all times to save looking up the `type` and invoking if it’s a function - we don’t want to attempt invoking a `String`.
 
 ### [Object Literal “fall through”](https://toddmotto.com/deprecating-the-switch-statement-for-object-literals/#object-literal-fall-through)
 
@@ -296,3 +295,4 @@ console.log(snack); // 'Drink'
 Object literals are a more natural control of flow in JavaScript, `switch` is a bit old and clunky and prone to difficult debugging errors. Objects are more extensible, maintainable, and we can test them a lot better. They’re also part of a design pattern and very commonly used day to day in other programming tasks. Object literals can contain functions as well as any other [Object type](https://toddmotto.com/understanding-javascript-types-and-reliable-type-checking), which makes them really flexible! Each function in the literal has function scope too, so we can return the closure from the parent function we invoke (in this case `getDrink` returns the closure).
 
 Some more interesting comments and feedback on [Reddit](http://www.reddit.com/r/javascript/comments/2b4s6r/deprecating_the_switch_statement_for_object).
+

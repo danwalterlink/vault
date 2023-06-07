@@ -1,19 +1,18 @@
 ---
-id: 79zp4aiv06imj4mti5z1gnq
+id: s17zetqj8m7o3rjqxr3afcs
 title: Fungi
 desc: ''
 updated: 1633199321518
 created: 1633199321518
 ---
-
 They Can Boost Your Health
 
-# 5 Types of Medicinal Mushrooms -- and the Surprising Ways They Can Boost Your Health
+## 5 Types of Medicinal Mushrooms -- and the Surprising Ways They Can Boost Your Health
 
 Different species of mushrooms have valuable benefits.
 
-*By* *[Andreea Nica](http://www.alternet.org/authors/andreea-nica-0)* / [AlterNet](http://alternet.org/)
-*July 7, 2014*
+_By_ _[Andreea Nica](http://www.alternet.org/authors/andreea-nica-0)_ / [AlterNet](http://alternet.org/)
+_July 7, 2014_
 AddThis Sharing ButtonsShare to Facebook995Share to TwitterShare to Google+Share to More26Share to Email
 
 [Print](http://www.alternet.org/print/personal-health/5-types-medicinal-mushrooms-and-surprising-ways-they-can-boost-your-health)
@@ -59,7 +58,7 @@ High in Vitamin D, morels are polymorphic, varying in shape, color and size. The
 
 The immune-boosting nutrients and health benefits of medicinal mushrooms continue to contribute to the large and persuasive body of scientific research. In fact, [scientific studies](https://www.academia.edu/305933/Medicinal_Mushrooms_Their_therapeutic_properties_and_current_medical_usage_with_special_emphasis_on_cancer_treatments) of medicinal mushrooms have increased during the last two decades primarily in Japan, Korea, China, and the US. Be sure to take the necessary precautions when identifying edible mushrooms, prior to utilizing them as part of a medical treatment or nutritional diet. By learning about the medicinal benefits of fungi, we can develop a more holistic approach to our overall immune health.
 
-*These statements have not been evaluated by the FDA and are not intended to diagnose, treat, or cure any disease. Consult with your physician before making any medical decisions.*
+_These statements have not been evaluated by the FDA and are not intended to diagnose, treat, or cure any disease. Consult with your physician before making any medical decisions._
 
 Andreea Nica is a writer, educator and media strategist, and the founder of [Organicommunications](http://organicommunications.com/).
 
@@ -73,25 +72,26 @@ Andreea Nica is a writer, educator and media strategist, and the founder of [Org
 Stay Ahead of the Rest
 Sign Up for AlterNet's Daily Newsletter
 EMAIL:
-+ sign up for additional lists
+
+- sign up for additional lists
 
 LATEST VIDEOS
 
-(image/png)The White House pulls at your heartstrings with celeb-laden Obama video**Powered by Wibbitz
+(image/png)The White House pulls at your heartstrings with celeb-laden Obama video__Powered by Wibbitz
 
-**Report this video
+__Report this video
 Wrong images or content
 Offensive content
 Wrong voice over
 Low quality clip
 
-****
-**
-**
+_\*\*_
+__
+__
 
-**
-00:0902:37**
-**
+__
+00:0902:37__
+__
 
 Now Playing
 
@@ -135,3 +135,4 @@ From the Web
 [Sponsored Links](http://popup.taboola.com/en/?template=colorbox&utm_source=rs-alternet&utm_medium=referral&utm_content=text-links-vertical:text-links-vertical:)
 
 Recommended
+

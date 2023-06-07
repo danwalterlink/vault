@@ -1,5 +1,5 @@
 ---
-id: h7djdxigz0bk672gooesit9
+id: psdtybjrpg99exgyfv45g6h
 title: CLI
 desc: ''
 updated: 1680598723398
@@ -10,17 +10,20 @@ eg. tmux default prefix
 
 #feature normal-mode history navigation -> fzf popup
 
-# themeing
+## themeing
+
 follow system theme
 make current state clear
   un/focus
 
 # navigation
+
 cli-encompassing leader-navigation
   vi-mode normal : space = leader
-  -> vi-style tmux/tab navigation
+  \-> vi-style tmux/tab navigation
 
 ## vim mode
+
 tmux
   window
   tab
@@ -32,33 +35,40 @@ vim
 emacs
 
 # discovery
+
 navigate/find commands bash/zsh
+
 - apropos
 
 # pager
+
 - less/more
-make separators newlines etc?
+  make separators newlines etc?
 
 tr: translate char
 pr: print
 (g)awk
 
 # upgrades
+
 [n] ls : lsd
 
 # escape sequences
+
 2>&1
 
-OSC, OSI, ESI, \e#######, ESC]]I, onFocus: windowFocusReporting: ]]ESC #?
+OSC, OSI, ESI, \\e#######, ESC]]I, onFocus: windowFocusReporting: ]]ESC #?
 
-[] vim-mode escaping, hyper-keys
+\[] vim-mode escaping, hyper-keys
 
 VT100 xterm control sequence
   CSI PS SC q
 
 # modal cli
+
 ## vi tmux
-https://superuser.com/questions/685005/tmux-in-zsh-with-vi-mode-toggle-cursor-shape-between-normal-and-insert-mode
+
+<https://superuser.com/questions/685005/tmux-in-zsh-with-vi-mode-toggle-cursor-shape-between-normal-and-insert-mode>
 zsh-vi-mode omz plugin
 tmux integration
 
@@ -71,6 +81,8 @@ tmux not displaying vi-mode cursor shapes
 #f tmux : currently busy panes/windows | iterm integration: finished output
 
 ## line wrapping
+
 tput -> cut screen content
   pager defaults
   ie. less -D -S
+

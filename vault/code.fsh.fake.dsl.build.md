@@ -1,12 +1,11 @@
 ---
-id: oc6tjb11amlivjjlluooknp
+id: mx8bp0bl77782w8sj6ffqkl
 title: Build
 desc: ''
 updated: 1633200003071
 created: 1633199319638
 ---
-
-# FAKE - F# Make - A DSL for build tasks
+## FAKE - F# Make - A DSL for build tasks
 
 "FAKE - F# Make" is a build automation system with capabilities which are similar to **make** and **rake**. It is using an easy domain-specific language (DSL) so that you can start using it without learning F#. If you need more than the default functionality you can either write F# or simply reference .NET assemblies.
 
@@ -280,13 +279,13 @@ Target "expectoTest" (fun _ ->
 
 This sample script
 
-* Assumes "FAKE - F# Make" is located at ./tools/FAKE
-* Assumes NUnit is located at ./tools/NUnit
-* Cleans the build and deploy paths
-* Builds all C# projects below src/app/ and puts the output to ./build
-* Builds all NUnit test projects below src/test/ and puts the output to ./build
-* Uses NUnit to test the generated Test.*.dll's
-* Zips all generated files to deploy/MyProject-0.1.zip
+- Assumes "FAKE - F# Make" is located at ./tools/FAKE
+- Assumes NUnit is located at ./tools/NUnit
+- Cleans the build and deploy paths
+- Builds all C# projects below src/app/ and puts the output to ./build
+- Builds all NUnit test projects below src/test/ and puts the output to ./build
+- Uses NUnit to test the generated Test.\*.dll's
+- Zips all generated files to deploy/MyProject-0.1.zip
 
 You can read the [getting started guide](http://fsharp.github.io/FAKE/gettingstarted.html) to build such a script.
 
@@ -491,3 +490,4 @@ Target "Deploy" (fun _ ->
 // start build
 RunTargetOrDefault "Deploy"
 ```
+

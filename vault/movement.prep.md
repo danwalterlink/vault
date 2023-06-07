@@ -1,5 +1,5 @@
 ---
-id: aa4o5os815bk3q3xm1hbzn3
+id: yp3fczh5g3l3r62xi9fy2vl
 title: 7-habits-of-highly-effective-movement-prep---juggernaut-iE6l48vm7Xyg
 desc: ''
 updated: 1631569265688
@@ -18,38 +18,73 @@ created: 1631569265688
 uggernaut-iE6l48vm7Xyg
 desc: ''
 updated: 1631569265688
-created: 1631569265688
----
+
+## created: 1631569265688
+
 uggernaut-iE6l48vm7Xyg
 desc: ''
 updated: 1631569265688
-created: 1631569265688
----
+
+## created: 1631569265688
+
 uggernaut-iE6l48vm7Xyg
 desc: ''
 updated: 1631569265688
-created: 1631569265688
----
+
+## created: 1631569265688
+
 uggernaut-iE6l48vm7Xyg
 desc: ''
 updated: 1631569265688
-created: 1631569265688
----
+
+## created: 1631569265688
+
 uggernaut-iE6l48vm7Xyg
 desc: ''
 updated: 1631569265688
-created: 1631569265688
----
+
+## created: 1631569265688
+
+uggernaut-iE6l48vm7Xyg
+desc: ''
+updated: 1631569265688
+
+## created: 1631569265688
+
+uggernaut-iE6l48vm7Xyg
+desc: ''
+updated: 1631569265688
+
+## created: 1631569265688
+
+uggernaut-iE6l48vm7Xyg
+desc: ''
+updated: 1631569265688
+
+## created: 1631569265688
+
+uggernaut-iE6l48vm7Xyg
+desc: ''
+updated: 1631569265688
+
+## created: 1631569265688
+
+uggernaut-iE6l48vm7Xyg
+desc: ''
+updated: 1631569265688
+
+## created: 1631569265688
+
 ![image description](http://52bpijddwt-flywheel.netdna-ssl.com/wp-content/uploads/2014/05/SM-jts-9.jpg)
 
 [Movement](http://www.jtsstrength.com/articles/category/movement-2/)
 
-# 7 Habits of Highly Effective Movement Prep
+## 7 Habits of Highly Effective Movement Prep
 
  [![image description](http://1.gravatar.com/avatar/adf09a3e132b45ff47f7cc9b22ca76d3?s=78&d=mm&r=g) BY Dr. Quinn Henoch](http://www.jtsstrength.com/articles/author/quinnhenoch/)
 
-* [ 0](http://www.jtsstrength.com/articles/2014/05/21/7-habits-highly-effective-movement-prep/#comments)
-* [ 5:14](http://www.jtsstrength.com/articles/2014/05/21/7-habits-highly-effective-movement-prep/#comments)
+- [ 0](http://www.jtsstrength.com/articles/2014/05/21/7-habits-highly-effective-movement-prep/#comments)
+- [ 5:14](http://www.jtsstrength.com/articles/2014/05/21/7-habits-highly-effective-movement-prep/#comments)
 
 Hard training often requires some type of movement preparation or body maintenance.  Few people can go in the gym and crush weights day in and day out without those things at some point in a training cycle.  There is a spectrum obviously.  Some need to devote little time to this type of work, and some need much more.  Wherever you happen to fall on the spectrum, there are universal truths that hold weight no matter how tender or limber (or insert adjective here) you want to be.
 
@@ -104,24 +139,25 @@ This is the key.  Chances are you are attempting to undo years of bad habits or 
 
 **Related Articles:**
 
-[*Breathing 101 by Ryan Brown*](http://www.jtsstrength.com/articles/2013/05/17/breathing-101/)
+[_Breathing 101 by Ryan Brown_](http://www.jtsstrength.com/articles/2013/05/17/breathing-101/)
 
-[*5 Mobility Must-Haves by Ryan Brown*](http://www.jtsstrength.com/articles/2013/09/20/5-mobility-must-haves/)
+[_5 Mobility Must-Haves by Ryan Brown_](http://www.jtsstrength.com/articles/2013/09/20/5-mobility-must-haves/)
 
-*Quinn Henoch has a Doctorate of Physical Therapy from the University of Indianapolis.  He is the head of rehabilitation for Darkside Strength and Core Sports Performance in Louisville, KY.  He also works for the Kentucky Orthopedic Rehab Team managing orthopedic and sports related dysfunction.  Quinn played football at the Div 1-AA level at Valparaiso University as a defensive back.  He has also competed in track and field, Crossfit, and powerlifting.  Currently, he trains full time as an Olympic weightlifter and has qualified for the 2014 American Open, as a 77kg lifter.*
+_Quinn Henoch has a Doctorate of Physical Therapy from the University of Indianapolis.  He is the head of rehabilitation for Darkside Strength and Core Sports Performance in Louisville, KY.  He also works for the Kentucky Orthopedic Rehab Team managing orthopedic and sports related dysfunction.  Quinn played football at the Div 1-AA level at Valparaiso University as a defensive back.  He has also competed in track and field, Crossfit, and powerlifting.  Currently, he trains full time as an Olympic weightlifter and has qualified for the 2014 American Open, as a 77kg lifter._
 
 [Website](http://dsstrength.com/), [Facebook](https://www.facebook.com/Darksidestrength), [Twitter](https://twitter.com/DrQuinnHenochPT)
 
 # Get three Juggernaut manuals free
 
-* [Top 6 of April](http://www.jtsstrength.com/articles/2014/05/06/top-6-april/)
-* [The Scapula and Thoracic Spine: A Classic Love Story To Improve Your Overhead Position](http://www.jtsstrength.com/articles/2014/05/01/the-scapula-and-thoracic-spine-a-classic-love-story-to-improve-your-overhead-position/)
-* [5 Steps for Healing Low Back Pain](http://www.jtsstrength.com/articles/2014/04/11/5-steps-healing-low-back-pain/)
+- [Top 6 of April](http://www.jtsstrength.com/articles/2014/05/06/top-6-april/)
+- [The Scapula and Thoracic Spine: A Classic Love Story To Improve Your Overhead Position](http://www.jtsstrength.com/articles/2014/05/01/the-scapula-and-thoracic-spine-a-classic-love-story-to-improve-your-overhead-position/)
+- [5 Steps for Healing Low Back Pain](http://www.jtsstrength.com/articles/2014/04/11/5-steps-healing-low-back-pain/)
 
- [![image description](http://1.gravatar.com/avatar/adf09a3e132b45ff47f7cc9b22ca76d3?s=800&d=mm&r=g)](http://www.jtsstrength.com/articles/author/quinnhenoch/)
+  [![image description](http://1.gravatar.com/avatar/adf09a3e132b45ff47f7cc9b22ca76d3?s=800&d=mm&r=g)](http://www.jtsstrength.com/articles/author/quinnhenoch/)
 
 ## Dr. Quinn Henoch
 
 Quinn Henoch has a Doctorate of Physical Therapy from the University of Indianapolis and is head of rehabilitation for JuggernautHQ and Darkside Strength.  His clinic, Paradigm Performance Therapy, is adjacent to the new Juggernaut gym located in Laguna Niguel, CA.   Quinn played football at the Div 1-AA level at Valparaiso University as a defensive back.  He has also competed in track and field, Crossfit, and powerlifting.  Currently, he trains full time as a competitive weightlifter, and competed in the 2014 American Open and has qualified for the 2015 National Championships as a 77kg lifter.
 
 [READ MORE BY Dr. Quinn Henoch](http://www.jtsstrength.com/articles/author/quinnhenoch/)
+

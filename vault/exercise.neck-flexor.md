@@ -1,31 +1,39 @@
 ---
-id: atcfjei5fgnr16vzum9n4ys
+id: xq769bc70jw5jqwp9frob2m
 title: Neck Flexor
 desc: ''
 updated: 1633199319589
 created: 1633199319589
 ---
-
 [(image/png)](http://www.livestrong.com/)[Official Partner of the LIVESTRONG Foundation](http://www.livestrong.org/)
 
-* [Track](http://www.livestrong.com/myplate/dashboard/track/)
-* [Workouts](http://www.livestrong.com/workouts/)
-* [Progress](http://www.livestrong.com/myplate/dashboard/goals/)
-* [Community](http://www.livestrong.com/conversations/)
-* [Hot Topics](http://www.livestrong.com/hot-topics/)
-* [Sign In](#)
+- [Track](http://www.livestrong.com/myplate/dashboard/track/)
 
-     | [Register](http://www.livestrong.com/register/)
+- [Workouts](http://www.livestrong.com/workouts/)
 
-* [Upgrade](http://www.livestrong.com/upgrade/)
+- [Progress](http://www.livestrong.com/myplate/dashboard/goals/)
 
-* [LIVESTRONG.COM](http://www.livestrong.com/)
-* [Sports and Fitness](http://www.livestrong.com/cat/sports-and-fitness/)
-* [Fitness](http://www.livestrong.com/scat/fitness/)
-* [Upper Body Exercises](http://www.livestrong.com/sscat/upper-body-exercises/)
-* [Deep Neck Flexor Exercises](http://www.livestrong.com/article/145040-deep-neck-flexor-exercises/)
+- [Community](http://www.livestrong.com/conversations/)
 
-# Deep Neck Flexor Exercises
+- [Hot Topics](http://www.livestrong.com/hot-topics/)
+
+- [Sign In](#)
+
+     \| [Register](http://www.livestrong.com/register/)
+
+- [Upgrade](http://www.livestrong.com/upgrade/)
+
+- [LIVESTRONG.COM](http://www.livestrong.com/)
+
+- [Sports and Fitness](http://www.livestrong.com/cat/sports-and-fitness/)
+
+- [Fitness](http://www.livestrong.com/scat/fitness/)
+
+- [Upper Body Exercises](http://www.livestrong.com/sscat/upper-body-exercises/)
+
+- [Deep Neck Flexor Exercises](http://www.livestrong.com/article/145040-deep-neck-flexor-exercises/)
+
+## Deep Neck Flexor Exercises
 
 Last Updated: Oct 26, 2013 | By Tyler Shultz
 Deep Neck Flexor Exercises (image/jpeg)
@@ -87,45 +95,53 @@ Gender
 
 #### LIVE**STRONG**.COM Most Popular
 
-* [Geriatric Neck Stretching (image/jpeg)Geriatric Neck Stretching](http://www.livestrong.com/video/1008607-geriatric-neck-stretching/)
-* [Exercises With Hand Weights to Strengthen the… (image/jpeg)Exercises With Hand Weights to Strengthen the…](http://www.livestrong.com/video/1009979-exercises-hand-weights-strengthen-neck-shoulder-muscles/)
-* [Work Out at Work? Yes! (image/jpeg)Work Out at Work? Yes!](http://www.livestrong.com/article/559401-work-out-at-work-yes/)
-* [The 10 Best Exercises to Reduce a Double Chin (image/jpeg)The 10 Best Exercises to Reduce a Double Chin](http://www.livestrong.com/slideshow/1011117-10-exercises-reduce-double-chin/)
+- [Geriatric Neck Stretching (image/jpeg)Geriatric Neck Stretching](http://www.livestrong.com/video/1008607-geriatric-neck-stretching/)
+- [Exercises With Hand Weights to Strengthen the… (image/jpeg)Exercises With Hand Weights to Strengthen the…](http://www.livestrong.com/video/1009979-exercises-hand-weights-strengthen-neck-shoulder-muscles/)
+- [Work Out at Work? Yes! (image/jpeg)Work Out at Work? Yes!](http://www.livestrong.com/article/559401-work-out-at-work-yes/)
+- [The 10 Best Exercises to Reduce a Double Chin (image/jpeg)The 10 Best Exercises to Reduce a Double Chin](http://www.livestrong.com/slideshow/1011117-10-exercises-reduce-double-chin/)
 
 ## References
 
-* [Peak Sports and Spine: Cervical Pain and the Deep Neck Flexors](http://www.peaksportsandspinept.com/articles/cervicalpain_deepneckflexors.cfm)
-* [Neck Solutions: Correcting Neck Posture, a Key to Pain Relief](http://www.necksolutions.com/neck-posture.html)
+- [Peak Sports and Spine: Cervical Pain and the Deep Neck Flexors](http://www.peaksportsandspinept.com/articles/cervicalpain_deepneckflexors.cfm)
+- [Neck Solutions: Correcting Neck Posture, a Key to Pain Relief](http://www.necksolutions.com/neck-posture.html)
 
 ## Comments
 
 ### People Are Reading
 
-* [Can Exercises Lengthen the Neck?](http://www.livestrong.com/article/399674-neck-lengthening-exercises/)[Can Exercises Lengthen the Neck? (image/jpeg)](http://www.livestrong.com/article/399674-neck-lengthening-exercises/)
-* [Can Exercises Correct a Hump on the Back of the Neck?](http://www.livestrong.com/article/214248-exercises-to-correct-a-hump-on-the-back-of-the-neck/)[Can Exercises Correct a Hump on the Back of the Neck? (image/jpeg)](http://www.livestrong.com/article/214248-exercises-to-correct-a-hump-on-the-back-of-the-neck/)
-* [How to Improve Neck Posture](http://www.livestrong.com/article/78086-improve-neck-posture/)[How to Improve Neck Posture (image/jpeg)](http://www.livestrong.com/article/78086-improve-neck-posture/)
+- [Can Exercises Lengthen the Neck?](http://www.livestrong.com/article/399674-neck-lengthening-exercises/)[Can Exercises Lengthen the Neck? (image/jpeg)](http://www.livestrong.com/article/399674-neck-lengthening-exercises/)
+- [Can Exercises Correct a Hump on the Back of the Neck?](http://www.livestrong.com/article/214248-exercises-to-correct-a-hump-on-the-back-of-the-neck/)[Can Exercises Correct a Hump on the Back of the Neck? (image/jpeg)](http://www.livestrong.com/article/214248-exercises-to-correct-a-hump-on-the-back-of-the-neck/)
+- [How to Improve Neck Posture](http://www.livestrong.com/article/78086-improve-neck-posture/)[How to Improve Neck Posture (image/jpeg)](http://www.livestrong.com/article/78086-improve-neck-posture/)
 
 ### Related Searches
 
 ### Currently Trending
 
-* [12 Thanksgiving Mistakes That Make You Gain Weight](http://www.livestrong.com/slideshow/1008868-12-holiday-feast-mistakes-make-gain-weight/)[12 Thanksgiving Mistakes That Make You Gain Weight  (image/jpeg)](http://www.livestrong.com/slideshow/1008868-12-holiday-feast-mistakes-make-gain-weight/)
-* [7 Cross-Training Workouts to Shake Up Your Routine](http://www.livestrong.com/slideshow/1011608-7-crosstraining-workouts-shake-up-routine/)[7 Cross-Training Workouts to Shake Up Your Routine (image/jpeg)](http://www.livestrong.com/slideshow/1011608-7-crosstraining-workouts-shake-up-routine/)
-* [15 Dishes Your Mom Served That You Should Avoid Making](http://www.livestrong.com/slideshow/1008996-15-dishes-mom-served-should-avoid-making/)[15 Dishes Your Mom Served That You Should Avoid Making (image/jpeg)](http://www.livestrong.com/slideshow/1008996-15-dishes-mom-served-should-avoid-making/)
+- [12 Thanksgiving Mistakes That Make You Gain Weight](http://www.livestrong.com/slideshow/1008868-12-holiday-feast-mistakes-make-gain-weight/)[12 Thanksgiving Mistakes That Make You Gain Weight  (image/jpeg)](http://www.livestrong.com/slideshow/1008868-12-holiday-feast-mistakes-make-gain-weight/)
+- [7 Cross-Training Workouts to Shake Up Your Routine](http://www.livestrong.com/slideshow/1011608-7-crosstraining-workouts-shake-up-routine/)[7 Cross-Training Workouts to Shake Up Your Routine (image/jpeg)](http://www.livestrong.com/slideshow/1011608-7-crosstraining-workouts-shake-up-routine/)
+- [15 Dishes Your Mom Served That You Should Avoid Making](http://www.livestrong.com/slideshow/1008996-15-dishes-mom-served-should-avoid-making/)[15 Dishes Your Mom Served That You Should Avoid Making (image/jpeg)](http://www.livestrong.com/slideshow/1008996-15-dishes-mom-served-should-avoid-making/)
 
 ### Read These
 
-* [8 Surprising Ways Your Social Life Impacts Your Health](http://www.livestrong.com/slideshow/1011611-8-surprising-ways-social-life-impacts-health/)[8 Surprising Ways Your Social Life Impacts Your Health (image/jpeg)](http://www.livestrong.com/slideshow/1011611-8-surprising-ways-social-life-impacts-health/)
-* [These 12 Moves Will Get You Washboard Abs - We Show You…](http://www.livestrong.com/slideshow/1011044-12-moves-washboard-abs-show-how/)[These 12 Moves Will Get You Washboard Abs - We Show You… (image/gif)](http://www.livestrong.com/slideshow/1011044-12-moves-washboard-abs-show-how/)
-* [8 Old Wives' Tales and the Science Behind Them](http://www.livestrong.com/slideshow/1011606-8-old-wives-tales-science-behind/)[8 Old Wives' Tales and the Science Behind Them (image/jpeg)](http://www.livestrong.com/slideshow/1011606-8-old-wives-tales-science-behind/)
+- [8 Surprising Ways Your Social Life Impacts Your Health](http://www.livestrong.com/slideshow/1011611-8-surprising-ways-social-life-impacts-health/)[8 Surprising Ways Your Social Life Impacts Your Health (image/jpeg)](http://www.livestrong.com/slideshow/1011611-8-surprising-ways-social-life-impacts-health/)
 
-* [ABOUT](http://www.livestrong.com/aboutus/)
-* [CONTACT US](http://www.livestrong.com/contact-us/)
-* [FAQ](http://www.livestrong.com/contact-us/)
-* [ADVERTISE WITH US](http://www.livestrong.com/advertise/)
-* [PRESS](http://www.demandmedia.com/about-us/contact/)
-* [BLOGS](http://www.livestrong.com/blog/)
-* [LIVESTRONG.COM EN ESPAÑOL](http://www.livestrong.com/es/)
+- [These 12 Moves Will Get You Washboard Abs - We Show You…](http://www.livestrong.com/slideshow/1011044-12-moves-washboard-abs-show-how/)[These 12 Moves Will Get You Washboard Abs - We Show You… (image/gif)](http://www.livestrong.com/slideshow/1011044-12-moves-washboard-abs-show-how/)
+
+- [8 Old Wives' Tales and the Science Behind Them](http://www.livestrong.com/slideshow/1011606-8-old-wives-tales-science-behind/)[8 Old Wives' Tales and the Science Behind Them (image/jpeg)](http://www.livestrong.com/slideshow/1011606-8-old-wives-tales-science-behind/)
+
+- [ABOUT](http://www.livestrong.com/aboutus/)
+
+- [CONTACT US](http://www.livestrong.com/contact-us/)
+
+- [FAQ](http://www.livestrong.com/contact-us/)
+
+- [ADVERTISE WITH US](http://www.livestrong.com/advertise/)
+
+- [PRESS](http://www.demandmedia.com/about-us/contact/)
+
+- [BLOGS](http://www.livestrong.com/blog/)
+
+- [LIVESTRONG.COM EN ESPAÑOL](http://www.livestrong.com/es/)
 
 ## SIGN UP FOR OUR NEWSLETTER
 
@@ -136,10 +152,10 @@ Woman
 
 OFFICIAL PARTNER OF THE LIVESTRONG FOUNDATION
 
-* [CANCER SUPPORT](http://www.livestrong.org/wecanhelp/)
-* [SHOP](http://store.livestrong.org/)
-* [TEAM LIVESTRONG](http://www.livestrong.org/events/)
-* [DONATE](https://www.livestrong.org/donation/)
+- [CANCER SUPPORT](http://www.livestrong.org/wecanhelp/)
+- [SHOP](http://store.livestrong.org/)
+- [TEAM LIVESTRONG](http://www.livestrong.org/events/)
+- [DONATE](https://www.livestrong.org/donation/)
 
 Copyright © 2015 Demand Media, Inc. Use of this web site constitutes acceptance of the LIVESTRONG.COM [Terms of Use](http://www.livestrong.com/terms/) and [Privacy Policy](http://www.livestrong.com/privacy-policy/). The material appearing on LIVESTRONG.COM is for educational use only. It should not be used as a substitute for professional medical advice, diagnosis or treatment. LIVESTRONG is a registered trademark of the LIVESTRONG Foundation. The LIVESTRONG Foundation and LIVESTRONG.COM do not endorse any of the products or services that are advertised on the web site. Moreover, we do not select every advertiser or advertisement that appears on the web site-many of the advertisements are served by third party advertising companies. Ad Choices
 
@@ -149,3 +165,4 @@ Copyright © 2015 Demand Media, Inc. Use of this web site constitutes acceptance
 Demand Media (image/gif)(image/gif)
 [
 ](#)
+

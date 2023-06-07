@@ -1,12 +1,11 @@
 ---
-id: ljwafb2j9in2ok6wxemvf72
+id: bkksfror6lpanwczgcse92v
 title: React
 desc: ''
 updated: 1633199321485
 created: 1633199321485
 ---
-
-# 10 React mini-patterns
+## 10 React mini-patterns
 
 Over the last few years, I’ve worked on a handful of decent-sized React projects, and many, many pint-sized ones. Throughout this magical journey, a number of patterns have come up that I find myself repeating again and again.
 
@@ -24,7 +23,7 @@ The one thing I’d recommend to everyone new to React is to get your head aroun
 
 Like sending down a packet of chips and a walkie talkie to miners trapped underground.
 
-How about a picture? The below *thing* is the simplest form of this pattern.
+How about a picture? The below _thing_ is the simplest form of this pattern.
 
 (image/png) (image/png)Worth a thousand words?
 
@@ -48,9 +47,9 @@ If I’m building a site that will have a lot of user inputs, one of the first t
 
 It’s not purely cosmetic though; there are more improvements to be had:
 
-* •Inputs should return a value via an `onChange` method, not a JavaScript `Event` instance, shouldn’t they?
-* •You can go a step further and ensure that the data type returned in `onChange` matches the type passed in. If the `typeof props.value` is `number`, then convert `e.target.value` back to a number before sending the data out again.
-* •A set of radio buttons is functionally the same thing as a `<select>`, right? It’s messed up to treat them in a completely different manner when the only difference is the UI. Maybe for your app it makes sense to have a single `<PickOneFromMany />` component and pass either `ui="radio"` or `ui="dropDown"`.
+- •Inputs should return a value via an `onChange` method, not a JavaScript `Event` instance, shouldn’t they?
+- •You can go a step further and ensure that the data type returned in `onChange` matches the type passed in. If the `typeof props.value` is `number`, then convert `e.target.value` back to a number before sending the data out again.
+- •A set of radio buttons is functionally the same thing as a `<select>`, right? It’s messed up to treat them in a completely different manner when the only difference is the UI. Maybe for your app it makes sense to have a single `<PickOneFromMany />` component and pass either `ui="radio"` or `ui="dropDown"`.
 
 The point is not to do it like I do it. The point is to make them your own — you don’t need to keep working with the somewhat ass-about nature of HTML’s user input elements.
 
@@ -62,7 +61,7 @@ But you don’t want to think of some clever and unique id for every input you d
 
 (Frequent-flyer tip: if you have a screaming child on your flight, close your eyes and pretend you’re watching a video on YouTube of goats that sound like humans. Annoying becomes hilarious.)
 
-Back to it. You *could* generate a random ID for each input/label pair, but then your client-rendered HTML won’t match your server-rendered HTML. Checksum error! That’s no good.
+Back to it. You _could_ generate a random ID for each input/label pair, but then your client-rendered HTML won’t match your server-rendered HTML. Checksum error! That’s no good.
 
 So, instead you can create a little module that gives an incrementing ID, and use that in an `Input` component like so:
 
@@ -128,7 +127,7 @@ return (
 
 18
 
-<input
+&lt;input
 
 19
 
@@ -164,7 +163,7 @@ onChange={this.onChange}
 
 [view raw](https://gist.github.com/davidgilbertson/2cd13f571edda9a884107db3abd8de1b/raw/2637f6cadcc02f9dd9ef3b3929f362891e47c415/Input-for-id.jsx) [Input-for-id.jsx](https://gist.github.com/davidgilbertson/2cd13f571edda9a884107db3abd8de1b#file-input-for-id-jsx) hosted with ❤ by [GitHub](https://github.com/)
 
-Obviously it makes more sense when the input *isn’t* inside the label.
+Obviously it makes more sense when the input _isn’t_ inside the label.
 
 If `getNextId()` simply increments a number every time it’s called, then when rendering on the server, the number would keep going up and up, eventually reaching infinity. So you’ll want to reset the number each time you render the app (for each network request).
 
@@ -226,7 +225,7 @@ Do your best to only require one theme per component.
 
 Maybe some of your buttons have rounded corners, but this doesn’t correspond directly with the themes you have defined.
 
-In this case you can either sit your designer down and have *the consistency talk*, or create a boolean prop which might look a little something like this:
+In this case you can either sit your designer down and have _the consistency talk_, or create a boolean prop which might look a little something like this:
 
 `<Button theme="secondary" rounded>Hello</Button>`
 
@@ -278,7 +277,7 @@ Link.propTypes = {
 
 10
 
-theme: PropTypes.oneOf([
+theme: PropTypes.oneOf(\[
 
 11
 
@@ -306,7 +305,7 @@ href: PropTypes.string.isRequired,
 
 17
 
-children: PropTypes.oneOfType([
+children: PropTypes.oneOfType(\[
 
 18
 
@@ -456,7 +455,7 @@ If you’re not, or you’re lazy, just guess how many CSS rules are combined to
 
 Twenty three rules.
 
-That’s *not* including the styles inherited from eleven other rules.
+That’s _not_ including the styles inherited from eleven other rules.
 
 The line-height alone is overridden nine times.
 
@@ -534,7 +533,7 @@ const Handler = PAGES[props.page] || FourOhFourPage;
 
 15
 
-return <Handler {...props} />
+return &lt;Handler {...props} />
 
 16
 
@@ -608,7 +607,7 @@ return (
 
 8
 
-<input
+&lt;input
 
 9
 
@@ -672,7 +671,7 @@ return (
 
 10
 
-<Input
+&lt;Input
 
 11
 
@@ -708,7 +707,7 @@ Let’s say you’re building a component that lets you search for people. As yo
 
 (image/png)
 
-(I’m searching for political satirists because I, like *everyone*, am super interested in what other people think about politics.)
+(I’m searching for political satirists because I, like _everyone_, am super interested in what other people think about politics.)
 
 When designing this component, you may think to yourself: is each item in that list it’s own `SearchSuggestion` component? It’s really only a few lines of HTML and CSS, so maybe not? But I was once told ‘if in doubt, create another component’.
 
@@ -770,11 +769,11 @@ return (
 
 If things get more complex or you want to use this component elsewhere, you should be able to copy/paste the code out into a new component.
 
-Don’t prematurely componentize. Components aren’t like teaspoons; you *can* have too many.
+Don’t prematurely componentize. Components aren’t like teaspoons; you _can_ have too many.
 
 What I am not saying: “take something that you think should be a component, and make it part of the parent component.”
 
-What I am saying: “take something that you *don’t* think should be a component, and make it a bit more like its own component (if it can be).”
+What I am saying: “take something that you _don’t_ think should be a component, and make it a bit more like its own component (if it can be).”
 
 ### #8 Components for formatting text
 
@@ -1032,7 +1031,7 @@ My components have enough going on in their lives, they shouldn’t have to worr
 
 For you see, if the data in your store is designed to match your components, your components will be much simpler. And I’ve said it before, complexity is where the bugs hide. The less complexity you have in your components, the lower the chance of bugs.
 
-But the complexity has to go *somewhere*, doesn’t it?
+But the complexity has to go _somewhere_, doesn’t it?
 
 My suggestion is this:
 
@@ -1088,17 +1087,17 @@ You could just do this:
 import {Button, Icon, Footer} from 'Components';
 ```
 
-Well in *theory* you can:
+Well in _theory_ you can:
 
-* •Create a single `index.js` somewhere that exports references each of your components
-* •Use Webpack's `resolve.alias` to redirect `Components` to that index file
+- •Create a single `index.js` somewhere that exports references each of your components
+- •Use Webpack's `resolve.alias` to redirect `Components` to that index file
 
 I hadn’t done this before, and planned to convert one of my existing apps for this post (then lie and tell you I totes do it all the time). But as I wrote the code I came to realise that this is a bad idea, for three reasons:
 
 1. 1It [seems to be broken](https://github.com/webpack/webpack/issues/4160#issuecomment-281236136) in Webpack 2.
 2. 2It’s an `eslint` error because `Components` won’t be in `node_modules`.
 3. 3If you use a good IDE, it will know things about your components. You will get clever warnings about not supplying required props, the ability to `cmd`/`ctrl`+click to open that component’s file. Things of that nature.
-    If you do the above, your IDE will no longer know where to find that component and you’ll lose those smarts.
+   If you do the above, your IDE will no longer know where to find that component and you’ll lose those smarts.
 
 (image/png)
 
@@ -1111,3 +1110,4 @@ Edit: [matthew hsiung](https://medium.com/@hsiungmatt) has a solution for the es
 That’s the lot of them. I’m quite sure I’ll look at this in a year and wince. Perhaps you’ll do it today. Perhaps you’ll share something that has served you well.
 
 Oh and I’ve decided I don’t care if you click the little green heart or not. I WILL NOT BE DEFINED BY AN INTERNET METRIC.
+
