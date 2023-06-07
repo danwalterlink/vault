@@ -1,0 +1,14 @@
+# description: configuration ID
+# type: string
+# required: true
+connectionId: ddubl.airtable
+
+# description: Connection Type
+# type: string
+# required: true
+serviceType: Airtable
+
+# description: API Key to access Airtable
+# type: string
+# required: true
+apiKey: patH9IVsSX8hdvB9X.1e07cf25c178b9a7737165daaddd1988447c909120b0b7c843e605600029324a

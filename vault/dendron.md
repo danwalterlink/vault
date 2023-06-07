@@ -2,9 +2,13 @@
 id: sdk98s6f8f1ow903ggsel6r
 title: Dendron
 desc: ''
-updated: 1685704503172
+updated: 1686144352344
 created: 1636846848375
 ---
+
+extract components:
+- pod: data sources | ingest
+- tag: custom syntax definition
 
 [Dendron Links](https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2/)
 
