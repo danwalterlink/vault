@@ -1,5 +1,5 @@
 ---
-id: 7t196o9e1jr9gqngvqg6na6
+id: 79jbr1y9qj1zdc7luqlfczn
 title: Hardware
 desc: ''
 updated: 1674124297019
