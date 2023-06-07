@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1686146211074
+updated: 1686147123696
 created: 1684961188700
 ---
 
@@ -210,9 +210,10 @@ ie. barbarians(12) get brutal(1) on 9, brutal(2) on 13 and brutal(3) on 17
   You may concentrate on each instance of an echoed spell simultaneously as if spellweaving{x}.
 [spellweave] {{magic.concentrate}} if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
 [riposte]
-[debilitate]: {{attack.sneak}} attack dice for effects
+[debilitate]: {{attack.sneak}} attack dice for effects # crit => more effects
 [imbue]: {{attack.primal}}
 
+[imbue]
 ## item
 ### hit dice
 along the {{generic object}} table.
