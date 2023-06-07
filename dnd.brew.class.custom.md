@@ -2,25 +2,22 @@
 id: ymqdb32pigaepr9wlibkz72
 title: Custom
 desc: ''
-updated: 1686144352356
+updated: 1686146516177
 created: 1686137589009
 ---
 
-hit points
-  hit dice: {{dice.size}}
+{{hp}}:
+  {{hp.dice.size}}: {{dice.size}}
 
-
-proficiencies
-  armor
-  weapon
-  tool
-  saving throw
-  skill
+{{proficiency}} ? {{char.prof..}}
+: {{armor}} : {{}}
+: {{weapon}}: {{}}
+: {{tool}}  : \f: type {{d20t}}
+: {{save}}  : \f: type {{d20t}}
+: {{skill}} : {{}}
 
 language
 starting options
 
 multiclass
   requirement
-
-{{}}

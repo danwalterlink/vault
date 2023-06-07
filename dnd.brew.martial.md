@@ -2,7 +2,7 @@
 id: 1f1nllzfqjwc39lsxg6qxt6
 title: Martial
 desc: ''
-updated: 1685957770566
+updated: 1686145565994
 created: 1685282944352
 ---
 
@@ -83,3 +83,9 @@ ranged weapon maneuver:
 fighter -
 additional extra attacks
   more efficient conversions
+
+maneuver: coordinate
+
+rule: flanking
+  current flanking := surrounded += new flanking
+  when flanking, flanking maneuvers: coordinate

@@ -2,7 +2,7 @@
 id: 08u3oqk0j5t5boj2iyl4xq4
 title: Mechanics
 desc: ''
-updated: 1686144332432
+updated: 1686146211074
 created: 1684961188700
 ---
 
@@ -208,8 +208,10 @@ ie. barbarians(12) get brutal(1) on 9, brutal(2) on 13 and brutal(3) on 17
 [echo](spell) choose the order of targets of each echo. create an instance of the spell each target, decrease its level by 1 for each instance.
   If you are concentrating on a spell, make a concentration check.
   You may concentrate on each instance of an echoed spell simultaneously as if spellweaving{x}.
-[spellweave] if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
+[spellweave] {{magic.concentrate}} if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
 [riposte]
+[debilitate]: {{attack.sneak}} attack dice for effects
+[imbue]: {{attack.primal}}
 
 ## item
 ### hit dice
@@ -325,6 +327,11 @@ you may take a heroic action on your as a by spending:
 - heroic inspiration
 - half your available hit dice, rounded up
 - your activity dice maximum
+-> heroic inspiration store:
+  inspiration:
+  increase store: 1, 4, 7; 3 inspiration = 1 heroic inspiration
+  heroic: 7, 11, 15; 3 heroic inspiration = 1 epic inspiration
+  20: all inspirations = legendary
 
 ### heroic: surge
 you may take an additional action.
