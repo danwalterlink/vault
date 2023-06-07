@@ -2,7 +2,7 @@
 id: cr6c1y1bpckfo7fvx9xkqa6
 title: dnd-6
 desc: ''
-updated: 1685904369064
+updated: 1686155628763
 created: 1684357294795
 ---
 
@@ -89,20 +89,24 @@ If the total cumulative amount of ASI no more than 3, you may take a feat.
 ### Background
   - basic: 2 skills, 1 tool(choice)
   - some gain other benefits instead
-engaged backgrounds: mali for boni (usual feat choices)
+
+[variant]: background.engaged
+  mali for boni
 additionally, you may choose to affiliate with an order, association, guild or other faction.
 
-### Class
-autodidact: meta-class; what amalgam ancestry is for ancestry; autodidact is for classes.
-pick:
+## Class
+autodidact:=[custom class]: meta-class; what amalgam ancestry is for ancestry; autodidact is for classes.
+mechanic:pick
 
 you are considered lvl0 for all (base) classes you haven't picked a level in
 if something refers to class, it refers (its) base class unless noted otherwise.
 
+moving away from class-gated design
+-> every feature a class has is a [feat]
 fighter: bake fighter/battlemaster into base class #changes.5e
 warlock: bake hexblade-features into base-class #changes.5e
 
-## class types
+#### class types
 smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
 -> small changes have potentially far-reaching effects.
 along general type system, classes fulfill a more 'templative' role
@@ -158,10 +162,10 @@ mastery trait level
   : 19th legendary
   incentivise upgrading, networking (finding craftsmen), collecting raw materials
 
-weapon masteries, tool and crafting more important.
+### weapon masteries, tool and crafting more important.
 - exploits and boni tied to specific weapon family.
 
-(field) crafting
+### (field) crafting
   : giving plentiful options to harvest materials
   : known recipes
   : rewarding experimentation
@@ -169,35 +173,40 @@ weapon masteries, tool and crafting more important.
 ie. containers are infusables
 
 spellcasting:
-
 action surge type restrictions?
 -> cost backloading. action surge - attempt thing and then pay resources.
 
-sharpshooter
-  [no quarter]: you treat half as no and 3/4 as half cover and other foes do not impede line of sight.
-  you can use any attack maneuver with ranged weapons
-  focus: if you haven't moved this turn +1 to attack and damage rolls with ranged attacks.
-  eagle eyed: no disadvantage max range; you can discern color even in dim environments.
-
-close-quarters shooter
-
-healing:
+## additional rules
+### healing:
 : receiving over your biggest hit dice worth of hp in healing:
   - makes you hungry;
   - while hungry makes you starving.
   - while starved depletes hit dice a number of hit dice could have rolled (rounded up).
-  - while starved and without adequate hit dice additionally gives you one level of exhaustion.
+  - while starved and without adequate hit dice additionally gives you one level of exhaustion. h2
 
-degrees of success:
-combat: critical failure/success
-  slight failure: slight chance of minor weapon damage (knick, bend or tear),
-  failure: failed by 5 or more: automatic minor weapon damage, slight chance of major weapon damage (rendering unusable or less effective). Can use reaction to mitigate.
-  critical failure: automatic major weapon damage. Can use reaction to mitigate.
-
-Potions
+#### Potions
 : healing potions restore health according to : minor healing potion (2d4 + constitution modifier) ||
 : HoT: when you roll for healing of a potion and roll beneath half max, you heal for 1/2 max.
   anything over 1/2 is restored over time at (1/2 number of dice) hp/round.
 (the following makes frequent cooking and/or magical food a necessity for adventurers)
 
+### degrees of success:
+combat: critical failure/success
+  slight failure: slight chance of minor weapon damage (knick, bend or tear),
+  failure: failed by 5 or more: automatic minor weapon damage, slight chance of major weapon damage (rendering unusable or less effective). Can use reaction to mitigate.
+  critical failure: automatic major weapon damage. Can use reaction to mitigate.
+
+### feats
 ![[Brew|dendron://dnd/dnd.brew.feats]]
+
+#### sharpshooter
+  - no quarter: you treat half as no and 3/4 as half cover and other foes do not impede line of sight.
+  - versatile: you can use any attack maneuver with ranged weapons
+  - focus: if you haven't moved this turn +1 to attack and damage rolls with ranged attacks.
+  - eagle eyed: no disadvantage max range; you can discern color even in dim environments.
+
+-> change max distance on bows based on strength
+: 300 long; below 10 str: 300ft
+  half for every negative ASMod
+
+#### close-quarters shooter

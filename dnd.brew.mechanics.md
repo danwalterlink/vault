@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686147123696
+updated: 1686150544419
 created: 1684961188700
 ---
 or is inclusive, oor is exclusive, xor is not or
@@ -266,7 +266,7 @@ tracking hitpoints per item is tedious,
   piercing: +1 atk
 
 ## status conditions
-
+h2>to
 {{template}}: while {{status.condition}} you experience the following effect:
 · {{effect}}: ….
 
@@ -571,4 +571,3 @@ A ranged attack with melee weapon generates a ranged weapon attack instance for 
 typecast cleric feature for any mental ability
 
 ## lightning reflexes
-
