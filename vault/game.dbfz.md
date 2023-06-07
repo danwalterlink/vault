@@ -1,10 +1,12 @@
 ---
-id: n1dtdcd6apkucqer7c0qc6a
+id: 95vjsbnn6tnlrv0jz4m1vh7
 title: dbfz
 desc: ''
 updated: 1685898931023
 created: 1631560106201
-tags: [gaming, practice]
+tags:
+  - gaming
+  - practice
 ---
 
 ## t2 practice 2020-08-05 10:57:12

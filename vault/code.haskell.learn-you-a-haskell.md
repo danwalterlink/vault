@@ -1,5 +1,5 @@
 ---
-id: yknxrsi0614u1ja45h1b4l7
+id: p427uwaknyaheam8ssbelce
 title: Learn You a Haskell
 desc: ''
 updated: 1633209759986

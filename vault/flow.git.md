@@ -1,10 +1,13 @@
 ---
-id: tgslwm8h0kupakddwut2gtl
+id: qo93b2nwkpwt3y9ixvd0ull
 title: Git
 desc: ''
-updated: 1680000198893
+updated: 1686147514551
 created: 1664713853433
 ---
+
+\flow follow tags?
+\flow declare intent in advance
 
 ## env
 - sensible global config

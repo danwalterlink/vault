@@ -1,5 +1,5 @@
 ---
-id: 0m1vhk2btawp8r8dkzhzajy
+id: 9q2rdghfp9x4xla9ck398mv
 title: Operators
 desc: ''
 updated: 1636458856230

@@ -1,5 +1,5 @@
 ---
-id: x0d5jsqok1n2jy55euhc903
+id: wqc74mttokdiaqyhoa47zww
 title: Barbell
 desc: ''
 updated: 1683711604278

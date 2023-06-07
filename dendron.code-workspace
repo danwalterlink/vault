@@ -46,6 +46,7 @@
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggest.showSnippets": true
+        "editor.suggest.showSnippets": true,
+        "files.autoSave": "onFocusChange"
     }
 }

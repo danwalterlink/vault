@@ -1,5 +1,5 @@
 ---
-id: qkcdvdo6lqs9lppyozcyqz1
+id: xmzj328hbp57mikro3j111m
 title: Friction and Cybernetics
 desc: ''
 updated: 1681396026848

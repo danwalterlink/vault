@@ -1,5 +1,5 @@
 ---
-id: vnmwhu7v87gfhq0xm3ekflu
+id: bkc2tozqk7c38an27i6svm6
 title: Jargon
 desc: ''
 updated: 1633199319499

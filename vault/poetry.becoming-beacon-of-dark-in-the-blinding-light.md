@@ -1,5 +1,5 @@
 ---
-id: kld690kt8k2e0952gvp7rcs
+id: 55vryqu42xbfj10scn2peon
 title: Becoming Beacon of Dark in the Blinding Light
 desc: ''
 updated: 1636843899086

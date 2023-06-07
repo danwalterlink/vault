@@ -1,5 +1,5 @@
 ---
-id: dp1nqfjyn2wgd16np68971v
+id: vwz4z4mhydyo36x1ozwjuda
 title: >-
   Reasoning HTTPS Developer Apple Com Design Human Interface Guidelines macOS
   App Architecture Fullscreen Mode Text Enable 20full Screen into 20other

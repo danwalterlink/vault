@@ -1,5 +1,5 @@
 ---
-id: 8y4ohn8o7c9n76oy8wnp1ql
+id: x9np56h84r7tn7qwjgg2gzt
 title: Syntax
 desc: ''
 updated: 1679311946360

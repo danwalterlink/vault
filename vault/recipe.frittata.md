@@ -1,5 +1,5 @@
 ---
-id: lwh27q8e88aecfqv49h6wnb
+id: 2185iyw6hfp2senv3pje1ec
 title: Frittata
 desc: ''
 updated: 1633199319645

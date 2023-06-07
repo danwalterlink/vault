@@ -1,5 +1,5 @@
 ---
-id: ixfmzgucp8e0pdwdi35u9kf
+id: gdggcm5tq8qqezfk667r9hv
 title: Promise
 desc: ''
 updated: 1633262353425

@@ -1,5 +1,5 @@
 ---
-id: lb8221txoj1kc8ybb2c8sby
+id: my4y6nelgr0ek76ioh3fa4n
 title: Tmux
 desc: ''
 updated: 1664542873011

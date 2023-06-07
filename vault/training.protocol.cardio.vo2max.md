@@ -1,5 +1,5 @@
 ---
-id: fwo4s959m1ik3htpfb0j64p
+id: yuzwlnw9yc2nmoikysyqlwi
 title: Vo2max
 desc: ''
 updated: 1678448991245

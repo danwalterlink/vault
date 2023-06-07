@@ -1,5 +1,5 @@
 ---
-id: 37mlhheabtxw73j8h9cz2sf
+id: wblovzmn94aijxk8u8evgso
 title: Sichuan
 desc: ''
 updated: 1633199319669

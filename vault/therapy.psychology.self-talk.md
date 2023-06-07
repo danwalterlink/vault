@@ -1,5 +1,5 @@
 ---
-id: 6f5vwiijhh4b4zd17ff8jbm
+id: lpllqk3k2cv1scjz969la77
 title: Self Talk
 desc: ''
 updated: 1661861620238

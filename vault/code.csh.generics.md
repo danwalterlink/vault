@@ -1,5 +1,5 @@
 ---
-id: 5frlgufp4wgxg2aj3zi2d07
+id: gghcg22889kzw21e6jl32hp
 title: Generics
 desc: ''
 updated: 1633199319551

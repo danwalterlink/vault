@@ -1,5 +1,5 @@
 ---
-id: lvxg1lmdr1ljpucbki5ymii
+id: 1umsc1vbe2e0edwd3jy6elg
 title: tmux
 desc: ''
 updated: 1685725866657
