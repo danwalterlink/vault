@@ -2,7 +2,7 @@
 id: erma2r7ev5hhk3woawyh21o
 title: Custom
 desc: ''
-updated: 1686146516177
+updated: 1686157710457
 created: 1686137589009
 ---
 
@@ -21,3 +21,15 @@ starting options
 
 multiclass
   requirement
+
+type: <trait>
+subtype: inherit
+
+[ 0: core
+, {default}
+]
+
+0
+  class base feature
+  class base type
+  unrestrained feat: ignore all requirements

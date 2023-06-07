@@ -2,12 +2,14 @@
 id: obvnowkpifsmq7qdj6fqnhj
 title: Autodidact
 desc: ''
-updated: 1685617048311
+updated: 1686157616410
 created: 1685128334068
 tag: template
 ---
 
-type: any
+instance of <class.custom>
+
+type:
 subtype: any
 
 templating class
@@ -16,22 +18,3 @@ based around: "pick"
   class base feature
   class base type
   unrestrained feat: ignore all requirements
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18 epic feature
-19
-20

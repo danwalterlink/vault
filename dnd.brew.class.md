@@ -2,9 +2,17 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1686149929978
+updated: 1686160081968
 created: 1684956724533
 ---
+
+unclassed: lvl:0
+class: [tier, character, profession, archetype, class, subclass]
+template: ?
+[ core: 1
+, sub: 2..3
+, master:
+]
 
 rebuild class system on:
   types
@@ -12,10 +20,9 @@ rebuild class system on:
     traits
 
 ## typification / classification
-
 archetype: martial(proficiency(with martical weapons)), caster(spellcasting)
   trait defined; if both: dual.
-character (class) type: [single, mixed, multi]&#x3A;
+character (class) type: [single, mixed, multi]
   total character class: cumulative type description
     total character class level: legacy character level
     derived character class level: cumulative character class level
@@ -27,25 +34,24 @@ caster:
 specialist
 hybrid
 
-type:class: [warrior, expert, mage, priest, occult]
-    warrior: [honed, sly, brute]
-      attack [practiced, sneak, reckless]
-      maneuver, focus, stance
-      style
-    expert: [artificer, pilferer, thaumaturge]
-      expertise
-    mage: [prepared, known, innate]
-      spellcasting
+type.class ? [warrior, expert, mage, priest, occult] :
+    warrior ? [honed, sly, brute] :
+      fighting style
+      maneuver
+        attack: [practiced, sneak, reckless]
+        focus: [requires focus]
+        stance: [alters movement]
+    expert ? [ magewright:tinkerer, pilferer, thaumaturge] :
+      [ expertise, innovation]
+    mage ? [prepared, known, innate] :
+      school
       metamagic
-      specialization
     priest: [divine, primal, eldritch]
-      spellcasting
+      order
       channel
-
-```
-crucible: [investiture, imbibe, pact]
-  invoke
-```
+    crucible: [investiture, imbibe, pact]
+      eldritch entity
+      invoke
 
   class:type: [legacy, base, sub, derived, prestige, paragon]
 
@@ -58,7 +64,6 @@ feature type: [learned, pilfered, crucible]
     warlock: everything
 
 ## class type features
-
 supertypes: focused (+50% type scaling), dip, poly: paragon requirements
 \_ {class}:
   adapter: {legacy}
@@ -71,16 +76,14 @@ supertypes: focused (+50% type scaling), dip, poly: paragon requirements
   prestige: multi/core/supplemental/replacement
   paragon: improved scaling?
 
-## base class template:
-
+## base class template
+![[dendron://dnd/Progressions|dnd.brew.class.progressions]]
 {one phrase description}
 traits: [class type]
 unified basic features: extended in subclasses
 extending type class features: {}
 paragon features: {}
 base class feature: {}
-
-![[dendron://dnd/Progressions|dnd.brew.class.progressions]]
 
 ## feature
 feature can be untyped
@@ -96,76 +99,34 @@ whenever you choose character features, you can forego that choice and instead g
 \-> 2 options + no choice.
 
 %TAG ! tag:dnd.ddubl,class:
-\--- !base
-
-- artificer: ![[dendron://dnd/Class|dnd.brew.class.artificer]]
-infuser, tinkerer
-
-- barbarian: ![[Barb|dendron://dnd/dnd.brew.class.barb]]
-
-- bard: ![[Bard|dendron://dnd/dnd.brew.class.bard]]
-
-- blood hunter: ![[Bh|dendron://dnd/dnd.brew.class.bh]]
-
-- cleric: ![[Cleri|dendron://dnd/dnd.brew.class.cleric]]
-
-- druid: ![[Druid|dendron://dnd/dnd.brew.class.druid]]
-
-- fighter: ![[Fighter|dendron://dnd/dnd.brew.class.fighter]]
-
-- monk: ![[Monk|dendron://dnd/dnd.brew.class.monk]]
-
-- monster hunter
-  [ imbibe
-  , prowl
-  , quarry
-  ] -> move into ranger; spellless)
-
-- mystic
-applied, retreat
-  [ psionics
-  , meditate
-  , discipline
-  ] -> immortal -> move into psion)
-
-- paladin
-priest, warrior
-  [ divine sense
-  , paragon/champion (divine presence/aura)
-  , lay on hands
-  ] \(vengeance)
-
-- psion
-derived class: typecast power source to psionic.
-  [ psionics
-  , raw talent
-  , discipline
-  ] -> awakened -> move to crucible -> improves arcane resource generation (or move into monk?))
-
-- ranger
-explorer, exploiter
-  [ prowl(explorer, foe, awareness),
-  , scavenge
-  , primal preparation (+ability appropriation: primal)
-  ] \(gloom stalker)[adaptable]
-(hunter/monster hunter/monsterslayer, drakewarden/beastmaster, trapper)
-
-- rogue: ![[Rogu|dendron://dnd/dnd.brew.class.rogue]]
-
-- sorcerer: ![[Sorc|dendron://dnd/dnd.brew.class.sorc]]
-
-- warlock: ![[Warlock|dendron://dnd/dnd.brew.class.warlock]]
-
-- wizard: ![[Wizar|dendron://dnd/dnd.brew.class.wizard]]
+--- !base
+![[artificer|dnd/Class|dnd.brew.class.artificer]]
+  infuser, tinkerer : profession := magewright
+![[barbarian|dnd.brew.class.barbarian]]
+  |-[psion]
+![[bard|dendron://dnd/dnd.brew.class.bard]]
+![[witcher/blood hunter|dendron://dnd/dnd.brew.class.blood-hunter]]]
+![[cleric|dendron://dnd/dnd.brew.class.cleric]]
+![[druid|dendron://dnd/dnd.brew.class.druid]]
+![[fighter|dendron://dnd/dnd.brew.class.fighter]]
+![[monk|dendron://dnd/dnd.brew.class.monk]]
+  |-[mystic]
+![[paladin|dendron://dnd/dnd.brew.class.paladin]]
+![[ranger|dendron://dnd/dnd.brew.class.ranger]]
+  |-[hunter]: monster hunter
+![[rogu|dendron://dnd/dnd.brew.class.rogue]]
+![[sorc|dendron://dnd/dnd.brew.class.sorc]]
+![[warlock|dendron://dnd/dnd.brew.class.warlock]]
+![[wizard|dendron://dnd/dnd.brew.class.wizard]]
 
 ## class types
-
 all class types have empty/generic variants.
 \-> ie. pick: generic metaclass warrior:
 [legacy]
 obsolete class, superseded by a newer version
 [derived]
 beast master -> drakewarden
+
 : variations/sub-subclasses
 just syntactical sugar that makes inheritance-like models more apparent
 [affix/prefix system?]
@@ -204,13 +165,13 @@ balanced multiclasses: lose primary class, gains an additional secondary class
 mixed martial classes: style
 
 ### meta
-
 #### warrior
-
   honed(balanced; any style)
     :maneuver, power attack; all Weapons
+
   sly(emphasize dex/precision; dice conversions and additional effects; precise styles)
     :maneuver, sneak attack; Dextrous Weapons
+
   brute(rage; typecast certain ability score to str/con; brutal styles)
     :maneuver, reckless attack; Strength Weapons
     \-> intellect brute(psion!): typecast everything to intelligence
@@ -280,7 +241,6 @@ super (spell slot progression, trait doctoring -> supplanting traits = grafting)
   psion(raw arcane(psychic force)),
   mystic
     psi/chi (psi -> chi: "bodied" psi)
-
   - replace innate casting somatic component with an {unarmed strike}
 
 metaclass: "pick" mechanic
@@ -292,7 +252,6 @@ subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon
   other means of acquiring paragon traits: high level (sub)class feature
 
 ## paragon class type
-
 warrior / priest
   exemplar - champion - paragon
 caster / expert
@@ -318,9 +277,7 @@ caster paragon (caster/caster/caster)
 warlock doesn't advance any other progressions. typecast class; crucible;
 
 ## prestige
-
 ### meta
-
 warrior {honed, sly, brute}
 expert {artificer, thaumaturge, pilferer}
 priest(divine, primal, eldritch)
@@ -329,7 +286,6 @@ occult(pact, crucible)
 \-> crucial distinction: no-spell-progression, half-spell-progression, full-spell-progression
 
 ##### caster
-
 core: spellcasting/magic tinkering/
   wizard: scribe/memorize/alter spell
 

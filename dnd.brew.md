@@ -2,7 +2,7 @@
 id: cr6c1y1bpckfo7fvx9xkqa6
 title: dnd-6
 desc: ''
-updated: 1686155628763
+updated: 1686157504215
 created: 1684357294795
 ---
 
@@ -86,7 +86,15 @@ If the total cumulative amount of ASI no more than 3, you may take a feat.
 
 ![[dendron://dnd/dnd.brew.ancestry]]
 
-### Background
+### Brief Background
+baseline:
+  : can give up skill and tool proficiencies to upgrade
+  2 skills, 1 tool
+  +variant: feat that entails some the above and give up the rest
+  common + 1 regional language
+
+
+  {background.custom}
   - basic: 2 skills, 1 tool(choice)
   - some gain other benefits instead
 
