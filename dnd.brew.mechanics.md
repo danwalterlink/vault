@@ -2,9 +2,10 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686150544419
+updated: 1686156111149
 created: 1684961188700
 ---
+
 or is inclusive, oor is exclusive, xor is not or
 calculations are by default:
   rounded down
@@ -22,13 +23,10 @@ definitions:
   if you convert dice sizes pick the closest amount resulting in the same average
 
 ## categories
-
 ### type
-
 types are additive, category-specific (non-commutative) and transitive.
 
 #### damage
-
 force, physical(b,p,s),
 necrotic, radiant
 poison, acid
@@ -40,36 +38,26 @@ counterpunch: range longer: more force
 - elemental vulnerabilities
 
 #### type additions
-
 ##### item
-
 minor, medior, major
 
 ###### generic
-
 [spellcharge]({damage.type}) spell does {damage.type} gain charge.
   [discharge]
 
 ##### spell level tier
-
 cantrip(0), minor(1,2,3), medior(4,5), major(6,7,8), epic(9)
 
 ##### character level tier
-
 (4) 0-2 novice, 3-6 master, 7-11 heroic, 12-16 grand, 17+ epic
-
 alternate ways to unlock epic tier traits: increase an ability score above 20?
 
 ## action
-
-## attack
-
-### default critical misses
-
+### attack
+#### default critical misses
   messing with resources adds to the messed with resource instead while losing your expended resource.
 
-### roll
-
+#### roll
 extraordinary fumble: min on at least 2 dice on disadvantage or worse: minor and major adverse
 fumble: min attack dice size: minor adverse: nick your weapon
 miss &lt;=-3 to hit
@@ -78,8 +66,7 @@ hit >= to hit
 clean >=5 hit
 critical >= max attack dice size
 
-## resources
-
+### resources
 {interface}: "once per {length} rest" is equivalent to 1d2, doubling in size per stacking instance.
 any trait that instances usage counts as a resource spent per instance.
 resource refers to sources of those instances.
@@ -101,16 +88,16 @@ If a base cost requirement cannot be met, even if another trait allows you to pa
 - buy a reroll with exhaustion
   \-> oDnD exhaustion rules
 
-### activity dice
-
+#### activity dice
 translate fixed action economy into activity dice
 [typed] - attack, move, magic {
 
 - activity dice size = proficiency dice size -> conversions become more expensive in general, if you level up.
-  spending activity dice allows you to exceed your action limit, not vice versa.
+    spending activity dice allows you to exceed your action limit, not vice versa.
 - whenever you expend resources, you can spend up to the amount stated.
 - typed dice other than movement expire at the end of your round
-  expired dice appreciate, convert into activity dice and return to your activity dice pool
+
+- expired dice appreciate, convert into activity dice and return to your activity dice pool
   \-> follow proration rules. leftovers fuse into dice( 3 depreciated d2s becomes 1s, add to d3 and round down to d2).
   \-> converting multiple instances of typed dice is very inefficient
   \-> spending slightly less can accrue significant mid-term value
@@ -118,6 +105,7 @@ translate fixed action economy into activity dice
   receiving activity dice:
     interacting with objects uses movement (or magic dice)
     interacting with creatures uses attack dice}
+
 - 1 action = 1 dice
 - bonus action = 1/2 dice
 - reaction = 1/2 dice
@@ -126,22 +114,24 @@ translate fixed action economy into activity dice
   spending dice: (initial, prorate, max)
       grants additional effects?
       \-> swifter attacks become less accurate
+
     action: (1, +2, 5)
     [cost modifiers]
     bonus: (1, +1, 2)
     reaction: (1, +1, 0) proration decreases for each turn you haven't used one
+
     \-> reactions become cheaper when certain enemies are around
     concentrating: +.5
     \-> war caster: letting you cast spells as reaction is way cheaper
     mvmt speed: 1 dice (doubling speed halves cost)
   \-> equivalent to halving movement speed = double dice cost
+
   prorate:
     features like extra attack adapt to:
-  ```
   - attack actions have lower initial proration.
   - attack actions cost less (minimal scaling)
   (2 attacks halves the cost, )
-  ```
+
     some actions can have hybrid costs
     i.e. it's beneficial for users of costly actions, such as magic to be as stationary as possible.
   total level class -> variant scaling: some
@@ -158,27 +148,21 @@ ie. spells somatic components require movement speed.
 this means that some spells can be cast
 
 ## ability score
-
 ### ability score type
-
 #### physical
-
   str
   con
   dex
 
 #### mental
-
   wis
   int
   cha
 
 #### status
-
   renown
 
 ### disfigurements
-
 - lose a hand
 - lose a foot
 - mute
@@ -186,9 +170,7 @@ this means that some spells can be cast
 - blind
 
 ## trait
-
 ### generic
-
 generics, apply if possible.
 [adaptible] change on trigger
   adaptible(SR): change on short rest
@@ -237,15 +219,14 @@ generics, apply if possible.
     You may concentrate on each instance of an echoed spell simultaneously as if spellweaving{x}.
   [spellweave] {{magic.concentrate}} if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
   [riposte][debilitate]: {{attack.sneak}} attack dice for effects # crit => more effects
+  [imbue]: {{attack.primal}}
 
-[imbue]: {{attack.primal}}
+## status condition
+{{template}}: while {{status.condition}} you experience the following effect:
+· {{effect}}: …
 
-[imbue]
-
-## item
-
-### hit dice
-
+### item
+#### hit dice
 along the {{generic object}} table.
 object\[size[tiny,...,huge], ac\[material[paper,11],...,[adamantine,23]],dice.size[d4,...,10], dice.amount[2,...,5], modifier:\[craftingQuality, trait[resilient:2,fragile:1/2]]
 \-> retrieving arrows: arrow[1d4]
@@ -256,8 +237,12 @@ tracking hitpoints per item is tedious,
     post combat: #rounds = dmg for used weapons
     armor gets damaged when hit
 
-### status conditions
+#### object {status} condition
+damaged: at or below half hp
+broken/torn: up to one maximized hit dice away from 0 hp.
+shattered/ripped: 0 hp.
 
+#### equipment {status} conditions
 [blunt]&#x3A; below half maxed half hit dice
   slashing: -1 dmg
   piercing: -1 atk
@@ -265,13 +250,7 @@ tracking hitpoints per item is tedious,
   slashing: +1 dmg
   piercing: +1 atk
 
-## status conditions
-h2>to
-{{template}}: while {{status.condition}} you experience the following effect:
-· {{effect}}: ….
-
-### creatures
-
+### creature
 bloodied: at or below half hp
 healthy: your current hit points are within your biggest maximized hit dice worth of hp from your maximum.
 dazed: Can't take bonus actions or use reactions. You cannot concentrate. You can either
@@ -281,17 +260,10 @@ dazed: Can't take bonus actions or use reactions. You cannot concentrate. You ca
 despaired: you become frightened of creatures that attack you. You cannot be inspired.
 
 #### grievous wounds
-
 on receiving lethal strikes, you have a chance to sustain a grievous wound.
 
-### objects
-
-damaged: at or below half hp
-broken/torn: up to one maximized hit dice away from 0 hp.
-shattered/ripped: 0 hp.
 
 ## trait doctoring
-
 having traits with the same name in different categories and layering traits/features on top of them could be interesting:
   ie. mage slayer (focus: ); (weapon mastery); (spellcasting specialization)
   (generic improvement):slasher: enhances "mage slayer": a creature hit with the attack while casting or continuing a spell becomes vulnerable to {slashing} damage
