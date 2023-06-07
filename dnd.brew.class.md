@@ -2,16 +2,19 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1686160081968
+updated: 1686160491500
 created: 1684956724533
 ---
 
 unclassed: lvl:0
-class: [tier, character, profession, archetype, class, subclass]
-template: ?
-[ core: 1
-, sub: 2..3
-, master:
+advancementTable: [tier][character, profession, archetype, class[type]]
+tier: ?
+[ novice: 0
+, core: 1..
+, master: 3..6
+, heroic: 7..10
+, epic: 11..16
+, legendary: 17..
 ]
 
 rebuild class system on:

@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686156155740
+updated: 1686160573644
 created: 1684961188700
 ---
 
@@ -326,18 +326,15 @@ can't expend more than double your turn rate?
 \-> taking "partial turns"
 
 ### action: defer
-
  use your reaction: you move your turn to after a friendly character.
 
 ## activity dice
-
 your activity dice carry over.
 you cannot store more than double your turn rate in dice.
 your action dice size is equal to your proficiency dice's
 \-> resource system
 
 ## heroic actions
-
 much like legendary creatures have access to additional actions in legendary actions, heroic actions may be taken by creatures if they expend heroic inspiration.
 you cannot take heroic actions if you:
 
@@ -353,47 +350,38 @@ you cannot take heroic actions if you:
     20: all inspirations = legendary
 
 ### heroic: surge
-
 you may take an additional action.
 : traits have action dice usage templates/associations
 \-> tied to proficiency dice size, multiply and/or add with modifiers
 \-> gain 4 activity dice?
 
 ### heroic: resistance
-
 choose a damage type to gain resistance to until the end of your next turn.
 heroic: the target of your next attack or spell either gains or loses resistance to the damage type until the end of its turn
 
 ### heroic: resilience
-
 either:
 
 - end the incapacitated, stunned or dazed condition, gain 1 activity dice.
 - cast half your smallest hit dice size amount of dice in your biggest hit die. Regain that amount of hp.
 
 ### heroic: bulwark
-
 - you gain +3 to your AC until the end of your next turn.
   heroic: if an attack targeting you misses, you may use your reaction to make an opportunity attack.
 
 ### heroic: sentinel
-
 hitting opportunity attacks replenish your reaction until the end of your next turn.
 heroic: disengaging enemies still provoke opportunity attacks
 
 minimal ritual:
-
 - dc check to cast, fail to make less effective
-
 ![[dendron://dnd/Martial|dnd.brew.martial]]
 
 ## trait: luck
-
 if multiple dice in the same roll show the same face, you may add a copy one of these dice to your lucky dice pool.
 create your own luck: legerdemain skill contest: you appropriate the dice instead and store it for a rainy day. Swap either the result or size of a dice roll with your stored dice before or after, respectively.
 
 ## resources
-
 modifiers can be converted to dice.
 dice can be spent as resources to gain more, whenever an associated roll is called:
   attack
@@ -403,11 +391,9 @@ dice can be spent as resources to gain more, whenever an associated roll is call
 resource changes and allocations add dice
 (also, resource expenditure can be indicated by dice size)
 \-> generation of feature usage makes dice smaller (until size breakpoint)
-
 [mystical] alternate casting cost of differing type
 
 ### heroic inspiration
-
 you can only ever have 1 heroic inspiration, and gain it by:
 
 - at least two dice rolls would have resulted in successes on contested d20 tests with disadvantage or worse, or if additonally one of those hits resulted in a critical hit for rolls made with advantage or better.
@@ -417,26 +403,21 @@ you can only ever have 1 heroic inspiration, and gain it by:
 - roll an additional dice for a d20 test, pick one to discard.
 
 ### proficiency
-
 dice size average equals your proficiency modifier.
 \+2 is d4, etc. up to +6 = d12 increased every 4th level past 1st (5th, 9th…)
 
 ### spell points
-
 you use spell slots, but can convert between spell slots at spell point rate.
 2,3 5,6,7 9,10,11,13; points cost per spell level
 can only convert 1 slot above 6th per spell level per day.
 
 ## feat
-
 ### featuring
-
 analogous to "ability score increase",
 "featuring" allows you to choose a class feature from a class sharing your primary class type and of a level up to that cumulative class type level. traits gained this way have the "feature" type.
 \-> type restriction from character
 
 ## unraveling weave
-
 DC Spell level - closeness to spell: damage type - school
 opposed types +5
 if you fail the check, chaos bolt at creature within reach.
@@ -444,7 +425,6 @@ critical fail: arcane anomaly (DoD:225)
 when a spell fizzles after it was cast within your reach, you may use your reaction to cast a spell that takes at most an action. If you cast a spell this way, reduce the needed spell slot by up to half the fizzled spells level.
 
 ## counterweave
-
 - disergy
   add spell levels
 - synergy
@@ -452,14 +432,12 @@ when a spell fizzles after it was cast within your reach, you may use your react
   enhance next attack
 
 ## splitting spells
-
 [spellweave: echo]
 for each instance of additional damage a spell would gain, you may instead, either:
 
 - copy the spell an equal number of times. You may choose new targets for the copy.
 
 ## [paragon] {spell school} practicioner
-
 (prereq: 5th level spells, paragon of knowledge)
 spells known of school/total spell level of 3rd level or higher
 
@@ -469,7 +447,6 @@ spells known of school/total spell level of 3rd level or higher
   if non-spellschool: every activity: concentration check
 
 ## modes of success
-
 4 stage:
   clear/clean fail/success : by 5 or more
   fail/success
