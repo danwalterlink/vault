@@ -1,17 +1,20 @@
 ---
-id: 0mjq7ica0zvr7eqi19onh50
+id: wc3f0zjrt51e6f6qqpo8mj9
 title: Combo
 desc: ''
 updated: 1649783043139
 created: 1649783043139
 ---
+## stated
 
-
-# stated
 ## boarded
+
 ### opponented
+
 #### artifacted
+
 if opponents control 6+ artifacts:
   lore drakkis
   dockside exortionist
   chain of vapor
+
