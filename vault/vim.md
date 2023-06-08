@@ -2,11 +2,13 @@
 id: tds9fre553s7lvh250jstm7
 title: Vim
 desc: ''
-updated: 1686151823398
+updated: 1686220221974
 created: 1636203835676
 ---
 
-#! ctags integration: word recognition
+move sneak : $ #t #$p.1
+
+ctags integration: word recognition #t #$p.2
 
 goTo last non-whitespace char?
 jump markList: C-t
