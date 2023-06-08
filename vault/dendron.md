@@ -2,13 +2,13 @@
 id: 7i1txufkugn8e5o568oslax
 title: Dendron
 desc: ''
-updated: 1686144352344
+updated: 1686232089002
 created: 1636846848375
 ---
 
 extract components:
 - pod: data sources | ingest
-- tag: custom syntax definition
+- tag: custom syntax definition :hooks, :queries
 
 [Dendron Links](https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2/)
 

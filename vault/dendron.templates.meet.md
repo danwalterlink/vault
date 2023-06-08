@@ -2,7 +2,7 @@
 id: t01n060e4ev3ar140z7mvmf
 title: Meeting Notes Template
 desc: ''
-updated: 1656360904148
+updated: 1686228908081
 created: 1656360904148
 ---
 
@@ -11,7 +11,7 @@ _Edit the [[dendron.templates.meet]] note to change this template generated for 
 ## Attendees
 <!-- Meeting attendees. If you prefix users with an '@', you can then optionally click Ctrl+Enter to create a note for that user. -->
 
-- @JohnDoe
+- @JohnDoe #proxy #todo service -> query
 
 ## Goals
 <!-- Main objectives of the meeting -->

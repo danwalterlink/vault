@@ -2,14 +2,20 @@
 id: zxfs9vjpm9sm4bitmacsodp
 title: Flow
 desc: ''
-updated: 1686223905041
+updated: 1686229091358
 created: 1638022787958
 ---
 
-collect link fragments to footer #f
--> move tags to line endings
+ephemerals/buffer -> ?emacs and git tags
+-> discard history unless referenced
+: dataPod : injectable
 
-- [linking to fragment syntax](https://wicg.github.io/scroll-to-text-fragment/#syntax)
+handlebars schema
+
+readability in raw
+generate footnotes with links #f
+
+[linking to fragment syntax](https://wicg.github.io/scroll-to-text-fragment/#syntax)
 #:~:text=[prefix-,]start[,end][,-suffix]
           context  |--match--|  context
 
