@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686215511800
+updated: 1686221299551
 created: 1684961188700
 ---
 
@@ -287,6 +287,7 @@ without medical, during short rest: 1 hit dice = 1 death save
 or through magical means
 
 ## action economy
+non-activity is a choice
 (call/check)
 combat:
 roll initiative (dex ab check)
@@ -322,7 +323,9 @@ can't expend more than double your turn rate?
 \-> complex actions cost more
 \-> taking "partial turns"
 
+
 ### action: defer
+ --> talent:battle
  use your reaction: you move your turn to after a friendly character.
 
 ## activity dice

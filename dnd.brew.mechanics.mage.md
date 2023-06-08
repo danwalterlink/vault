@@ -2,7 +2,7 @@
 id: mi16szssf7x7184dxi3gu43
 title: Mag
 desc: ''
-updated: 1686214362329
+updated: 1686219829597
 created: 1686172907827
 ---
 
@@ -11,8 +11,6 @@ created: 1686172907827
 eldritch: hex
 - reverberating hex
 - multiplying hex
-divine: bless/bane/smite
-primal:
 
 ## wizard
 spelltinker
