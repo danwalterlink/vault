@@ -2,7 +2,7 @@
 id: t70g4mq369dv06sh1h8wypj
 title: Martial
 desc: ''
-updated: 1686145565994
+updated: 1686215323401
 created: 1685282944352
 ---
 
@@ -86,6 +86,26 @@ additional extra attacks
 
 maneuver: coordinate
 
-rule: flanking
+rule:
+flanking
   current flanking := surrounded += new flanking
+  ? quarry, mark
   when flanking, flanking maneuvers: coordinate
+    attacking a flanked target counts as having provided help to a cooperating creature.
+    -> define: [cooperate] proficiency or same skill that has the needed resources)
+  surrounded: you attack surrounded creatures with advantagr
+
+additional feat: battle-readied
+  use your reaction to perform an action or bonus action.
+
+sly: ignore "on your" restriction
+  heroic: twice per turn
+  epic: ignore
+  legendary: reaction
+
+\func template for scaling effects
+  {{t0}} : talent : 0 : [adept, novice]
+  {{t1}} : master : 3
+  {{t2}} : heroic : 7
+  {{t3}} : grand  : 11
+  {{t4}} : epic   : 17

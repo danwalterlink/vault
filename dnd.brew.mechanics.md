@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686160729347
+updated: 1686215511800
 created: 1684961188700
 ---
 
@@ -175,6 +175,7 @@ generics, apply if possible.
 [adaptible] change on trigger
   adaptible(SR): change on short rest
 [typecast] ability association
+  what happens if typecasting "pact of the tome?: "count as warlock spells" as a wizard or if I gain access to ritual scribing spells as warlock?
 [pilfering] assume a type of same class type
 [aleatoric] dice shape {amount· size}, effects on combinations
   aleatoric[n][n+1][n+2]&#x3A; the target becomes poisoned
@@ -267,6 +268,7 @@ having traits with the same name in different categories and layering traits/fea
   ie. mage slayer (focus: ); (weapon mastery); (spellcasting specialization)
   (generic improvement):slasher: enhances "mage slayer": a creature hit with the attack while casting or continuing a spell becomes vulnerable to {slashing} damage
 #i -> replace typed concept with another concept of that type (not commutative!)
+\$src:XUA23P5 mystic arcanum typecast to {{T<Class>}}
 
 ## d20 tests
 skill checks: modes of success:
@@ -330,6 +332,8 @@ your action dice size is equal to your proficiency dice's
 \-> resource system
 
 ## heroic actions
+? smaller talent actions as prerequisite
+
 much like legendary creatures have access to additional actions in legendary actions, heroic actions may be taken by creatures if they expend heroic inspiration.
 you cannot take heroic actions if you:
 
@@ -352,13 +356,15 @@ you may take an additional action.
 
 ### heroic: resistance
 choose a damage type to gain resistance to until the end of your next turn.
-heroic: the target of your next attack or spell either gains or loses resistance to the damage type until the end of its turn
+epic: the target of your next attack or spell either gains or loses resistance to the damage type until the end of its turn
+legendary: vulnerable
 
 ### heroic: resilience
 either:
-
 - end the incapacitated, stunned or dazed condition, gain 1 activity dice.
 - cast half your smallest hit dice size amount of dice in your biggest hit die. Regain that amount of hp.
+epic: gain {{char.speed}}/2 of safe movement
+legendary: as a reaction ~
 
 ### heroic: bulwark
 - you gain +3 to your AC until the end of your next turn.
@@ -436,7 +442,7 @@ for each instance of additional damage a spell would gain, you may instead, eith
 spells known of school/total spell level of 3rd level or higher
 
 - {1}: practicioner: [enhances: arcane recovery] spell point cost decrease for {school} per paragon rank (min 1,3); additional spell points only usable for {school}
-- {2}: master: [expert](school) {typecast(divination expert::school)}
+- {2}: master: [expert]({{school}}) {typecast(divination expert::school)}
 - {3}: grandmaster: enhances:[spellweaver] {max slot lvl + mSl/4} majority {spell school}}
   if non-spellschool: every activity: concentration check
 

@@ -2,7 +2,7 @@
 id: uze154ejpyr107ljbpsmaw8
 title: gloomAssassin
 desc: ''
-updated: 1686144352365
+updated: 1686165737950
 created: 1686082730251
 ---
 
@@ -47,3 +47,4 @@ Piercer.snipe | 44 | (m)76/85  | 162      | 292
 -> always crit := double dice and never crit
 
 #improve ways to get reaction/sneak attacks
+-> GH:PG parrying
