@@ -2,7 +2,7 @@
 id: emeqgfzdlvb9zvqxz2kyjoa
 title: Build
 desc: ''
-updated: 1686167692258
+updated: 1686260832521
 created: 1686148909592
 ---
 
@@ -21,6 +21,8 @@ construction
   + average of official adventures
   -> backlinks
 - diversity of play pattern
+metrics
+lvl 3,7,11,15(,20)
 
 tag
 ooT actions
