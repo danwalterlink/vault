@@ -2,9 +2,12 @@
 id: zxfs9vjpm9sm4bitmacsodp
 title: Flow
 desc: ''
-updated: 1686151783257
+updated: 1686223905041
 created: 1638022787958
 ---
+
+collect link fragments to footer #f
+-> move tags to line endings
 
 - [linking to fragment syntax](https://wicg.github.io/scroll-to-text-fragment/#syntax)
 #:~:text=[prefix-,]start[,end][,-suffix]

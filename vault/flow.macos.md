@@ -2,9 +2,12 @@
 id: 75t3tu7u5f0waikckbs4wi2
 title: macOS
 desc: ''
-updated: 1678186671822
+updated: 1686223777675
 created: 1665483751365
 ---
+
+adding fn - touchpad: absolute coordinates #f
+
 ![[Karabiner|dendron://dwl/karabiner]]
 hammerspoon
 modes
