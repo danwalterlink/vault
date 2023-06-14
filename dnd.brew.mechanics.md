@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686221299551
+updated: 1686404809672
 created: 1684961188700
 ---
 
@@ -421,7 +421,7 @@ analogous to "ability score increase",
 \-> type restriction from character
 
 ## unraveling weave
-DC Spell level - closeness to spell: damage type - school
+DC Spell level - closeness to spell: damage typ - school
 opposed types +5
 if you fail the check, chaos bolt at creature within reach.
 critical fail: arcane anomaly (DoD:225)

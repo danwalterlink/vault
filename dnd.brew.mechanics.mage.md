@@ -2,7 +2,7 @@
 id: mi16szssf7x7184dxi3gu43
 title: Mag
 desc: ''
-updated: 1686219829597
+updated: 1686392848411
 created: 1686172907827
 ---
 
@@ -14,3 +14,7 @@ eldritch: hex
 
 ## wizard
 spelltinker
+spellweave
+fold space
+timefold
+  when choosing targets for a spell, you can choose the same targets any number of times. For each targeting above the first, you send the spell 1 turn into the future or set conditions for the effect to trigger.

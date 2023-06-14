@@ -2,11 +2,11 @@
 id: se4a1ksiut9h8hihmic17yv
 title: Play Pattern
 desc: ''
-updated: 1686232288751
+updated: 1686326911136
 created: 1685791129534
 ---
 
-- shillelagh emom?
+- shillelagh emom
 
 readying spells before combat
 : 0th turn or 1st turn reaction?

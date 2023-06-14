@@ -2,7 +2,7 @@
 id: t70g4mq369dv06sh1h8wypj
 title: Martial
 desc: ''
-updated: 1686219742029
+updated: 1686393007136
 created: 1685282944352
 ---
 
@@ -109,3 +109,6 @@ sly: ignore "on your" restriction
   {{t2}} : heroic : 7
   {{t3}} : grand  : 11
   {{t4}} : epic   : 17
+
+feat:
+antimagic
