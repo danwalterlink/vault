@@ -2,7 +2,7 @@
 id: 85f08d5bq5xuis18o944liz
 title: Bladesinger
 desc: ''
-updated: 1686334409358
+updated: 1686753822119
 created: 1686215581531
 ---
 
@@ -27,7 +27,6 @@ race ? [elf:elven accuracy]
 bkd:
   astral drifter: magic initiate(cleric): guidance(UA), resistance(UA), healing word
 
-
 b1:
 race: shadar-kai(mpmm) (+2 dex, +1 int)
 bkd: astral drifter
@@ -46,3 +45,9 @@ feat: if no UA war caster (race:(+2 int, +1 dex))
   12: war caster
   16: ASI(+2 dex)
   19: metamagic adept
+
+variation
+  artificer 3
+  blood hunter 3
+    mutant
+    profane soul
