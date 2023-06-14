@@ -1,6 +1,6 @@
 ---
 id: vcizcgeyn7k0fy28hrf5094
-title: Diablo 4
+title: D4
 desc: ''
 updated: 1686747876007
 created: 1686746356876
