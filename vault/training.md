@@ -2,7 +2,7 @@
 id: pc9s8u5ymwl8w7w2htspkcv
 title: Training
 desc: ''
-updated: 1685983106814
+updated: 1686759649652
 created: 1633292753469
 ---
 
@@ -50,47 +50,48 @@ performance focus
 
 ## training partials
 
-## partitae
+## partial
 neck
-movemnt prep
-  {
-    serratus press
-    wrist pu
-    manna progressions {
-      l-sit soulder retractions
-    }
+movement prep
+  serratus press
+  wrist pu
+  manna progressions
+    l-sit soulder retractions
+
     rotational stability
-    ab {
+    ab
       rollouts
       spinal decomp -> crunch
       rotational pla
-    }
-    ankle moility {
+
+    ankle moility
       int rot ankle slides (banded)
       tibialis raises
       calf raises
-    }
+
   dutch side planks
   side plank raises
-  }
-mobility {
-  static holds {
+
+mobility
+  static holds
     chest opener
     hangs
     pancakes -> band assisted
-  }
-  voodoo floss
-  ns resets {
+
+  manual therapy
+    voodoo floss
+
+  ns resets
     neck hangs
     hamsting stretch-holds (dynamic stretch)
     harness decop
-  }
-  ems {
+
+  ems
     quad voume additoin
     rhomboids
     lower traps
-  }
-  issue {
+
+  issue
     brachialis, radiobrachialis inflamation lhs
     shoulder stiffness post pressing heavy
     worse eyesight post pressing? sometimes unprovoked

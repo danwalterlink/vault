@@ -2,7 +2,7 @@
 id: 67krwuza0duiyd6asmhh0f5
 title: Data
 desc: ''
-updated: 1685983106797
+updated: 1686759841765
 created: 1685278126930
 notebook: assets/ddubl.default.ipynb#^second-block
 ---
@@ -26,3 +26,5 @@ data ingestion, store shapes
   - object
   - table
   - graph
+
+func ingress

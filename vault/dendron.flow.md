@@ -2,7 +2,7 @@
 id: zxfs9vjpm9sm4bitmacsodp
 title: Flow
 desc: ''
-updated: 1686229091358
+updated: 1686759356079
 created: 1638022787958
 ---
 
@@ -49,7 +49,7 @@ text search notes -> vscode fulltext search : vscode.searchEditors()
 []
 
 #+TODO couple subtask status to task/note
-maybe workflow intent differs?
+task title := note title
 
 - [traits via lifecycle hooks](https://docs.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf/#execacommandcommand-options)
 #i trait rendering / schema data via [[vscode.annotations]]
@@ -58,9 +58,3 @@ trait doctoring
 integrating notebooks into dendaron workflows:
   #issue linking to cell via vscode.dev resolves via browser
   -> x-url resolver? // vscode//browser settings
-
-create (wikilink) stub from under cursor #f #i
-
-create pending imp from tagfile (ie. f or i)
-
-move tag semantically (line-beginning)

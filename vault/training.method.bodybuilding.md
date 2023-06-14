@@ -2,9 +2,10 @@
 id: tfu9tesls9blgdrgsgig7ht
 title: Bodybuilding
 desc: ''
-updated: 1633199321506
+updated: 1686759707661
 created: 1633199321506
 ---
+
 ## [The Top 7 Bodybuilding Methods of All Time](https://www.t-nation.com/training/the-top-7-bodybuilding-methods-of-all-time)
 
 ## Tested, Proven Hypertrophy Techniques
@@ -376,4 +377,3 @@ If you're not as strong as you look, you're a fake, a scam, a knuckle-dragging b
 
 - [Bodybuilding](https://www.t-nation.com/all-articles/tags/bodybuilding),
 - [Powerlifting & Strength](https://www.t-nation.com/all-articles/tags/powerlifting-strength)
-
