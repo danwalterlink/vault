@@ -2,7 +2,7 @@
 id: pc9s8u5ymwl8w7w2htspkcv
 title: Training
 desc: ''
-updated: 1686759649652
+updated: 1687176784134
 created: 1633292753469
 ---
 
@@ -35,15 +35,12 @@ data
 
 flow
 
-## Volume regulation
+## volume regulation
 MEV/MRV shifting spectrum over training age
-gets to progressively more and difference shrinks
 
-very crude, primitive tool
+crude, primitives
 beginning clients:
-more work -> more complex work
-
-increase in exercise complexity inversely correlates with tonnage
+volume -> complexity
 
 ## reverse planning
 performance focus
@@ -98,8 +95,6 @@ mobility
     stiffness sleep
     hip rhs vrack, stiffness
     ankle mobility -> hip shift / tilt lhs
-  }
-}
 
 ## functions
 ƒ := taper :: (T -> T(p))

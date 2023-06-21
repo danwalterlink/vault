@@ -2,7 +2,7 @@
 id: xv1nx2kgchcvfvaiao6z75g
 title: Protocol
 desc: ''
-updated: 1676626756083
+updated: 1687176887483
 created: 1661979936344
 ---
 
@@ -14,21 +14,20 @@ if variation
 main
   off-recovery-accessory
 
-| secondary (complementary to main)
-|  off-recovery-accessory
-| main variation
+secondary (complementary to main)
+ off-recovery-accessory
+main variation
 
-| MSM main
-| MSM off-main
-| accessory
+MSM main
+MSM off-main
+accessory
 
-| MSM main accessory
-| MSM off-main accessory
-| accessory
+MSM main accessory
+MSM off-main accessory
+accessory
 
 opt HIIT // SSC
 
 ## medium
-| main
-|   off recovery
-|
+main
+  off recovery

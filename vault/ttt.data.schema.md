@@ -2,7 +2,7 @@
 id: gfo9roli52of8bkjyxzi6o6
 title: Schema
 desc: ''
-updated: 1685877636522
+updated: 1687178007059
 created: 1685731096818
 ---
 
@@ -14,7 +14,11 @@ session
     depth
   no
   mode
+
   type
+    organic planning tool
+      -> automated base recording
+
     prog
       spec:hypertrophy
         shock
@@ -22,9 +26,11 @@ session
           minimal
           specific
         velocity
+
       tech
         movement progressions
         explosiveness?
+
       prep
         maintenance
           RoM
@@ -32,11 +38,13 @@ session
         preHab
         postHab
       strength
+
       conditioning
         neat
         vo2max
           hiit
       debottleneck
+
     group:split:focus
       upper
         push
@@ -48,14 +56,20 @@ session
 training.session
   duration
     systemicIntensityAvg:heartrate
+
   undulation
     avgVariability
     closestNeighbourDisamb
+
   periodization
     intensity
     dailyEstRelInt
     peakPerformanceWU
       minimalPeakWU
+
+-> minimal mining effort
+: tonnage
+  session structure
 
   split - specificity
   progression
@@ -67,21 +81,44 @@ training.session
 
   movement.type
     split
-  frequency
+    adjacent
+    partial
+    super
+
   frecency
-  rate
+    frequency
+    recency
+  RoE
+    exhaustion
+
   aRiR
   aVelDiff
   aAccDiff
-  fatigue
+  estFatigue
+  stimulus/fatigue
 
 frequency
   meaningful stimulus/t
-  min/max refraction
+    progress/t|fatigue
+  refraction min/max
 
 frecency
   frequency / recency index
 
+indices
+  reverse frecency
+  specificity
+    carryover to calculable indices
+  adherence programming
+  progression rate avg
+  estimated minimal required stimulus
+  fatigue
+
 performanceIndicators
-  : accumulatedFatigue
-  dailyReadyness
+  fatigue accumulated
+  estimated readiness
+
+function
+  conjugate
+  undulate
+  prorate

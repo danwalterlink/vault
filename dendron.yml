@@ -113,7 +113,11 @@ workspace:
     enableEditorDecorations: true
     enableFullHierarchyNoteTitle: false
     hooks:
-        onCreate: []
+        onCreate:
+            -
+                id: data.func
+                pattern: '*data*'
+                type: js
 preview:
     enableFMTitle: false
     enableNoteTitleForLink: false

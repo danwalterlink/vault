@@ -2,9 +2,10 @@
 id: h21nwjps24hvj8z9298rums
 title: Vo2max
 desc: ''
-updated: 1678448991245
+updated: 1687176849008
 created: 1678448526029
 ---
+
 establish max work output #hiit
 -> hit minimum output at vo2-max, so anaerobic contribution is minimal
 around 10-20% below max output, since o2 consumption plateaus
