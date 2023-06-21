@@ -2,7 +2,7 @@
 id: dl3ff9i4n5aczs148nrxs9b
 title: Project
 desc: ''
-updated: 1687343228345
+updated: 1687343542331
 created: 1674724560890
 ---
 
@@ -14,7 +14,7 @@ workflow: roaming railroad
   deeply nested module dependency
   -> git module nesting
     - [d] create dotfile repo abstract
-    - [ ] extract changes 2 forked repo <[[21|dendron://task/ds.23.06.21]]>
+    - [w] extract changes 2 forked repo <[[daily|dendron://task/ds.23.06.21.daily]]>
   dendron - polyglot notebooks
   - [d] vscode cleanup
   - [d] dotnet runtime bugfixes
