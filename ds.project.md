@@ -2,7 +2,7 @@
 id: dl3ff9i4n5aczs148nrxs9b
 title: Project
 desc: ''
-updated: 1687343542331
+updated: 1687343645914
 created: 1674724560890
 ---
 
@@ -36,8 +36,8 @@ dnd character tools
 
 ![[dendron://task/ds.project.webapp]]
 
-page :: wordpress
-  - [ ] content selector -> content | shop
+- [m] page :: wordpress
+  - [x] content selector -> content | shop
 
 ## project.names
 ![[dendron://task/ds.project.wikilinking]]
