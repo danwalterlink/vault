@@ -1,0 +1,27 @@
+version: 1
+imports: []
+schemas:
+  - id: ds
+    title: ds
+    parent: root
+    children:
+      - pattern: '*'
+        children:
+          - pattern: '03'
+            children:
+              - pattern: '23'
+              - pattern: '30'
+          - pattern: '04'
+            children:
+              - pattern: '20'
+          - pattern: '06'
+            children:
+              - pattern: '19'
+              - pattern: '21'
+          - pattern: webapp
+          - pattern: wikilinking
+          - pattern: '23'
+            children:
+              - pattern: '03'
+                children:
+                  - pattern: '20'

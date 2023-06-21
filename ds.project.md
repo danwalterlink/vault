@@ -2,7 +2,7 @@
 id: dl3ff9i4n5aczs148nrxs9b
 title: Project
 desc: ''
-updated: 1685978749234
+updated: 1687343228345
 created: 1674724560890
 ---
 
@@ -10,10 +10,14 @@ webfront
   MVP
   server
 
-tooling: roaming railroad
-  git
-  dendron - polyglot notebooks - projektplanung
-    vscode cleanup
+workflow: roaming railroad
+  deeply nested module dependency
+  -> git module nesting
+    - [d] create dotfile repo abstract
+    - [ ] extract changes 2 forked repo <[[21|dendron://task/ds.23.06.21]]>
+  dendron - polyglot notebooks
+  - [d] vscode cleanup
+  - [d] dotnet runtime bugfixes
   data and derivatives
     rev proxy: node on ios
     data analysis
@@ -45,7 +49,7 @@ page :: wordpress
     uri-scheme rev proxy
     -> ingress/api gateway
   charting
-  : intent::
+  intent
 
 subproj
   - server architecture(headless rpi swarm)
