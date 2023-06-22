@@ -2,7 +2,7 @@
 id: tds9fre553s7lvh250jstm7
 title: Vim
 desc: ''
-updated: 1686228420100
+updated: 1687352465466
 created: 1636203835676
 ---
 
@@ -10,12 +10,18 @@ move sneak : $ #t #$p.1
 
 ctags integration: word recognition #t #$p.2
 
-goTo last non-whitespace char?
+
+goTo:
+- last non-whitespace char?
 :$
 :g_
 :A
 -> effective mapping of entering newline char:
 $a<enter> with enter mapped to l_sft #qwertz
+
+- last change
+'. : goTo Line of last change
+`. : goTo exact point of last change
 
 select word under cursor :viw
 - composite command

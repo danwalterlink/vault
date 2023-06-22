@@ -2,9 +2,17 @@
 id: kxc65io1oebbkfr7z5cfcj0
 title: macOS
 desc: ''
-updated: 1662991890077
+updated: 1687359135686
 created: 1637504771424
 ---
+
+## repository
+check symlink
+    current filedir
+    updater resolves
+      pull from origin
+      apply change-tree fforward
+        -> tree application commutative
 
 system update mechanics:
 cli: update all

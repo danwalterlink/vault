@@ -2,30 +2,51 @@
 id: ide924eeww8sie03mkn5aqd
 title: dotfiles
 desc: ''
-updated: 1681989924129
+updated: 1687432196925
 created: 1633199321522
 ---
-## base : master
 
+## base : master
 streakyCobra's bare repo structure[\[\[Repo|dendron://dwl/dotfiles.repo\]\]]([[Repo|dendron://dwl/dotfiles.repo]])
-\--bare .dotfile directory
+--bare .dotfile directory
   branches reflect
 descriptive extensions
 alias imports?
 sparse checkout
 follow tags
 follow symlinks
-\-> .unfold function
-\-> autolog
-\#? dsc
-\#? submodules
+-> .unfold function
+-> autolog
+#? dsc
+#? submodules
 recursively adding submodules to conf
-\#? #f dynamic x-curl callback resolver
+#? #f dynamic x-curl callback resolver
+
+mvp:
+  nesting dotfiles -> nested modules
+      as branch
+    diff upstream
+      #d:upstream
+        -> fork reintegrating new changes: only diff-tree
+        : rebase
+    updater resolves
+      pull from origin
+      apply change-tree fforward
+
+next:
+  updater
+    functions
+      register
+      index
+      backup
+      update
+    reference ledger
+      if update pushed
+      -> cont int run
+        apply diff-tree
 
 \#? pathlogs -> what happens to symlinks?
 preexisting yask attempt #!
-
-[\[\[daily|dendron://task/task.2023.03.17\]\]]([[daily|dendron://task/task.2023.03.17]])
 
 cli tools -> gh starring :
   fasd
@@ -58,29 +79,23 @@ Adobe Suite
 Unity
 
 ## macos
-
 ### system
-
 brew
+  security -> /etc/pam.d/sudo :: prepend
+
 
 ### cli
-
 iterm
 tmux
 
 ### editors
-
 vim/nvim
 emacs
 vscode
 
 ## workflow
-
 think
   textual
   vocal
   video
   movement/proprioceptional
-
-dotfile
-

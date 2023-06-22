@@ -2,9 +2,23 @@
 id: 3mip6g0obhm40rpg74hz7hm
 title: Tmux
 desc: ''
-updated: 1685564263465
+updated: 1687432285686
 created: 1636903106989
 ---
+
+mvp: default layout book
+
+#f print pane history
+
+indicate marked pane #todo
+-> #f marks / jumps
+  implemented in iterm: tighter integration
+
+ephemeral windows
+-> nested workflows -> backflow
+\if namedSession ?? viewPortOrientation {
+  ephemerals open perpendicular to bigger screen orientation direction
+} -> orientation window: shows nesting of sessions
 
 #? quickswap current pane/window to pane/window
 -> :swapp -s -t

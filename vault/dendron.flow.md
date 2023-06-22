@@ -2,9 +2,11 @@
 id: zxfs9vjpm9sm4bitmacsodp
 title: Flow
 desc: ''
-updated: 1686759356079
+updated: 1687432323463
 created: 1638022787958
 ---
+
+linking prepends #f
 
 ephemerals/buffer -> ?emacs and git tags
 -> discard history unless referenced

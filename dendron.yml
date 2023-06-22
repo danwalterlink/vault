@@ -16,7 +16,7 @@ commands:
             fuzzThreshold: 0.2
     randomNote: {}
     insertNoteLink:
-        aliasMode: snippet
+        aliasMode: prompt
         enableMultiSelect: true
     insertNoteIndex:
         enableMarker: true
@@ -120,7 +120,7 @@ workspace:
                 type: js
 preview:
     enableFMTitle: false
-    enableNoteTitleForLink: false
+    enableNoteTitleForLink: true
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
@@ -167,3 +167,4 @@ publishing:
             - task
             - dnd
     enableHierarchyDisplay: true
+    enableBackLinks: true

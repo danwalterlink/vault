@@ -2,11 +2,14 @@
 id: wllxgy0jdgtqu5b0orgqohi
 title: Flow
 desc: ''
-updated: 1680253908737
+updated: 1687433054043
 created: 1664475634237
 ---
-## zsh
 
+read symlinks
+readlink/stat
+
+## zsh
 omz plugins
   zsh-vi-mode
     vv : open line in $EDITOR
@@ -39,4 +42,3 @@ manpage #flow -> #discovery
 
 using fingerprint scanner #f #i
 \-> #!f password manager -> 3 actions #action.economy
-
