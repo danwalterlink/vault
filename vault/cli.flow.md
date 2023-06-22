@@ -2,7 +2,7 @@
 id: wllxgy0jdgtqu5b0orgqohi
 title: Flow
 desc: ''
-updated: 1687433054043
+updated: 1687451314964
 created: 1664475634237
 ---
 
@@ -39,6 +39,5 @@ manpage #flow -> #discovery
     if in man-ish cmd -> current panel is  sub-panel
 
 ## auth
-
 using fingerprint scanner #f #i
 \-> #!f password manager -> 3 actions #action.economy

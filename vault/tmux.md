@@ -2,7 +2,7 @@
 id: 3mip6g0obhm40rpg74hz7hm
 title: Tmux
 desc: ''
-updated: 1687432285686
+updated: 1687451376985
 created: 1636903106989
 ---
 
@@ -55,5 +55,3 @@ send to all panes #i
     cmd
     sync-panes off
 [[~/.tmux.conf]]
-
-#todo

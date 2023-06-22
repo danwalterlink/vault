@@ -2,7 +2,7 @@
 id: ide924eeww8sie03mkn5aqd
 title: dotfiles
 desc: ''
-updated: 1687448310164
+updated: 1687451330109
 created: 1633199321522
 ---
 
@@ -84,7 +84,6 @@ Unity
 ### system
 brew
   security -> /etc/pam.d/sudo :: prepend
-
 
 ### cli
 iterm
