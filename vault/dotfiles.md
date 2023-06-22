@@ -2,7 +2,7 @@
 id: ide924eeww8sie03mkn5aqd
 title: dotfiles
 desc: ''
-updated: 1687432196925
+updated: 1687448310164
 created: 1633199321522
 ---
 
@@ -21,6 +21,8 @@ follow symlinks
 #? submodules
 recursively adding submodules to conf
 #? #f dynamic x-curl callback resolver
+
+link-ledger breakdown
 
 mvp:
   nesting dotfiles -> nested modules
