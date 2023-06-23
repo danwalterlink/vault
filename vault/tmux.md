@@ -2,7 +2,7 @@
 id: 3mip6g0obhm40rpg74hz7hm
 title: Tmux
 desc: ''
-updated: 1687451376985
+updated: 1687460616534
 created: 1636903106989
 ---
 
@@ -11,11 +11,11 @@ mvp: default layout book
 #f print pane history
 
 indicate marked pane #todo
--> #f marks / jumps
+#f marks / jumps
   implemented in iterm: tighter integration
 
 ephemeral windows
--> nested workflows -> backflow
+nested workflows -> backflow
 \if namedSession ?? viewPortOrientation {
   ephemerals open perpendicular to bigger screen orientation direction
 } -> orientation window: shows nesting of sessions
@@ -38,8 +38,8 @@ define leader as $cmd
 -> navigation
 
 :understanding pane/window/tab nesting in iterm
--> add attach sth to pane/window
--> breaking pane -> window as inverse 'breaking up the tree' of window -> pane
+add attach sth to pane/window
+breaking pane -> window as inverse 'breaking up the tree' of window -> pane
 
 [] themeing
 - default themeing uses ANSI-Colors from iterm2

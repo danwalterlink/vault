@@ -2,7 +2,7 @@
 id: ide924eeww8sie03mkn5aqd
 title: dotfiles
 desc: ''
-updated: 1687451330109
+updated: 1687460531347
 created: 1633199321522
 ---
 
@@ -19,9 +19,9 @@ follow symlinks
 -> autolog
 #? dsc
 #? submodules
+
 recursively adding submodules to conf
 #? #f dynamic x-curl callback resolver
-
 link-ledger breakdown
 
 mvp:
@@ -44,26 +44,22 @@ next:
       update
     reference ledger
       if update pushed
-      -> cont int run
-        apply diff-tree
+        cont int run
+          apply diff-tree
 
-\#? pathlogs -> what happens to symlinks?
+#? pathlogs -> what happens to symlinks?
 preexisting yask attempt #!
 
 cli tools -> gh starring :
   fasd
 
 #i recursive references in dendron? a
-\-> meta-notebooks like organizations of reflinks -> generate/fold notebooks from git reflogs #i
-
+  meta-notebooks like organizations of reflinks -> generate/fold notebooks from git reflogs #i
 > $ sudo add-apt-repository ppa:aacebedo/fasd
 > $ sudo apt-get update
 > $ sudo apt-get install fasd
 
-install firaCode font
-install cmder
-install choco
-install scoop
+scoop
 
 windows developer:
 .NET framework 4+
@@ -72,13 +68,13 @@ Rider
 WebDev: Chrome & Canary
 WebDEsigner
 Webstorm
-gmail
-Calendar
-vsCode
+mail
+calendar
+vscode
 
-Design
-Adobe Suite
-Unity
+design
+adobe suite
+unity
 
 ## macos
 ### system
