@@ -2,7 +2,7 @@
 id: gjnttyykzev19d8mfz0sznj
 title: Daily
 desc: ''
-updated: 1687432722762
+updated: 1687516476769
 created: 1687423883211
 status: ''
 due: ''
@@ -12,5 +12,4 @@ TODO: Daily
 ---
 
 + [d] homebrew updater
-+ [ ] ![[tmux session: layout manager|dendron://vault/tmux]]
-+-+
++ [m] ![[tmux session: layout manager|dendron://vault/tmux]]
