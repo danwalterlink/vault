@@ -2,7 +2,7 @@
 id: 438394l1zzhcjyia4280tuj
 title: Diet
 desc: ''
-updated: 1687538749760
+updated: 1687692411613
 created: 1649814163722
 ---
 
@@ -23,7 +23,8 @@ probiotic/enzymatic
 + pectinase
 -> enzymatin [Enzymatin® 120 St - shop-apotheke.ch](https://www.shop-apotheke.ch/de/beauty/3364323/enzymatin.htm?eventName=click%20on%20product%20list%20item&eventType=click&objectIDs=[03364323]&position=2&query=galactosidase&queryID=3d4c01f3cc55d8b68afefd5ecac402f1)
 -> dao [intoleran DAO plus - 50 Kapseln 50 St - shop-apotheke.ch](https://www.shop-apotheke.ch/de/artikel/BE04567228/intoleran-dao-plus-50-kapseln.htm?query=dao&queryID=36b3a7461f75a54a975126cd73645e9b&objectIDs=[BE04567228]&position=4&eventName=click%20on%20product%20in%20suggest&eventType=click)
-\p/30
+\{{f}}p/30
+
 ## issues
 - add and complications following
   #med : #frq -> #therapy
@@ -46,9 +47,7 @@ probiotic/enzymatic
     pollen season -> antihistamines
 
 # caloric distribution
-
 # micronutrient
-
 greens w/ every meal
 adding greens in spices/condiments
 
