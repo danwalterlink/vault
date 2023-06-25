@@ -2,10 +2,11 @@
 id: zj3i7yfqgl3872k9hf4g8dx
 title: Repo
 desc: ''
-updated: 1678969581091
+updated: 1687518305886
 created: 1678969581091
 ---
--- changed dotfiles for dotfiles
+
+changed dotfiles for dotfiles
 [sneakyCobra's solution](https://news.ycombinator.com/item?id=11071754)
  git init --bare $HOME/.dotfiles
     alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
