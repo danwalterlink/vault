@@ -61,7 +61,7 @@ workspace:
     journal:
         dailyDomain: journal
         dailyVault: journal
-        name: daily
+        name: journal
         dateFormat: yy.MM.dd
         addBehavior: childOfDomain
     scratch:
@@ -92,11 +92,12 @@ workspace:
         createTaskSelectionType: selection2link
         addBehavior: asOwnDomain
         name: task
-        dateFormat: 'yy.MM.dd '
+        dateFormat: yy.MM.dd
         taskCompleteStatus:
             - done
             - followed
             - mutated
+            - dropped
     graph:
         zoomSpeed: 1
         createStub: true
@@ -104,7 +105,7 @@ workspace:
     enableXVaultWikiLink: true
     enableRemoteVaultInit: true
     workspaceVaultSyncMode: sync
-    enableAutoFoldFrontmatter: true
+    enableAutoFoldFrontmatter: false
     maxPreviewsCached: 10
     maxNoteLength: 204800
     enableUserTags: true

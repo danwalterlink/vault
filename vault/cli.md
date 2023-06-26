@@ -2,7 +2,7 @@
 id: psdtybjrpg99exgyfv45g6h
 title: CLI
 desc: ''
-updated: 1687431560576
+updated: 1687790034453
 created: 1636904252349
 ---
 
@@ -54,7 +54,7 @@ VT100 xterm control sequence
 
 # modal cli
 ## vi tmux
-<https://superuser.com/questions/685005/tmux-in-zsh-with-vi-mode-toggle-cursor-shape-between-normal-and-insert-mode>
+[tmux vi cursor](https://superuser.com/questions/685005/tmux-in-zsh-with-vi-mode-toggle-cursor-shape-between-normal-and-insert-mode)
 zsh-vi-mode omz plugin
 tmux integration
 
