@@ -2,7 +2,7 @@
 id: 75t3tu7u5f0waikckbs4wi2
 title: macOS
 desc: ''
-updated: 1687432135993
+updated: 1687787093866
 created: 1665483751365
 ---
 
@@ -10,8 +10,6 @@ multitouch capabilities
 fn
   >+: absolute coordinates
   space: click
-
-
 
 ![[Karabiner|dendron://dwl/karabiner]]
 hammerspoon
