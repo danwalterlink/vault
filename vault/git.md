@@ -2,9 +2,12 @@
 id: 6kpd5422ttqhqxgm41xzlm2
 title: Git
 desc: ''
-updated: 1687692879781
+updated: 1687857163155
 created: 1636845109860
 ---
+
+updating refs
+git update-ref -d…: deletes ref
 
 ## flow
 find <rev.y> that introduced changes to <rev.x>

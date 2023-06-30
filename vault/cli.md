@@ -2,13 +2,12 @@
 id: psdtybjrpg99exgyfv45g6h
 title: CLI
 desc: ''
-updated: 1687790034453
+updated: 1687857163161
 created: 1636904252349
 ---
 
 as a rule, keep defaults unless very necessary
 eg. tmux default prefix
-
 #feature normal-mode history navigation -> fzf popup
 
 # navigation

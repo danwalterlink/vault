@@ -2,7 +2,7 @@
 id: 3mip6g0obhm40rpg74hz7hm
 title: Tmux
 desc: ''
-updated: 1687460616534
+updated: 1687860211770
 created: 1636903106989
 ---
 
@@ -27,7 +27,8 @@ nested workflows -> backflow
 tmux settings:
 define leader as $cmd
 
-#todo <C-a ?> display cmds correctly
+#todo #todo.done <C-a ?> display cmds correctly
+-> leader definition
 
 #todo integrations
 + term, $os.mac: iterm

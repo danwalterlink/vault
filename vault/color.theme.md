@@ -2,7 +2,7 @@
 id: 2aehpdqrv3y95qftioj1ds2
 title: Theme
 desc: ''
-updated: 1636913243589
+updated: 1687862794677
 created: 1636911172910
 ---
 
@@ -18,7 +18,21 @@ ansi-colors
 * White: \u001b[37m.
 
 #feature
--> [MaterialUI](https://material.io/design/color/the-color-system.html#color-usage-and-palettes) dynamic color accross modalities
+[MaterialUI](https://material.io/design/color/the-color-system.html#color-usage-and-palettes) dynamic color accross modalities
 min/max contrast
 
-color
+define color map
+functions
+  category: light/dark, high-contrast
+  neutral
+  primary
+  secondary
+  …
+  functionality
+    fore
+      accent :: more contrast
+    back
+      base
+      elevation
+        indent
+        extrude

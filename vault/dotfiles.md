@@ -2,12 +2,12 @@
 id: ide924eeww8sie03mkn5aqd
 title: dotfiles
 desc: ''
-updated: 1687460531347
+updated: 1687860211789
 created: 1633199321522
 ---
 
 ## base : master
-streakyCobra's bare repo structure[\[\[Repo|dendron://dwl/dotfiles.repo\]\]]([[Repo|dendron://dwl/dotfiles.repo]])
+streakyCobra's bare repo structure[Repo|dendron://dwl/dotfiles.repo]([[Repo|dendron://dwl/dotfiles.repo]])
 --bare .dotfile directory
   branches reflect
 descriptive extensions
@@ -26,6 +26,7 @@ link-ledger breakdown
 
 mvp:
   nesting dotfiles -> nested modules
+    [ ] ie: tmux <[[Tmu|dendron://vault/dotfiles.tmux]]>
       as branch
     diff upstream
       #d:upstream
