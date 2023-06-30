@@ -2,7 +2,7 @@
 id: dl3ff9i4n5aczs148nrxs9b
 title: Project
 desc: ''
-updated: 1687352640358
+updated: 1687860211794
 created: 1674724560890
 ---
 
@@ -15,19 +15,22 @@ workflow: roaming railroad
   deeply nested module dependency
   -> git module nesting
     - [d] create dotfile repo abstract
-    - [w] extract changes 2 forked repo ^<[[daily|dendron://task/ds.23.06.21.daily]]>
+    - [w] extract changes 2 forked repo
+
   dendron - polyglot notebooks
   - [d] vscode cleanup
   - [d] dotnet runtime bugfixes
   data and derivatives
     rev proxy: node on ios
     data analysis
+
 sticks and stones
   leverless openframe1 controller
   fingerboard - frame
     tensegrite fingerboard
       slantboard convertible with:
     tensegrite stick/monopod
+
 dnd character tools
   sheet consumer interface
   sheet printer designs
