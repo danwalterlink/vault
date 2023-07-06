@@ -1,35 +1,40 @@
 ---
 id: 6gyj3rsqx136uzim2dg6uwg
-title: Project
+title: Plan
 desc: ''
-updated: 1685700812125
+updated: 1688651254767
 created: 1637959839459
 ---
 
 3t
-  webfront
+  webfront #ds #foc
     store
       totality training
       publishing ruleset
         dendron renders
+
 tooling
   dotfile
     tmux
       git
     zsh
       autoupdater
+
   todo/task organization
     dendron
       notebook - code - richtext - plaintext
       task-as-text
         path-content idempotency
         time - efficacy - efficiency
+
       path-as-data
         schema generators
         hooks
           metatemplates
             ? md as yml
+
       yml type definitions
+
     ios-data-visualizer
       defining minimal data set
       aggregation
@@ -37,25 +42,29 @@ tooling
         uri resolver reverse proxy
         js-jit
       uri-redirection
+
 3ttools
   fingerboard
   stool-monopod
+
 dnd-sheet-gen
   fuzzy5e
     srd-data
 
 ## sub
 ## prodOS
-+ literate
-  - cli
+- literate
+  + cli
   -> yAsk
-  - dendron
-  - vscode
-  - emacs
-+ floatilla|- lib.reflection in swift
+  + dendron
+  + vscode
+  + emacs
+
+- floatilla|- lib.reflection in swift
 |- windowGenerator
 |->? hs.tiling
 #fgc
+
 ## compete
 sfv-hitboxViewer
 + decompilation
@@ -78,9 +87,11 @@ sfv-hitboxViewer
     training density
   pulling/pushing swiping separating
   -> organically growing complex training structures
+
 - progress tracking
 + automated programming
 +-> juggernautAI?
+
 educational programming
 - stereovisual velocity-training
 - movement-pattern/load recognition
@@ -92,6 +103,7 @@ educational programming
   - actions in context
   -> programming | game | research
   -> haptic feedback
+
 - glitch shader transition
 +> transition/animation framework
 +> digital camerastation workfow -> UE5 pipeline w/ extractable nodes
@@ -101,18 +113,18 @@ educational programming
 
 ### touchPortal
   Buttons:
-  - in/outCut/mark w/ text
-  - buffer2text
-  +> voice2buffer on ygg:main&stream
-  - autoswitch on/off (midi?)
-    motorized knob - midi #/get
+- in/outCut/mark w/ text
+- buffer2text
++> voice2buffer on ygg:main&stream
+- autoswitch on/off (midi?)
+  motorized knob - midi #/get
 
 #### sfx
 #### vfx
-  - glitch
-  - sloMo
+- glitch
+- sloMo
 
-### obs-studio
+### obs
 - touchPortal -> stateful.record
 - twitch-plugin: hyper
 - autoEmbed

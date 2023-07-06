@@ -7,4 +7,4 @@ created: 1685649550359
 tag: aggregate
 ---
 
-[[project]]
+[[plan]]
