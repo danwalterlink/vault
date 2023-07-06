@@ -2,12 +2,12 @@
 id: dl3ff9i4n5aczs148nrxs9b
 title: Project
 desc: ''
-updated: 1687860211794
+updated: 1688561659596
 created: 1674724560890
 ---
 
 webfront
-  MVP
+  MVP client
   server
 
 workflow: roaming railroad
@@ -17,12 +17,12 @@ workflow: roaming railroad
     - [d] create dotfile repo abstract
     - [w] extract changes 2 forked repo
 
-  dendron - polyglot notebooks
-  - [d] vscode cleanup
-  - [d] dotnet runtime bugfixes
-  data and derivatives
-    rev proxy: node on ios
-    data analysis
+dendron - polyglot notebooks
+- [d] vscode cleanup
+- [d] dotnet runtime bugfixes
+data and derivatives
+  rev proxy: node on ios
+  data analysis
 
 sticks and stones
   leverless openframe1 controller
@@ -32,6 +32,7 @@ sticks and stones
     tensegrite stick/monopod
 
 dnd character tools
+-> adapters: markdown-json:json-markdown :: js.mpmb
   sheet consumer interface
   sheet printer designs
   extendible markup integration
@@ -56,10 +57,10 @@ dnd character tools
   intent
 
 subproj
-  - server architecture(headless rpi swarm)
-  - leverless controller
-  - grip-implements
-    - extendable
+- server architecture(headless rpi swarm)
+- leverless controller
+- grip-implements
+  - extendable
 
 ## projektaufbau
 name/beschreibung

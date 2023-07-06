@@ -4,24 +4,12 @@ schemas:
   - id: ds
     title: ds
     parent: root
+    namespace: true
     children:
-      - pattern: '*'
+      - pattern: "2[0-9]"
         children:
-          - pattern: '03'
+          - pattern: "[0-1][0-9]"
             children:
-              - pattern: '23'
-              - pattern: '30'
-          - pattern: '04'
-            children:
-              - pattern: '20'
-          - pattern: '06'
-            children:
-              - pattern: '19'
-              - pattern: '21'
-          - pattern: webapp
-          - pattern: wikilinking
-          - pattern: '23'
-            children:
-              - pattern: '03'
-                children:
-                  - pattern: '20'
+              - pattern: "[0-3][0-9]"
+    template:
+      id: ds.template.daily

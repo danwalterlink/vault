@@ -2,18 +2,20 @@
 id: qt336wa0yy9dgdd64nvaaka
 title: Daily
 desc: ''
-updated: 1687860992556
+updated: 1688130718217
 created: 1687857155587
-status: ''
+status: 'w'
 due: ''
 priority: ''
-owner: ''
-TODO:
+owner: 'dwl'
+TODO: webfront
 ---
 
 - [w] inheritance of configuration in deeply nested modules #ds.webfront
-    [w] build tmux conf
-      [d] mvp - functional change and copy
-      [w] themeing basic changes
+  - [w] build tmux conf
+    - [d] mvp - functional change and copy
+      - [w] themeing basic changes
         bg and fg follow term def
-        -> escape sequence nesting
+        - [w] escape sequence nesting
+        - [w] markdownlint config
+          - [w] vim replace markdown titles deeper indent
