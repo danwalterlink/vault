@@ -2,7 +2,7 @@
 id: 4pk6881fw1ohniqje40hcgr
 title: 5e
 desc: ''
-updated: 1688593725690
+updated: 1689066178014
 created: 1686145446883
 ---
 
@@ -10,12 +10,34 @@ created: 1686145446883
 - eldritch blast
 - blood hunter mutagens
 
-tactics and play patterns
+oft overlooked:
+- bullseye lantern
+- mounts / carrying mules
+- squeeze-riding
+- oversized weapons (dmg:277)
+  brew: every +5 str: one size cat larger without disadvantage
+- custom backgrounds
+
+## tech
 - "emom" casting
-- ready actions for combat
+- ready actions for combat (eg. shillelagh)
+- lifeberry
+- rest-cast
+
+### spell interactions
+- heat metal disadvantage
+- enlarge/reduce : true polymorph
+- magic jar : true polymorph
+- magic jar : demiplane
+- magic jar : magic jar
+- wish - simulacrum
 
 ## tools
 5e.tools
+
+## rules
+### piety
+theros: piety points
 
 ## material
 ### 3rd party
@@ -50,3 +72,9 @@ ythrin expanded towers
 candlekeep companion
 margomods sunless citadel companion
 riftborne
+divine forge - well of the aether
+the dragon's bank heist
+eldritch hunt
+arora, age of desolation
+l'arsenes ledger of treasures and trinkets
+arlic's magical item shipment
