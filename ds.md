@@ -2,14 +2,16 @@
 id: na3aba50sgqqzqj4bc08o5z
 title: Ds
 desc: ''
-updated: 1689000163235
+updated: 1689254816264
 created: 1685649550359
 tag: aggregate
 ---
 
 [[plan]]
 
-webfront
+![[WebApp|dendron://task/ds.webapp]]
+  tooling : cli cleanup
+    how to work
   MVP client
   server
 

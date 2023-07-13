@@ -2,7 +2,7 @@
 id: b9bzpqpigjoioenxdrlpfyf
 title: WebApp
 desc: ''
-updated: 1688743654671
+updated: 1689257878566
 created: 1682590584577
 ---
 
@@ -12,3 +12,9 @@ webfront
     - dotfile repository
     - git subrepo inheritance
     + dendron note kernel
+
+## 0 - tooling
+- cli setup
+  dotfiles
+  ssh
+
