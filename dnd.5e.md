@@ -2,7 +2,7 @@
 id: 4pk6881fw1ohniqje40hcgr
 title: 5e
 desc: ''
-updated: 1689066178014
+updated: 1689165756784
 created: 1686145446883
 ---
 
@@ -74,7 +74,10 @@ margomods sunless citadel companion
 riftborne
 divine forge - well of the aether
 the dragon's bank heist
-eldritch hunt
 arora, age of desolation
 l'arsenes ledger of treasures and trinkets
 arlic's magical item shipment
+the gms box of duct tape
+[out of the maw - the eldritch compendium for 5e](https://www.kickstarter.com/projects/spellscribegames/out-of-the-maw-the-eldritch-compendium-for-dandd-5e/posts)
+steinhardt's guide to the eldritch hunt
+[rule of chaos](https://www.rule-of-chaos.com/landingpage/)

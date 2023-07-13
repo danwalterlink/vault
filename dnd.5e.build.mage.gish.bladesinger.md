@@ -2,7 +2,7 @@
 id: 85f08d5bq5xuis18o944liz
 title: Bladesinger
 desc: ''
-updated: 1686753822119
+updated: 1689255949036
 created: 1686215581531
 ---
 
@@ -51,3 +51,6 @@ variation
   blood hunter 3
     mutant
     profane soul
+
+variant:
+  spirit guardians

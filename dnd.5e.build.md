@@ -2,7 +2,7 @@
 id: emeqgfzdlvb9zvqxz2kyjoa
 title: Build
 desc: ''
-updated: 1688639694946
+updated: 1689247467154
 created: 1686148909592
 ---
 
@@ -21,6 +21,7 @@ construction
   - average of official adventures
   -> backlinks
 - diversity of play pattern
+  - gauntlet
 metrics
 lvl 3,7,11,15(,20)
 
