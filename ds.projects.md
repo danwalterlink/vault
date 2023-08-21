@@ -1,57 +1,64 @@
 ---
 id: 6gyj3rsqx136uzim2dg6uwg
-title: Plan
+title: Projects
 desc: ''
-updated: 1688651254767
+updated: 1689594351259
 created: 1637959839459
 ---
 
-3t
+## 3t
   webfront #ds #foc
     store
       totality training
       publishing ruleset
         dendron renders
 
-tooling
-  dotfile
-    tmux
-      git
-    zsh
-      autoupdater
+### hardware
+#### of1
+- timeline
+  - parts
+  - sourcing
+  - pricing
 
-  todo/task organization
-    dendron
-      notebook - code - richtext - plaintext
-      task-as-text
-        path-content idempotency
-        time - efficacy - efficiency
-
-      path-as-data
-        schema generators
-        hooks
-          metatemplates
-            ? md as yml
-
-      yml type definitions
-
-    ios-data-visualizer
-      defining minimal data set
-      aggregation
-      automation
-        uri resolver reverse proxy
-        js-jit
-      uri-redirection
-
-3ttools
+### 3ttools
   fingerboard
   stool-monopod
 
-dnd-sheet-gen
+## meta
+  tooling
+    dotfile
+      tmux
+        git
+      zsh
+        autoupdater
+
+    todo/task organization
+      dendron
+        notebook - code - richtext - plaintext
+        task-as-text
+          path-content idempotency
+          time - efficacy - efficiency
+
+        path-as-data
+          schema generators
+          hooks
+            metatemplates
+              ? md as yml
+
+        yml type definitions
+
+      ios-data-visualizer
+        defining minimal data set
+        aggregation
+        automation
+          uri resolver reverse proxy
+          js-jit
+        uri-redirection
+
+## dnd-sheet-gen
   fuzzy5e
     srd-data
 
-## sub
 ## prodOS
 - literate
   + cli
