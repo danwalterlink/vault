@@ -2,7 +2,7 @@
 id: xuj1jzjy4mi77maczm02dvx
 title: Mechanics
 desc: ''
-updated: 1686404809672
+updated: 1691496007953
 created: 1684961188700
 ---
 
@@ -170,7 +170,7 @@ this means that some spells can be cast
 - blind
 
 ## trait
-### generic
+### generics
 generics, apply if possible.
 [adaptible] change on trigger
   adaptible(SR): change on short rest
@@ -178,13 +178,15 @@ generics, apply if possible.
   what happens if typecasting "pact of the tome?: "count as warlock spells" as a wizard or if I gain access to ritual scribing spells as warlock?
 [pilfering] assume a type of same class type
 [aleatoric] dice shape {amount· size}, effects on combinations
-  aleatoric[n][n+1][n+2]&#x3A; the target becomes poisoned
+  aleatoric[n] [n+1] [n+2]&#x3A; the target becomes poisoned
   aleatoric(max[min]): explode
     (if all dice rolled the minimum number: roll again)
-  aleatoric[1,20][1,20]: choose
+  aleatoric[1,20] [1,20]: choose
     (if you roll two of 1 or 20, choose any combination)
   aleatoric(odd[even]): {if odd dice number, for each even dice}:
     half or double
+  can upshift/downshift dice
+
 [cunning] change action type {action, bonus action, reaction}
 [sly] additional benefit from advantage, hidden: default: activity dice
 [precise] expanding ranges
@@ -198,7 +200,7 @@ generics, apply if possible.
 [greater] additional effects
 [deft] improve one type
 [conserving] replenishing resources on use
-[minor][lesser][greater][grand][epic]; level restriction
+[minor] [lesser] [greater] [grand] [epic]; level restriction
 [canny] expertise
 [adaptive] \(re)selection
 
@@ -219,14 +221,14 @@ generics, apply if possible.
     If you are concentrating on a spell, make a concentration check.
     You may concentrate on each instance of an echoed spell simultaneously as if spellweaving{x}.
   [spellweave] {{magic.concentrate}} if you weave multiple spells, all activity beyond concentrating additionally warrants a concentration check.
-  [riposte][debilitate]: {{attack.sneak}} attack dice for effects # crit => more effects
-  [imbue]: {{attack.primal}}
+  [riposte] [debilitate]: {{attack.sneak}} attack dice for effects # crit => more effects
+  [imbue] {{attack.primal}}
 
 ## status condition
 {{template}}: while {{status.condition}} you experience the following effect:
 · {{effect}}: …
 
-### item
+### items
 #### hit dice
 along the {{generic object}} table.
 object\[size[tiny,...,huge], ac\[material[paper,11],...,[adamantine,23]],dice.size[d4,...,10], dice.amount[2,...,5], modifier:\[craftingQuality, trait[resilient:2,fragile:1/2]]
@@ -287,7 +289,7 @@ without medical, during short rest: 1 hit dice = 1 death save
 or through magical means
 
 ## action economy
-non-activity is a choice
+! non-activity is a choice
 (call/check)
 combat:
 roll initiative (dex ab check)
@@ -304,17 +306,27 @@ round: (3 ticks)
 
 turn rate: resource expenditure rate per turn
 (default max turn rate:
-  1 action -> 4 activity die
-  1 bonus action -> 2 activity die
+  1 action -> 1 activity die
+  1 bonus action -> 1 activity die
   1 reaction -> 1 activity die per turn
-  1 move -> 1 activity die/30ft (1/2 die per 15 ft remaining)
-  1 item interaction -> no activity die needed
+  as described in phb
+  magic action: impedes movement;
+    - if taken magic action: mvmnt speed halved.
+    - if mvd more than half your speed: magic action w/ disadvantage against arcana{any} check.
+
+  move -> no activity die/30ft (1/2 die per 15 ft remaining)
+    gain additional activity dice if not moving
+    -> per base speed: 1 activity dice: 30ft less/more -> modulate
+
+  item interaction -> no activity die needed
     : as part of action
     : using item generally uses either action
+
   speaking does not impede:
   ) -> cast activity type:
     first reaction per turn as an action: 4 activity die
     move out of turn: 5ft = 1 die
+
 usage prorates
 whenever you convert activity dice, you either:
 at the end of your turn, you convert unexpended resources into activity dice.
@@ -323,15 +335,19 @@ can't expend more than double your turn rate?
 \-> complex actions cost more
 \-> taking "partial turns"
 
-
 ### action: defer
  --> talent:battle
  use your reaction: you move your turn to after a friendly character.
 
-## activity dice
-your activity dice carry over.
-you cannot store more than double your turn rate in dice.
-your action dice size is equal to your proficiency dice's
+## action dice
+-> white dice/chips
+your activity dice carry over, but decay into chips.
+you cannot store more than
+- double your turn rate
+- the total danger level
+- your total hit dice
+amount of chips and dice in total.
+your default action dice size is equal to your proficiency dice's.
 \-> resource system
 
 ## heroic actions
@@ -394,16 +410,25 @@ dice can be spent as resources to gain more, whenever an associated roll is call
 
 resource changes and allocations add dice
 (also, resource expenditure can be indicated by dice size)
+whenever you use dice, you can either:
+- roll
+- take average
+-> averaged dice don't count as rolled!
+
+- resource generation is tied to danger/adrenaline levels, which are in turn tied to world morphisms.
 \-> generation of feature usage makes dice smaller (until size breakpoint)
 [mystical] alternate casting cost of differing type
 
 ### heroic inspiration
-you can only ever have 1 heroic inspiration, and gain it by:
-- at least two dice rolls would have resulted in successes on contested d20 tests with disadvantage or worse, or if additonally one of those hits resulted in a critical hit for rolls made with advantage or better.
+#dice.color translucent/white
+heroic inspiration is represented with dice of half your proficiency mod.
+you cannot have more heroic inspiration dice than half your proficiency mod.
+- at least two non-heroic dice rolls would have resulted in successes on contested d20 tests with disadvantage or worse, or if additonally one of those hits resulted in a critical hit for rolls made with advantage or better.
 - rare demonstrations of cunning and character, occasionally.
-  you can spend heroic inspiration to:
-- replace costs paid in dice. Your heroic inspiration dice is the same size as the cost it replaced, or your proficiency dice in size, whichever results in lesser effects.
-- roll an additional dice for a d20 test, pick one to discard.
+
+you can spend heroic inspiration to:
+- replace/add costs paid in dice. Your heroic inspiration dice is the same size as the cost it replaced, or your proficiency dice in size, whichever results in lesser effects.
+- roll an additional dice for a d20 test.
 
 ### proficiency
 dice size average equals your proficiency modifier.

@@ -2,9 +2,27 @@
 id: v4dlpfycj985attgomw8586
 title: Spells
 desc: ''
-updated: 1686336043826
+updated: 1689595008140
 created: 1686334504652
 ---
+
+building mage-duels:
+primarily wizard-focussed
+- sorcerer
+other casters interact?
+
+counterspell -> 5th level
+counterweave -> contested spell-check
+- negate: 3rd
+- reroute: 1st
+- syphon: 7th
+- overload: 2nd
+- mutate: 4th
+- reflect: 6th
+:: stacking effects
+
+  combined casting level not exceeding max level spell-slot, or
+  'overloaded'
 
 0:
   guidance(UA)
@@ -17,7 +35,7 @@ created: 1686334504652
   mage hand
   minor illusion
   lightning lure
-  - pure damage cantrips
+  : pure damage cantrips
     toll the dead
     fire bolt
 1:

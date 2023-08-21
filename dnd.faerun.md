@@ -1,8 +1,9 @@
 ---
 id: zb0flmli56x92pglwspwssf
 title: Faerun
-desc: ''
-updated: 1687484079512
+desc: 'half-continent on toril, whereupon, after many fantastical civilzations fell to ruin, dawned the age of men.'
+tldr: fantasy-europe
+updated: 1690630423792
 created: 1687484064791
 ---
 

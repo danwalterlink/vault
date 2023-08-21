@@ -2,9 +2,10 @@
 id: rwq9kgpq8j1ekniq7a8nf48
 title: Brew
 desc: ''
-updated: 1685282914179
+updated: 1690634864568
 created: 1685280003326
 ---
+
 enable power-fantasy of gwm-pom||shs-cbe, by enabling the core fantasy in more ways.
 -> generic power attack:
   gambling: scale: (-1 attack roll -> +2 dmg roll)xmaxPmod, 2->3, 3-4 (choose either attack or dmg mod, other gets calcd: rounded up.), can only go up in a turn.
@@ -60,3 +61,15 @@ unconscious or charmed creatures are considered willing.
 - craft 1 heavy dose by distilling 2 normal ones
 - ignore resistance
 - half damage as acid damage if immune
+
+#### sharpshooter
+- no quarter: you treat half as no and 3/4 as half cover and other foes do not impede line of sight.
+- versatile: you can use any attack maneuver with ranged weapons
+- focus: if you haven't moved this turn +1 to attack and damage rolls with ranged attacks.
+- eagle eyed: no disadvantage max range; you can discern color even in dim environments.
+
+-> change max distance on bows based on strength
+: 300 long; below 10 str: 300ft
+  half for every negative ASMod
+
+#### close-quarters shooter

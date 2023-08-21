@@ -2,9 +2,15 @@
 id: rl65rwguielniadi8u5saar
 title: Session 0
 desc: ''
-updated: 1685882140457
+updated: 1689594351263
 created: 1685125719541
 ---
+
+papercraft
+-> how much can I build in-session
+-> 3d print & miniatures
+- sketches & art
+
 
 ## session 0
 roles : players, world around them: spheres of influence.
@@ -16,6 +22,7 @@ my role:
   - npc
   - story
   but! we build this world together!
+
 stating personal goals as dm
   try to enable their ideas
   move my overbearing self into background
@@ -25,6 +32,7 @@ stating personal goals as dm
   please talk over me
   I will sometimes roll for you silently, sometimes I'll ask, other times decide.
   Please voice any/everything. -> Anon?
+
 different players/styles: (non-pure)
   escapists/fantasy
     murder-hobo superficialists/looters
@@ -35,26 +43,33 @@ different players/styles: (non-pure)
     table, one-shotting, feats
   strategists/innovators
     playing risk or magic inside dnd
+
 secrets from dm/other players
 information - hidden, meta
+
 roleplay
-  exploration: hexes and travel
-  - borders of players/dm
-  - discovery through usage
-  - nudge directions
-  encounters
-  hostage
-    unfairness, impotence, violence, theft, cruelty, betrayal, slavery, racism, torture, rape, poverty?
-    scale? village - universal
-  dracolich
-    death
-    unfairness
-  loot : logistics
-    spending money
-    rewards/progression
-  what do you share with the world/the meta
+exploration: hexes and travel
+- borders of players/dm
+- discovery through usage
+- nudge directions
+encounters
+
+hostage
+  unfairness, impotence, violence, theft, cruelty, betrayal, slavery, racism, torture, rape, poverty?
+  scale? village - universal
+
+dracolich
+  death
+  unfairness
+
+loot : logistics
+  spending money
+  rewards/progression
+
+what do you share with the world/the meta
 - I'll try to read/accomodate your intentions/ideas, insistence on 'dumb shit' will be met with resistance from the world.
 - you roll dice when I ASK you to. Tell/narrate your interaction/intention.
+
 I'll try to 'mediate' as little as I can.
 topics
   'closeness'/infringement, emotionality/escapeism
@@ -67,3 +82,6 @@ topics
 
   attachment to
     ideas
+
+## lessons
+- healthy paranoia

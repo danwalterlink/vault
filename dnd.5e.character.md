@@ -2,29 +2,42 @@
 id: 65pjptsnij5vxe8geyb9rfo
 title: Character
 desc: ''
-updated: 1688986361778
+updated: 1691412397027
 created: 1688891126182
 ---
 
-### bonus feats
-#### 1st
-- squire of solamnia
-- initiate of high sorcery
+## tool
+mpmb
+5e.tools
+dicecloud
+avrae
 
+### free feat
+you gain no ASI from free feats
+
+#### 1st
 if background provides no feat, pick 1 from:
 - prodigy
 - skilled
 - tough
+
 - initiate feats
   + strixhaven
   + fighting
   + artificer
   + magic
-- tools
-- skills
-you gain no ASI granted by a bonus feat
 
-#### 4th
+- feats for:
+  + tools
+  + skills
+
+- squire of solamnia
+- initiate of high sorcery
+- strike of the giants
+- element shaper (extracted genasi features into feats, made into bonus actions)
+- rune shaper (extended, gain additional charges on spell)
+
+#### 6th
 - adept feats
   + eldritch
   + elemental

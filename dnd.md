@@ -2,7 +2,7 @@
 id: xny9h2zbdj7c65efnu98n1w
 title: Dnd
 desc: ''
-updated: 1685977313454
+updated: 1689595008144
 created: 1679053558348
 ---
 
@@ -34,7 +34,7 @@ caster: spell
     warlock - pacter(int or cha)
   int
     wizard
-half(caster/martial): "smite"
+half(caster/martial): "smite" (some variation of a "spell-slot" mechanic)
   wis
     ranger (wis or int)
   cha

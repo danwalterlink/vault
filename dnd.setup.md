@@ -2,10 +2,16 @@
 id: pc65xo7dq6gww64wirtc2bq
 title: Setup
 desc: ''
-updated: 1685125751445
+updated: 1690696692724
 created: 1685125751445
 ---
 
+minimal
+- dice (4, 6, 20)
+  8
+  10
+  12
+  100
 
 ## setup
 #resource 5e.tools

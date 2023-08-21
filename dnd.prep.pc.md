@@ -2,34 +2,31 @@
 id: snqbbe3oi00zuabm3ywh1dt
 title: Pc
 desc: ''
-updated: 1688561659517
+updated: 1691005668303
 created: 1688491341766
 ---
 
-controller - arcane caster
-battlemage
-spellsword/gish
-paladin/holy warrior
+controller
+blaster
+gish
+paladin - cleric
+druid - ranger
 warrior
   archer - fighter/ranger (legolas)
   great weapon master (gimli)
   barbarian
-  swashbuckler (jack sparrow)
-  thief/trickster (splinter cell)
+  trickste/rwashbuckler (jack sparrow)
+  infiltrator/assassin (splinter cell)
 
 ## pregen
-level gens:
-[
-  1
-  3
-  7
-  11
-  15
-  20
-]
+pc: lvl 2
 
 ul{{dnd.class}}
 ### artificer
 3 artificer
 |- wizard/bladesinger
-|-
+
+## tooling
+mpmb script repos
+grim hollow: https://gist.github.com/mr80percent/0a9101c96aeac1927d7529433c90d906
+valda's spire of secrets: https://pastebin.com/0CdaqJs5

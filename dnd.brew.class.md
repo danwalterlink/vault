@@ -2,61 +2,99 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1686160491500
+updated: 1691509344863
 created: 1684956724533
 ---
 
-unclassed: lvl:0
-advancementTable: [tier][character, profession, archetype, class[type]]
-tier: ?
-[ novice: 0
-, core: 1..
-, master: 3..6
-, heroic: 7..10
-, epic: 11..16
-, legendary: 17..
-]
-
-rebuild class system on:
+rebuilt class system on:
   types
-    generics
-    traits
+  generics
+  traits
 
-## typification / classification
-archetype: martial(proficiency(with martical weapons)), caster(spellcasting)
-  trait defined; if both: dual.
-character (class) type: [single, mixed, multi]
-  total character class: cumulative type description
-    total character class level: legacy character level
-    derived character class level: cumulative character class level
+progressions grant [features] and [traits]
+classes encapsulate
+-> more granular progressions without sacrificing strong class/identity design
+progressions along base class levels:
+  {artificer..wizard}
+  ++ custom/meta
+  ++ base/un-subclassed
 
-martial: trait class:
-  martial weapons
-caster:
-  spellcasting
-specialist
-hybrid
+  gain features up to cumulative class type
+
+[progression]
+  [ character [cumulative]
+  , profession [skill]
+  , archetype [core]
+  , class [type]
+  ]
+
+[tier]
+  [ novice: ..0
+  , master: 3..
+  , heroic: 7..
+  , grand: 11..
+  , epic: 17..
+  ]
+
+## type trees
+? class type |- m -| type class
+
+: [type].:[type] -< trait >- class ->> class.derived
+
+[ancestry]
+[background]
+[level] :: character ->> tier
+  [tier]
+  [character]
+    [archetype] :: core ->> tier
+      [martial] :: weapon mastery | fighting style | attack style
+      [caster] :: spellcasting
+        [off] :: magic.slot.progression.off==(1+lvl/5) max:4
+        [half] :: magic.slot.progression.half==(1+lvl/3) max:5
+        [full] :: magic.slot.progression.full==(1+lvl/2) max:9
+        +[epic] :: magic.slot.progression.epic==() max:none
+
+    [class] :: base ->> paragon
+      [core] :: warrior, expert, priest, arcanist, occultist
+      [base] :: {artificer,..,wizard}
+      [sub] :: {..base.subclass}
+      +[prestige] :: cast trait/generics
+      +[paragon]
+
+  [derived]
+  [cumulative]
+  [total]
+
+traits and features have the types of their generators
+[trait]
+[feature]
+  [class]
+    [core]
+    ..
+  [feat]
 
 type.class ? [warrior, expert, mage, priest, occult] :
     warrior ? [honed, sly, brute] :
       fighting style
       maneuver
         attack: [practiced, sneak, reckless]
-        focus: [requires focus]
+        focus: [requires concentration]
         stance: [alters movement]
-    expert ? [ magewright:tinkerer, pilferer, thaumaturge] :
+    expert ? [ magewright/tinkerer, pilferer, thaumaturge] :
       [ expertise, innovation]
-    mage ? [prepared, known, innate] :
-      school
+    mage/arcanist ? [prepared, known, innate] :
+      spellcasting
       metamagic
-    priest: [divine, primal, eldritch]
-      order
+      countermagic
+    priest: [divine, primal, arcane/eldritch]
+      spellcasting
       channel
+      invoke
     crucible: [investiture, imbibe, pact]
-      eldritch entity
+      host/channel
       invoke
 
-  class:type: [legacy, base, sub, derived, prestige, paragon]
+class:type: [legacy, base, sub, derived, prestige, paragon]
 
 feature type: [learned, pilfered, crucible]
   pilferer:
@@ -90,7 +128,7 @@ base class feature: {}
 
 ## feature
 feature can be untyped
-[core, base, sub, paragon, prestige, origin, kiln]
+[core, base, sub, paragon, prestige]
 generally:
   additional resource allocation
   base class features are unspecific
@@ -144,7 +182,7 @@ your proficiency bonus with tools can be increased by renown. See: Journeyman.
 subtype: "tone/primary" - power: essence
 (passive, primary, secondary)
 warrior(honed/wit/brute): fighting style, maneuvers, focus
-caster(learned/innate/pact): spellcasting, metamagic, additional access
+caster(learned/innate/pact): spellcasting, metamagic, additional access ("steal" magic features)
 priest(divine/primal/eldritch): paragon, channel, invocations
 
 '{source}type
@@ -169,33 +207,45 @@ mixed martial classes: style
 
 ### meta
 #### warrior
+##### training
   honed(balanced; any style)
-    :maneuver, power attack; all Weapons
+    maneuver(acquired heroism)
+    power attack(bonus or mastery)
+    all Weapons
 
   sly(emphasize dex/precision; dice conversions and additional effects; precise styles)
-    :maneuver, sneak attack; Dextrous Weapons
+    maneuver(debilitate)
+    sneak attack
+    finesse Weapons
 
   brute(rage; typecast certain ability score to str/con; brutal styles)
-    :maneuver, reckless attack; Strength Weapons
+    maneuver(brutal)
+    reckless attack
+    oversized Weapons
     \-> intellect brute(psion!): typecast everything to intelligence
 
   adding subclass options that improve on the specific nature:
   \-> speeding up spell progression (2/3rds caster): every 3 classes count as 2 additional as to spell progressions. Rest: 1, neglect. Rest 2 add another 1.
+/#####
 
 super (spell slot progression, trait doctoring -> supplanting traits = grafting)
+/####
 
-- spellcaster(cantrips, spellcasting(+ritual), "meta"[metamagic, scribe, pact])
+### caster
+cast(+ritual)
+meta ([metamagic, scribe, pact])
+counter < default: pit essence: wager hit-dice/ability-dice against spell; inefficient & undesirable >
 
-  - non-
-    barbarian, fighter, rogue, monk, bh, mh
+- non-
+  barbarian, fighter, rogue, monk, bh, mh
 
-  - half- -> construct by stacking martial with caster?
-    \-> divine smite, nature's wrath, x-infused
-    (paladin, ranger, artificer) third: [profane soul, arcane trickster, eldritch knight]
+- half- construct by stacking martial with caster?
+  -< smite / channel / invoke > variants
+  (paladin, ranger, artificer) third: [profane soul, arcane trickster, eldritch knight]
 
-  - full-
-    \-> feature regaining slots (outside of short-resting)
-    (druid, cleric)(bard, sorcerer, wizard)(warlock)
+- full-
+  \-< recovery, meta, counter>
+  (druid, cleric)(bard, sorcerer, wizard)(warlock)
 
 - martial
   - maneuvers (martial cantrips/spells)
@@ -214,41 +264,39 @@ super (spell slot progression, trait doctoring -> supplanting traits = grafting)
   \-> "half-casters"
     spell-like ability, fueled by expending spell slots
 
-    paladin (cha/wis)
-    (medium armor, maneuvers, mastery(longsword), non-finesse martial melee weapons)
-      \-> convert smite spells into abilities
-      channel divine - smite: if spell prepared, add a smite effect
-
-  ```
+  paladin (cha/wis)
+  (medium armor, maneuvers, mastery(longsword), non-finesse martial melee weapons)
+    \-> convert smite spells into abilities
+    channel divine - smite: if spell prepared, add a smite effect
   - aura: self and allies
-  ```
 
-    ranger (wis/int)
-    (light armor, maneuvers, mastery(shortsword, longbow), finesse martial melee weapons, non-firearm martial ranged weapons)
-      \-> traps, consumables, temporary enchantment
-      channel nature - imbue: consumables, crucible
+  ranger (wis/int)
+  (light armor, maneuvers, mastery(shortsword, longbow), finesse martial melee weapons, non-firearm martial ranged weapons)
+    \-> traps, consumables, temporary enchantment
+    channel nature - imbue: consumables, crucible
+  - environment -> traps
 
-  ```
-  - triggers and traps -> traps
-  ```
-
-    artificer (int/cha)
-    (heavy armor, mastery(tools), firearms)
-      channel arcane - infuse: spell-like effects to equipment
-
-  ```
-  - aura: lasting on equipment
-  ```
+  artificer (int/cha)
+  (heavy armor, mastery(tools), firearms)
+    channel arcane - infuse: spell-like effects to equipment
+  - tinkerings: lasting on equipment
 
   monk(extreme dedication: double progression, no additional features),
-  psion(raw arcane(psychic force)),
+  -> monk martial artist as fighter subclass
+  psion(raw arcane(psychic force)){{monk prestige class}}
   mystic
-    psi/chi (psi -> chi: "bodied" psi)
+  : chi/ki "bodied" -> psi
+  subclass:
+    crucible -> taking on vestiges of power in surroundings
+    void/null -> walking anti-magic field. fueled by negating magic
+    avatar -> elemental bender (psi or spells)
+
   - replace innate casting somatic component with an {unarmed strike}
+  -> "overspecialization"
+  : losing access to gained features to gain faster progressions
 
-metaclass: "pick" mechanic
-subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon class.
-
+metaclass: "pick" mechanic : pure base class = class paragon
+subclass-less: "pure"/generic class{archetype}: counts as paragon class and gains associated
 - gains quicker progressions by foregoing subclass choice
 - more resources?
 - gains "featureless pilferer"
@@ -258,6 +306,7 @@ subclass-less: "pure"/generic class{archetype}: counts as a prestige and paragon
 warrior / priest
   exemplar - champion - paragon
 caster / expert
+
   arch{class}
 
 paragon of:
@@ -279,94 +328,97 @@ caster paragon (caster/caster/caster)
     onomant: drop material and somatic components, power words, smaller spell book
 warlock doesn't advance any other progressions. typecast class; crucible;
 
-## prestige
-### meta
-warrior {honed, sly, brute}
-expert {artificer, thaumaturge, pilferer}
-priest(divine, primal, eldritch)
-caster(arcane, innate, psionic)
-occult(pact, crucible)
-\-> crucial distinction: no-spell-progression, half-spell-progression, full-spell-progression
+## meta-class
+non-caster:
+  warrior {honed, sly, brute}
+  expert {artificer, thaumaturge, pilferer}
+caster:
+  priest(divine, primal, eldritch) { }
+  arcanist(studied, innate(sorcerous, psionic), pact)
+  occult(pact, host, crucible)
+  \-> crucial distinction: no-spell-progression, half-spell-progression, full-spell-progression
 
-##### caster
+### non-caster
+core: maneuver/focus/drill
+#### honed
+fighter: allrounder/technician
+- fighter:battlemaster:: all maneuvers/exploits
+
+#### sly
+rogue: dexterity
+
+#### brute
+barbarian: strength
+
+### full-caster
 core: spellcasting/magic tinkering/
   wizard: scribe/memorize/alter spell
-
-```
 - scribe anything, artificing
-```
 
-  sorcerer: intuitive alter spell -> metamagic
-
-```
+sorcerer: intuitive alter spell -> metamagic
 - multi-casting, volatile/wild spells
-```
 
-  bard: intuitive/honed
-  warlock: make their patron's magic their own. #f? -> priest?
-
-```
+bard: intuitive/honed
+warlock: make their patron's magic their own. #f? -> priest?
 - living spell, granting pacts
-```
 
-##### warrior
-
-core: maneuver/focus/drill
-
-- fighter: allrounder/technician
-  - fighter:battlemaster:: all maneuvers/exploits
-- rogue: dexterity
-- barbarian: strength
-
-##### priest
-
-cast/channel/pray
-
+### priest
+cast
+channel
+invoke
 - cleric: divine
 - druid: primordial
 - warlock: eldritch
 
 #### occult
-
 ##### crucible
-
 mutate/concentrate/research
-
 - apothecary
 - blood hunter (completes the paladin/ranger trio) -> mixed base type?
 - monster hunter
 - living crucible
 
 ##### innate?
-
 - sorcerer
 - bard
 - psion
 
 ##### expert
-
 \+/craft/focus/invent(flash of mind)
 
 - artificer () - expert: arcane
 - monk:
 - bard
 
-##### arcane
-
+##### arcanist
 - arcane = mystic
 - innate = sorcerer
 - caster = wizard
 
-#### mixed
+#### hybrid
+hybrid mental ability requirements (as fighter has hybrid requirements)
+physical ability requirement
+- spell-slot fueled ability (divine/primal/arcane smite)
+- gaining ways to interact with specific types of magic (divine/primal/arcane)
 
-##### mixed
+- paladin: (str,(wis/cha))
+  · smite: divine (dmg, divine smite spell)
+    (when an attack hits, you may cast a smite spell)
+  · aura
+  · invocations
 
-  associate your spellcasting to a mental ability stat
-  associated spell-ability you can convert into abilities (like smite)
+- ranger: (dex,(int,wis))
+  · smite: primal (dmg, primal smite spell)
+  · imbue: self/bonded creatures/environs/weapons with primal magic;
+  · melding/bonding: with environ/weapon/creature
 
-- paladin: divine (pick associated mental ability stat)
-- ranger
-- artificer/warlock?
+- artificer
+  · smite: arcane (dmg, arcane smite spell)
+  · artificing, temporary and persisting item alterations.
+    attaching spell-slots to items.
+    pulling magic from items to fuel abilities.
+    "arcane" smite
+  · attunement
 
 \-- warrior
 

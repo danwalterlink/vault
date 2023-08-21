@@ -2,7 +2,7 @@
 id: cr6c1y1bpckfo7fvx9xkqa6
 title: dnd-6
 desc: ''
-updated: 1686157504215
+updated: 1690696692737
 created: 1684357294795
 ---
 
@@ -24,31 +24,51 @@ this issue already present's itself in current (5th) edition of dnd, where text 
 It is quite obvious that in earlier publications, expertise was privy to certain classes only. Later feats have adopted the expertise phrasing but earlier features didn't receive errata.
 -> make abundantly clear, which version something is from and is trying to sync with.
 -> if you want to play with "the good ol\' sharpshooter", you play < 5.2 (which would be XGE).
--> 5.5 (what is now the dndOne approach, ironing out kinks)
--> 6 : more fundamental changes that make "ports" more necessary : ie. moving from the "class" model to the "pregen" model and having radically smaller chunks with fewer restrictions between them, making choosing the real restriction.
+-> "5.5", meaning, to 5th, what 3.5 was to 3rd. the dndOne approach, ironing out kinks, with as few major overhauls as possible. (5.5 in my nomenclature would be TCE, incidentally, the 5th supplement)
+-> 6 : more fundamental changes that make "ports" more necessary: short: new base books (dmg, pm, mm)
 
 ## design maxims in contrast and reaction to 5e
 iterative, generative and clear versioning/templating including errata ![[Tooling|dendron://dnd/dnd.brew.tooling]]
   -> not "stranding" old material
+simple, theme-focused class-based design does not shackle to class-based design.
+take a page from programming: "classical hierarchy" does not limit us to "classical inheritance", or in dnd terms: "subclass design" approach
 
-strengthen overarching idea that the world is inherently magical. Even the most mundane thing works magic. Doing something repeatly steeps the location in this ritual. Fireplaces grow closer to the elemental flame by each kindling; ancient fireplaces might even spark themselves through sheer habit.
+the balancing will always be finnicky, but having options is inherently fun.
+system-design collapses gracefully.
+out of the box strong, interact with system as-wanted. Forego optimization losing small edges.
+
+0. focus on meaningful differentiation, packaging in distinct classes; power level is secondary.
+    0. my preferred ootB experience would be really strong mechanically early, and gets less optimal the farther you progress.
+    Simply: character concept becomes more niche, and the likelyhood that niche fits the environ by default gets smaller.
+    but also: players are more knowledgeable.
+
+    1. powers for drawbacks. pack tactics. sunlight sensitivity. -4 STR.
+
+1. the world IS magical. Even the most mundane thing works magic. Doing something repeatly steeps the location in this ritual. Fireplaces grow closer to the elemental flame by each kindling; ancient fireplaces might even spark themselves through sheer habit.
 certain tankards fit snugly in dwarven hands while feeling off to a human with the same prints.
 
-- powers for drawbacks
-- focus on meaningful differentiation, packaging in distinct classes; power level is secondary.
+2. gambling rocks.
+  Any feature that lets you wager is cool in my books.
 
-generally, roll for upsides:
-  for permanent rolls: anything below average gets rounded to dice average (rounded down).
-flexible resource interchange system
-- half of unused resources from last turn, pay in current turn or restrict your next turn: up to double your turn maximum.
-- movement for reactions
+3. rolling things means something, but you don't wanna punish for rolling on cool things.
+    0. choice: pick average, rounded up, or gamble
+    for permanent rolls: anything below average gets rounded to dice average (rounded down).
+    1. roll away things
 
-tie regenerative capabilities to resources -> action surge regeneration to hit die / or other resources.
-- give panic-options that are expensive. get cheaper during rests. -> active rests
-  - make the time spent during rests meaningful
-- have other ways of regenerating resources other than cooldowns
-- certain interactions diminish resource availability
-condition checks tied to resources default to #dnd.generics half or less.
+4. flexible resource interchange system
+    players "dice" as resources they can "cast".
+    looking more like poker, where they can "throw in" their resources.
+    0. tie regenerative capabilities to resources
+      ie. action surge regeneration to hit die / or other resources.
+    1. give panic-options that are expensive. get cheaper during rests -> active rests
+        - make the time spent during rests meaningful, ie. different choices; currently you always blow as many resources as you can get away with: rest casting etc.
+        - have other ways of regenerating resources other than variable "cooldowns"
+            ex: monk ki recharges{x} on actions taken with conditions.
+        - certain interactions diminish resource availability
+        - condition checks tied to resources default to #dnd.generics half or less.
+    2. option 'load' determines resource value #?
+      - half of unused resources from last turn, pay in current turn or restrict your next turn: up to double your turn maximum.
+      - movement for reactions
 
 ## rest
 (take a breather, short rest, long rest, recuperation)
@@ -93,17 +113,15 @@ baseline:
   +variant: feat that entails some the above and give up the rest
   common + 1 regional language
 
-
   {background.custom}
-  - basic: 2 skills, 1 tool(choice)
-  - some gain other benefits instead
+- basic: 2 skills, 1 tool(choice)
+- some gain other benefits instead
 
-[variant]: background.engaged
   mali for boni
 additionally, you may choose to affiliate with an order, association, guild or other faction.
 
 ## Class
-autodidact:=[custom class]: meta-class; what amalgam ancestry is for ancestry; autodidact is for classes.
+[autodidact] :=[custom class]: meta-class; what amalgam ancestry is for ancestry; autodidact is for classes.
 mechanic:pick
 
 you are considered lvl0 for all (base) classes you haven't picked a level in
@@ -114,14 +132,15 @@ moving away from class-gated design
 fighter: bake fighter/battlemaster into base class #changes.5e
 warlock: bake hexblade-features into base-class #changes.5e
 
-#### class types
+### class types
+[eclectic] picking from d
 smaller blocks with baked-in choice, backed by resource-interchange and interaction system.
 -> small changes have potentially far-reaching effects.
 along general type system, classes fulfill a more 'templative' role
 
 ![[Class|dendron://dnd/dnd.brew.class]]
 
-#### subclasses
+### subclasses
 Typecast:
   Class: Subclasses may alter class type.
   Ability association: when typecasting a feature, it, and all subfeatures thus gained, change their associated ability to another.
@@ -129,14 +148,14 @@ Typecast:
   -> uses of typecasting are inversely tied to diversity of ability scores.
 
 Cumulative Subclasses:
-  - Scaling features and sidegrades
-  - typeclass scaling and incentives to return to classes
+- Scaling features and sidegrades
+- typeclass scaling and incentives to return to classes
 
-#### prestige class
+### prestige class
 prestige classes are augmented versions of base classes if you meet criteria and work as stackable templates.
 you may always only ever be member of one prestige class, advance in it if you meet its additional requirements and any level gained degrades into any one of its constituent classes, should you no longer fulfill those requirements, such as advancing in another prestige class.
 example:
-artificer(5)[5 acquirable prestige levels]: (Wizard/5, Dex:13, Crafting Rank: Master, Expertise at least one Arcane Tool and either Arcana or another Arcane Tool)
+artificer[5](5 acquirable prestige levels): (Wizard/5, Dex:13, Crafting Rank: Master, Expertise at least one Arcane Tool and either Arcana or another Arcane Tool)
 
 only one prestige class. any combination of base classes. newer choices trump old ones -> augmented class degrades into base class.
 with several class types: raise trait tinkering level.
@@ -170,7 +189,7 @@ mastery trait level
   : 19th legendary
   incentivise upgrading, networking (finding craftsmen), collecting raw materials
 
-### weapon masteries, tool and crafting more important.
+### weapon masteries, tool and crafting more important
 - exploits and boni tied to specific weapon family.
 
 ### (field) crafting
@@ -185,12 +204,12 @@ action surge type restrictions?
 -> cost backloading. action surge - attempt thing and then pay resources.
 
 ## additional rules
-### healing:
+### healing
 : receiving over your biggest hit dice worth of hp in healing:
-  - makes you hungry;
-  - while hungry makes you starving.
-  - while starved depletes hit dice a number of hit dice could have rolled (rounded up).
-  - while starved and without adequate hit dice additionally gives you one level of exhaustion. h2
+- makes you hungry;
+- while hungry makes you starving.
+- while starved depletes hit dice a number of hit dice could have rolled (rounded up).
+- while starved and without adequate hit dice additionally gives you one level of exhaustion. h2
 
 #### Potions
 : healing potions restore health according to : minor healing potion (2d4 + constitution modifier) ||
@@ -198,7 +217,7 @@ action surge type restrictions?
   anything over 1/2 is restored over time at (1/2 number of dice) hp/round.
 (the following makes frequent cooking and/or magical food a necessity for adventurers)
 
-### degrees of success:
+### degrees of success
 combat: critical failure/success
   slight failure: slight chance of minor weapon damage (knick, bend or tear),
   failure: failed by 5 or more: automatic minor weapon damage, slight chance of major weapon damage (rendering unusable or less effective). Can use reaction to mitigate.
@@ -207,14 +226,20 @@ combat: critical failure/success
 ### feats
 ![[Brew|dendron://dnd/dnd.brew.feats]]
 
-#### sharpshooter
-  - no quarter: you treat half as no and 3/4 as half cover and other foes do not impede line of sight.
-  - versatile: you can use any attack maneuver with ranged weapons
-  - focus: if you haven't moved this turn +1 to attack and damage rolls with ranged attacks.
-  - eagle eyed: no disadvantage max range; you can discern color even in dim environments.
+## setting
+magic
+weave not entirely separate. it's a "weave"
+  blue/silver or spellfire are divine castings from mystra.
 
--> change max distance on bows based on strength
-: 300 long; below 10 str: 300ft
-  half for every negative ASMod
+deities are avatars of their ideas.
+moradin was created by the but also is creating the idea of dwarvenkin.
+wrested and nestled a new corner into the multiverse through stout, hardy, collectives formed around their love of stone craft.
+Separately, they grew their little corners, bending and twisting it slightly into different spaces, with different 'proto-muradins'.
+And thus, slowly they grew, until suddenly they had been dwarves.
+if you are suffused with a close-ish primordial soup, and onomatically cast yourself a dwarf,
+is retroactively always having been moradin molding you to be a dwarf.
 
-#### close-quarters shooter
+the collective of the multiverse partaking in onomancy is ao.
+selune and shar danced the universe an upside-down, that begat stuff and the idea of difference.
+In moments of uncaring strife between the twins, vague primordials formed, until, having been left to germinate into monstrosities by longer and longer altercations between light and dark.
+The primordials grew, fueled by horror of difference into gargantuan calamities of entropy, and tempered in their constant struggle against one another, which culminated in a cataclysmic battle for supremacy, splitting realmspace, leaving proto-deities as victors.
