@@ -1,13 +1,13 @@
 ---
-id: qt336wa0yy9dgdd64nvaaka
+id: r52dd90g5n7x1zqm94nbqwx
 title: Daily
 desc: ''
 updated: 1688130718217
 created: 1687857155587
-status: 'w'
+status: w
 due: ''
 priority: ''
-owner: 'dwl'
+owner: dwl
 TODO: webfront
 ---
 

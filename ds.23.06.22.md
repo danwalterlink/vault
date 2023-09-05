@@ -1,8 +1,8 @@
 ---
-id: gjnttyykzev19d8mfz0sznj
+id: 1bfl4cbks1hbc3yv9w4pn6c
 title: Daily
 desc: ''
-updated: 1687516476769
+updated: 1693320083884
 created: 1687423883211
 status: ''
 due: ''
@@ -11,5 +11,5 @@ owner: ''
 TODO: Daily
 ---
 
-+ [d] homebrew updater
++ [d] home![[Type|dendron://vault/3t.mov3d.types]] updater
 + [m] ![[tmux session: layout manager|dendron://vault/tmux]]

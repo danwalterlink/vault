@@ -1,12 +1,12 @@
 ---
-id: jd5f4c9izgu4aq76f3z4fkj
+id: rgmjt48czapnzy0zqydm3x9
 title: Daily
 desc: ''
 updated: 1688561659503
 created: 1688552042623
-status: 'w'
+status: w
 priority: '4'
-owner: 'dwl'
+owner: dwl
 TODO: ''
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: 6wggp4f2ghafksnqkgl65tg
+id: qwenflxy4tn5p3fk440oudw
 title: Inheritance
 desc: ''
 updated: 1687857163141
