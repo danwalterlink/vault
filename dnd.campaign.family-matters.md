@@ -1,8 +1,8 @@
 ---
-id: xzidkk17eq3eaqqbcqp89cd
+id: tnk1oz2ge8nj4ad6xiyp2mh
 title: Family Matters
 desc: ''
-updated: 1690724915165
+updated: 1693909354711
 created: 1690706780842
 ---
 
@@ -37,3 +37,12 @@ protector of the realm
 old friend of gimm's
 
 bugbear
+
+## setting
+### planecrash
+planes fusing together.
+undermountain connects to the tower of sigil and the innermost of outer planes.
+- postulated undermountain connected to abyss layers
+- creeping doom released
+- daurgothoth subsumed/consumed mystra - new age of magic
+- elminster and co. are remnants of the old guard : mystra and the original weave still somewhat persist.

@@ -1,5 +1,5 @@
 ---
-id: mnxmj407jllor6uqo2sxhyz
+id: vn7mnkujk2ziu04spmc2fpp
 title: Cosmology
 desc: ''
 updated: 1684928216054

@@ -1,5 +1,5 @@
 ---
-id: naghxo5pvn2svsrocbyplso
+id: jlkge9g6n3xv532p8doubvg
 title: Artificer
 desc: ''
 updated: 1684958412937

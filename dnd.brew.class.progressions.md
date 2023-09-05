@@ -1,10 +1,12 @@
 ---
-id: a67nvjic7s8za7ccvorz8y4
+id: zcbivyltmrxh8xh6kk1t584
 title: Progressions
 desc: ''
-updated: 1690704879675
+updated: 1693928462344
 created: 1685279618031
-tag: [type, data]
+tag:
+  - type
+  - data
 ---
 
 generate mappings; NLP
@@ -15,19 +17,28 @@ generate mappings; NLP
 : more unwieldy unless digital
 
 ### character
+if more than 2, choose category to "stagger"
   feat
     0,4,8,12,16,19
-  tier
-    3,7,11,17
-  action/economy
-    5,11,18
-  additional traits
-    5,11
+  tier/action-economy/traits
+    5,11,17
+  class
+    1,3,7,11,15,19
+  subclass
+    2,6,10,14,18
+  archetype [classed]
+    (adventurous, heroic, epic; class type restriction |= multi:jack-o-, prestige/sub:arch-, pure/base:paragon)
+    1,7,13
+  boon
+    (adventurous,heroic,epic)
+    6,12,20
 
 ### archetype
 class
   1,3,7,11,15,17
-  core, secondary, ..., capstone
+  core, auxiliary, ..., capstone
+  secondary: "lanes", similar to cleric [cleric.divine-order]
+
 subclass
   2, 6, 10, 14, 18
   spezialization, ..., paragon
@@ -158,8 +169,7 @@ wizard
 16: [char]
 17: [capstone]
 18: [paragon]
-  · lesser onomancy
-  · 
+  · lesser onomancy
 19: [char]
 20: [epic-boon]
 

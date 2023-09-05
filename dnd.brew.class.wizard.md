@@ -1,5 +1,5 @@
 ---
-id: 0ufd9tviuesmw4nr5uoqjtq
+id: wvci2itx6w2er0tdcfyakuc
 title: Wizar
 desc: ''
 updated: 1686149858142
