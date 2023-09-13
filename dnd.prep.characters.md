@@ -2,7 +2,7 @@
 id: fjrhwnhrkjg9pygmebfcalw
 title: Character
 desc: ''
-updated: 1690711627209
+updated: 1694351635639
 created: 1681514051243
 ---
 
@@ -178,3 +178,6 @@ DSSElo
 LifeShep
 
 ### flagship
+
+geschichtsfunktion
+- hitziger Verteidiger

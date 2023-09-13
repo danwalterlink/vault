@@ -2,13 +2,35 @@
 id: 8uvem1oqkbdk8jd78kl1coy
 title: Tools
 desc: ''
-updated: 1691588873421
+updated: 1694504822409
 created: 1690490618216
 ---
 
-avrae: logger
-critterdb
-5eTools
+## used
+: session[0,0.5,1]
+- [5eTools](https://5e.tools/actions.html#activate%20an%20item_dmg) : comprehensive lookup . actions
+: dmScreen
+: initiativeTracker
+- [dicecloud](https://dicecloud.com/character-list) : digital character sheet
+- [mpmb](https://www.reddit.com/r/mpmb/) : pdf-base digital char-sheet generator/maintainer
+- [critterdb](https://critterdb.com/#/index) : custom bestiary
+- [aidedd](https://www.aidedd.org/atlas/index.php?map=W&l=1): interactive map faerûn . waterdeep
+- [wiki.waterdeep](https://forgottenrealms.fandom.com/wiki/Waterdeep) : default wiki; city hosting the "yawning portal"
+- [spellcards](https://www.thievesguild.cc/spells/spellcards)
+- [dscryb](https://dscryb.com/) : description & sound-library
+- [backroundAudio](https://tabletopaudio.com/cthulhu_sp.html) : background soundpad table
+
+## missing
+
+## dev
+- on-site lookups
+  + multi-hub
+- dice-tracker (overhead-cam dice logger)
+- avrae: discord session logger
+- projection mapping : beamer on 2.5d surfaces
+- digital initiative traker
+- multi-user digital session-sheets
+- multi-display adapter
 
 ## interconnect tools
 mpmb <-> 5eTools
@@ -36,10 +58,12 @@ entities:
       assisted cast
 
     counterspell - counterweave
+    dispel magic
 
 maps:
   [waterdeep: interactive](https://www.aidedd.org/atlas/index.php?map=R&l=1)
   []
+
 5eTools
 
 wiki
