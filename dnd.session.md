@@ -2,7 +2,7 @@
 id: x2hy925kw1ehtlw1olrfrhg
 title: Session
 desc: ''
-updated: 1691491991816
+updated: 1694704071559
 created: 1680879880248
 ---
 
@@ -118,7 +118,7 @@ lookup
 dice
 books/resources/lookup:
 
-server -
+server
   5eTools / homebrew
   avrae character/campaign logs
 

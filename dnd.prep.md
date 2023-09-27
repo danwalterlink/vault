@@ -2,16 +2,39 @@
 id: y5v6tjiti62ohm9yxiu6d77
 title: Prep
 desc: ''
-updated: 1691005669241
+updated: 1695400820609
 created: 1681514051352
 ---
 
+## print
+default maps:
+- [ ] hex-grid
+: default grid
+- [ ] determine size
+  + mini prints
+  #res default build landscape modeling
+
+  -- Papercraft
+  ! transformations onto {{print.size :: DIN.A3||DIN.A4 }}
+  |-> library: pdf : deskew - print
+  | lookup
+- [ ]
+
+## flows
+### player
+character sheet
+roll dice
+
+display: initiative
+
 ## tooling
+
+## visualization
 battlemaps
   dynamic lighting
   dynamic projection mapping
 
-
+miniatures
 
 ## setting
 [waterdeep](https://forgottenrealms.fandom.com/wiki/Waterdeep)
@@ -47,3 +70,7 @@ monk
 ## waterdeep
 ![..crest](https://static.wikia.nocookie.net/forgottenrealms/images/6/6b/Waterdeep_symbol_5e.png/revision/latest?cb=20230315214656)
 [map](https://www.aidedd.org/atlas/index.php?map=W&l=1)
+
+## campaign-specifics
+{{dnd.campaign}}
+  +.session
