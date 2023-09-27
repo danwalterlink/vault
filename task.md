@@ -2,9 +2,27 @@
 id: qqde2ljyknwxdaf6ewcmacs
 title: Task
 desc: ''
-updated: 1688124970722
+updated: 1695840820474
 created: 1636927442273
 ---
+
+top-level todo : autolog
+:= {{todo{{tool}}
+shortcut
+#t automation todo::tool.item.create =>
+
+yann
+  loading-scheme
+: evernotes rebase
+
+airtable - sheets
+selfhosted nocodb : airtable -> move into nocodb
+
+flow: trigger
+
+base
+flow
+  snbf
 
 if contains todo.elements -> get state from topmost element unless set explicitly
 
