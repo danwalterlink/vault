@@ -2,13 +2,17 @@
 id: 7g2cwgsxx0r8jj6zxs8htkv
 title: Items
 desc: ''
-updated: 1704973071215
+updated: 1704979081158
 created: 1704972485411
 ---
 
-## sangromantic rune carvings
-  pay hit dice per spell level
-  bypass arcane knowledge requirements if attuned to object with runic carvings
+## onomantic rune
+  once per day cast, afterwards, the rune becomes "fuzzy".
+  you may cast the inscribed spell as if you knew it without verbal or somatic components
+  you may exchange costs of the spell with equivalent value by channeling your very essence, ie:
+    - pay hit dice per spell level
+    - pay usage of leveled features
+  bypass arcane knowledge requirements if attuned to object
 
 ## arcane/divine/primal mental link clamp
   attunes to 2 creatures
@@ -20,5 +24,5 @@ created: 1704972485411
     + forces concentration checks on all parties involved if telepathic link is open
 
 ## melding fork
-  atherial tuning fork
+  aetherial tuning fork
   merging items/item capacity
