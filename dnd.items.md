@@ -2,11 +2,11 @@
 id: 7g2cwgsxx0r8jj6zxs8htkv
 title: Items
 desc: ''
-updated: 1704979081158
+updated: 1705079091719
 created: 1704972485411
 ---
 
-## onomantic rune
+## onomantic rune/glyph
   once per day cast, afterwards, the rune becomes "fuzzy".
   you may cast the inscribed spell as if you knew it without verbal or somatic components
   you may exchange costs of the spell with equivalent value by channeling your very essence, ie:

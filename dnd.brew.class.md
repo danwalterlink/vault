@@ -2,7 +2,7 @@
 id: mche96l9m56hozf78zwul37
 title: Class
 desc: ''
-updated: 1691509344863
+updated: 1705507770275
 created: 1684956724533
 ---
 
@@ -82,6 +82,7 @@ type.class ? [warrior, expert, mage, priest, occult] :
         stance: [alters movement]
     expert ? [ magewright/tinkerer, pilferer, thaumaturge] :
       [ expertise, innovation]
+      rogue | bard
     mage/arcanist ? [prepared, known, innate] :
       spellcasting
       metamagic
@@ -93,6 +94,9 @@ type.class ? [warrior, expert, mage, priest, occult] :
     crucible: [investiture, imbibe, pact]
       host/channel
       invoke
+    enforcer (warrior-priest) [artificer, ranger, paladin]
+
+  monks are derived fighters
 
 class:type: [legacy, base, sub, derived, prestige, paragon]
 
@@ -114,8 +118,8 @@ supertypes: focused (+50% type scaling), dip, poly: paragon requirements
   sub: supplemental
     derived: multiclass: replacements; resulting from multiclass;
     fighter -> monk: martial; mystic
-  prestige: multi/core/supplemental/replacement
-  paragon: improved scaling?
+  prestige: multi/core/supplemental/replacement if requirements fulfilled
+  paragon: multiple sub/derived class features
 
 ## base class template
 ![[dendron://dnd/Progressions|dnd.brew.class.progressions]]
