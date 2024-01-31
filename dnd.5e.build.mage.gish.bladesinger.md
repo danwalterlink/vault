@@ -2,7 +2,7 @@
 id: 5yhhcnht60pe79ozroen255
 title: Bladesinger
 desc: ''
-updated: 1689255949036
+updated: 1706718339766
 created: 1686215581531
 ---
 
@@ -52,5 +52,20 @@ variation
     mutant
     profane soul
 
-variant:
-  spirit guardians
+### racial options
+pass without trace
+
+spirit guardians
+  background: lorehold, orzov
+
+goodberry
+aid
+  halfling: mark of hospitality
+
+armor of agathys
+  dwarf: mark of warding
+
+healing word
+aura of vitality
+lesser restoration
+  halfling: mark of healing

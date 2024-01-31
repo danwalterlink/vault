@@ -2,7 +2,7 @@
 id: bo08tomoegg6e7sqbe5eo5c
 title: Prestige
 desc: ''
-updated: 1705507770267
+updated: 1706718339775
 created: 1705078944419
 ---
 
@@ -16,7 +16,7 @@ if fulfill prerequisites, can take levels in prestige classes
 general prestige classes
 - artificer
 - alchemist
-- runesmith
+- runesmit<!--  -->h
 - scholar
 
 - brawler
