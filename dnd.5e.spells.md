@@ -2,7 +2,7 @@
 id: 648yt6c6gx0ijne3lgggj8w
 title: Spells
 desc: ''
-updated: 1689595008140
+updated: 1707914481913
 created: 1686334504652
 ---
 
@@ -62,3 +62,9 @@ counterweave -> contested spell-check
   banishment
 6:
   mass suggestion
+
+## alterations
+more minimalistic/modular spell design
++ more upcast options
++ class-specific alterations
+ie. burning hands
