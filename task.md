@@ -2,9 +2,12 @@
 id: qqde2ljyknwxdaf6ewcmacs
 title: Task
 desc: ''
-updated: 1695840820474
+updated: 1715591491422
 created: 1636927442273
 ---
+
+- base workflow adaptation
+- calling/establishing flows, thoughts and eventually habits
 
 top-level todo : autolog
 := {{todo{{tool}}
