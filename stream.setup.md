@@ -2,10 +2,20 @@
 id: m1p58njcuyyyxznosx3z9th
 title: Setup
 desc: ''
-updated: 1677958808052
+updated: 1720190655468
 created: 1676720775528
 ---
 
+## hardware
+displays
+  tv
+  beamer
+  phone
+connections
+
+rpi usge
+
+## software
 interface
   obs main & stream
   touchportal - pad
@@ -23,11 +33,11 @@ context
 
 main:
   aside
-    | 
+    |
   doc
     - show/hide
       { vscode
-      , 
+      ,
   over
   focus
   hide
@@ -42,7 +52,6 @@ out
   settings
 
 pedal
-  
 
 ## context
 practice
@@ -62,4 +71,4 @@ prune
 pause
   resume
 
-=> define 
+=> define
